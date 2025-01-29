@@ -1,0 +1,15 @@
+!! An simple example script
+Do
+   !! This is a comment
+   ScrollUp center=true text=\Today is \{dn} / \{mn} / \{YY} (now)
+   Blink delay=200 times=5
+   ScrollUp center=true URL=http://www.wu-wien.ac.at/usr/h92/h9207648 text=\y+++ A Test +++
+   Sleep delay=1000
+   ScrollUp center=true URL=http://www.netscape.com text=\y+++ Yeahhhh!!! +++
+   Sleep delay=1000
+   Appear center=true text=\y£\r Hot!!!!
+   Sleep delay=2000
+   ScrollLeft center=true URL=http://stud1.tuwien.ac.at/~e9125168 text=\y+++ Every Message Has Its Own Link To A Http Page  
+   Sleep delay=1000
+ !! repeat infinitely
+Repeat times=-1

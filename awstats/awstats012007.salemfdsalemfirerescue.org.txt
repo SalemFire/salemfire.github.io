@@ -1,0 +1,742 @@
+AWSTATS DATA FILE 5.1 (build 1.389)
+# If you remove this file, all statistics for date 2007-01 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section
+# for direct I/O access. If you made changes somewhere in this file, you
+# should also remove completely the MAP section (AWStats will rewrite it
+# at next update).
+BEGIN_MAP 23
+POS_GENERAL 1643                
+POS_TIME 1976                
+POS_VISITOR 9921                
+POS_DAY 25677               
+POS_DOMAIN 2559                
+POS_LOGIN 2894                
+POS_ROBOT 3078                
+POS_EMAILSENDER 3607                
+POS_EMAILRECEIVER 3755                
+POS_SESSION 26608               
+POS_SIDER 26833               
+POS_FILETYPES 3894                
+POS_BROWSER 4180                
+POS_OS 4322                
+POS_UNKNOWNREFERER 4454                
+POS_UNKNOWNREFERERBROWSER 5415                
+POS_ORIGIN 6337                
+POS_SEREFERRALS 6487                
+POS_PAGEREFS 6624                
+POS_SEARCHWORDS 7531                
+POS_KEYWORDS 8658                
+POS_ERRORS 9469                
+POS_SIDER_404 9606                
+END_MAP
+
+# LastLine    = Date of last record processed
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of lines read - Nb of old records - Nb of new records - Nb of corrupted - Nb of dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20070201000909
+FirstTime 20070101004216
+LastTime 20070131234357
+LastUpdate 20070131175013 496 331 104 56 5
+TotalVisits 639                 
+TotalUnique 248                 
+MonthHostsKnown 244                 
+MonthHostsUnknown 32                  
+END_GENERAL
+
+# Hour - Pages - Hits - Bandwidth
+BEGIN_TIME 24
+0 66 539 5790907
+1 50 375 4430416
+2 116 818 10167940
+3 114 815 6880673
+4 79 468 5244397
+5 34 138 942727
+6 18 56 863448
+7 29 104 2070483
+8 7 10 296275
+9 35 95 2087038
+10 13 33 287758
+11 26 77 1263577
+12 39 153 2117606
+13 99 687 7554037
+14 89 649 6070843
+15 151 1090 12977333
+16 95 663 8735377
+17 97 551 5180200
+18 119 735 9196883
+19 99 627 6267740
+20 180 1216 14806151
+21 207 1444 16523755
+22 127 855 12769757
+23 97 627 8061449
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 20 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 10
+com 1565 9495 98128510
+net 213 1946 29643171
+ip 84 371 6824737
+us 57 621 9432570
+ca 28 28 555506
+org 24 221 2943992
+nz 8 90 2461040
+my 3 38 361307
+de 3 3 26956
+arpa 1 12 208981
+END_DOMAIN
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+DEDI343\salemfd 50 50 297365 20070117154653
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+slurp 183 2745112 20070131233127
+crawl 33 12454 20070130091626
+jeeves 28 328066 20070130141946
+linkwalker 16 186240 20070123150956
+wisenutbot 15 286535 20070124022249
+googlebot 10 121845 20070130074739
+psbot 9 115481 20070125135559
+speedy 2 22694 20070131051716
+ibm 2 23254 20070124190656
+gigabot 2 24056 20070130233740
+voyager 1 11602 20070120182653
+robot 1 28293 20070129035002
+END_ROBOT
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+asp 1 2694 0 0
+Unknown 11 4357 0 0
+gif 6096 24257457 0 0
+pdf 1 2660 0 0
+htm 1890 25746173 0 0
+xml 20 5348 0 0
+dll 56 303839 0 0
+bmp 5 415079 0 0
+com 1 2648 0 0
+js 33 163394 0 0
+html 6 12234 0 0
+jpg 4705 99670887 0 0
+END_FILETYPES
+
+# Browser ID - Hits
+BEGIN_BROWSER 7
+netscape5.0 101
+msie7.0 8031
+libwww 1
+konqueror 9
+msie5.01 35
+Unknown 396
+msie6.0 4252
+END_BROWSER
+
+# OS ID - Hits
+BEGIN_OS 6
+win98 133
+winnt 13
+winxp 12146
+linux 11
+win2000 125
+Unknown 397
+END_OS
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 17
+libwww-perl/5.805 20070126074216
+Mozilla/4.0_(compatible;_MS_FrontPage_6.0) 20070117154642
+gsvsmjH_nldsjvtsadnxapy2tsktqlmyt_y_oem 20070129095741
+msnbot-media/1.0_(_http://search.msn.com/msnbot.htm) 20070129232730
+bot/1.0_(bot;_http://;_bot@bot.bot) 20070128095706
+oe_ojnomhbncixgfjvpan 20070129084048
+Snapbot/1.0 20070126195542
+oum7ovnkbE7bdtntjsrflE_gymf 20070128035340
+- 20070118142243
+Mozilla/4.0_(compatible;_T-H-U-N-D-E-R-S-T-O-N-E) 20070111023525
+MJ12bot/v1.0.8_(http://majestic12.co.uk/bot.php?_) 20070123132718
+MSFrontPage/6.0 20070117154653
+msnbot/1.0_(_http://search.msn.com/msnbot.htm) 20070131093753
+Exabot/3.0 20070108083504
+SBIder/SBIder-0.8.2-dev_(http://www.sitesell.com/sbider.html) 20070104191703
+miniRank/3.1_(miniRank;_www.minirank.com;_website_ranking_engine) 20070126232627
+Pingdom_GIGRIB_(http://www.pingdom.com) 20070128232956
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 16
+Mozilla/4.0_(compatible;_MS_FrontPage_6.0) 20070117154642
+gsvsmjH_nldsjvtsadnxapy2tsktqlmyt_y_oem 20070129095741
+msnbot-media/1.0_(_http://search.msn.com/msnbot.htm) 20070129232730
+bot/1.0_(bot;_http://;_bot@bot.bot) 20070128095706
+oe_ojnomhbncixgfjvpan 20070129084048
+Snapbot/1.0 20070126195542
+oum7ovnkbE7bdtntjsrflE_gymf 20070128035340
+- 20070118142243
+Mozilla/4.0_(compatible;_T-H-U-N-D-E-R-S-T-O-N-E) 20070111023525
+MJ12bot/v1.0.8_(http://majestic12.co.uk/bot.php?_) 20070123132718
+MSFrontPage/6.0 20070117154653
+msnbot/1.0_(_http://search.msn.com/msnbot.htm) 20070131093753
+Exabot/3.0 20070108083504
+SBIder/SBIder-0.8.2-dev_(http://www.sitesell.com/sbider.html) 20070104191703
+miniRank/3.1_(miniRank;_www.minirank.com;_website_ranking_engine) 20070126232627
+Pingdom_GIGRIB_(http://www.pingdom.com) 20070128232956
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1425 2277
+From1 0 0
+From2 58 60
+From3 100 239
+From4 403 10249
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Hits
+BEGIN_SEREFERRALS 5
+msn. 25
+google. 4
+yahoo. 24
+search..*com 6
+alltheweb.com 1
+END_SEREFERRALS
+
+# External page referers - Hits
+BEGIN_PAGEREFS 17
+http://www.icardfire.com/links.html 7
+http://www.msdewey.com/swf/shell.swf 1
+http://www.eastburkerescue.org/html/links.htm 9
+http://www.bceoc.org/links.htm 40
+http://salemfirerescue.org/personnel/personnel.htm 1
+http://salemfirerescue.org/calendar.htm 5
+http://www.rosmanfirerescue.com/wnc_links.html 3
+http://www.ottosuch.de 1
+http://www.firenews.net/contents/web_links.htm 15
+http://cache.zoominfo.com/cachedpage/CachedPageMain.aspx 3
+http://salemfirerescue.org/training/training.htm 30
+http://www.fireprograms.com/deptlinks.htm 1
+http://www.pingdom.com/monitor/salemfirerescue.org 2
+http://www.ask.com/web 1
+http://www.ohfr.org/html/links.htm 7
+http://salemfirerescue.org 111
+http://www.pingdom.com/monitor/www.salemfirerescue.org 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 20 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 40
+salemfirerescue.org 9
+salem+fire 3
+fire+rescue 3
+burke+county+rescue 3
+1995+dodge+cummins 2
+salem+fire+and+rescue 2
+fire+rescue+courses+and+nc 2
+lovelady+volunteer+fire+dept 2
+pierce+arrow+fire 2
+smoke+detector+keeps+going+off 2
+salemfirerescue 1
+deluge+skid+unit 1
+pierce+kenworth 1
+kitchen+fire+safety+guild 1
+fire+chiefs+association+emblem 1
+deluge+gun 1
+www 1
+bar 1
+roberts+company+fire+magazine 1
+central+fire+nc 1
+nc+fire+capacity+laws 1
+marty+parlier 1
+nc+fire+and+rescue+schools 1
+fire+and+rescue+emblem 1
+anchor+richey+evs 1
+lovelady+nc+fire+dept 1
+volkswagen 1
+nc+fire+and+rescue 1
+west+salem+fire+department 1
+fire+and+resque+training+in+nc 1
+fire+%26+rescue+extracation+schools 1
+fires+window+bars+rescue 1
+chimney+fire+extinguishers 1
+how+to+dispose+of+old+smoke+detectors 1
+water+rescue+apparatus 1
+nc+fire+class 1
+salem+rescue 1
+first+out+apparatus 1
+equipment+fire+recue+department 1
+salem+county+fire+training 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 20 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 74
+fire 30
+rescue 17
+salemfirerescue.org 9
+nc 9
+and 8
+salem 8
+county 4
+dept 3
+lovelady 3
+pierce 3
+smoke 3
+burke 3
+volunteer 2
+apparatus 2
+department 2
+deluge 2
+keeps 2
+cummins 2
+courses 2
+dodge 2
+dispose 1
+laws 1
+capacity 1
+unit 1
+anchor 1
+safety 1
+equipment 1
+company 1
+kenworth 1
+water 1
+extracation 1
+of 1
+class 1
+%26 1
+marty 1
+parlier 1
+bars 1
+old 1
+richey 1
+detectors 1
+association 1
+evs 1
+guild 1
+first 1
+bar 1
+central 1
+arrow 2
+schools 2
+chimney 1
+salemfirerescue 1
+skid 1
+emblem 2
+www 1
+recue 1
+gun 1
+kitchen 1
+1995 2
+to 1
+roberts 1
+training 2
+window 1
+fires 1
+detector 2
+in 1
+resque 1
+extinguishers 1
+off 2
+volkswagen 1
+going 2
+west 1
+out 1
+how 1
+magazine 1
+chiefs 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+206 67 1038225
+401 50 98150
+403 24 10344
+406 63 29119
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start of last visit date] - [Last page of last visit]
+# [Start of last visit date] and [Last page of last visit] are saved only if session is not finished
+# The 20 first Hits must be first (order not required for others)
+BEGIN_VISITOR 276
+24-182-91-153.dhcp.hckr.nc.charter.com 960 6533 62519977 20070131234357
+24-176-89-135.dhcp.hckr.nc.charter.com 69 92 298628 20070131210055
+bcpsgate.burke.k12.nc.us 41 433 6361745 20070131162844
+livebot-65-55-212-16.search.live.com 32 67 2507778 20070129232730
+adsl-157-98-192.clt.bellsouth.net 26 293 4122790 20070115190615
+h72-2-24-101.bigpipeinc.com 23 23 74893 20070125051114
+65.222.176.122 23 40 338481 20070106131918
+admin.bceoc.org 22 201 2791423 20070129042111
+68-187-174-188.dhcp.hckr.nc.charter.com 17 205 2889127 20070130185146
+livebot-65-54-188-11.search.live.com 16 16 482698 20070131093753
+cache-dtc-aa03.proxy.aol.com 15 18 130899 20070117030153
+cache-mtc-ac09.proxy.aol.com 15 15 4290 20070124130216
+livebot-65-54-188-13.search.live.com 15 15 232084 20070131061257
+24-196-200-235.dhcp.hckr.nc.charter.com 15 182 3680193 20070123220748
+bas4-montreal02-1096720919.dsl.bell.ca 15 15 302708 20070103124625
+71-81-3-190.dhcp.ahvl.nc.charter.com 14 114 920708 20070120001824
+bas4-ottawa23-1177611925.dsl.bell.ca 13 13 252798 20070126232627
+e134.smartservercontrol.com 13 13 272582 20070105094044
+66-190-157-161.dhcp.hckr.nc.charter.com 12 114 640291 20070117032102
+nat-7.cat.com 12 104 22547 20070127110718
+24-182-66-015.dhcp.hckr.nc.charter.com 2 5 28763 20070117183340
+69-10-193-48.localaccess.com 1 5 64764 20070118002510
+tide525.microsoft.com 2 2 30084 20070105043729
+64.34.145.194 4 4 42931 20070103052905
+pool-71-104-221-95.lsanca.dsl-w.verizon.net 2 2 34776 20070129095741
+66-168-127-041.dhcp.ahvl.nc.charter.com 2 23 499546 20070116200911
+64.34.145.195 2 2 38398 20070104191703
+cpe-069-132-136-003.carolina.res.rr.com 1 14 137899 20070127213059
+64.34.145.196 1 1 40517 20070102083716
+adsl-144-190-188.rmo.bellsouth.net 2 25 511148 20070107230509
+24-182-91-193.dhcp.hckr.nc.charter.com 2 25 332895 20070123003921
+64.34.145.197 3 3 88376 20070103013913
+cpe-069-132-220-220.carolina.res.rr.com 1 2 5319 20070126191808
+cache-rtc-ab08.proxy.aol.com 5 5 21082 20070131031014
+adsl-222-150-108.clt.bellsouth.net 3 29 378314 20070104213817
+cupm-r18-b34.time.net.my 2 22 222646 20070111072301
+dialup-4.152.129.221.dial1.atlanta1.level3.net 2 13 132864 20070102001212
+2-lk-grantcommunityhighschool.s3-0-2-1.sob13.rtc2.illinos.net 1 3 108365 20070126174914
+cache-dtc-ac05.proxy.aol.com 0 1 84741 
+24-177-70-063.dhcp.hckr.nc.charter.com 1 14 137899 20070119221740
+cache-dtc-af04.proxy.aol.com 0 1 8055 
+24-196-195-100.dhcp.hckr.nc.charter.com 2 16 138692 20070119002159
+87.192.64.22 1 1 24901 20070128035340
+livebot-65-55-208-10.search.live.com 7 7 165648 20070124172802
+68-187-174-163.dhcp.hckr.nc.charter.com 2 18 183318 20070103211937
+24-176-89-234.dhcp.hckr.nc.charter.com 1 14 0 20070126224710
+pool-72-79-137-66.sctnpa.east.verizon.net 5 72 931593 20070106132148
+adsl-146-147-15.clt.bellsouth.net 3 23 178155 20070126033957
+dsl-9-159.r1.ncbrvr.infoave.net 2 19 292961 20070121021857
+24-196-195-211.dhcp.hckr.nc.charter.com 4 43 328298 20070105213458
+67-72-98-108.propel.com 3 39 804892 20070103033056
+cab1-130.compascable.net 2 21 186449 20070104234555
+host-67-33-246-185.cae.bellsouth.net 2 9 51994 20070122020256
+66-226-58-221.yadtel.net 2 25 332895 20070116164714
+mta1.all-for-u.net 1 1 40517 20070104062117
+24-196-195-075.dhcp.hckr.nc.charter.com 5 45 250071 20070128024234
+host-67-33-247-142.cae.bellsouth.net 1 1 12435 20070128170002
+livebot-65-55-208-12.search.live.com 6 6 151927 20070128200724
+67-72-98-119.propel.com 1 1 15044 20070106133803
+adsl-227-204-173.ard.bellsouth.net 2 27 333657 20070114222659
+cache-dtc-ab01.proxy.aol.com 0 1 7802 
+207.4.175.123 2 21 607297 20070119151037
+cache-dtc-ad10.proxy.aol.com 0 1 4970 
+adsl-146-171-10.clt.bellsouth.net 1 16 0 20070108023209
+nc-76-4-12-224.dhcp.embarqhsd.net 1 16 149501 20070108055022
+66-190-157-171.dhcp.hckr.nc.charter.com 9 100 474898 20070102223333
+24-196-195-035.dhcp.hckr.nc.charter.com 7 57 1008421 20070108212404
+cache-dtc-ad06.proxy.aol.com 0 7 24028 
+cache-rtc-ac04.proxy.aol.com 0 1 285 
+cache-mtc-ac03.proxy.aol.com 10 10 13364 20070112000335
+livebot-65-55-235-139.search.live.com 1 2 49375 20070128051504
+24-176-89-207.dhcp.hckr.nc.charter.com 2 26 133084 20070109191753
+237.sub-66-174-79.myvzw.com 7 48 903709 20070126025539
+adsl-21-143-171.clt.bellsouth.net 1 14 12435 20070118140449
+adsl-154-16-137.clt.bellsouth.net 1 14 12435 20070113031022
+livebot-65-55-208-14.search.live.com 4 4 35858 20070124184834
+cache-dtc-aa02.proxy.aol.com 0 1 25611 
+cache-rtc-ae09.proxy.aol.com 5 5 38003 20070131030904
+152.43.1.4 4 33 832837 20070118234916
+75-130-203-133.dhcp.hckr.nc.charter.com 4 32 264559 20070123232428
+65-118-251-2.cbegroup.com 0 3 21682 
+cache-dtc-af06.proxy.aol.com 0 8 79612 
+67-72-98-109.propel.com 2 4 40906 20070103215145
+ca527-ch01-bl07.tx-dallas0.sa.earthlink.net 2 2 0 20070106182648
+66-194-6-75.static.twtelecom.net 2 2 24870 20070123065634
+dial66-94.brinet.com 4 27 537919 20070105014535
+68-114-150-156.dhcp.kgpt.tn.charter.com 4 34 835137 20070119180915
+24-171-73-24.dhcp.mtvr.il.charter.com 3 3 7152 20070115190435
+recovery.wpcog.dst.nc.us 4 47 1330934 20070122091236
+adsl-153-214-253.mia.bellsouth.net 2 6 216730 20070123032552
+mail.ci.morganton.nc.us 7 74 888565 20070124183415
+livebot-65-55-208-16.search.live.com 9 9 156167 20070122033848
+75-130-202-063.dhcp.hckr.nc.charter.com 3 23 298712 20070103015344
+204.211.139.57 3 26 330239 20070124171817
+cl101fwclusterext.infousa.com 1 1 12435 20070126074216
+adsl-146-128-178.clt.bellsouth.net 3 29 0 20070126154822
+cache-dtc-ab08.proxy.aol.com 0 1 7803 
+c-68-41-254-250.hsd1.mi.comcast.net 2 18 236155 20070120232733
+cache-dtc-ae07.proxy.aol.com 0 1 4970 
+adsl-144-131-203.rmo.bellsouth.net 1 1 15063 20070104134850
+222.46.18.34 7 7 177280 20070119170155
+47.234.0.53 1 16 138661 20070131023922
+adsl-227-149-30.clt.bellsouth.net 2 17 2655 20070123154108
+adsl-157-72-183.clt.bellsouth.net 2 32 0 20070101035317
+66-194-6-71.static.twtelecom.net 1 1 15044 20070107225732
+c-24-19-238-2.hsd1.mn.comcast.net 1 3 108365 20070109210524
+adsl-154-16-72.clt.bellsouth.net 3 32 499546 20070120003023
+24-196-194-089.dhcp.hckr.nc.charter.com 7 58 297362 20070116004522
+cache-dtc-ab03.proxy.aol.com 0 1 8782 
+livebot-65-55-208-18.search.live.com 2 2 56586 20070118070140
+adsl-072-149-141-021.sip.clt.bellsouth.net 1 3 108365 20070104154706
+adsl-210-84-83.clt.bellsouth.net 1 10 370486 20070115190949
+66-194-6-67.static.twtelecom.net 1 1 15044 20070104194409
+cache-dtc-ad08.proxy.aol.com 1 1 11583 20070114211412
+36.220.61.64.modem.dynamic.cptelecom.net 1 3 108365 20070113114139
+67.170.61.248 3 3 29301 20070123132718
+adsl-157-126-86.clt.bellsouth.net 3 41 511180 20070101133127
+75-130-202-245.dhcp.hckr.nc.charter.com 5 64 775344 20070128023537
+66-190-155-183.dhcp.hckr.nc.charter.com 3 32 172609 20070111032651
+cache-dtc-aa04.proxy.aol.com 0 1 76703 
+cf2.utc.com 1 12 208981 20070130124804
+cache-dtc-ad03.proxy.aol.com 0 1 19721 
+64.210.196.197 1 14 138235 20070112161744
+x243.dialup.conninc.com 1 5 64764 20070117221219
+198.85.218.16 6 51 576843 20070116163613
+cpe-72-128-115-93.wi.res.rr.com 1 3 108365 20070112033133
+cache-dtc-ac09.proxy.aol.com 0 1 2656 
+host-12-168-233-48.wbcable.net 2 29 142869 20070117031621
+cache-dtc-af08.proxy.aol.com 0 1 22522 
+12.104.137.34 2 21 606898 20070115154349
+cache-rtc-ae06.proxy.aol.com 0 4 1148 
+adsl-227-151-72.clt.bellsouth.net 2 19 196143 20070107035519
+adsl-156-216-161.bct.bellsouth.net 1 14 137899 20070124213753
+d205-250-96-56.bchsia.telus.net 2 4 108365 20070112164714
+ip72-204-37-239.fv.ks.cox.net 1 12 208981 20070130043726
+adsl-210-71-143.mem.bellsouth.net 1 15 22250 20070101200626
+cache-dtc-ac04.proxy.aol.com 0 1 22954 
+24-182-90-074.dhcp.hckr.nc.charter.com 11 111 1095905 20070130192838
+cdm-208-180-8-157.bcst.cox-internet.com 1 3 108365 20070115234645
+adsl-222-150-26.clt.bellsouth.net 2 23 499546 20070117184818
+adsl-227-185-87.clt.bellsouth.net 2 19 200456 20070110202505
+dekalb-smtp.0.214.214.209.in-addr.arpa 1 12 208981 20070102145337
+68-187-175-247.dhcp.hckr.nc.charter.com 9 87 454937 20070118152420
+24-158-50-217.dhcp.hckr.nc.charter.com 3 31 187196 20070131220757
+cpe001346b7ba69-cm014130004968.cpe.net.cable.rogers.com 1 5 18916 20070104055730
+38.98.19.77 1 1 12454 20070120101321
+66-190-157-071.dhcp.hckr.nc.charter.com 5 53 533271 20070119142025
+adsl-222-150-78.clt.bellsouth.net 2 16 171142 20070128132527
+c-75-75-152-253.hsd1.pa.comcast.net 1 14 137899 20070115010434
+dialup-4.152.93.4.dial1.atlanta1.level3.net 1 7 92827 20070110051607
+68-112-21-188.dhcp.ahvl.nc.charter.com 1 13 211637 20070104053402
+ottosuch.de 3 3 26956 20070114120822
+24-176-95-222.dhcp.hckr.nc.charter.com 5 37 344625 20070123025457
+interpol.onalaska.k12.wi.us 1 18 149501 20070104174334
+copilot.thunderstone.com 9 9 106832 20070111023525
+rrcs-24-199-175-170.midsouth.biz.rr.com 1 14 137899 20070124145310
+adsl-210-71-135.clt.bellsouth.net 2 17 188854 20070124003810
+adsl-154-10-242.clt.bellsouth.net 3 26 335087 20070107204930
+c-71-226-218-230.hsd1.nj.comcast.net 4 38 657853 20070128045736
+adsl-156-222-165.clt.bellsouth.net 1 14 134189 20070112195416
+cache-dtc-ae04.proxy.aol.com 9 11 35112 20070125032134
+72.159.173.2 1 14 137899 20070128074645
+tide36.microsoft.com 5 5 186912 20070118142243
+24-176-92-078.dhcp.hckr.nc.charter.com 10 76 1288901 20070116215744
+bot-12.pingdom.com 2 2 24866 20070128232956
+199.21.28.13 1 4 50554 20070106075131
+client-66-116-32-183.consolidated.net 9 93 1544562 20070111204700
+67-72-98-115.propel.com 6 59 553427 20070128171331
+c-71-233-11-81.hsd1.ma.comcast.net 1 16 149501 20070103035757
+3a.72.5546.static.theplanet.com 2 2 24866 20070121112455
+adsl-75-13-44-68.dsl.toldoh.sbcglobal.net 1 12 208981 20070107034542
+cpe-069-132-164-057.carolina.res.rr.com 1 14 137899 20070113235238
+71-13-115-117.static.mdsn.wi.charter.com 10 10 101913 20070128095706
+adsl-146-147-75.clt.bellsouth.net 7 92 2899822 20070114024547
+ip68-103-71-216.ks.ok.cox.net 2 25 332895 20070131232151
+c-24-127-211-187.hsd1.fl.comcast.net 1 3 108365 20070122043532
+cache-dtc-ad05.proxy.aol.com 0 1 2935 
+tide526.microsoft.com 1 1 12435 20070130110456
+cache-rtc-ac03.proxy.aol.com 5 5 11929 20070120035156
+host-65-6-250-211.clt.bellsouth.net 1 6 40678 20070108185321
+rrcs-24-123-231-234.central.biz.rr.com 1 5 64764 20070122193508
+71-32-127-135.eugn.qwest.net 1 14 137899 20070116012140
+livebot-65-55-208-11.search.live.com 8 8 241114 20070128212938
+38.98.19.99 1 1 11602 20070126173240
+adsl-154-15-233.clt.bellsouth.net 1 16 0 20070111030315
+cache-rtc-ae08.proxy.aol.com 1 1 287 20070120035156
+68-186-17-81.dhcp.astr.or.charter.com 1 16 147843 20070105225214
+211.24.155.229 1 3 108365 20070119023036
+c-71-226-228-27.hsd1.nj.comcast.net 1 14 137899 20070122211905
+pool-70-23-238-143.ny325.east.verizon.net 1 4 41212 20070107235534
+pool-71-113-33-81.sttlwa.dsl-w.verizon.net 1 3 108365 20070105205238
+66-194-6-12.static.twtelecom.net 2 2 24808 20070125135646
+adsl-1-145-157.clt.bellsouth.net 3 25 532789 20070129065636
+livebot-65-55-208-13.search.live.com 1 1 12454 20070119230854
+adsl-157-104-191.clt.bellsouth.net 1 10 370486 20070119035344
+cache-dtc-ac01.proxy.aol.com 0 1 21154 
+adsl-227-149-113.clt.bellsouth.net 6 50 1456880 20070102230115
+cache-dtc-ae10.proxy.aol.com 0 1 85754 
+livebot-65-54-188-12.search.live.com 10 10 89058 20070130231836
+67-72-98-116.propel.com 3 30 395491 20070102231740
+67-72-98-120.propel.com 10 55 1313237 20070129215311
+66-190-155-131.dhcp.hckr.nc.charter.com 1 8 84759 20070120221027
+adsl-146-147-201.clt.bellsouth.net 1 10 370486 20070123075137
+c-68-38-157-3.hsd1.pa.comcast.net 1 6 111589 20070115183655
+ca208-ch03-bl06.il-chicago0.sa.earthlink.net 2 18 183318 20070102000653
+c-71-60-22-68.hsd1.pa.comcast.net 1 12 174434 20070105144426
+adsl-157-82-82.clt.bellsouth.net 1 14 0 20070128201912
+dsl-pppoe-pool8-203.d02.ncshlt.infoave.net 3 37 499546 20070123033910
+66-194-6-76.static.twtelecom.net 3 3 37305 20070128124927
+adsl-1-133-13.clt.bellsouth.net 1 14 137899 20070124233111
+livebot-65-55-208-15.search.live.com 4 4 55135 20070124193118
+impw125.doc.state.nc.us 2 22 357328 20070104153901
+68-187-175-046.dhcp.hckr.nc.charter.com 6 48 197309 20070121141420
+nansmebas01-pool2-a219.nansme.tds.net 5 51 631333 20070128151900
+38.98.19.100 1 1 7636 20070126184016
+cab5-252.compascable.net 2 23 572625 20070104210456
+38.98.19.103 1 1 9875 20070126094849
+66-194-6-74.static.twtelecom.net 2 2 24870 20070118033452
+cache-dtc-ad07.proxy.aol.com 0 1 20251 
+nc-71-1-29-130.dyn.embarqhsd.net 2 15 148680 20070114211147
+38.98.19.105 1 1 5123 20070126044649
+adsl-1-189-91.clt.bellsouth.net 0 11 4970 
+168.9.37.241 2 21 607402 20070122151314
+66-190-155-013.dhcp.hckr.nc.charter.com 9 88 1142873 20070104033756
+68-115-142-230.dhcp.hckr.nc.charter.com 2 29 514679 20070104001218
+adsl-210-122-66.clt.bellsouth.net 3 17 181923 20070129133149
+tcdial281.main.nc.us 2 27 344497 20070105233152
+66-194-6-72.static.twtelecom.net 3 3 37305 20070130071154
+64.53.81.11 1 16 149501 20070106175024
+adsl-222-144-245.clt.bellsouth.net 5 47 1286001 20070103043800
+cache-dtc-ad02.proxy.aol.com 0 1 3385 
+livebot-65-55-208-17.search.live.com 5 5 45134 20070124200405
+adsl-146-175-57.clt.bellsouth.net 2 23 499542 20070115154409
+67-72-98-110.propel.com 5 25 686128 20070112234512
+cache-mtc-ae09.proxy.aol.com 2 2 27479 20070124092554
+adsl-210-84-83.mem.bellsouth.net 2 20 740972 20070117072506
+24-176-95-122.dhcp.hckr.nc.charter.com 8 59 776268 20070120001536
+38.98.19.110 1 1 11322 20070126195542
+146.sub-75-200-193.myvzw.com 1 3 2048 20070111042705
+66-194-6-68.static.twtelecom.net 1 1 15044 20070109154435
+cache-dtc-af07.proxy.aol.com 0 2 30580 
+38.98.19.114 1 1 10131 20070126183912
+38.98.19.115 1 1 28293 20070126153123
+68-189-146-057.dhcp.ahvl.nc.charter.com 1 14 137899 20070123024025
+tm.net.my 1 16 138661 20070114064508
+adsl-68-88-226-30.dsl.hstntx.swbell.net 1 8 88766 20070128001905
+66-194-6-70.gen.twtelecom.net 4 4 57567 20070116101344
+67-72-98-117.propel.com 1 14 137899 20070125230307
+adsl-222-156-160.clt.bellsouth.net 1 10 370486 20070110173321
+livebot-65-55-235-158.search.live.com 2 7 139661 20070123131118
+ca1462-ch01-bl01.ma-cambridg0.sa.earthlink.net 2 16 171142 20070114044117
+half-price-network.com 1 1 15063 20070110134614
+24-196-173-150.dhcp.ahvl.nc.charter.com 2 25 332895 20070131182711
+cache-dtc-af02.proxy.aol.com 0 2 24711 
+adsl-146-158-17.clt.bellsouth.net 1 13 101603 20070122001731
+va-71-2-165-26.dhcp.embarqhsd.net 2 21 606898 20070116202906
+203-167-185-56.dsl.clear.net.nz 8 90 2461040 20070104225018
+12.206.197.112 4 44 1407472 20070109211419
+cache-dtc-ae08.proxy.aol.com 0 7 3427 
+38.98.19.121 1 1 95612 20070126091102
+38.98.19.125 1 1 10800 20070126163251
+pool-71-114-53-143.washdc.dsl-w.verizon.net 2 17 188854 20070118181309
+a72-29-233-183.enmaxenvision.net 1 1 40498 20070108030851
+c-68-54-153-208.hsd1.pa.comcast.net 1 13 211637 20070105072659
+host121.chesco.org 2 20 152569 20070102130226
+cpe-075-177-132-032.nc.res.rr.com 2 25 332895 20070121031104
+cache-dtc-ae03.proxy.aol.com 4 4 52349 20070127184830
+nc-71-1-29-179.dyn.embarqhsd.net 2 25 328581 20070116205232
+cpe-071-070-241-207.nc.res.rr.com 2 25 332895 20070128032526
+adsl-157-73-236.clt.bellsouth.net 1 10 370486 20070124153241
+cache-dtc-ad09.proxy.aol.com 0 1 3099 
+75-130-203-087.dhcp.hckr.nc.charter.com 1 10 34988 20070106223401
+cpe-65-29-60-76.wi.res.rr.com 1 14 137899 20070130205629
+mail.ynis.net 1 5 64157 20070118220529
+70.182.14.218 1 16 149501 20070104191138
+crawl6.exabot.com 1 1 2694 20070108083504
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20070101 32 317 2188324 12
+20070102 76 453 5630216 24
+20070103 91 579 7499372 26
+20070104 108 882 10770030 37
+20070105 81 527 5929651 24
+20070106 98 517 6621696 24
+20070107 31 231 2643894 16
+20070108 88 681 8025866 20
+20070109 53 421 4752015 15
+20070110 35 254 1912046 13
+20070111 62 445 5905996 17
+20070112 71 371 4128826 16
+20070113 36 221 1788923 13
+20070114 43 261 5004454 23
+20070115 44 288 3825261 22
+20070116 79 603 7782595 24
+20070117 72 417 4080505 20
+20070118 115 781 10585668 22
+20070119 75 445 5350445 26
+20070120 69 428 5079204 24
+20070121 37 223 1950904 18
+20070122 58 399 5255147 26
+20070123 52 411 5884025 23
+20070124 68 428 4049473 24
+20070125 74 332 3337844 16
+20070126 85 360 3806550 30
+20070127 21 120 756220 8
+20070128 67 441 4702342 26
+20070129 53 293 3891564 18
+20070130 44 242 2422222 14
+20070131 68 454 5025492 18
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+15mn-30mn 32
+1h+ 34
+0s-30s 421
+30s-2mn 47
+5mn-15mn 33
+2mn-5mn 27
+30mn-1h 45
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 20 first Pages must be first (order not required for others)
+BEGIN_SIDER 28
+/default.htm 1173 12157959 429 310
+/weblinks/weblinks.htm 141 4901024 18 55
+/training/training.htm 124 913669 49 66
+/calendar.htm 68 451190 29 37
+/photo/photo.htm 59 365299 7 20
+/personnel/personnel.htm 57 1506235 11 25
+/_vti_bin/_vti_aut/author.dll 56 303839 0 0
+/apparatus/apparatus.htm 50 535405 16 32
+/safetytips.htm 32 2730743 21 25
+/stats.htm 31 798962 3 10
+/photo/training092306.htm 25 227039 6 6
+/photo/fireprev101206.htm 25 230526 8 8
+/photo/fireprev101306.htm 24 237512 8 12
+/mission.htm 23 103391 10 10
+/kids/kids.htm 21 228379 6 3
+/alert.htm 17 160022 7 6
+/membership/membership.htm 17 124134 5 8
+/_vti_bin/shtml.dll/_vti_rpc 11 4357 0 0
+/default_files/filelist.xml 8 1988 1 0
+/_vti_inf.html 6 12234 0 0
+/mewebmail/base/default/lang/EN/login.asp 1 2694 1 1
+/kids/kids_files/filelist.xml 2 509 0 1
+/safetytips_files/filelist.xml 2 1051 0 0
+/training/training_files/filelist.xml 4 900 0 0
+/www.yahoo.com 1 2648 0 0
+/weblinks/weblinks_files/filelist.xml 4 900 0 0
+/training/ccc_schedule.pdf 1 2660 1 1
+/holiday.htm 3 74684 3 3
+END_SIDER

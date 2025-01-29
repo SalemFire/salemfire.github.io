@@ -1,0 +1,1766 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 202008 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2553                
+POS_VISITOR 27906               
+POS_DAY 43884               
+POS_DOMAIN 3482                
+POS_LOGIN 3715                
+POS_ROBOT 3870                
+POS_WORMS 4698                
+POS_EMAILSENDER 4829                
+POS_EMAILRECEIVER 4972                
+POS_SESSION 44626               
+POS_SIDER 44837               
+POS_FILETYPES 5107                
+POS_OS 5311                
+POS_BROWSER 5488                
+POS_SCREENSIZE 6298                
+POS_UNKNOWNREFERER 6372                
+POS_UNKNOWNREFERERBROWSER 7394                
+POS_ORIGIN 7847                
+POS_SEREFERRALS 7994                
+POS_PAGEREFS 8174                
+POS_SEARCHWORDS 9056                
+POS_KEYWORDS 9221                
+POS_MISC 2217                
+POS_ERRORS 9293                
+POS_CLUSTER 3571                
+POS_SIDER_404 9462                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200901000601 21588 4315576 68933926536
+FirstTime 20200801023710
+LastTime 20200831230728
+LastUpdate 20200902024710 21588 20845 742 0 0
+TotalVisits 577                 
+TotalUnique 368                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 427                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 25 157 1060636 468 572 3904717
+1 47 118 1704701 503 586 4459439
+2 210 332 4238800 1094 1212 7588572
+3 38 71 653633 528 614 4288535
+4 60 122 1529314 404 484 2434222
+5 30 90 1100045 384 491 2322735
+6 60 63 360843 519 585 2314035
+7 173 215 978064 641 743 5199972
+8 316 333 335837 815 860 2516320
+9 16 60 795352 329 414 1654331
+10 43 72 797244 456 588 2027759
+11 40 54 604871 650 707 2578759
+12 47 133 1577774 503 611 2886845
+13 102 311 3498848 1187 1326 3861809
+14 645 717 4342460 824 955 2591437
+15 71 458 5615452 1014 1094 2617900
+16 1193 1308 3856545 933 996 2900130
+17 31 132 1678592 283 362 1227981
+18 52 253 3066124 492 627 3467600
+19 44 143 1724278 438 569 2909961
+20 31 120 1418828 437 528 2476672
+21 42 144 2000357 347 501 2431825
+22 30 78 824916 416 521 1859201
+23 9 36 390118 537 643 3518837
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 3355 5520 44153632
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 19
+bot[+:,\.\;\/\\-] 8249 24420795 20200831235741 0
+crawl 2802 4275342 20200831042055 0
+infobot 1063 20180893 20200831234816 0
+spider 384 4619079 20200831023639 0
+googlebot 340 1838896 20200831231517 0
+mj12bot 63 288186 20200831041040 0
+robot 47 186799 20200815142123 0
+seznambot 41 137531 20200831063415 0
+yandex 36 142725 20200830023036 0
+sogou 36 139026 20200831111441 0
+no_user_agent 6 77954 20200831085136 0
+ia_archiver 17 354766 20200805073547 0
+mail\.ru 3 14025 20200827065157 0
+phantom 2 41289 20200802142343 0
+slurp 1 4775 20200814173350 0
+[+:,\.\;\/\\-]bot 2 9588 20200809183021 0
+gigabot 10 157892 20200814131643 0
+python 13 62075 20200831161147 0
+baiduspider 16 178027 20200831054401 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 23 27485 0 0
+bmp 7 581140 0 0
+png 112 511710 0 0
+htm 1012 11123297 0 0
+html 2343 5544988 0 0
+jpg 1098 19605181 0 0
+xml 42 21136 0 0
+gif 883 6738695 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 12
+winlong 14
+winxp 105
+unix 16
+winnt 1782
+linuxubuntu 62
+winvista 133
+linux 592
+macosx 1836
+win2003 1
+bsdopenbsd 2
+Unknown 335
+win2008 642
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 55
+firefox28.0 3
+msie6.0 8
+firefox57.0 15
+firefox71.0 1
+chrome 2496
+firefox26.0 2
+firefox52.0 1391
+firefox54.0 2
+firefox34.0 7
+firefox24.0 2
+firefox63.0 160
+firefox31.0 3
+msie8.0 25
+firefox13.0.1 27
+firefox2.0.0.9 2
+msie7.0 7
+firefox59.0 2
+firefox40.1 1
+firefox41.0 5
+netscape5.0... 3
+msie9.0 210
+firefox79.0 24
+firefox27.0 1
+Unknown 272
+firefox11.0 7
+firefox3.0.8 2
+netscape 1
+firefox32.0 6
+firefox48.0 1
+firefox53.0 2
+firefox40.0 20
+firefox42.0 2
+opera 50
+firefox72.0 2
+firefox69.0 1
+firefox29.0 3
+firefox58.0 1
+firefox38.0 6
+firefox30.0 2
+firefox56.0 2
+firefox47.0 2
+firefox78.0 18
+firefox33.0 3
+firefox39.0 12
+firefox25.0 2
+mozilla 369
+firefox37.0 2
+netscape5.0 1
+firefox22.0 1
+firefox60.0 14
+msie10.0 12
+firefox51.0 1
+firefox36.0 1
+firefox35.0 7
+safari 298
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 21
+Mozilla/5.0_(compatible;_evc-batch/2.0) 20200830022904
+Dispatch/0.14.0-SNAPSHOT 20200831054114
+Ruby 20200828224404
+Mozilla/5.0... 20200815043121
+Mozilla/5.0_(Android;_Mobile;_rv:40.0)_Gecko/40.0_Firefox/40.0 20200802141950
+panscient.com 20200831074120
+Mozilla/5.0_(Android;_Tablet;_rv:34.0)_Gecko/34.0_Firefox/34.0 20200802142200
+Mozilla/5.0_zgrab/0.x 20200806162937
+Mozilla/5.0_(compatible;_Dataprovider.com) 20200818021225
+PiOrbo 20200801052309
+Mozilla/5.0_Firefox/35.0 20200819122634
+Chrome 20200817090935
+The_Knowledge_AI 20200829204416
+Mozilla 20200804192207
+Mozilla/5.0_(compatible;_Domains_Project/1.1.3;__https://domainsproject.org) 20200808094959
+WPScan_v2.9.4_(http://wpscan.org) 20200808155058
+Mozilla/5.0_(compatible;_ips-agent) 20200827072803
+SEMrushBot 20200827134612
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20200830170720
+WhatWeb/0.5.2 20200814043329
+Go-http-client/1.1 20200827125619
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 10
+Dispatch/0.14.0-SNAPSHOT 20200831054114
+Ruby 20200828224404
+WPScan_v2.9.4_(http://wpscan.org) 20200808155058
+panscient.com 20200831074120
+SEMrushBot 20200827134612
+WhatWeb/0.5.2 20200814043329
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20200830170720
+Go-http-client/1.1 20200827125619
+PiOrbo 20200801052309
+The_Knowledge_AI 20200829204416
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 2806 2842
+From1 0 0
+From2 199 233
+From3 68 69
+From4 282 2376
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 196 230
+yandex 1 1
+yahoo 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 15
+http://anti-crisis-seo.com 39 39
+https://e.mail.ru/messages/inbox/ 6 6
+http://marineucc.org 4 4
+https://agents.farmers.com/ca/los-angeles/sebastian-ulloa 3 3
+https://wasya.co 3 3
+https://www.bing.com 3 4
+https://l.facebook.com 2 2
+https://amazonbusiness.lightning.force.com 1 1
+http://wncaff.com/department-links/ 1 1
+https://cherms.website/ash-vs-evil-dead-season-complete 1 1
+https://cherms.website/bmw-navigation-dvd-road-map-europe-professional 1 1
+http://www.kennethblog.top/blog/11987645/get-more-blog-traffic-now/ 1 1
+https://cherms.website/paranoid-ty-dolla-sign-ft 1 1
+http://www.ncarems.org/squadlinks.php 1 1
+https://cherms.website/internet-download-manager-v6-21-build-16-pre-activated-by-m4rdhi-bravo-1357758-fileto 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+semalt.com 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+semalt.com 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+403 12 64140
+206 36 423773
+416 4 1468
+405 17 94730
+400 20 96618
+406 8 41652
+404 3361 16187550
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 394
+/blog/wp-includes/wlwmanifest.xml 23 -
+/wordpress/ 1 -
+/api/.env 2 -
+/pgnim/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/sitio/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/admin.php 1 -
+/webadmin/login.php 1 -
+/haian360/login.php 1 -
+/website/ 1 -
+/site/wp-includes/wlwmanifest.xml 23 -
+/subdomains/spartacus/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/streetview/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/htaccess/workspace/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/modules/gamification/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/2015/wp-includes/wlwmanifest.xml 3 -
+/id/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/blog2/ 1 -
+/test/wp-includes/wlwmanifest.xml 22 -
+/xmlrpc.php 31 -
+/old_site/ 1 -
+/Config_Shell.php 1 http://www.salemfirerescue.org/Config_Shell.php
+/houtai/login.php 7 -
+/wptest/ 1 -
+/old/profile/register/ 2 -
+/th1s_1s_a_4o4.html 26 http://www.google.com/url
+/public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/inc/md5.asp 2 http://www.salemfirerescue.org/inc/md5.asp
+/live/compareip/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/html/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/test/ 1 -
+/web.public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/shop/wp-includes/wlwmanifest.xml 20 -
+/lib/phpunit/src/Util/PHP/eval-stdin.php 4 -
+/photo/fireprev101206.htm 1 -
+/admindede888/login.php 2 -
+/cg/login.php 2 -
+/assets/plugins/jquery.filer/php/readme.txt 2 http://www.salemfirerescue.org/assets/plugins/jquery.filer/php/readme.txt
+/plataformaead-dev/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/admin/assets/plugins/jquery-file-upload/server/php/index.php 2 http://www.salemfirerescue.org/admin/assets/plugins/jquery-file-upload/server/php/index.php
+/wp-login.php 40 -
+/wp-content/plugins/ioptimization/IOptimize.php 7 www.google.com
+/profile/register/ 3 -
+/hehe/login.php 2 -
+/_cms/ 1 -
+/js/index.js 1 -
+/tests/avastar/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/myadmin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/uploads/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/js/common.js 5 http://www.salemfirerescue.org/js/common.js
+/common/admin/Jobs2/Telerik.Web.UI.DialogHandler.aspx 2 -
+/admin/_user/_Admin/AspCms_AdminAdd.asp 1 http://www.salemfirerescue.org/admin/_user/_Admin/AspCms_AdminAdd.asp
+/facai/login.php 1 -
+/woodfieldestates/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/bob/login.php 2 -
+/wp-admin 1 -
+/mtosapp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/license.txt 1 -
+/lib/phpunit/Util/PHP/eval-stdin.php 4 -
+/staging/wp-admin/ 1 http://salemfirerescue.org/
+/public/simpleboot/css/simplebootadmin.css 4 -
+/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 2 -
+/laetv-laravel-respaldo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/ads.txt 136 -
+/DesktopModules/TNComments/Telerik.Web.UI.DialogHandler.aspx 2 -
+/wp-content/plugins/plugins/GreenGo.php 2 -
+/membership/button6.jpg 6 http://www.salemfirerescue.org/membership/membership.htm
+/payments/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp-content/class.php 3 -
+/pesquisa/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/ios 6 -
+/config/AspCms_Config.asp 4 http://www.salemfirerescue.org/config/AspCms_Config.asp
+/wszool/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/lib/phpunit/phpunit/Util/PHP/eval-stdin.php 4 -
+/wp-content/plugins/ubh/index.php 1 -
+/wordpress/wp-includes/wlwmanifest.xml 23 -
+/jobs/workspace/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/_controls/responsive/Telerik.Web.UI.DialogHandler.aspx 2 -
+/taspenku/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp-config.php.bk 1 http://salemfirerescue.org/
+/pid/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/2016/wp-includes/wlwmanifest.xml 3 -
+/blog/.env 2 -
+/tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 10 -
+/test/.env 2 -
+/panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 4 -
+/inc/AspCms_AdvJs.asp 2 http://www.salemfirerescue.org/inc/AspCms_AdvJs.asp
+/manager/login.php 4 -
+/1689/login.php 1 -
+/robots.txt 1412 -
+/atoms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/test/med-decision/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/xixi/login.php 2 -
+/dede/login.php 13 -
+/teste/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/xipada/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php 4 -
+/asset-manifest.json 1 http://salemfirerescue.org/
+/shopify/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/all/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/new/ 1 -
+/cron/.env 1 -
+/jian/login.php 7 -
+/wordpress/wp-login.php 1 -
+/include/calendar/calendar-cn.js 2 http://www.salemfirerescue.org/include/calendar/calendar-cn.js
+/professionaltuning/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/sitemaps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp-admin/ 4 http://salemfirerescue.org/
+/new/profile/register/ 2 -
+/ajax/render/widget_tabbedcontainer_tab_panel 1 -
+/image001.gif 222 http://www.salemfirerescue.org/
+/wordpress/profile/register/ 3 -
+/js/login.php 1 -
+/_old/ 1 -
+/admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 6 -
+/summatest/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/weblinks/button6.jpg 18 http://www.salemfirerescue.org/weblinks/weblinks.htm
+/cms/portlets/Telerik.Web.UI.DialogHandler.aspx 2 -
+/Telerik.Web.UI.DialogHandler.aspx 2 -
+/lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/platform/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/demo/wp-login.php 1 -
+/administrator/.env 1 -
+/all/spotbills/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/alpha/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/php-u2flib-server-1.0.1/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/admin001/login.php 1 -
+/Providers/HtmlEditorProviders/Telerik/Telerik.Web.UI.DialogHandler.aspx 2 -
+/proment/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/core/.env 1 -
+/ba/login.php 1 -
+/my/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/guanli/login.php 9 -
+/vendor/phpunit/phpunit/LICENSE/eval-stdin.php 2 -
+/DesktopModules/YA.Controls/AngularMain/Telerik.Web.UI.DialogHandler.aspx 1 -
+/wang/login.php 8 -
+/Components/General/Admin/UserControl/Telerik.Web.UI.DialogHandler.aspx 2 -
+/admin/ 3 -
+/m/wp-login.php 1 -
+/pms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/mobile 6 -
+/vbulletin/ajax/render/widget_tabbedcontainer_tab_panel 1 -
+/admin.html 1 -
+/mpbackoffice/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp-1ogin_bak.php 2 -
+/topbrand/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/yiicarwx/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp-backup/ 1 -
+/include/dialog/select_soft_post.php 3 -
+/test/wp-login.php 2 -
+/cy/login.php 2 -
+/production/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/e/admin/index.php 6 http://www.salemfirerescue.org/e/admin/index.php
+/mysqlbackupro/ 1 -
+/admin/.env 3 -
+/blog/ 1 -
+/back/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp/ 1 -
+/sites/.env 2 -
+/cms/wp-includes/wlwmanifest.xml 23 -
+/2018/wp-includes/wlwmanifest.xml 20 -
+/AsiCommon/Controls/ContentManagement/ContentDesigner/Telerik.Web.UI.DialogHandler.aspx 2 -
+/beatricce/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/uploads/.env 1 -
+/libweb/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/pcc/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/web/.env 1 -
+/pgd/pgnim/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/protected/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/p4/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/DesktopModule/UIQuestionControls/UIAskQuestion/Telerik.Web.UI.DialogHandler.aspx 2 -
+/media/wp-includes/wlwmanifest.xml 20 -
+/wangdafa 2 -
+/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/modules/ps_facetedsearch/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/web2/ 1 -
+/vendor/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp-content/plugins/ioptimization/ghpvfyylzo.php 2 www.google.com
+/wp-content/plugins/ioptimization/pmgqdirijk.php 1 www.google.com
+/.git/HEAD 4 http://www.salemfirerescue.org/.git/HEAD
+/portal/channels/fa/Cms_HtmlText_Manage/Telerik.Web.UI.DialogHandler.aspx 1 -
+/888/login.php 2 -
+/router.php 2 -
+/tbg/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/seo/login.php 2 -
+/htadmin/login.php 4 -
+/laravel/.env 3 -
+/school/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/backup/wp-admin/ 1 http://salemfirerescue.org/
+/backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/larabus/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/test_laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/laravel_web/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/2019/wp-includes/wlwmanifest.xml 17 -
+/blogg/ 1 -
+/caiyuan/login.php 9 -
+/admindede/login.php 4 -
+/saml/extlib/simplesamlphp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/sites/all/libraries/mailchimp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 4 -
+/DesktopModules/Admin/RadEditorProvider/DialogHandler.aspx 2 -
+/pkm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/modules/pscartabandonmentpro/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/vb5/ajax/render/widget_tabbedcontainer_tab_panel 1 -
+/wp-content 1 http://salemfirerescue.org/
+/Inc/md5.asp 2 http://www.salemfirerescue.org/Inc/md5.asp
+/cfwb/login.php 2 -
+/community/ajax/render/widget_tabbedcontainer_tab_panel 1 -
+/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 4 -
+/workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 4 -
+/moodalmahdi/nbdsye/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/apparatus/button6.jpg 6 http://www.salemfirerescue.org/apparatus/apparatus.htm
+/adminer-4.6.0.php 1 -
+/static/.gitignore 2 -
+/lab/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/demo/profile/register/ 2 -
+/Modules/CMS/Telerik.Web.UI.DialogHandler.aspx 2 -
+/qili_admin/login.php 2 -
+/OLD/wp-admin/ 1 http://salemfirerescue.org/
+/tps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/gsdd/login.php 2 -
+/payment/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/sites/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp/wp-admin/ 1 http://salemfirerescue.org/
+/el/Providers/HtmlEditorProviders/Telerik/Telerik.Web.UI.DialogHandler.aspx 1 -
+/old_wp/ 1 -
+/dashboard/UserControl/CMS/Page/Telerik.Web.UI.DialogHandler.aspx 2 -
+/tdcq/login.php 2 -
+/database/.env 1 -
+/production/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp/profile/register/ 3 -
+/phpexcel/spreadsheet/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp-includes/wlwmanifest.xml 23 -
+/mybackup/ 1 -
+/public/js/wind.js 2 http://www.salemfirerescue.org/public/js/wind.js
+/wp-admin/admin-ajax.php 3 -
+/statics/css/crop.css 1 -
+/dedea/login.php 11 -
+/vb/ajax/render/widget_tabbedcontainer_tab_panel 1 -
+/app/.env 1 -
+/vendor/phpunit/Util/PHP/eval-stdin.php 2 -
+/modules/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/studybreak/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/lib/.env 1 -
+/sub_hannah_back/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/common/admin/Calendar/Telerik.Web.UI.DialogHandler.aspx 2 -
+/cms/login.php 2 -
+/admin1/login.php 2 -
+/common/admin/PhotoGallery2/Telerik.Web.UI.DialogHandler.aspx 2 -
+/v1/.env 1 -
+/photo/firecontrol040407.htm 1 -
+/DesktopModules/News/Telerik.Web.UI.DialogHandler.aspx 1 -
+/blogbackup/ 1 -
+/photo/fireprev101306.htm 1 -
+/workspace/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/DesktopModules/Rad+EditorProvider/DialogHandler.aspx 1 -
+/site/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/jobs/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/phpmailer/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/install.php 1 -
+/administrator/index.php 1 -
+/manage/login.php 4 -
+/web/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/js/comm.js 2 http://www.salemfirerescue.org/js/comm.js
+/sito/wp-includes/wlwmanifest.xml 22 -
+/wordpress/wp-admin/ 3 http://salemfirerescue.org/
+/verify/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/forum/ajax/render/widget_tabbedcontainer_tab_panel 1 -
+/stripe-php/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/DesktopModules/TelerikWebUI/RadEditorProvider/Telerik.Web.UI.DialogHandler.aspx 2 -
+/passtastic/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/webvarejo-api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 6 -
+/assets/plugins/elfinder/php/connector.php 2 http://www.salemfirerescue.org/assets/plugins/elfinder/php/connector.php
+/web.public/admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/auth/saml/extlib/simplesamlphp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/develop/ 1 -
+/sai/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/vbforums/ajax/render/widget_tabbedcontainer_tab_panel 1 -
+/shen/login.php 2 -
+/mobile-app 6 -
+/Admin/Telerik.Web.UI.DialogHandler.aspx 1 -
+/publichtml/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/jobs/htaccess/workspace/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/main.css 5 -
+/app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 4 -
+/libraries/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/sitemap.xml 3 -
+/pgd/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/vendor/.env 2 -
+/admin/ckeditor/plugins/ajaxplorer/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/admin/login.php 17 -
+/yiiold/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/js/admin.js 2 -
+/zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php/ 2 -
+/image002.gif 219 http://www.salemfirerescue.org/
+/wp1/wp-includes/wlwmanifest.xml 22 -
+/blog/profile/register/ 3 -
+/css/album.css 4 -
+/xxxss 3 -
+/subdomains/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/autoupgrade/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/sbp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/cct/login.php 2 -
+/old/ 1 -
+/e/data/js/ajax.js 4 -
+/adminer.php 1 -
+/phpunit/Util/PHP/eval-stdin.php 2 -
+/DesktopModules/dnnWerk.RadEditorProvider/DialogHandler.aspx 2 -
+/demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/web/wp-includes/wlwmanifest.xml 22 -
+/phpmailer/PHPMailer/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/dg/login.php 1 -
+/8sunbet/login.php 2 -
+/modules/ps_checkout/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/modules/shop/manage/telerik.web.ui.dialoghandler.aspx 1 -
+/config/.env 1 -
+/ncufresh15/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/public/js/image.js 2 -
+/utility/convert/source/d7.2_x1.5/readme.txt 2 -
+/patronus.sfiec.org.br/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/demos/ 1 -
+/news/wp-includes/wlwmanifest.xml 22 -
+/apps/.env 1 -
+/magento_version 1 -
+/wp-test/ 1 -
+/wp-content/index.php 2 www.google.com
+/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/server/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/portal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/blog/wp-login.php 3 -
+/lottery-index 1 http://salemfirerescue.org/lottery-index
+/www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/public/.env 1 -
+/authenticate/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/site/.env 1 -
+/wp-includes/css/css.php 2 -
+/App_Master/Telerik.Web.UI.DialogHandler.aspx 1 -
+/core/misc/drupal.js 1 -
+/dev/wp-login.php 1 -
+/wordpress/wp-content/plugins/plugins/GreenGo.php 2 -
+/misc/drupal.js 1 -
+/live/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/website/wp-includes/wlwmanifest.xml 22 -
+/phpunit/phpunit/Util/PHP/eval-stdin.php 2 -
+/forums/ajax/render/widget_tabbedcontainer_tab_panel 1 -
+/photo/training092306.htm 1 -
+/humans.txt 5 -
+/cgsw/login.php 2 -
+/xxsssseee 2 -
+/old/wp-admin/ 2 http://salemfirerescue.org/
+/DesktopModules/Base/EditControls/Telerik.Web.UI.DialogHandler.aspx 1 -
+/modules/autoupgrade/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 6 -
+/2017/wp-includes/wlwmanifest.xml 3 -
+/assets/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/laravel-sites/dev_grupo_total/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/data/admin/allowurl.txt 16 -
+/new/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/local/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/config/AspCms_config.asp 2 -
+/.env 24 -
+/oldsite/ 1 -
+/laetv-laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/phpexcel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/dedeadmin/login.php 2 -
+/chen/login.php 7 -
+/wordpress2/ 1 -
+/android 6 -
+/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/see/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/util/login.aspx 2 -
+/photo/photoalbum/slide0425_image767.html 13 -
+/teacher/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp/wp-includes/wlwmanifest.xml 23 -
+/newsite/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/safmanagement.it/publichtml/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/scholarship/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/only/login.php 2 -
+/public/router.php 2 -
+/Admin/ServerSide/Telerik.Web.UI.DialogHandler.aspx 2 -
+/app.rideforhopebahamas.com/main-app/app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/stripe/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/advanced/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/admin/login.html 1 -
+/index.php 3 -
+/dede123/login.php 10 -
+/atasem/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/sites/default/libraries/mailchimp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/html2pdf-master/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/login/login.php 2 -
+/downloads 6 -
+/wp2/wp-includes/wlwmanifest.xml 22 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 427
+35.195.179.156 1084 1084 1568039 20200804160757
+109.102.111.50 565 565 2345050 20200802142345
+34.77.147.154 303 303 22273 20200818083908
+72.79.58.112 140 140 288259 20200831074120
+96.36.115.186 65 358 3735625 20200831142023
+67.8.111.226 50 50 1093650 20200828131542
+64.62.252.162 46 51 163780 20200829204416
+184.154.139.9 40 48 666689 20200829024321
+184.154.139.6 37 43 641586 20200828023419
+184.154.139.8 35 42 598065 20200827023215
+173.208.213.2 1 1 12644 20200811001123
+217.69.132.51 0 1 4610 
+75.143.179.25 5 37 474221 20200802012857
+217.69.132.231 0 1 10857 
+202.80.214.189 1 1 4775 20200812112840
+209.99.162.165 1 1 7967 20200831054114
+194.127.179.145 1 1 4775 20200806225758
+192.230.191.206 0 3 47798 
+104.44.130.32 2 2 25288 20200812211513
+196.52.84.19 1 1 12663 20200806060149
+38.77.197.52 1 1 21284 20200806114203
+209.99.162.39 1 1 97086 20200831052527
+100.24.120.14 1 1 9394 20200804041905
+36.68.132.30 2 8 92685 20200813043241
+86.62.58.64 1 1 4775 20200806093453
+23.100.45.183 0 1 2610 
+216.30.159.75 1 14 172967 20200826171739
+122.2.70.11 1 2 12584 20200806080706
+184.154.189.90 1 1 4775 20200808170117
+3.208.87.12 1 1 9394 20200818041901
+108.204.109.194 5 27 360227 20200819222229
+192.71.36.158 1 1 4794 20200810164904
+190.113.165.165 1 2 12584 20200808231045
+3.235.158.128 1 1 9394 20200806041943
+74.103.205.134 2 17 190534 20200816205014
+184.106.56.24 1 1 4775 20200804192207
+166.137.173.27 2 16 207097 20200805164327
+117.5.152.83 1 1 4775 20200817033337
+18.234.96.74 1 1 9413 20200807195430
+104.215.116.46 4 4 50576 20200807105747
+18.205.21.41 1 1 9394 20200810041927
+161.97.94.245 1 14 172967 20200808233742
+97.82.156.118 1 14 172967 20200809165258
+64.246.165.140 1 1 4775 20200807045246
+217.69.132.218 0 1 8846 
+159.203.37.156 1 1 393 20200827223206
+159.65.40.120 14 14 80627 20200814042439
+34.219.15.39 1 1 4794 20200826210759
+20.191.112.164 0 1 2671 
+54.70.79.131 1 1 4775 20200810060540
+18.218.244.38 2 9 82417 20200827075827
+95.81.208.162 1 1 12663 20200817082824
+45.55.188.184 1 1 4775 20200803211345
+18.222.219.120 1 1 4794 20200810124719
+5.9.145.132 1 1 4418 20200803002937
+35.202.76.67 2 2 8752 20200828224404
+40.125.71.254 0 1 2551 
+198.85.219.5 2 15 172967 20200826155206
+217.69.132.8 0 2 60449 
+168.151.104.55 1 1 4794 20200829122932
+217.69.132.236 0 1 6485 
+47.254.41.44 2 2 33928 20200830160309
+66.249.84.90 0 1 17519 
+156.96.156.42 1 1 4775 20200802072853
+217.69.132.57 0 2 33583 
+38.96.28.189 1 1 7967 20200829215111
+93.124.105.236 1 1 12663 20200831212811
+220.161.31.207 1 1 12644 20200828165249
+46.4.8.174 2 2 25288 20200831102810
+217.69.132.120 1 1 4775 20200802194041
+47.254.47.223 4 4 136136 20200830160124
+129.78.110.131 1 1 4775 20200806162937
+179.6.200.204 1 7 111137 20200829043105
+18.236.19.96 6 56 595068 20200809095229
+52.34.253.52 1 1 12644 20200826154721
+51.15.198.242 1 1 4794 20200806071912
+209.99.161.153 1 1 6336 20200831053834
+52.200.191.244 1 1 9394 20200816041845
+34.214.33.177 1 1 4775 20200818060536
+38.135.200.250 1 1 13671 20200806110028
+174.250.145.12 1 3 21430 20200820123239
+52.12.76.193 4 4 19100 20200814060703
+35.197.25.2 1 1 12663 20200809173925
+148.251.50.77 3 3 13616 20200815100208
+52.55.172.39 1 4 26050 20200828070913
+38.128.157.252 1 1 17412 20200829212919
+64.62.252.174 14 14 80627 20200809180859
+34.222.190.207 1 1 4775 20200812111542
+152.26.83.139 8 100 1220164 20200827122415
+66.192.167.31 1 14 172967 20200809055811
+217.69.132.243 0 1 4610 
+5.188.84.226 5 5 108535 20200827205221
+95.81.104.167 1 2 12584 20200817130728
+162.243.29.24 9 9 75308 20200818081445
+165.227.124.10 1 1 4775 20200811192749
+66.160.140.183 1 1 4775 20200811163244
+46.138.182.68 1 1 4775 20200809165637
+18.178.45.232 6 6 25306 20200817161829
+3.235.151.34 1 1 9394 20200827041933
+209.99.160.178 1 1 12498 20200829214915
+186.19.8.47 1 1 4794 20200814043329
+38.99.62.94 6 6 75864 20200830022904
+134.122.53.187 3 3 37932 20200828213434
+51.159.30.34 1 1 4775 20200830131950
+78.46.94.83 2 2 8836 20200816015743
+174.62.123.19 1 1 2487 20200815205607
+180.254.226.39 1 1 4775 20200811212357
+208.100.26.236 1 1 4794 20200816141734
+174.253.130.182 1 12 157636 20200803120603
+172.220.153.212 12 133 1596694 20200819184823
+69.171.251.16 0 1 38952 
+217.69.132.230 0 1 38952 
+149.100.190.84 1 1 14715 20200802143401
+174.115.250.63 2 28 345934 20200817155650
+54.244.59.102 1 1 4775 20200828061640
+34.231.240.116 1 1 4794 20200818130529
+159.203.112.166 14 14 80627 20200804104411
+37.187.93.22 1 1 4775 20200809031715
+47.88.51.0 4 4 73988 20200830160258
+34.220.201.243 1 1 4775 20200807141757
+94.140.116.118 1 1 12663 20200803193545
+34.205.146.182 1 5 107398 20200828070745
+217.69.132.35 0 1 6485 
+47.254.35.118 1 1 11098 20200830160158
+184.94.240.92 2 2 18946 20200817012530
+3.236.134.247 1 1 4775 20200820022546
+13.126.92.88 1 1 12644 20200815043121
+149.100.187.224 1 1 21284 20200830101936
+51.141.179.64 0 1 2590 
+51.141.185.210 0 1 2797 
+66.169.90.152 2 16 182362 20200809020303
+40.117.134.232 3 3 37932 20200816223355
+75.143.232.63 2 28 345934 20200829143337
+149.100.187.227 1 1 11098 20200831053829
+61.12.69.74 2 2 25288 20200811092418
+54.218.145.89 1 1 4775 20200808111653
+66.102.8.116 0 1 17519 
+151.138.13.148 10 10 47750 20200827212630
+47.89.251.140 1 1 6264 20200830160114
+217.69.132.163 0 1 8790 
+217.69.132.222 0 3 40164 
+160.3.41.144 2 20 213149 20200827214143
+149.100.190.252 1 1 43404 20200829211610
+51.11.143.186 3 3 37932 20200805053311
+193.37.253.134 0 1 501 
+195.201.196.25 2 2 25288 20200830181643
+217.69.132.238 0 2 11732 
+35.229.48.152 2 2 4794 20200827120148
+82.4.150.93 2 23 320068 20200808100711
+18.224.67.151 14 14 80678 20200801134226
+213.217.0.184 1 1 4775 20200827213336
+38.128.157.221 1 1 7967 20200806111919
+185.220.101.207 1 1 12663 20200827105011
+75.74.132.124 0 1 84748 
+206.41.172.77 14 14 291175 20200828193022
+194.61.24.102 6 6 75864 20200817004055
+149.100.190.17 1 1 14715 20200829222740
+108.228.222.68 13 89 1283491 20200831013010
+51.141.185.180 0 1 2673 
+192.71.103.173 2 2 9588 20200819070921
+209.99.160.245 1 1 11098 20200806111206
+69.160.160.51 26 39 247561 20200808133053
+38.128.159.242 1 1 12644 20200806102333
+217.69.132.11 0 1 4976 
+52.138.37.173 2 2 25288 20200820202038
+217.69.132.233 0 1 31036 
+34.221.181.108 6 6 28650 20200831060636
+3.236.110.226 1 6 40182 20200828070904
+217.69.132.39 1 3 17560 20200803221445
+47.220.186.230 1 14 172967 20200815023654
+51.77.129.167 1 14 172967 20200818021224
+47.44.236.10 1 14 172967 20200802150049
+13.82.196.232 3 3 37932 20200807094113
+54.149.3.254 3 40 492108 20200829182907
+149.100.187.228 1 1 97086 20200829214315
+208.100.26.246 1 1 4794 20200830142907
+13.64.109.99 0 1 2772 
+18.207.253.89 1 1 393 20200828070739
+208.100.26.247 4 4 34857 20200809144035
+193.218.118.131 1 1 12663 20200827104856
+209.99.162.253 1 1 6336 20200829215019
+13.85.27.226 6 6 75864 20200830144815
+185.217.0.138 1 1 4775 20200814101852
+40.83.147.76 0 1 2891 
+34.253.188.198 1 1 4794 20200831025012
+3.235.11.200 1 1 9394 20200809041842
+186.7.142.240 1 10 151645 20200804211050
+82.207.175.52 1 1 4775 20200814003611
+18.236.41.28 2 10 62778 20200818141618
+184.154.139.7 24 30 394142 20200831023637
+208.100.26.233 1 1 4794 20200831163844
+102.22.62.34 1 1 4046 20200820022636
+217.69.132.15 1 2 12729 20200803221508
+178.158.20.36 2 2 41340 20200814081831
+50.202.38.5 1 1 12644 20200814073948
+178.140.180.207 1 14 172967 20200808011620
+34.217.127.133 4 4 34658 20200826135252
+64.140.136.79 1 1 17412 20200831053353
+217.69.132.12 1 2 13621 20200802194020
+38.128.159.117 1 1 11098 20200829212007
+217.69.132.124 1 1 293 20200804035038
+34.235.233.220 1 1 4775 20200815053954
+36.71.235.43 1 1 4775 20200812115148
+112.211.14.69 1 14 172967 20200810190904
+52.31.198.224 1 1 4775 20200803192319
+217.69.132.176 0 1 7809 
+217.69.132.62 0 1 10857 
+34.211.151.54 1 14 172967 20200812051453
+176.240.96.238 1 8 115747 20200818101106
+114.29.232.14 1 1 12644 20200813084506
+18.217.200.200 3 16 181681 20200805234411
+34.219.31.15 1 1 4775 20200811060854
+23.108.46.247 9 9 192769 20200829010929
+13.66.230.78 0 1 2411 
+144.76.162.206 1 1 4418 20200803003011
+18.237.84.131 1 1 12644 20200814223154
+23.100.35.40 0 1 2503 
+52.156.70.183 0 1 2420 
+20.188.108.164 3 3 37932 20200807191027
+66.249.80.180 0 1 29413 
+66.246.224.12 6 6 28650 20200829052220
+99.155.83.173 3 3 0 20200815212556
+93.100.11.45 1 14 172967 20200807161153
+35.239.31.180 3 3 12653 20200801052309
+178.62.74.6 6 6 25440 20200818010934
+18.211.180.96 2 2 14207 20200819144208
+52.156.65.208 0 1 2346 
+75.143.185.9 2 13 137332 20200805020019
+3.92.162.178 2 2 18788 20200802041841
+52.55.3.34 1 1 9394 20200813041749
+199.244.88.132 1 1 4775 20200808093256
+107.175.89.136 1 1 4775 20200828104358
+200.126.164.22 1 1 4775 20200820195956
+54.200.63.238 2 2 9550 20200826061127
+100.26.3.90 1 1 9394 20200817041930
+18.236.172.233 2 2 8714 20200829060819
+64.227.20.179 2 2 9550 20200813113031
+165.227.103.213 14 14 80627 20200819021150
+104.237.1.110 10 81 1206437 20200807181249
+177.240.191.200 1 1 4775 20200804173149
+47.254.22.192 2 2 29495 20200830160209
+34.223.82.66 1 14 172967 20200803160707
+71.61.246.139 0 1 17519 
+72.21.196.64 1 14 172967 20200820172034
+1.55.254.18 1 1 4775 20200814133333
+52.183.36.155 0 1 2806 
+51.222.43.125 12 12 257679 20200818010536
+5.188.62.25 2 2 9550 20200812151947
+181.215.170.252 1 1 4775 20200816130906
+174.138.49.99 14 14 80627 20200829033705
+217.69.132.151 0 1 29413 
+217.69.132.150 0 1 4976 
+134.202.64.160 4 4 77103 20200829010746
+34.210.54.18 3 3 14325 20200817060026
+139.28.139.62 1 1 4775 20200831151458
+217.69.132.223 0 2 17414 
+52.188.21.45 6 6 75864 20200815073209
+54.213.225.41 1 1 12644 20200802170151
+54.209.229.137 1 1 3582 20200811133257
+201.50.201.82 1 1 4775 20200802014633
+217.69.132.30 1 1 293 20200802194020
+159.203.23.204 9 9 119290 20200829151352
+38.77.197.86 1 1 17099 20200802142208
+38.77.197.74 1 1 11098 20200802144450
+217.69.132.217 0 2 11393 
+191.96.181.67 1 1 4775 20200810034131
+191.101.96.159 2 2 6673 20200805025940
+40.77.190.213 0 1 1195 
+64.135.127.46 1 1 12663 20200827151649
+5.196.64.109 13 13 77045 20200827062216
+64.140.133.67 1 1 13671 20200829222030
+217.69.132.228 1 1 293 20200803221508
+23.90.29.229 0 1 501 
+175.44.42.127 1 1 4775 20200814004416
+159.65.47.229 14 14 80627 20200809060745
+54.68.40.102 1 1 4775 20200812060643
+217.69.132.216 1 1 3939 20200804035039
+103.139.171.154 1 14 172967 20200805132118
+108.16.93.128 1 14 172967 20200818153159
+180.241.45.150 3 3 14325 20200813043355
+35.247.21.80 1 1 12663 20200807190636
+40.78.44.109 4 4 50576 20200827212643
+142.11.196.90 14 15 81249 20200817114549
+1.186.111.18 1 1 4775 20200813225820
+66.249.88.208 0 1 29413 
+209.99.160.83 1 1 21284 20200802144624
+64.140.134.220 1 1 12498 20200806112943
+52.151.1.187 0 1 2653 
+197.221.254.2 1 1 4775 20200805195415
+51.159.30.87 1 1 4775 20200829050926
+80.82.68.72 1 1 12644 20200807123717
+185.205.134.116 1 1 4775 20200803070558
+172.220.148.214 8 61 952656 20200831175037
+38.93.172.197 1 1 12644 20200802132120
+82.193.104.168 2 2 4232 20200808094959
+64.140.133.224 1 1 13671 20200802140033
+178.158.34.160 1 1 97105 20200813133850
+66.165.246.55 4 4 173712 20200826211448
+64.140.136.167 1 1 17412 20200806111531
+23.90.29.248 0 1 501 
+3.16.26.186 1 14 172967 20200811090344
+185.191.204.7 1 1 12668 20200815064547
+46.165.245.154 1 1 12663 20200827104908
+217.69.132.32 0 1 2942 
+217.69.132.207 1 1 4775 20200804035038
+151.138.254.47 1 14 172967 20200804120306
+209.99.162.114 1 1 14715 20200831053253
+64.140.133.153 1 1 12498 20200831052525
+107.20.68.209 1 1 9394 20200814041814
+159.89.230.208 2 2 9550 20200808124027
+52.32.71.168 1 1 4775 20200820061254
+64.140.135.36 1 1 6336 20200806113120
+24.182.73.160 6 24 391188 20200809040133
+181.231.208.102 1 1 4775 20200812131058
+217.69.132.219 0 1 4610 
+107.77.249.61 2 4 40906 20200830223356
+88.230.47.158 1 1 4775 20200803123009
+125.163.12.229 1 1 4775 20200811051411
+75.143.233.143 15 147 892602 20200816000740
+3.235.93.197 1 7 73022 20200828070900
+198.54.128.78 1 1 4775 20200802105330
+104.49.76.72 23 127 1383736 20200831230728
+134.122.119.89 4 4 19100 20200820114001
+18.212.123.43 2 2 18788 20200812041850
+65.154.226.220 2 6 37468 20200829212529
+175.44.42.48 1 1 293 20200817084430
+101.50.77.143 1 1 4775 20200813041229
+208.100.26.244 1 1 4794 20200802142049
+24.192.136.164 1 1 4671 20200810132341
+18.218.26.174 4 5 15746 20200812210422
+75.147.57.113 2 16 182362 20200810184147
+2.58.12.157 14 14 291175 20200816141929
+38.18.40.135 1 1 4775 20200812033227
+3.208.19.116 1 1 9394 20200819041824
+217.69.132.13 0 1 38952 
+88.248.221.29 1 2 12584 20200815054735
+17.58.56.6 1 1 4775 20200829045618
+171.5.230.155 1 1 4775 20200806062957
+38.128.159.79 1 1 43404 20200806113258
+149.100.190.98 1 1 97086 20200802145726
+64.140.134.171 1 1 14715 20200806110953
+54.196.243.99 2 2 18788 20200829041924
+95.216.200.193 1 1 4794 20200831025000
+164.90.208.214 2 2 25288 20200809033348
+208.100.26.248 1 1 4794 20200816175832
+38.93.172.23 1 1 12498 20200802151454
+125.161.128.32 3 15 227049 20200813173221
+40.78.92.11 0 1 2761 
+75.143.176.17 3 25 329463 20200816175501
+192.230.178.251 4 32 364724 20200830183744
+49.145.229.223 1 2 12584 20200804175845
+34.228.6.245 1 14 172967 20200828070852
+18.207.175.67 1 1 9394 20200820041735
+199.30.231.2 1 1 4775 20200826062502
+217.160.65.177 2 2 25288 20200803174431
+184.154.47.2 1 1 4775 20200810224212
+144.217.99.66 34 303 3810818 20200816154444
+51.143.90.89 0 1 2471 
+154.160.25.37 1 1 4775 20200819102706
+35.243.245.77 2 2 4794 20200827113905
+192.243.53.51 4 4 19100 20200827134612
+142.4.24.189 2 2 2628 20200831025632
+100.24.70.155 2 2 18788 20200830041926
+64.227.20.204 2 2 9550 20200808071030
+207.99.15.83 4 4 22860 20200802161720
+52.191.142.83 0 2 5451 
+14.183.214.174 1 2 12584 20200805054430
+217.69.132.225 0 1 10857 
+184.154.139.5 29 36 491698 20200830024006
+195.123.214.113 2 2 25326 20200801140011
+185.81.157.133 2 2 9550 20200828001418
+124.206.180.133 1 1 12663 20200819122634
+52.152.138.82 2 2 25288 20200804101459
+14.176.118.213 1 1 4775 20200819083041
+185.220.101.4 1 1 12644 20200805073802
+139.59.147.7 25 25 360298 20200801162747
+52.240.139.61 1 1 4775 20200830002214
+167.114.158.231 1 1 12663 20200809204347
+217.69.132.20 0 2 49881 
+46.187.22.208 1 1 12663 20200811203351
+134.119.207.105 1 1 4794 20200810074210
+51.77.52.160 2 2 9550 20200826064745
+38.77.197.24 1 1 12644 20200829203506
+31.220.0.16 1 1 12663 20200827104855
+3.91.5.201 1 4 24830 20200828070855
+54.165.71.139 1 1 9394 20200815041712
+180.241.46.220 2 14 222274 20200813043330
+5.188.210.79 25 25 434836 20200831131751
+34.228.11.63 1 1 9394 20200805041857
+66.249.88.210 0 2 60449 
+66.249.82.116 0 1 17875 
+34.223.94.92 1 1 9476 20200826203425
+219.115.60.98 1 1 7986 20200816035943
+54.209.197.225 2 2 18788 20200808041901
+3.236.83.0 5 5 1969 20200828070801
+192.71.38.71 1 1 4794 20200827125619
+107.88.177.6 2 16 207097 20200818142307
+46.4.83.150 2 2 8836 20200813114240
+217.69.132.33 0 1 2547 
+54.146.223.179 1 1 9394 20200831042036
+3.235.46.5 1 1 9394 20200803041826
+138.197.160.158 1 1 378 20200827223206
+52.37.61.236 2 2 9550 20200805060451
+217.69.132.235 0 1 10929 
+72.13.62.26 3 3 10646 20200827072803
+209.99.163.161 1 1 12644 20200831044749
+125.163.155.102 1 1 4775 20200813164704
+64.140.136.150 1 1 6336 20200802143530
+190.113.209.197 1 14 172967 20200812023039
+209.99.160.66 1 1 97086 20200806113741
+64.140.134.16 1 1 21284 20200831053950
+52.247.206.252 0 1 2491 
+38.128.159.59 1 1 7967 20200802152843
+146.185.158.123 9 9 119290 20200828022938
+38.135.200.88 1 1 43404 20200802143726
+51.158.117.251 1 1 4794 20200806112455
+14.244.121.152 1 1 4775 20200826131624
+107.223.95.16 1 14 172967 20200831171531
+104.49.76.126 4 27 320526 20200808185500
+149.100.187.190 1 1 13671 20200831052632
+52.249.199.141 3 3 37932 20200810183541
+216.145.17.190 1 1 4775 20200831203146
+76.204.59.152 1 7 73022 20200807194424
+23.121.33.183 2 17 264135 20200816040805
+52.13.16.182 2 2 9550 20200830061145
+103.122.14.198 1 1 12644 20200815195146
+64.140.135.235 1 1 43404 20200831052424
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 26
+20200801 56 70 806244 10
+20200802 605 691 4013359 30
+20200803 53 127 1380450 25
+20200804 1133 1245 3568516 26
+20200805 39 106 1271525 22
+20200806 30 60 820890 25
+20200807 51 148 1945746 25
+20200808 62 163 1655370 21
+20200809 56 160 1843762 21
+20200810 28 81 823276 17
+20200811 26 80 925881 21
+20200812 36 65 731219 21
+20200813 32 104 1383015 20
+20200814 40 43 452714 15
+20200815 34 87 896386 19
+20200816 85 551 6068669 17
+20200817 99 189 1669707 23
+20200818 357 515 2881485 25
+20200819 42 81 792910 18
+20200820 30 59 669949 17
+20200826 30 90 1129857 19
+20200827 60 94 973283 33
+20200828 70 233 2844457 25
+20200829 70 134 1717522 30
+20200830 42 74 992471 20
+20200831 189 270 1894969 32
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 4
+5mn-15mn 18
+2mn-5mn 15
+15mn-30mn 10
+0s-30s 500
+30s-2mn 27
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 548
+/ 530 3291724 415 326
+/weblinks/weblinks.htm 182 3706192 58 77
+/personnel/personnel.htm 93 859842 13 34
+/calendar.htm 86 846745 30 34
+/apparatus/apparatus.htm 75 588272 6 7
+/membership/membership.htm 72 343540 7 15
+/safetytips.htm 72 2315701 10 9
+/kids/kids.htm 71 464987 8 7
+/history/history.htm 71 577218 8 9
+/training/training.htm 70 461342 5 10
+/photo/photoalbum/slide0270_image538.html 2 2626 0 0
+/photo/photoalbum/slide0062_image125.html 5 5228 0 0
+/photo/photoalbum/slide0093_image187.html 3 2616 0 0
+/photo/photoalbum/slide0506_image858.html 3 3909 0 0
+/photo/photoalbum/slide0187_image373.html 3 2620 0 0
+/photo/photoalbum/slide0527_image845.html 2 2618 0 0
+/photo/photoalbum/index18.html 11 17316 0 0
+/photo/photoalbum/slide0223_image445.html 3 3924 0 0
+/photo/photoalbum/slide0219_image437.html 4 5252 0 0
+/photo/photoalbum/slide0057_image115.html 5 5196 0 0
+/photo/photoalbum/slide0305_image607.html 3 3930 0 0
+/photo/photoalbum/slide0482_image818.html 2 2616 0 0
+/photo/photoalbum/slide0193_image385.html 3 2618 0 0
+/photo/photoalbum/slide0218_image435.html 4 5232 0 0
+/photo/photoalbum/slide0058_image117.html 5 5208 0 0
+/photo/photoalbum/slide0352_image692.html 2 2622 0 0
+/photo/photoalbum/slide0132_image264.html 3 2614 0 0
+/photo/photoalbum/slide0028_image057.html 4 3906 0 0
+/photo/photoalbum/slide0343_image676.html 2 2620 0 0
+/photo/photoalbum/slide0230_image459.html 3 3933 0 0
+/photo/photoalbum/slide0027_image055.html 4 3903 0 0
+/photo/photoalbum/slide0157_image313.html 3 2616 0 0
+/photo/photoalbum/slide0231_image461.html 2 2624 0 0
+/photo/photoalbum/slide0241_image481.html 2 2624 0 0
+/photo/photoalbum/slide0228_image455.html 3 3930 0 0
+/photo/photoalbum/index25.html 13 20922 0 0
+/photo/photoalbum/slide0530_image848.html 2 2622 0 0
+/photo/photoalbum/index8.html 13 25537 0 0
+/photo/photoalbum/slide0481_image817.html 2 2620 0 0
+/photo/photoalbum/slide0159_image317.html 3 2624 0 0
+/stats.htm 1 2202 0 0
+/photo/photoalbum/slide0044_image089.html 5 5216 0 0
+/photo/photoalbum/slide0395_image748.html 2 2626 0 0
+/photo/photoalbum/slide0134_image268.html 3 2622 0 0
+/photo/photo.htm 1 2787 0 0
+/photo/photoalbum/slide0079_image159.html 3 2628 0 0
+/photo/photoalbum/slide0441_image781.html 2 2622 0 0
+/photo/photoalbum/slide0284_image565.html 2 2616 0 0
+/photo/photoalbum/slide0507_image866.html 2 2612 0 0
+/photo/photoalbum/slide0115_image230.html 3 2616 0 0
+/photo/photoalbum/slide0164_image327.html 3 2618 0 0
+/photo/photoalbum/slide0103_image206.html 3 2616 0 0
+/photo/photoalbum/slide0084_image169.html 3 2618 0 0
+/photo/photoalbum/slide0449_image789.html 2 2628 0 0
+/photo/photoalbum/slide0490_image829.html 3 3939 0 0
+/photo/photoalbum/slide0242_image483.html 2 2618 0 0
+/photo/photoalbum/slide0491_image831.html 3 3933 0 0
+/photo/photoalbum/slide0460_image799.html 2 2630 0 0
+/photo/photoalbum/slide0316_image629.html 3 3933 0 0
+/photo/photoalbum/slide0247_image493.html 2 2620 0 0
+/photo/photoalbum/slide0349_image687.html 2 2628 0 0
+/photo/photoalbum/slide0041_image083.html 4 3909 0 0
+/photo/photoalbum/slide0261_image521.html 2 2624 0 0
+/photo/photoalbum/slide0181_image361.html 3 2620 0 0
+/photo/photoalbum/slide0488_image825.html 3 3930 0 0
+/photo/photoalbum/slide0232_image463.html 2 2620 0 0
+/photo/photoalbum/slide0148_image295.html 3 2618 0 0
+/photo/photoalbum/slide0249_image497.html 2 2624 0 0
+/photo/photoalbum/slide0138_image275.html 3 2618 0 0
+/photo/photoalbum/slide0183_image365.html 3 2618 0 0
+/photo/photoalbum/slide0311_image619.html 3 3939 0 0
+/photo/photoalbum/slide0046_image093.html 5 5208 0 0
+/photo/photoalbum/slide0052_image105.html 5 5200 0 0
+/photo/photoalbum/slide0003_image007.html 9 8988 0 0
+/photo/photoalbum/slide0507_image868.html 3 5057 0 1
+/photo/photoalbum/slide0246_image491.html 2 2622 0 0
+/photo/photoalbum/slide0326_image647.html 2 2620 0 0
+/photo/photoalbum/slide0307_image611.html 3 3933 0 0
+/photo/photoalbum/slide0251_image501.html 4 5256 2 2
+/photo/photoalbum/slide0113_image226.html 3 2616 0 0
+/photo/photoalbum/slide0074_image149.html 3 2620 0 0
+/photo/photoalbum/slide0487_image823.html 3 3927 0 0
+/photo/photoalbum/slide0375_image735.html 2 2620 0 0
+/photo/photoalbum/slide0456_image795.html 2 2618 0 0
+/photo/photoalbum/slide0077_image155.html 4 3921 0 1
+/photo/photoalbum/slide0434_image775.html 2 2618 0 0
+/photo/photoalbum/slide0331_image656.html 2 2620 0 0
+/photo/photoalbum/slide0059_image119.html 5 5228 0 0
+/photo/photoalbum/slide0158_image315.html 3 2618 0 0
+/photo/photoalbum/slide0345_image680.html 2 2618 0 0
+/photo/photoalbum/slide0510_image876.html 2 2622 0 0
+/photo/photoalbum/slide0250_image499.html 2 2634 0 0
+/photo/photoalbum/slide0289_image575.html 2 2624 0 0
+/photo/photoalbum/slide0068_image137.html 4 3927 0 0
+/photo/photoalbum/slide0281_image559.html 2 2624 0 0
+/photo/photoalbum/slide0017_image035.html 9 9135 0 0
+/photo/photoalbum/slide0127_image254.html 3 2616 0 0
+/photo/photoalbum/slide0354_image696.html 2 2618 0 0
+/photo/photoalbum/slide0341_image672.html 2 2622 0 0
+/photo/photoalbum/slide0235_image469.html 2 2624 0 0
+/photo/photoalbum/slide0451_image791.html 2 2620 0 0
+/photo/photoalbum/slide0054_image109.html 5 5216 0 0
+/photo/photoalbum/slide0221_image441.html 4 5244 0 0
+/photo/photoalbum/slide0004_image009.html 9 9142 0 0
+/photo/photoalbum/slide0357_image701.html 2 2626 0 0
+/photo/photoalbum/slide0229_image457.html 3 3939 0 0
+/photo/photoalbum/slide0156_image311.html 3 2620 0 0
+/photo/photoalbum/slide0424_image766.html 2 2618 0 0
+/photo/photoalbum/slide0381_image900.html 2 2628 0 0
+/photo/photoalbum/slide0454_image794.html 2 2616 0 0
+/photo/photoalbum/slide0237_image473.html 2 2620 0 0
+/photo/photoalbum/slide0213_image425.html 3 3906 0 0
+/photo/photoalbum/slide0296_image589.html 2 2622 0 0
+/photo/photoalbum/slide0069_image139.html 4 3942 0 0
+/photo/photoalbum/slide0470_image808.html 2 2624 0 0
+/photo/photoalbum/slide0226_image451.html 3 3930 0 0
+/photo/photoalbum/slide0136_image272.html 3 2618 0 0
+/photo/photoalbum/slide0262_image523.html 2 2618 0 0
+/photo/photoalbum/slide0498_image839.html 3 3933 0 0
+/photo/photoalbum/index26.html 13 18611 0 2
+/photo/photoalbum/slide0282_image561.html 2 2620 0 0
+/photo/photoalbum/slide0385_image741.html 2 2612 0 0
+/photo/photoalbum/slide0245_image489.html 2 2624 0 0
+/photo/photoalbum/slide0146_image291.html 3 2618 0 0
+/photo/photoalbum/slide0170_image339.html 3 2624 0 0
+/photo/photoalbum/slide0065_image131.html 4 3930 0 0
+/photo/photoalbum/slide0342_image674.html 2 2616 0 0
+/photo/photoalbum/slide0025_image051.html 4 3909 0 0
+/photo/photoalbum/slide0495_image836.html 3 3924 0 0
+/photo/photoalbum/slide0168_image335.html 3 2620 0 0
+/photo/photoalbum/slide0392_image746.html 3 3927 0 0
+/photo/photoalbum/slide0322_image641.html 3 3933 0 0
+/photo/photoalbum/slide0275_image548.html 2 2622 0 0
+/history/catologe/banner.htm 1 4046 1 1
+/photo/photoalbum/slide0448_image788.html 2 2620 0 0
+/photo/photoalbum/slide0353_image694.html 2 2618 0 0
+/history/catologe/index.htm 1 2487 1 1
+/photo/photoalbum/slide0533_image851.html 2 2574 0 0
+/photo/photoalbum/slide0304_image605.html 3 3927 0 0
+/photo/photoalbum/slide0239_image477.html 2 2626 0 0
+/photo/photoalbum/index21.html 11 17082 0 0
+/photo/photoalbum/slide0014_image029.html 9 9156 0 0
+/photo/photoalbum/slide0476_image812.html 2 2616 0 0
+/photo/photoalbum/slide0315_image627.html 3 3930 0 0
+/photo/photoalbum/slide0056_image113.html 5 5208 0 0
+/photo/photoalbum/slide0255_image509.html 2 2624 0 0
+/photo/photoalbum/slide0198_image395.html 3 2622 0 0
+/photo/photoalbum/index23.html 13 21065 0 0
+/photo/photoalbum/slide0064_image129.html 4 3930 0 0
+/photo/photoalbum/slide0461_image800.html 2 2630 0 0
+/photo/photoalbum/slide0204_image407.html 4 3927 0 0
+/photo/photoalbum/slide0244_image487.html 2 2616 0 0
+/photo/photoalbum/slide0347_image683.html 2 2618 0 0
+/photo/photoalbum/slide0314_image625.html 3 3927 0 0
+/photo/photoalbum/slide0112_image224.html 3 2614 0 0
+/photo/photoalbum/slide0291_image579.html 2 2622 0 0
+/photo/photoalbum/slide0447_image787.html 2 2618 0 0
+/photo/photoalbum/slide0380_image896.html 2 2632 0 0
+/photo/photoalbum/slide0323_image643.html 2 2622 0 0
+/photo/photoalbum/slide0036_image073.html 4 3906 0 0
+/photo/photoalbum/slide0257_image513.html 2 2620 0 0
+/photo/photoalbum/slide0184_image367.html 3 2620 0 0
+/photo/photoalbum/slide0192_image383.html 3 2618 0 0
+/photo/photoalbum/slide0121_image242.html 3 2620 0 0
+/photo/photoalbum/slide0321_image639.html 3 3939 0 0
+/photo/photoalbum/slide0076_image153.html 4 3927 0 0
+/photo/photoalbum/slide0308_image613.html 3 3933 0 0
+/photo/photoalbum/slide0299_image595.html 2 2630 0 0
+/photo/photoalbum/slide0361_image707.html 2 2622 0 0
+/photo/photoalbum/slide0095_image191.html 3 2620 0 0
+/photo/photoalbum/slide0214_image427.html 4 5228 0 0
+/photo/photoalbum/slide0182_image363.html 3 2616 0 0
+/photo/photoalbum/slide0209_image417.html 4 5248 0 0
+/photo/photoalbum/slide0319_image635.html 3 3936 0 0
+/photo/photoalbum/slide0099_image199.html 3 2634 0 0
+/photo/photoalbum/slide0422_image764.html 2 2618 0 0
+/photo/photoalbum/slide0035_image071.html 4 3906 0 0
+/photo/photoalbum/slide0037_image075.html 4 3903 0 0
+/photo/photoalbum/slide0512_image880.html 2 2620 0 0
+/photo/photoalbum/slide0407_image755.html 2 2618 0 0
+/photo/photoalbum/slide0123_image246.html 3 2614 0 0
+/photo/photoalbum/slide0180_image359.html 3 2626 0 0
+/photo/photoalbum/slide0382_image904.html 2 2624 0 0
+/photo/photoalbum/slide0073_image147.html 3 2616 0 0
+/photo/photoalbum/slide0260_image519.html 2 2628 0 0
+/photo/photoalbum/slide0032_image065.html 4 3903 0 0
+/photo/photoalbum/slide0259_image517.html 2 2624 0 0
+/photo/photoalbum/slide0318_image633.html 3 3933 0 0
+/photo/photoalbum/index22.html 12 23570 0 1
+/photo/photoalbum/slide0100_image200.html 3 2628 0 0
+/photo/photoalbum/slide0160_image319.html 3 2624 0 0
+/photo/photoalbum/slide0283_image563.html 2 2620 0 0
+/photo/photoalbum/slide0007_image015.html 10 12668 0 1
+/photo/photoalbum/slide0175_image349.html 3 2622 0 0
+/photo/photoalbum/slide0446_image786.html 2 2618 0 0
+/photo/photoalbum/slide0016_image033.html 11 11754 0 0
+/photo/photoalbum/slide0391_image745.html 3 3933 0 0
+/photo/photoalbum/slide0096_image193.html 3 2618 0 0
+/photo/photoalbum/slide0364_image713.html 2 2620 0 0
+/photo/photoalbum/slide0043_image087.html 5 5200 0 0
+/photo/photoalbum/index3.html 12 28018 0 1
+/photo/photoalbum/slide0531_image849.html 2 2622 0 0
+/photo/photoalbum/slide0362_image709.html 2 2622 0 0
+/photo/photoalbum/slide0005_image011.html 9 9149 0 0
+/photo/photoalbum/slide0227_image453.html 3 3930 0 0
+/photo/photoalbum/index24.html 10 15352 0 0
+/photo/photoalbum/slide0089_image179.html 3 2624 0 0
+/photo/photoalbum/slide0320_image637.html 3 3936 0 0
+/photo/photoalbum/index20.html 13 25505 0 1
+/photo/photoalbum/slide0144_image287.html 3 2618 0 0
+/photo/photoalbum/slide0040_image081.html 4 3915 0 0
+/photo/photoalbum/slide0406_image754.html 2 2618 0 0
+/photo/photoalbum/slide0167_image333.html 3 2616 0 0
+/photo/photoalbum/slide0336_image663.html 2 2622 0 0
+/photo/photoalbum/slide0332_image657.html 2 2618 0 0
+/photo/photoalbum/slide0523_image841.html 2 2626 0 0
+/photo/photoalbum/index13.html 12 23606 0 1
+/photo/photoalbum/slide0348_image685.html 2 2620 0 0
+/photo/photoalbum/slide0256_image511.html 2 2620 0 0
+/photo/photoalbum/slide0155_image309.html 3 2622 0 0
+/photo/photoalbum/slide0370_image725.html 2 2624 0 0
+/photo/photoalbum/slide0248_image495.html 2 2618 0 0
+/photo/photoalbum/slide0145_image289.html 3 2618 0 0
+/photo/photoalbum/slide0377_image739.html 2 2634 0 0
+/photo/photoalbum/slide0234_image467.html 2 2620 0 0
+/photo/photoalbum/slide0457_image796.html 2 2618 0 0
+/photo/photoalbum/slide0298_image593.html 2 2624 0 0
+/photo/photoalbum/slide0430_image772.html 2 2608 0 0
+/photo/photoalbum/slide0493_image834.html 3 3927 0 0
+/photo/photoalbum/slide0225_image449.html 3 3933 0 0
+/photo/photoalbum/slide0437_image778.html 2 2620 0 0
+/photo/photoalbum/slide0029_image059.html 4 3921 0 0
+/photo/photoalbum/slide0359_image703.html 2 2624 0 0
+/photo/photoalbum/slide0094_image189.html 3 2620 0 0
+/photo/photoalbum/slide0222_image443.html 3 3927 0 0
+/photo/photoalbum/slide0265_image528.html 2 2622 0 0
+/photo/photoalbum/slide0511_image878.html 2 2624 0 0
+/photo/photoalbum/slide0169_image337.html 3 2624 0 0
+/photo/photoalbum/slide0129_image258.html 3 2626 0 0
+/photo/photoalbum/slide0438_image779.html 2 2626 0 0
+/photo/photoalbum/slide0030_image061.html 4 3909 0 0
+/photo/photoalbum/slide0344_image678.html 2 2624 0 0
+/photo/photoalbum/index14.html 12 19130 0 0
+/photo/photoalbum/slide0053_image107.html 5 5200 0 0
+/photo/photoalbum/slide0388_image743.html 3 3930 0 0
+/photo/photoalbum/slide0070_image141.html 4 3936 0 0
+/photo/photoalbum/slide0124_image248.html 3 2620 0 0
+/photo/photoalbum/slide0189_image377.html 3 2624 0 0
+/photo/photoalbum/slide0280_image557.html 2 2622 0 0
+/photo/photoalbum/slide0142_image283.html 3 2618 0 0
+/photo/photoalbum/slide0060_image121.html 5 5244 0 0
+/photo/photoalbum/slide0508_image870.html 2 2606 0 0
+/photo/photoalbum/slide0267_image532.html 2 2620 0 0
+/photo/photoalbum/slide0278_image554.html 2 2624 0 0
+/photo/photoalbum/slide0097_image195.html 3 2612 0 0
+/photo/photoalbum/slide0274_image546.html 2 2616 0 0
+/photo/photoalbum/slide0334_image659.html 2 2622 0 0
+/photo/photoalbum/slide0034_image069.html 4 3909 0 0
+/photo/photoalbum/slide0101_image202.html 3 2620 0 0
+/photo/photoalbum/slide0207_image413.html 4 3921 0 0
+/photo/photoalbum/slide0233_image465.html 2 2618 0 0
+/photo/photoalbum/slide0379_image892.html 2 2634 0 0
+/photo/photoalbum/slide0435_image776.html 2 2618 0 0
+/photo/photoalbum/slide0489_image827.html 3 3936 0 0
+/photo/photoalbum/slide0376_image737.html 2 2622 0 0
+/photo/photoalbum/slide0303_image603.html 3 3933 0 0
+/photo/photoalbum/slide0238_image475.html 2 2618 0 0
+/photo/photoalbum/slide0178_image355.html 3 2618 0 0
+/photo/photoalbum/slide0294_image585.html 2 2618 0 0
+/photo/photoalbum/slide0031_image063.html 4 3906 0 0
+/photo/photoalbum/slide0443_image783.html 2 2614 0 0
+/photo/photoalbum/slide0013_image027.html 10 10440 0 0
+/photo/photoalbum/slide0371_image727.html 2 2620 0 0
+/photo/photoalbum/slide0048_image097.html 5 5212 0 0
+/photo/photoalbum/slide0190_image379.html 3 2626 0 0
+/photo/photoalbum/slide0055_image111.html 5 5212 0 0
+/photo/photoalbum/slide0071_image143.html 4 3930 0 0
+/photo/photoalbum/slide0140_image279.html 3 2622 0 0
+/photo/photoalbum/slide0389_image744.html 3 3936 0 0
+/photo/photoalbum/slide0253_image505.html 2 2616 0 0
+/photo/photoalbum/slide0529_image847.html 2 2620 0 0
+/photo/photoalbum/slide0066_image133.html 3 2618 0 0
+/photo/photoalbum/slide0086_image173.html 3 2618 0 0
+/photo/photoalbum/slide0166_image331.html 3 2616 0 0
+/photo/photoalbum/slide0174_image347.html 3 2618 0 0
+/photo/photoalbum/slide0205_image409.html 4 3933 0 0
+/photo/photoalbum/slide0337_image665.html 2 2620 0 0
+/photo/photoalbum/slide0286_image569.html 2 2620 0 0
+/photo/photoalbum/index7.html 13 29936 0 0
+/photo/photoalbum/slide0285_image567.html 2 2618 0 0
+/photo/photoalbum/slide0339_image669.html 2 2628 0 0
+/photo/photoalbum/slide0397_image749.html 2 2634 0 0
+/photo/photoalbum/slide0325_image645.html 2 2618 0 0
+/photo/photoalbum/slide0224_image447.html 3 3930 0 0
+/photo/photoalbum/slide0412_image759.html 2 2626 0 0
+/photo/photoalbum/slide0154_image307.html 3 2618 0 0
+/photo/photoalbum/slide0508_image872.html 2 2614 0 0
+/photo/photoalbum/index2.html 13 25397 0 0
+/photo/photoalbum/slide0500_image840.html 3 3945 0 0
+/photo/photoalbum/slide0021_image043.html 8 7842 0 0
+/photo/photoalbum/slide0504_image862.html 3 3933 0 0
+/photo/photoalbum/slide0439_image780.html 2 2624 0 0
+/photo/photoalbum/slide0082_image165.html 3 2614 0 0
+/photo/photoalbum/slide0153_image305.html 3 2616 0 0
+/photo/photoalbum/slide0404_image753.html 2 2618 0 0
+/photo/photoalbum/slide0026_image053.html 4 3906 0 0
+/photo/photoalbum/slide0444_image784.html 2 2616 0 0
+/photo/photoalbum/slide0191_image381.html 3 2624 0 0
+/photo/photoalbum/slide0463_image802.html 2 2618 0 0
+/photo/photoalbum/slide0139_image277.html 3 2624 0 0
+/photo/photoalbum/slide0271_image540.html 2 2624 0 0
+/photo/photoalbum/slide0356_image699.html 2 2632 0 0
+/photo/photoalbum/slide0367_image719.html 2 2622 0 0
+/photo/photoalbum/slide0408_image756.html 2 2620 0 0
+/photo/photoalbum/slide0185_image369.html 3 2624 0 0
+/photo/photoalbum/slide0401_image750.html 2 2628 0 0
+/photo/photoalbum/slide0039_image079.html 4 3918 0 0
+/photo/photoalbum/slide0162_image323.html 3 2614 0 0
+/photo/photoalbum/slide0386_image742.html 2 2608 0 0
+/photo/photoalbum/slide0418_image760.html 2 2624 0 0
+/photo/photoalbum/slide0297_image591.html 2 2622 0 0
+/photo/photoalbum/slide0338_image667.html 2 2624 0 0
+/photo/photoalbum/slide0090_image181.html 3 2624 0 0
+/photo/photoalbum/slide0199_image397.html 3 2630 0 0
+/photo/photoalbum/slide0431_image773.html 2 2616 0 0
+/photo/photoalbum/slide0165_image329.html 3 2622 0 0
+/photo/photoalbum/slide0360_image705.html 2 2622 0 0
+/photo/photoalbum/slide0410_image758.html 2 2622 0 0
+/photo/photoalbum/slide0485_image821.html 2 2620 0 0
+/photo/photoalbum/slide0104_image208.html 3 2618 0 0
+/photo/photoalbum/slide0421_image763.html 2 2618 0 0
+/photo/photoalbum/slide0010_image021.html 8 7848 0 0
+/photo/photoalbum/slide0273_image544.html 2 2616 0 0
+/photo/photoalbum/slide0484_image820.html 2 2620 0 0
+/photo/photoalbum/slide0006_image013.html 11 12858 0 1
+/photo/photoalbum/slide0276_image550.html 3 3933 0 0
+/photo/photoalbum/slide0011_image023.html 8 7836 0 0
+/photo/photoalbum/slide0176_image351.html 3 2616 0 0
+/photo/photoalbum/slide0475_image811.html 3 3930 0 0
+/photo/photoalbum/slide0333_image658.html 2 2618 0 0
+/photo/photoalbum/slide0403_image752.html 3 3921 0 0
+/photo/photoalbum/slide0202_image403.html 3 2620 0 0
+/photo/photoalbum/slide0310_image617.html 3 3936 0 0
+/photo/photoalbum/slide0478_image814.html 3 3927 0 0
+/history/catologe/sitmap.htm 2 14147 2 2
+/photo/photoalbum/slide0442_image782.html 2 2618 0 0
+/photo/photoalbum/index17.html 11 17244 0 0
+/photo/photoalbum/slide0151_image301.html 3 2626 0 0
+/photo/photoalbum/slide0098_image197.html 3 2622 0 0
+/photo/photoalbum/slide0102_image204.html 3 2612 0 0
+/photo/photoalbum/slide0458_image797.html 2 2620 0 0
+/photo/photoalbum/slide0105_image210.html 3 2616 0 0
+/photo/photoalbum/slide0125_image250.html 3 2618 0 0
+/photo/photoalbum/slide0459_image798.html 2 2626 0 0
+/photo/photoalbum/slide0116_image232.html 3 2618 0 0
+/photo/photoalbum/slide0201_image401.html 3 2628 0 0
+/photo/photoalbum/slide0428_image771.html 2 2614 0 0
+/photo/photoalbum/slide0042_image085.html 4 3900 0 0
+/photo/photoalbum/slide0427_image769.html 2 2614 0 0
+/photo/photoalbum/slide0452_image792.html 2 2616 0 0
+/photo/photoalbum/slide0369_image723.html 2 2622 0 0
+/photo/photoalbum/slide0203_image405.html 4 3921 0 0
+/photo/photoalbum/slide0019_image039.html 9 9170 0 0
+/photo/photoalbum/slide0072_image145.html 4 3921 0 0
+/photo/photoalbum/slide0186_image371.html 3 2622 0 0
+/photo/photoalbum/slide0118_image236.html 3 2620 0 0
+/photo/photoalbum/slide0373_image731.html 2 2620 0 0
+/photo/photoalbum/slide0486_image822.html 3 3924 0 0
+/photo/photoalbum/slide0266_image530.html 2 2622 0 0
+/photo/photoalbum/slide0467_image805.html 2 2616 0 0
+/photo/photoalbum/slide0188_image375.html 3 2620 0 0
+/photo/photoalbum/slide0150_image299.html 3 2630 0 0
+/photo/photoalbum/slide0252_image503.html 2 2622 0 0
+/photo/photoalbum/slide0008_image017.html 9 9149 0 0
+/photo/photoalbum/slide0295_image587.html 2 2618 0 0
+/photo/photoalbum/slide0083_image167.html 3 2616 0 0
+/photo/photoalbum/slide0293_image583.html 2 2620 0 0
+/photo/photoalbum/slide0288_image573.html 2 2622 0 0
+/photo/photoalbum/slide0317_image631.html 3 3933 0 0
+/photo/photoalbum/slide0502_image856.html 3 3927 0 0
+/photo/photoalbum/index10.html 13 29914 0 1
+/photo/photoalbum/slide0088_image177.html 3 2618 0 0
+/photo/photoalbum/slide0402_image751.html 2 2622 0 0
+/photo/photoalbum/slide0091_image183.html 3 2616 0 0
+/photo/photoalbum/slide0526_image844.html 3 5073 0 1
+/photo/photoalbum/slide0374_image733.html 2 2618 0 0
+/photo/photoalbum/slide0269_image536.html 2 2624 0 0
+/mission.htm 51 163408 2 4
+/photo/photoalbum/slide0505_image864.html 3 3939 0 0
+/photo/photoalbum/slide0423_image765.html 2 2618 0 0
+/photo/photoalbum/slide0236_image471.html 2 2622 0 0
+/photo/photoalbum/slide0528_image846.html 3 3927 0 0
+/photo/photoalbum/slide0301_image599.html 2 2632 0 0
+/photo/photoalbum/slide0171_image341.html 3 2620 0 0
+/photo/photoalbum/index5.html 11 21673 0 0
+/photo/photoalbum/slide0161_image321.html 3 2622 0 0
+/photo/photoalbum/slide0351_image690.html 2 2622 0 0
+/photo/photoalbum/slide0503_image860.html 3 3927 0 0
+/photo/photoalbum/slide0426_image768.html 2 2620 0 0
+/photo/photoalbum/slide0346_image681.html 2 2616 0 0
+/photo/photoalbum/slide0122_image244.html 3 2614 0 0
+/photo/photoalbum/slide0515_image886.html 2 2620 0 0
+/photo/photoalbum/slide0492_image833.html 3 3927 0 0
+/photo/photoalbum/index4.html 13 25477 0 0
+/photo/photoalbum/slide0109_image218.html 4 3933 0 0
+/photo/photoalbum/slide0287_image571.html 2 2624 0 0
+/photo/photoalbum/slide0216_image431.html 4 5240 0 0
+/photo/photoalbum/index16.html 9 13370 0 0
+/photo/photoalbum/slide0240_image479.html 2 2626 0 0
+/photo/photoalbum/slide0258_image515.html 2 2612 0 0
+/photo/photoalbum/slide0075_image151.html 3 2620 0 0
+/photo/photoalbum/slide0290_image577.html 2 2620 0 0
+/photo/photoalbum/slide0045_image091.html 5 5212 0 0
+/photo/photoalbum/slide0195_image389.html 3 2622 0 0
+/photo/photoalbum/slide0120_image240.html 3 2620 0 0
+/photo/photoalbum/slide0477_image813.html 2 2618 0 0
+/photo/photoalbum/slide0328_image650.html 2 2622 0 0
+/photo/photoalbum/slide0018_image037.html 9 9149 0 0
+/photo/photoalbum/slide0499_image838.html 3 3957 0 0
+/photo/photoalbum/slide0196_image391.html 3 2622 0 0
+/photo/photoalbum/slide0179_image357.html 3 2624 0 0
+/photo/photoalbum/slide0394_image747.html 2 2618 0 0
+/photo/photoalbum/slide0363_image711.html 2 2622 0 0
+/photo/photoalbum/slide0264_image526.html 2 2618 0 0
+/photo/photoalbum/slide0024_image049.html 4 3912 0 0
+/photo/photoalbum/index15.html 12 23552 0 1
+/photo/photoalbum/slide0383_image908.html 2 2616 0 0
+/photo/photoalbum/slide0135_image270.html 3 2620 0 0
+/photo/photoalbum/slide0471_image809.html 2 2624 0 0
+/photo/photoalbum/slide0038_image077.html 4 3906 0 0
+/photo/photoalbum/slide0272_image542.html 2 2616 0 0
+/photo/photoalbum/slide0330_image654.html 2 2622 0 0
+/photo/photoalbum/slide0309_image615.html 3 3936 0 0
+/photo/photoalbum/slide0047_image095.html 5 5200 0 0
+/photo/photoalbum/slide0063_image127.html 4 3927 0 0
+/photo/photoalbum/slide0366_image717.html 2 2620 0 0
+/photo/photoalbum/slide0313_image623.html 3 3930 0 0
+/photo/photoalbum/slide0149_image297.html 3 2622 0 0
+/photo/photoalbum/slide0133_image266.html 3 2618 0 0
+/photo/photoalbum/slide0111_image222.html 3 2620 0 0
+/photo/photoalbum/index19.html 12 19180 0 0
+/photo/photoalbum/index9.html 12 23563 0 0
+/photo/photoalbum/slide0468_image806.html 3 3930 0 0
+/photo/photoalbum/slide0243_image485.html 2 2612 0 0
+/photo/photoalbum/slide0465_image803.html 3 3927 0 0
+/photo/photoalbum/slide0210_image419.html 4 5252 0 0
+/photo/photoalbum/slide0080_image161.html 3 2624 0 0
+/photo/photoalbum/slide0469_image807.html 2 2624 0 0
+/photo/photoalbum/slide0419_image761.html 2 2622 0 0
+/photo/photoalbum/slide0067_image135.html 4 3921 0 0
+/photo/photoalbum/slide0081_image163.html 3 2620 0 0
+/photo/photoalbum/index11.html 13 29869 0 1
+/photo/photoalbum/slide0147_image293.html 3 2616 0 0
+/photo/photoalbum/slide0173_image345.html 3 2616 0 0
+/photo/photoalbum/slide0462_image801.html 2 2620 0 0
+/photo/photoalbum/slide0312_image621.html 3 3933 0 0
+/photo/photoalbum/slide0474_image810.html 2 2620 0 0
+/photo/photoalbum/slide0335_image661.html 2 2622 0 0
+/photo/photoalbum/slide0450_image790.html 2 2626 0 0
+/photo/photoalbum/slide0355_image697.html 2 2622 0 0
+/photo/photoalbum/slide0368_image721.html 2 2620 0 0
+/photo/photoalbum/slide0015_image031.html 10 10456 0 0
+/photo/photoalbum/slide0085_image171.html 3 2622 0 0
+/photo/photoalbum/slide0206_image411.html 4 3930 0 1
+/photo/photoalbum/slide0436_image777.html 2 2616 0 0
+/photo/photoalbum/slide0061_image123.html 5 5240 0 0
+/photo/photoalbum/slide0254_image507.html 2 2618 0 0
+/photo/photoalbum/slide0130_image260.html 3 2620 0 0
+/photo/photoalbum/slide0128_image256.html 3 2620 0 0
+/photo/photoalbum/slide0117_image234.html 3 2616 0 0
+/photo/photoalbum/slide0215_image429.html 4 5228 0 0
+/photo/photoalbum/slide0302_image601.html 2 2628 0 0
+/photo/photoalbum/slide0532_image850.html 2 2620 0 0
+/photo/photoalbum/slide0483_image819.html 3 3933 0 0
+/photo/photoalbum/slide0496_image837.html 3 3927 0 0
+/photo/photoalbum/slide0078_image157.html 3 2620 0 0
+/photo/photoalbum/slide0466_image804.html 2 2616 0 0
+/photo/photoalbum/slide0177_image353.html 3 2616 0 0
+/photo/photoalbum/slide0524_image842.html 2 2622 0 0
+/photo/photoalbum/index6.html 13 25427 0 0
+/photo/photoalbum/slide0479_image815.html 2 2620 0 0
+/photo/photoalbum/slide0131_image262.html 3 2620 0 0
+/photo/photoalbum/slide0292_image581.html 2 2622 0 0
+/photo/photoalbum/slide0420_image762.html 2 2618 0 0
+/photo/photoalbum/slide0214_image426.html 4 5224 0 0
+/photo/photoalbum/slide0012_image025.html 9 9128 0 0
+/photo/photoalbum/slide0009_image019.html 9 9170 0 0
+/photo/photoalbum/slide0514_image884.html 2 2616 0 0
+/photo/photoalbum/slide0358_image702.html 2 2626 0 0
+/photo/photoalbum/slide0106_image212.html 3 2618 0 0
+/informed.htm 57 223701 2 9
+/photo/photoalbum/slide0212_image423.html 4 5228 0 0
+/photo/photoalbum/slide0108_image216.html 3 2620 0 0
+/photo/photoalbum/slide0092_image185.html 3 2614 0 0
+/photo/photoalbum/slide0141_image281.html 3 2620 0 0
+/photo/photoalbum/slide0110_image220.html 4 3930 0 0
+/photo/photoalbum/slide0327_image649.html 2 2620 0 0
+/photo/photoalbum/slide0263_image524.html 3 3927 0 0
+/photo/photoalbum/slide0163_image325.html 3 2616 0 0
+/photo/photoalbum/slide0385_image740.html 2 2616 0 0
+/dedication.htm 51 350676 1 3
+/photo/photoalbum/slide0534_image852.html 2 2470 0 1
+/photo/photoalbum/slide0329_image652.html 2 2626 0 0
+/photo/photoalbum/slide0119_image238.html 3 2622 0 0
+/photo/photoalbum/slide0137_image273.html 3 2618 0 0
+/photo/photoalbum/slide0200_image399.html 3 2632 0 0
+/photo/photoalbum/slide0107_image214.html 3 2616 0 0
+/photo/photoalbum/slide0152_image303.html 3 2618 0 0
+/photo/photoalbum/slide0306_image609.html 3 3933 0 0
+/photo/photoalbum/slide0002_image005.html 8 7446 1 0
+/photo/photoalbum/slide0525_image843.html 2 2616 0 0
+/photo/photoalbum/slide0114_image228.html 3 2618 0 0
+/photo/photoalbum/slide0340_image670.html 2 2622 0 0
+/photo/photoalbum/slide0432_image774.html 2 2618 0 0
+/photo/photoalbum/slide0023_image047.html 5 5208 0 0
+/photo/photoalbum/slide0509_image874.html 2 2612 0 0
+/photo/photoalbum/slide0517_image888.html 2 2628 0 0
+/photo/photoalbum/slide0453_image793.html 2 2616 0 0
+/photo/photoalbum/slide0197_image393.html 3 2618 0 0
+/photo/photoalbum/slide0211_image421.html 4 5240 0 0
+/photo/photoalbum/slide0300_image597.html 2 2628 0 0
+/photo/photoalbum/slide0372_image729.html 2 2622 0 0
+/photo/photoalbum/slide0022_image045.html 4 3897 0 0
+/photo/photoalbum/slide0445_image785.html 2 2618 0 0
+/photo/photoalbum/slide0428_image770.html 2 2618 0 0
+/photo/photoalbum/slide0172_image343.html 3 2616 0 0
+/photo/photoalbum/slide0020_image041.html 8 7848 0 1
+/photo/photoalbum/slide0220_image439.html 4 5252 0 0
+/photo/photoalbum/slide0208_image415.html 4 5236 0 0
+/photo/photoalbum/index12.html 13 25414 0 1
+/photo/photoalbum/slide0217_image433.html 4 5236 0 0
+/photo/photoalbum/slide0126_image252.html 3 2616 0 0
+/photo/photoalbum/slide0050_image101.html 5 5228 0 0
+/photo/photoalbum/default.htm 55 196004 5 9
+/photo/photoalbum/slide0194_image387.html 3 2620 0 0
+/photo/photoalbum/ 1 1897 0 0
+/photo/photoalbum/slide0051_image103.html 5 5216 0 0
+/photo/photoalbum/slide0143_image285.html 3 2612 0 0
+/photo/photoalbum/slide0049_image099.html 5 5240 0 0
+/photo/photoalbum/slide0365_image715.html 2 2620 0 0
+/photo/photoalbum/slide0501_image854.html 3 3939 0 0
+/photo/photoalbum/slide0480_image816.html 3 3930 0 0
+/photo/photoalbum/slide0409_image757.html 2 2624 0 0
+/photo/photoalbum/slide0087_image175.html 3 2616 0 0
+/photo/photoalbum/slide0494_image835.html 3 3924 0 0
+/photo/photoalbum/slide0513_image882.html 3 3927 0 0
+/photo/photoalbum/slide0277_image552.html 2 2622 0 0
+/photo/photoalbum/slide0268_image534.html 2 2620 0 0
+END_SIDER

@@ -1,0 +1,1366 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201302 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2562                
+POS_VISITOR 3663                
+POS_DAY 14600               
+POS_DOMAIN 15476               
+POS_LOGIN 15709               
+POS_ROBOT 15864               
+POS_WORMS 16983               
+POS_EMAILSENDER 17114               
+POS_EMAILRECEIVER 17257               
+POS_SESSION 17333               
+POS_SIDER 17545               
+POS_FILETYPES 32736               
+POS_OS 32904               
+POS_BROWSER 33126               
+POS_SCREENSIZE 33921               
+POS_UNKNOWNREFERER 33995               
+POS_UNKNOWNREFERERBROWSER 34945               
+POS_ORIGIN 35373               
+POS_SEREFERRALS 35518               
+POS_PAGEREFS 35720               
+POS_SEARCHWORDS 39752               
+POS_KEYWORDS 40477               
+POS_MISC 2224                
+POS_ERRORS 40882               
+POS_CLUSTER 15565               
+POS_SIDER_404 41025               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20130301000047 452529 102982523 30445360995
+FirstTime 20130201013547
+LastTime 20130228221150
+LastUpdate 20140313051517 452529 10086 442439 3 0
+TotalVisits 582                 
+TotalUnique 259                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 278                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 109 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 66 268 2680319 198 291 923567
+1 293 839 8743161 336 449 1220282
+2 74 200 2098230 388 533 1747898
+3 56 227 1999477 451 578 2069952
+4 48 114 1524343 244 365 1270341
+5 55 159 2142965 313 418 1484961
+6 63 99 1401324 443 549 1728134
+7 53 141 1654484 424 555 1870973
+8 34 73 1206865 292 391 1812673
+9 35 89 1027844 312 408 1201155
+10 29 29 357754 398 519 2197939
+11 39 97 1232795 257 347 1498509
+12 36 63 739853 420 518 2660431
+13 37 189 2241693 402 535 1786455
+14 173 481 4094000 368 475 1430249
+15 144 400 3715524 503 590 2228741
+16 93 542 5499937 209 290 1256519
+17 39 133 1617796 493 543 2050285
+18 56 256 2859752 546 619 1582851
+19 173 519 6185622 436 528 2871272
+20 105 583 5689243 396 498 1630652
+21 58 193 2149960 589 722 2660306
+22 32 112 1469003 248 317 915135
+23 47 107 1189253 570 650 1470019
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 278
+88.214.193.210 209 209 839763 20130209151318
+96.36.115.186 134 1477 15192297 20130228142721
+68.115.152.194 126 532 6078766 20130227014956
+91.207.4.186 108 108 1273428 20130228174629
+159.54.225.74 61 61 504491 20130203195803
+5.248.83.93 57 57 672087 20130228044644
+75.129.206.108 44 147 2405187 20130219195857
+166.205.55.33 36 256 1901918 20130226210025
+46.119.118.178 36 36 424476 20130217151143
+192.162.19.177 31 31 365521 20130225191950
+37.139.52.23 22 22 235820 20130227052143
+208.90.175.81 2 15 189715 20130221131228
+65.55.213.42 1 1 5859 20130224064136
+113.138.27.111 27 27 95526 20130222062230
+65.55.219.148 1 10 127961 20130220224806
+175.44.16.33 1 1 12904 20130212064337
+65.55.210.150 1 1 5880 20130210133753
+125.78.241.3 2 2 15622 20130216103523
+71.50.159.173 3 19 229102 20130203201750
+65.55.210.227 1 1 3542 20130219011414
+218.93.127.117 1 1 43631 20130212015918
+204.84.205.200 3 30 138637 20130205214328
+216.172.156.114 1 1 42706 20130227061726
+210.212.238.113 1 15 131346 20130207042429
+184.39.54.50 2 15 144304 20130202012118
+83.133.125.202 1 1 11791 20130226045638
+68.115.154.118 6 54 737977 20130226215256
+24.158.39.201 7 78 401498 20130219020415
+94.153.65.154 3 3 35373 20130227202242
+108.134.140.227 4 33 411158 20130222165747
+24.149.125.245 3 28 450952 20130220022727
+5.135.125.177 4 4 45956 20130204230700
+150.70.97.124 1 1 2411 20130227052745
+38.100.21.66 11 11 261341 20130217045725
+222.187.222.126 5 5 47053 20130228214904
+192.74.230.33 7 7 274690 20130203223742
+173.193.205.248 2 2 7084 20130228184155
+193.106.136.32 10 10 117910 20130228200203
+23.20.40.73 2 2 21922 20130203054740
+74.242.192.227 2 28 330680 20130201144351
+24.254.179.89 2 17 139326 20130228053128
+178.137.129.161 9 9 106119 20130214025010
+89.108.102.171 14 14 165074 20130228032940
+176.223.95.11 1 1 42706 20130222191320
+178.137.18.206 26 26 306566 20130210010203
+150.70.75.30 17 17 41399 20130227015150
+166.181.3.200 0 2 9342 
+71.43.190.250 0 1 17833 
+84.14.123.107 4 4 47260 20130224054551
+24.158.42.138 2 22 359434 20130218202703
+54.234.70.183 1 1 11811 20130213175209
+193.106.136.55 2 2 23582 20130216225407
+69.160.179.247 2 14 147170 20130215184404
+54.234.115.129 1 1 43636 20130205233010
+70.197.138.154 1 9 76991 20130213203556
+202.46.59.77 1 1 1029 20130221230341
+58.22.16.106 15 15 53130 20130201204844
+150.70.172.104 16 16 42843 20130227015458
+150.70.64.211 15 15 41477 20130227015216
+74.202.28.9 9 9 391578 20130213060414
+166.205.55.30 3 35 561042 20130226210648
+96.5.145.35 0 1 20215 
+199.255.1.20 1 15 131346 20130228010026
+193.106.136.36 4 4 47164 20130224062955
+206.225.83.83 1 1 3542 20130224133246
+70.89.78.197 1 12 191975 20130207180900
+216.231.130.229 13 13 152311 20130228122036
+70.197.161.46 7 61 603505 20130220054421
+184.72.113.39 1 1 3542 20130228211545
+175.44.8.13 2 2 25808 20130213100028
+65.55.215.237 1 1 2182 20130227191659
+202.46.62.30 1 1 1029 20130221230341
+202.46.58.28 1 1 1031 20130221230340
+96.125.229.182 2 17 139326 20130217054317
+141.255.184.209 1 1 11806 20130222060158
+70.239.164.158 1 7 72057 20130218131831
+209.130.200.181 1 13 130657 20130201181626
+193.106.136.45 4 4 47164 20130223020123
+175.42.95.137 2 2 25808 20130205033633
+184.39.4.35 1 13 130653 20130222143209
+198.27.74.9 1 1 11806 20130219120508
+67.142.179.22 0 1 19704 
+74.38.218.108 0 1 20215 
+65.55.215.251 1 1 3056 20130226031049
+96.227.124.38 1 1 11791 20130204045937
+65.55.211.196 1 1 3542 20130205225823
+218.93.127.118 6 6 258066 20130226043710
+166.181.3.33 0 3 20728 
+208.80.194.150 4 4 55264 20130220102335
+24.106.191.226 2 25 306751 20130205235914
+76.115.8.105 2 18 144493 20130218074934
+184.72.200.30 1 1 43636 20130211182708
+23.22.117.10 8 8 2992 20130224205412
+150.70.172.207 13 13 39073 20130227015653
+70.63.250.222 1 10 237580 20130213015247
+80.241.217.100 1 1 5859 20130227062931
+124.67.22.207 1 1 7811 20130223001924
+204.12.196.122 9 9 238555 20130212214351
+94.242.237.61 1 1 4066 20130217003002
+178.137.5.24 24 24 282984 20130226190903
+193.106.136.56 3 3 35373 20130214074231
+49.204.3.32 0 1 1581 
+50.19.50.112 2 2 55447 20130207022106
+64.30.157.100 6 39 497910 20130213182713
+204.213.224.72 3 39 276201 20130213192035
+74.251.227.227 1 13 130657 20130204150932
+65.55.213.63 1 1 3046 20130203163316
+199.125.14.2 1 1 11791 20130222033349
+65.17.19.62 12 142 876125 20130225223602
+182.118.20.163 1 1 3542 20130228145839
+24.158.44.119 4 43 144283 20130214143939
+64.202.161.41 2 2 23574 20130212114639
+93.182.159.18 1 1 11810 20130220110235
+150.70.64.217 11 11 30665 20130227015246
+63.223.114.105 1 1 42706 20130222162920
+70.197.166.181 4 30 152263 20130224214606
+70.61.98.162 1 13 130657 20130219035144
+202.46.50.15 1 1 1028 20130221230341
+68.119.218.198 1 11 237944 20130217171059
+98.207.122.181 0 1 22276 
+67.221.59.153 1 1 3542 20130203225133
+75.86.187.103 1 15 131346 20130213184503
+75.131.166.231 1 7 72057 20130211053250
+173.197.241.252 2 15 138637 20130218021456
+109.120.157.179 10 10 117910 20130225215404
+108.134.133.106 2 16 134436 20130228163704
+24.60.163.71 0 1 17477 
+71.30.45.117 0 1 22276 
+150.70.75.35 17 17 63583 20130227015257
+94.153.64.117 6 6 70746 20130228185942
+202.46.54.34 1 1 1028 20130221230340
+173.164.102.85 3 20 229791 20130226000424
+24.177.235.34 4 35 547752 20130223191637
+208.80.194.159 2 2 53636 20130225010753
+173.225.17.50 1 1 3538 20130207220004
+96.127.158.50 4 4 109132 20130216185500
+64.128.16.239 1 15 131346 20130221164454
+202.62.71.230 1 13 130657 20130224065909
+193.106.136.40 2 2 23582 20130201174712
+121.54.13.36 0 1 1581 
+99.233.155.244 2 25 306751 20130223150629
+70.193.0.156 2 16 143571 20130207163948
+213.110.133.221 4 4 47164 20130225110604
+125.78.241.25 6 6 46866 20130228091206
+46.119.124.40 6 6 70746 20130201193327
+184.39.10.217 1 13 130653 20130228205828
+99.100.144.223 0 1 22276 
+204.213.229.132 4 44 718860 20130208034317
+71.43.74.139 8 8 345176 20130224003743
+166.181.3.69 1 3 50217 20130213033259
+204.236.202.92 1 1 3557 20130201233351
+150.70.97.41 12 12 29225 20130227020425
+64.28.200.74 19 80 440064 20130222165859
+208.110.84.42 27 27 717525 20130212152520
+64.34.212.216 1 5 64602 20130226145736
+168.61.41.115 7 7 180649 20130223082814
+67.221.119.241 1 13 138906 20130220222040
+184.22.183.114 3 3 62211 20130213130029
+108.228.220.180 1 15 131346 20130202164117
+174.106.183.175 1 11 237944 20130225014907
+208.72.116.242 1 1 42706 20130222050849
+184.39.28.174 1 13 130653 20130225002438
+70.63.107.35 1 13 130657 20130220115822
+74.235.34.195 2 15 138637 20130224135648
+74.204.189.6 1 1 42682 20130212195630
+174.252.96.76 1 15 131346 20130223000406
+166.181.3.133 0 4 37347 
+108.66.26.185 1 4 24550 20130228030414
+222.187.222.71 24 24 187464 20130227095116
+131.253.24.49 1 1 3542 20130221120852
+69.58.178.58 11 11 223519 20130209022812
+24.158.47.130 1 13 130657 20130204145930
+176.9.111.204 1 1 11787 20130215202704
+31.184.238.40 3 3 36516 20130208162958
+220.161.148.150 1 1 42701 20130218194329
+70.60.245.186 2 22 475888 20130213134244
+193.106.136.47 2 2 23582 20130219223228
+70.197.161.52 2 25 306751 20130213181643
+94.153.65.117 12 12 141492 20130211085541
+67.142.182.27 0 1 20234 
+24.177.235.249 1 15 131346 20130217152010
+61.5.196.6 1 1 43612 20130202234233
+75.142.145.211 0 1 20215 
+97.113.141.161 0 1 17477 
+184.39.74.31 1 1 0 20130207214203
+70.60.202.30 1 13 130657 20130214190124
+166.205.55.19 2 25 376317 20130214161618
+12.168.121.2 2 16 221122 20130226162828
+110.85.103.114 1 1 42701 20130219092037
+68.189.177.36 3 27 314731 20130225205110
+184.22.211.146 1 1 20737 20130214062147
+69.129.250.114 1 15 131346 20130207043337
+70.60.111.184 3 31 410500 20130217201646
+68.35.188.46 1 12 191975 20130203153851
+71.228.246.72 1 7 72057 20130215012657
+74.235.33.115 2 15 144283 20130217011438
+58.22.138.8 3 3 27432 20130228221150
+24.106.197.162 2 17 200273 20130214152335
+174.224.131.123 2 18 221811 20130227131353
+167.83.101.23 6 49 775918 20130221161826
+108.61.48.234 2 2 55403 20130201230252
+208.254.22.50 1 13 130657 20130222025305
+108.108.66.72 2 17 139326 20130222174556
+174.237.12.98 1 4 24550 20130221192556
+71.0.22.6 3 17 137226 20130227225726
+175.44.8.169 1 1 43631 20130210055522
+85.25.154.14 1 1 3538 20130215170605
+184.73.21.14 1 1 11806 20130207052218
+23.22.140.229 1 1 43636 20130211175623
+150.70.172.111 17 17 49022 20130227015304
+70.199.231.162 2 16 134402 20130214165819
+168.62.169.221 5 5 216295 20130216092445
+150.70.172.202 13 13 45578 20130227015659
+74.235.139.244 1 1 0 20130203012725
+166.141.243.57 0 1 17477 
+94.153.64.49 2 2 23582 20130201090836
+74.202.28.7 14 14 601268 20130228055717
+67.221.59.152 1 1 3538 20130211111056
+178.137.128.25 21 21 247611 20130208035652
+150.70.97.127 1 1 2410 20130227052851
+193.106.136.48 2 2 23582 20130201070027
+199.255.199.1 1 1 11791 20130203162457
+68.39.72.146 1 13 130657 20130205144432
+65.55.211.249 1 1 3565 20130215133850
+91.231.40.51 1 1 11806 20130219180621
+71.75.174.254 1 13 130657 20130222195547
+193.106.136.61 2 2 23582 20130203093718
+173.45.73.18 2 2 7084 20130208234815
+184.39.48.227 2 15 144283 20130213015922
+66.56.204.102 1 15 131346 20130225032846
+46.119.120.35 9 9 106119 20130204005500
+204.213.224.86 1 4 27363 20130224155333
+67.163.208.167 1 13 130657 20130219200657
+173.76.100.63 1 15 131346 20130223042546
+166.137.101.35 3 28 341613 20130217111823
+150.70.196.83 1 1 6309 20130227022256
+218.93.127.121 2 2 85402 20130228125226
+71.82.36.164 3 21 234958 20130216153932
+192.74.244.75 1 1 96440 20130211195412
+178.33.178.13 4 4 57922 20130209142840
+184.39.7.65 1 13 130653 20130214164843
+178.137.128.98 9 9 106119 20130222032406
+131.253.24.48 1 2 4028 20130223153806
+192.74.230.34 4 4 143797 20130205094337
+166.181.3.208 0 3 13712 
+199.90.157.4 4 39 542819 20130226171907
+184.39.65.162 2 15 144304 20130205235921
+208.80.194.162 2 2 53674 20130225001250
+202.46.63.72 1 1 1031 20130221230340
+74.202.28.6 5 5 213410 20130218055639
+70.193.1.130 2 17 139326 20130210012441
+152.26.36.96 8 101 1058156 20130227195323
+201.62.192.74 1 1 11787 20130203034905
+173.255.232.58 13 13 402096 20130207085108
+195.242.218.133 9 9 106119 20130224195355
+50.57.68.14 1 1 11815 20130216005738
+184.7.24.26 1 9 88627 20130214171606
+193.106.136.60 2 2 23582 20130210180226
+204.95.135.2 7 34 404077 20130224135201
+65.55.211.212 1 1 3373 20130225094333
+65.55.210.232 1 1 3373 20130215123713
+184.39.222.85 2 25 360483 20130201065812
+65.55.213.53 1 1 4066 20130219174720
+222.187.222.36 12 12 97731 20130228145034
+150.70.97.114 1 1 2412 20130227052006
+5.135.125.183 5 5 53338 20130222103538
+71.82.36.137 0 1 17833 
+193.106.136.57 4 4 47164 20130207235925
+178.137.5.8 12 12 141492 20130219074123
+65.55.215.245 1 1 3542 20130220155117
+65.55.210.214 2 3 8091 20130208181222
+121.96.61.130 1 5 27705 20130204090617
+50.39.141.185 2 17 139326 20130205031710
+68.115.155.109 2 21 245051 20130221013710
+150.70.97.118 1 1 2410 20130227054149
+150.70.196.73 19 19 50050 20130227022203
+151.138.28.142 1 15 131342 20130203004917
+166.94.6.47 1 13 130657 20130220214450
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 28
+20130201 60 159 1922058 21
+20130202 34 76 994141 19
+20130203 103 200 2294693 31
+20130204 45 168 1840049 21
+20130205 47 228 2665883 30
+20130206 16 28 371848 9
+20130207 57 174 2262093 23
+20130208 32 135 1170728 15
+20130209 243 267 1667321 13
+20130210 31 68 945186 15
+20130211 44 161 1806984 19
+20130212 49 93 1424439 17
+20130213 31 216 2580240 21
+20130214 57 267 2625208 22
+20130215 27 131 1335646 14
+20130216 37 129 1487147 19
+20130217 52 180 2363087 17
+20130218 32 241 2816576 14
+20130219 76 216 3186785 17
+20130220 66 418 4145179 24
+20130221 35 165 1761833 27
+20130222 98 276 2457560 27
+20130223 30 137 1695297 16
+20130224 53 144 1363660 25
+20130225 45 242 2699254 25
+20130226 83 454 4535272 24
+20130227 314 815 7862323 33
+20130228 41 125 1240707 24
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1838 5913 63521197
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 27
+msnbot\-media 1700 9209331 20130228194430 0
+mj12bot 1004 8213896 20130228205713 0
+[+:,\.\;\/\\-]bot 945 3034524 20130228225648 0
+googlebot 886 3987885 20130228234748 0
+spider 877 1161201 20130228183654 0
+crawl 678 4763341 20130224030525 0
+robot 675 1099937 20130228234844 0
+bot[+:,\.\;\/\\-] 475 1058373 20130228210222 0
+baiduspider 260 320995 20130228191725 0
+yandex 201 422560 20130228163242 0
+powermarks 2 23582 20130218111559 0
+bspider 84 297528 20130228193329 0
+no_user_agent 5 59028 20130226045640 0
+exabot 19 37584 20130228032139 0
+ia_archiver 1 10973 20130216071018 0
+seznambot 2 7084 20130223022630 0
+mail\.ru 2 23612 20130225034607 0
+slurp 41 396291 20130224201530 0
+python 43 307795 20130219215410 0
+surveybot 3 10626 20130223065226 0
+java 34 461782 20130206080428 0
+cfnetwork 1 20215 20130215003002 0
+turnitinbot 1 43631 20130209202559 0
+msiecrawler 8 94328 20130226043057 0
+mnogosearch 1 11810 20130201162157 0
+sogou 23 78282 20130226203632 0
+nutch 1 6313 20130201193920 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 6
+5mn-15mn 16
+30s-2mn 20
+2mn-5mn 17
+15mn-30mn 10
+0s-30s 503
+30mn-1h 10
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 296
+/Default.htm 794 7061366 382 310
+/weblinks/weblinks.htm 117 4224452 85 96
+/membership/membership.htm 59 424052 31 35
+/personnel/personnel.htm 47 490762 11 22
+/apparatus/apparatus.htm 47 466251 16 27
+/training/training.htm 33 183803 9 19
+/history/history.htm 23 223438 8 11
+/kids/kids.htm 22 245281 12 12
+/calendar.htm 21 197675 1 7
+/mission.htm 16 84816 1 4
+/photo/photoalbum/slide0062_image125.html 1 2430 0 0
+/photo/photoalbum/slide0093_image187.html 1 2430 0 0
+/photo/photoalbum/slide0506_image858.html 1 2412 0 0
+/photo/photoalbum/slide0527_image845.html 1 2412 0 1
+/photo/photoalbum/index18.html 2 12618 0 0
+/photo/photoalbum/slide0057_image115.html 1 2429 0 0
+/photo/photoalbum/slide0058_image117.html 1 2430 0 0
+/photo/photoalbum/slide0352_image692.html 2 3447 0 0
+/photo/photoalbum/slide0132_image264.html 1 2430 0 0
+/photo/photoalbum/slide0028_image057.html 5 9320 0 0
+/photo/photoalbum/slide0343_image676.html 2 3446 0 0
+/photo/photoalbum/slide0027_image055.html 5 9314 0 0
+/photo/photoalbum/slide0157_image313.html 1 2429 0 0
+/photo/photoalbum/index25.html 6 28128 0 0
+/photo/photoalbum/index8.html 2 12624 0 0
+/photo/photoalbum/slide0159_image317.html 1 2430 0 0
+/stats.htm 4 8030 0 0
+/photo/photoalbum/slide0044_image089.html 4 6879 0 1
+/photo/photoalbum/slide0134_image268.html 1 2430 0 0
+/photo/photoalbum/slide0079_image159.html 1 2430 0 0
+/photo/photoalbum/slide0115_image230.html 1 2430 0 0
+/photo/photoalbum/slide0164_image327.html 1 2430 0 0
+/photo/photoalbum/slide0103_image206.html 1 2430 0 0
+/photo/photoalbum/slide0084_image169.html 1 2429 0 0
+/photo/photoalbum/slide0316_image629.html 2 3446 0 1
+/photo/photoalbum/slide0349_image687.html 2 3450 0 0
+/photo/photoalbum/slide0041_image083.html 5 9310 0 0
+/photo/photoalbum/slide0148_image295.html 1 2430 0 0
+/photo/photoalbum/slide0138_image275.html 1 2430 0 0
+/photo/photoalbum/slide0046_image093.html 2 3441 0 0
+/photo/photoalbum/slide0052_image105.html 1 2430 0 0
+/photo/photoalbum/slide0003_image007.html 5 8846 0 0
+/photo/photoalbum/slide0326_image647.html 3 5877 0 0
+/photo/photoalbum/slide0113_image226.html 1 2430 0 0
+/photo/photoalbum/slide0074_image149.html 1 2430 0 0
+/photo/photoalbum/slide0375_image735.html 2 3443 0 0
+/photo/photoalbum/slide0077_image155.html 1 2429 0 0
+/photo/photoalbum/slide0331_image656.html 2 3444 0 0
+/photo/photoalbum/slide0059_image119.html 1 2430 0 0
+/photo/photoalbum/slide0345_image680.html 3 5874 0 0
+/photo/photoalbum/slide0158_image315.html 1 2430 0 0
+/photo/photoalbum/slide0068_image137.html 1 2429 0 0
+/photo/photoalbum/slide0017_image035.html 5 9303 1 0
+/photo/photoalbum/slide0354_image696.html 2 3445 0 0
+/photo/photoalbum/slide0127_image254.html 1 2430 0 0
+/photo/photoalbum/slide0341_image672.html 3 5860 1 1
+/photo/photoalbum/slide0054_image109.html 3 4488 2 2
+/photo/photoalbum/slide0357_image701.html 2 3446 0 0
+/photo/photoalbum/slide0004_image009.html 5 9304 0 0
+/photo/photoalbum/slide0156_image311.html 1 2430 0 0
+/photo/photoalbum/slide0069_image139.html 1 2430 0 0
+/photo/photoalbum/slide0136_image272.html 1 2430 0 0
+/photo/photoalbum/index26.html 7 17526 0 1
+/photo/photoalbum/slide0146_image291.html 1 2430 0 0
+/photo/photoalbum/slide0170_image339.html 1 2429 0 0
+/photo/photoalbum/slide0065_image131.html 1 2430 0 0
+/photo/photoalbum/slide0342_image674.html 2 3443 0 0
+/photo/photoalbum/slide0025_image051.html 5 9310 1 0
+/photo/photoalbum/slide0495_image836.html 1 2412 0 0
+/photo/photoalbum/slide0168_image335.html 1 2430 0 0
+/personnel/ 4 800 0 0
+/photo/photoalbum/slide0322_image641.html 3 5878 0 1
+/photo/photoalbum/slide0353_image694.html 2 3445 0 0
+/photo/photoalbum/index21.html 5 26679 0 0
+/photo/photoalbum/slide0014_image029.html 5 9304 0 0
+/photo/photoalbum/slide0315_image627.html 2 3445 0 1
+/photo/photoalbum/slide0056_image113.html 1 2430 0 0
+/photo/photoalbum/index23.html 5 26681 0 0
+/ 4 800 0 0
+/photo/photoalbum/slide0064_image129.html 1 2429 0 0
+/photo/photoalbum/slide0347_image683.html 2 3446 0 0
+/photo/photoalbum/slide0314_image625.html 2 3443 0 1
+/photo/photoalbum/slide0112_image224.html 1 2430 0 0
+/photo/photoalbum/slide0323_image643.html 2 3445 0 0
+/photo/photoalbum/slide0036_image073.html 5 9296 1 1
+/photo/photoalbum/slide0121_image242.html 1 2430 0 0
+/photo/photoalbum/slide0321_image639.html 2 3447 0 0
+/photo/photoalbum/slide0076_image153.html 1 2430 0 0
+/photo/photoalbum/slide0361_image707.html 3 5884 0 1
+/photo/photoalbum/slide0095_image191.html 1 2429 0 0
+/photo/photoalbum/slide0319_image635.html 2 3448 0 0
+/photo/photoalbum/slide0099_image199.html 1 2430 0 0
+/photo/photoalbum/slide0037_image075.html 4 6879 0 0
+/photo/photoalbum/slide0035_image071.html 5 9309 0 0
+/photo/photoalbum/slide0123_image246.html 1 2429 0 0
+/photo/photoalbum/slide0073_image147.html 1 2430 0 0
+/photo/photoalbum/slide0032_image065.html 4 6879 0 0
+/photo/photoalbum/slide0318_image633.html 2 3447 0 1
+/photo/photoalbum/index22.html 6 32987 1 1
+/photo/photoalbum/slide0100_image200.html 1 2430 0 0
+/photo/photoalbum/slide0160_image319.html 1 2430 0 0
+/safetytips.htm 12 1077277 1 6
+/photo/photoalbum/slide0007_image015.html 5 9306 1 0
+/photo/photoalbum/slide0016_image033.html 5 9302 1 0
+/photo/photoalbum/slide0096_image193.html 1 2430 0 0
+/photo/photoalbum/slide0364_image713.html 2 3445 0 1
+/photo/photoalbum/slide0043_image087.html 4 6879 0 0
+/photo/photoalbum/index3.html 4 20398 0 0
+/photo/photoalbum/slide0362_image709.html 3 5881 0 0
+/photo/photoalbum/slide0531_image849.html 1 2411 0 0
+/photo/photoalbum/slide0005_image011.html 5 9306 0 0
+/photo/photoalbum/index24.html 7 34454 0 1
+/photo/photoalbum/slide0089_image179.html 1 2430 0 0
+/photo/photoalbum/slide0320_image637.html 2 3448 0 0
+/photo/photoalbum/index20.html 5 26682 0 0
+/photo/photoalbum/slide0144_image287.html 1 2430 0 0
+/photo/photoalbum/slide0040_image081.html 5 9315 0 0
+/photo/photoalbum/slide0336_image663.html 2 3446 0 0
+/photo/photoalbum/slide0167_image333.html 1 2430 0 0
+/photo/photoalbum/slide0332_image657.html 2 3445 0 0
+/photo/photoalbum/slide0523_image841.html 1 2412 0 0
+/photo/photoalbum/index13.html 2 12618 0 0
+/photo/photoalbum/slide0348_image685.html 2 3445 0 0
+/photo/photoalbum/slide0155_image309.html 1 2430 0 0
+/photo/photoalbum/slide0370_image725.html 2 3447 0 0
+/photo/photoalbum/slide0145_image289.html 1 2429 0 0
+/photo/photoalbum/slide0029_image059.html 6 11750 0 0
+/photo/photoalbum/slide0359_image703.html 3 5885 0 0
+/photo/photoalbum/slide0094_image189.html 1 2430 0 0
+/photo/photoalbum/slide0169_image337.html 1 2430 0 0
+/photo/photoalbum/slide0129_image258.html 3 4492 2 2
+/photo/photoalbum/slide0030_image061.html 5 9320 1 0
+/photo/photoalbum/slide0344_image678.html 3 5877 0 1
+/photo/photoalbum/index14.html 3 14076 1 1
+/photo/photoalbum/slide0053_image107.html 1 2430 0 0
+/photo/photoalbum/slide0070_image141.html 1 2430 0 0
+/photo/photoalbum/slide0124_image248.html 1 2430 0 0
+/photo/photoalbum/slide0142_image283.html 1 2430 0 0
+/photo/photoalbum/slide0060_image121.html 1 2430 0 0
+/photo/photoalbum/slide0097_image195.html 1 2428 0 0
+/photo/photoalbum/slide0334_image659.html 2 3445 0 1
+/photo/photoalbum/slide0034_image069.html 4 6883 0 0
+/photo/photoalbum/slide0101_image202.html 1 2430 0 0
+/photo/photoalbum/slide0031_image063.html 4 6883 0 0
+/photo/photoalbum/slide0443_image783.html 1 2412 0 0
+/photo/photoalbum/slide0013_image027.html 5 9308 0 0
+/photo/photoalbum/slide0371_image727.html 3 5873 0 0
+/photo/photoalbum/slide0048_image097.html 3 5873 0 0
+/photo/photoalbum/slide0055_image111.html 1 2430 0 0
+/photo/photoalbum/slide0071_image143.html 1 2430 0 0
+/photo/photoalbum/slide0140_image279.html 1 2430 0 0
+/photo/photoalbum/slide0529_image847.html 1 2411 0 0
+/photo/photoalbum/slide0066_image133.html 1 2430 0 0
+/photo/photoalbum/slide0166_image331.html 1 2429 0 0
+/photo/photoalbum/slide0086_image173.html 1 2430 0 0
+/photo/photoalbum/slide0174_image347.html 1 2430 0 1
+/photo/photoalbum/slide0337_image665.html 2 3444 0 0
+/photo/photoalbum/index7.html 2 12624 0 0
+/photo/photoalbum/slide0285_image567.html 1 2412 0 0
+/photo/photoalbum/slide0339_image669.html 2 3448 0 0
+/photo/photoalbum/slide0325_image645.html 2 3445 0 0
+/photo/photoalbum/slide0508_image872.html 1 2412 0 0
+/photo/photoalbum/slide0154_image307.html 1 2430 0 0
+/photo/photoalbum/index2.html 3 14081 0 0
+/photo/photoalbum/slide0021_image043.html 6 11737 0 0
+/photo/photoalbum/slide0153_image305.html 1 2430 0 0
+/photo/photoalbum/slide0082_image165.html 1 2430 0 0
+/photo/photoalbum/slide0026_image053.html 6 11748 0 0
+/photo/photoalbum/slide0356_image699.html 2 3446 0 0
+/photo/photoalbum/slide0139_image277.html 1 2430 0 0
+/photo/photoalbum/slide0367_image719.html 2 3444 0 0
+/photo/photoalbum/slide0039_image079.html 4 6887 0 0
+/photo/photoalbum/slide0162_image323.html 1 2429 0 0
+/photo/photoalbum/slide0338_image667.html 2 3448 0 1
+/photo/photoalbum/slide0090_image181.html 1 2430 0 0
+/photo/photoalbum/slide0165_image329.html 1 2430 0 0
+/photo/photoalbum/slide0360_image705.html 3 5884 0 1
+/photo/photoalbum/slide0104_image208.html 1 2430 0 0
+/photo/photoalbum/slide0010_image021.html 6 11737 0 0
+/photo/photoalbum/slide0006_image013.html 5 9306 0 0
+/photo/photoalbum/slide0011_image023.html 6 11718 2 1
+/photo/photoalbum/slide0333_image658.html 2 3445 0 0
+/photo/photoalbum/index17.html 2 12618 0 0
+/photo/photoalbum/slide0151_image301.html 1 2430 0 0
+/photo/photoalbum/slide0102_image204.html 1 2429 0 0
+/photo/photoalbum/slide0098_image197.html 1 2430 0 0
+/photo/photoalbum/slide0105_image210.html 1 2430 0 0
+/photo/photoalbum/slide0125_image250.html 1 2430 0 0
+/photo/photoalbum/slide0116_image232.html 1 2430 0 0
+/photo/photoalbum/slide0042_image085.html 4 6877 0 0
+/photo/photoalbum/slide0369_image723.html 2 3447 0 0
+/photo/photoalbum/slide0019_image039.html 5 9312 0 0
+/photo/photoalbum/slide0072_image145.html 1 2430 0 0
+/photo/photoalbum/slide0118_image236.html 1 2430 0 0
+/photo/photoalbum/slide0373_image731.html 2 3442 0 0
+/photo/photoalbum/slide0150_image299.html 1 2430 0 0
+/photo/photoalbum/slide0008_image017.html 7 11366 2 2
+/photo/photoalbum/slide0083_image167.html 1 2430 0 0
+/photo/photoalbum/slide0317_image631.html 2 3444 0 0
+/photo/photoalbum/index10.html 2 12618 0 0
+/photo/photoalbum/slide0088_image177.html 1 2430 0 0
+/photo/photoalbum/slide0091_image183.html 1 2428 0 0
+/photo/photoalbum/slide0526_image844.html 1 2412 0 0
+/photo/photoalbum/slide0374_image733.html 3 5877 0 0
+/photo/photoalbum/slide0505_image864.html 1 2412 0 0
+/photo/photoalbum/slide0171_image341.html 1 2430 0 0
+/photo/photoalbum/slide0351_image690.html 2 3446 0 0
+/photo/photoalbum/slide0161_image321.html 1 2430 0 0
+/photo/photoalbum/index5.html 2 12624 0 0
+/photo/photoalbum/slide0346_image681.html 3 5873 0 0
+/photo/photoalbum/slide0515_image886.html 1 2412 0 0
+/photo/photoalbum/slide0122_image244.html 1 2430 0 0
+/photo/photoalbum/slide0109_image218.html 1 2429 0 0
+/photo/photoalbum/index4.html 2 12624 0 0
+/photo/photoalbum/index16.html 2 12618 0 0
+/photo/photoalbum/slide0075_image151.html 1 2430 0 0
+/photo/photoalbum/slide0120_image240.html 1 2430 0 0
+/photo/photoalbum/slide0045_image091.html 5 9315 0 0
+/photo/photoalbum/slide0477_image813.html 1 2412 0 0
+/photo/photoalbum/slide0328_image650.html 1 1011 0 0
+/photo/photoalbum/slide0018_image037.html 6 11742 1 0
+/photo/photoalbum/slide0363_image711.html 2 3447 0 0
+/photo/photoalbum/slide0024_image049.html 4 6885 0 0
+/photo/photoalbum/index15.html 3 18911 0 0
+/photo/photoalbum/slide0135_image270.html 1 2430 0 0
+/photo/photoalbum/slide0471_image809.html 1 2412 0 0
+/photo/photoalbum/slide0038_image077.html 4 6881 0 0
+/photo/photoalbum/slide0330_image654.html 2 3447 0 0
+/photo/photoalbum/slide0047_image095.html 3 5872 0 0
+/photo/photoalbum/slide0366_image717.html 3 5882 0 0
+/photo/photoalbum/slide0063_image127.html 1 2430 0 0
+/photo/photoalbum/slide0149_image297.html 1 2429 0 0
+/photo/photoalbum/slide0133_image266.html 1 2430 0 0
+/photo/photoalbum/slide0111_image222.html 1 2430 0 0
+/photo/photoalbum/index19.html 5 26674 0 0
+/photo/photoalbum/index9.html 2 12624 0 0
+/photo/photoalbum/slide0080_image161.html 1 2430 0 0
+/photo/photoalbum/slide0469_image807.html 1 2412 0 0
+/photo/photoalbum/slide0067_image135.html 1 2429 0 0
+/photo/photoalbum/slide0081_image163.html 1 2430 0 0
+/photo/photoalbum/slide0147_image293.html 1 2429 0 0
+/photo/photoalbum/index11.html 2 12618 0 0
+/photo/photoalbum/slide0173_image345.html 1 2430 0 0
+/photo/photoalbum/slide0335_image661.html 2 3447 0 0
+/photo/photoalbum/slide0355_image697.html 2 3446 0 0
+/photo/photoalbum/slide0368_image721.html 2 3444 0 0
+/photo/photoalbum/slide0085_image171.html 1 2430 0 0
+/photo/photoalbum/slide0015_image031.html 5 9305 0 0
+/photo/photoalbum/slide0061_image123.html 1 2430 0 0
+/photo/photoalbum/slide0130_image260.html 1 2429 0 0
+/photo/photoalbum/slide0128_image256.html 1 2430 0 0
+/photo/photoalbum/slide0117_image234.html 1 2430 0 0
+/photo/photoalbum/slide0532_image850.html 1 2412 0 0
+/photo/photoalbum/slide0078_image157.html 1 2430 0 0
+/photo/photoalbum/slide0524_image842.html 1 2412 0 0
+/photo/photoalbum/index6.html 2 12624 0 0
+/photo/photoalbum/slide0131_image262.html 1 2430 0 0
+/photo/photoalbum/slide0012_image025.html 5 9304 0 0
+/photo/photoalbum/slide0009_image019.html 5 9310 1 0
+/photo/photoalbum/slide0514_image884.html 1 2412 0 0
+/photo/photoalbum/slide0358_image702.html 2 3448 0 0
+/photo/photoalbum/slide0106_image212.html 1 2430 0 0
+/informed.htm 13 95277 0 2
+/photo/photoalbum/slide0108_image216.html 1 2430 0 0
+/photo/photoalbum/slide0092_image185.html 1 2430 0 0
+/photo/photoalbum/slide0141_image281.html 1 2430 0 0
+/photo/photoalbum/slide0110_image220.html 1 2430 0 0
+/photo/photoalbum/slide0327_image649.html 2 3444 0 0
+/photo/photoalbum/slide0163_image325.html 1 2429 0 0
+/dedication.htm 11 156459 2 2
+/photo/photoalbum/slide0534_image852.html 1 2013 0 0
+/photo/photoalbum/slide0329_image652.html 2 3448 0 0
+/photo/photoalbum/slide0137_image273.html 1 2430 0 0
+/photo/photoalbum/slide0119_image238.html 1 2429 0 0
+/photo/photoalbum/slide0152_image303.html 1 2430 0 0
+/photo/photoalbum/slide0107_image214.html 1 2430 0 0
+/photo/photoalbum/slide0002_image005.html 5 8157 1 0
+/photo/photoalbum/slide0525_image843.html 1 2411 0 0
+/photo/photoalbum/slide0114_image228.html 1 2430 0 0
+/photo/photoalbum/slide0340_image670.html 2 3447 0 0
+/photo/photoalbum/slide0023_image047.html 4 6883 0 0
+/photo/photoalbum/slide0509_image874.html 1 2412 0 0
+/photo/photoalbum/slide0372_image729.html 2 3446 0 0
+/photo/photoalbum/slide0022_image045.html 5 9289 1 1
+/photo/photoalbum/slide0172_image343.html 1 2430 0 0
+/photo/photoalbum/slide0020_image041.html 5 9312 0 0
+/photo/photoalbum/index12.html 2 12620 0 0
+/photo/photoalbum/slide0126_image252.html 1 2430 0 0
+/photo/photoalbum/slide0050_image101.html 5 9316 0 0
+/photo/photoalbum/slide0051_image103.html 4 6887 0 0
+/photo/photoalbum/ 11 35483 2 1
+/photo/photoalbum/slide0143_image285.html 1 2429 0 0
+/photo/photoalbum/slide0049_image099.html 3 5879 0 0
+/photo/photoalbum/slide0365_image715.html 4 8313 0 0
+/photo/photoalbum/slide0087_image175.html 1 2430 0 0
+/photo/photoalbum/slide0513_image882.html 1 2412 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 9 23148 0 0
+bmp 7 580832 0 0
+htm 1219 14938939 0 0
+html 619 1510712 0 0
+jpg 2446 35498246 0 0
+gif 1613 10969320 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 17
+winlong 155
+winxp 1339
+win2000 48
+winvista 33
+linuxfedora 1
+winunknown 8
+win95 18
+wince 3
+win2003 99
+winnt 49
+win98 14
+linux 190
+win16 2
+winme 23
+macosx 677
+Unknown 139
+win2008 3115
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 55
+msie6.0 453
+firefox5.0 4
+webcapture 6
+firefox15.0 2
+firefox3.6 1
+chrome 292
+firefox7.0 1
+firefox3.0.1 1
+firefox3.6.6 28
+firefox4.0 1
+firefox18.0 278
+msie4.01 3
+lynx 1
+msie3.02 3
+msie8.0 564
+firefox2.0.0.14 1
+firefox6.0.2 8
+firefox13.0.1 2
+netscape3.0 6
+firefox2.0.0.9 1
+netscape0.91 8
+firefox3.5.8 2
+msie7.0 102
+firefox16.0 10
+msie2.0 15
+firefox9.0.1 2
+msie10.6 1
+msie5.0 7
+msie9.0 2605
+Unknown 48
+firefox11.0 9
+firefox3.5.6 9
+firefox17.0 29
+firefox13.0 4
+libwww 6
+opera 117
+firefox3.6.2 2
+firefox7.0.1 3
+msie5.5 57
+firefox12.0 5
+mozilla 100
+firefox14.0.1 14
+firefox3.6.28 1
+firefox5.0.1 1
+msie10.0 9
+msie9 1
+firefox6.0 5
+firefox3.6.3 1
+firefox1.0.6 209
+firefox3.6.22 1
+firefox19.0 49
+firefox3.0.19 1
+firefox10.0.2 2
+safari 821
+firefox3.6.13 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 17
+Mozilla/5.0_(compatible;_SiteExplorer/1.0b;__http://siteexplorer.info/) 20130228184155
+WWW-Mechanize/1.66 20130224003743
+WWW-Mechanize/1.58 20130215133026
+Mozilla/0.91_Beta_(Windows) 20130228200203
+libwww-perl/5.805 20130222033349
+Mozilla/5.0_(compatible;_Add_Catalog/2.1;) 20130225215404
+Mozilla/4.0_(compatible;_Blog_Search;) 20130225110604
+Mozilla/3.0_(compatible;_WebCapture_2.0;_Auto;_Windows) 20130220041356
+Link_Detective_1.0 20130207085108
+linkdex.com/v2.0 20130213175209
+MSIE9 20130203034905
+Mozilla/4.0_(compatible;_Search_Publisher_3.0) 20130203195803
+libwww-perl/6.04 20130201230252
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20130209022800
+Lynx/2.8.6rel.4_libwww-FM/2.14_SSL-MM/1.4.1_OpenSSL/0.9.8g 20130204230700
+Spyder_(Mag_Reiting:_http://magic-top.com) 20130225191950
+libwww-perl/6.02 20130228122036
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+Link_Detective_1.0 20130207085108
+linkdex.com/v2.0 20130213175209
+WWW-Mechanize/1.66 20130224003743
+WWW-Mechanize/1.58 20130215133026
+Microsoft_Office_Protocol_Discovery 20130222165645
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20130209022800
+Spyder_(Mag_Reiting:_http://magic-top.com) 20130225191950
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 792 804
+From1 0 0
+From2 47 56
+From3 515 519
+From4 484 4534
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 5
+google 33 41
+search 1 1
+mysearch 1 1
+yandex 5 5
+yahoo 7 8
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 135
+http://www.narcom.ru 14 14
+http://www.linkdetective.com 13 13
+http://top-diets.ru 12 12
+http://avtoru.org 12 12
+http://www.bing.com/search 11 11
+http://sysoliatin.com 10 10
+http://www.bceoc.org/links.htm 9 9
+http://slyspider.net 9 9
+http://soft-d1z.ru 6 6
+http://liveruscams.ru 6 6
+http://www.forexhm.ru 4 4
+http://onlycss.ru 3 3
+http://goucod.ru 2 2
+http://pimufa.ru 3 3
+http://www.zoominfo.com 0 2
+http://bablonow.ru 3 3
+http://zalezt.ru 2 2
+http://shulepoff.com 3 3
+http://pro-detok.com/home/4-blog/92-rvota.html 3 3
+http://loveladyfirerescue.com/Links___Training.html 1 1
+http://web-betting.ru 3 3
+http://pro-recipe.ru 3 3
+http://www.blogmedics.ru 4 4
+http://imsu-vinnycja.com 3 3
+http://www.nosokopt.ru 3 3
+http://jobroom.ru 2 2
+http://taxi-odessa-kherson.com 3 3
+http://www.r-studio.kiev.ua 5 5
+http://forex.osobye.ru 4 4
+http://gdenewsru.4bb.ru 2 2
+http://www.bigfinder.de/online-11.html 1 1
+http://www.sax-sex.com 6 6
+http://worldtatoo.ru 3 3
+http://adultblog.su 6 6
+http://www.fire101.com/nc_fire_department_directions1.htm 1 1
+http://crazy-animetv.net 2 2
+http://www.ooo-v-samare.ru 2 2
+http://3gp-xxx.net 6 6
+http://teenphone.ru 3 3
+http://buy-drugsonline.com 2 2
+http://wap4android.ru 3 3
+http://reservist.ru 3 3
+http://design-allnn.ru 2 2
+http://android-xxl.com 6 6
+http://www.coordinatedemergencyservices.com/NC_Fire_Rescue_EMS_A_-_I.html 2 2
+http://0029.ru 3 3
+http://ncarems.org/squadlinks.php 1 1
+http://farmaspravka.com 2 2
+http://web-knb.ru 6 6
+http://callpartner.biz 6 6
+http://android-directory.ru 3 3
+http://www.echomsk.spb.ru 2 2
+http://viktoria-center.ru 3 3
+http://honbu.ru 3 3
+http://www.plasticsurgeon.com.ua 2 2
+http://igrikazinoonlain.ru 4 4
+http://prosto-mebel.com 3 3
+http://apk4free.ru 6 6
+http://plastum.ru 3 3
+http://www.mail-pass.com 3 3
+http://glavsobe.mybb.ru 2 2
+http://www.ooo-asgard.ru 3 3
+http://mazzquito.com 2 2
+http://pharmacybiz.ru 3 3
+http://www.ncarems.org/squadlinks.php 4 4
+http://mazzay.by 6 6
+http://fifa12.ru 6 6
+http://ruprava.info 4 4
+http://icardfirerescue.com/links.html 1 1
+http://www.briz-nw.ru 3 3
+http://terabita.by 6 6
+http://moregirls.org 6 6
+http://www.fishers.spb.ru 3 3
+http://ecowars.tv 3 3
+http://www.brendletownfire.com/links.html 1 1
+http://www.plentagos.com 3 3
+http://blognauka.net/index.php 2 2
+http://coffee61.ru 3 3
+http://trafficvip.ru 3 3
+http://candle.ucoz.ua 2 2
+https://www.aprovpn.com 3 3
+http://android-all-inclusive.ru 3 3
+http://www.companytransavto.ru 3 3
+http://alfa-clinika.ru 3 3
+http://www.world-mmo.com 6 6
+http://vinixlinia.net 6 6
+http://workplans.ru 3 3
+http://confused-peter-mck.ru 3 3
+http://programmy-android.ru 6 6
+http://www.facebook.com/l.php 1 1
+http://www.intim-all.ru 3 3
+http://www.a-tg.ru 6 6
+http://qr-droid.ru 3 3
+http://povarenok.ru.com 3 3
+http://gdz-onlain.ru 2 2
+http://firedepartmentdirectory.com/Fire-Department/Fire-Stations/Fire-Station.aspx 4 4
+http://www1.search-results.com/web 1 1
+http://jamaero.ru 3 3
+http://best-porno.biz 6 6
+http://kazinorus.ru 4 4
+http://filmachev.ru 4 4
+http://magnetfox.com 3 3
+http://affiliatebiz.ru 6 6
+http://verhdohod.ru 3 3
+http://rabotnikof.net 1 1
+http://recepies.su 6 6
+http://call-sex.ru 3 3
+http://automotoclub.info 3 3
+http://www.krin-tour.ru 3 3
+http://www2.inbox.com/search/results1.aspx 2 2
+http://www.vseshmotki.com 2 2
+http://www.kuhovarim.com 2 2
+http://regimena.ru 3 3
+http://djimbo.ru 3 3
+http://dorfi.ru 3 3
+http://rumagic.com 3 3
+http://aboutcasino.biz 3 3
+http://technorix.ru 6 6
+http://xn--e1albg1fi.xn--p1ai 3 3
+http://www.tostead.ru 4 4
+http://vseokeyno.com 6 6
+http://sitetourism.com 2 2
+http://callvip.ru 3 3
+http://www.onegid.com 2 2
+http://1betmarket.ru 3 3
+http://pornogig.com 6 6
+http://co-travel.ru 3 3
+http://jobcool.ru 3 3
+http://torzona.ru 3 3
+http://pixelicious.ru 6 6
+http://adw-kupon.ru 6 6
+http://gos-kino.ru 2 2
+http://www.bing.com/images/search 0 2
+http://www.dixi-wild.com 4 4
+http://pakkula.ru 6 6
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 19
+salem+fire+and+rescue 9
+salem+fire+dept+morganton+nc 3
+salem+oregon+fire+and+rescue 2
+salem+fire+rescue 2
+rescue+pumper+equipment+inventory 1
+fire+and+rescue+collages+in+north+carolina 1
+1995+dodge+3500 1
+nc+fire+36+hours+training 1
+salem+volunteer+fire+and+rescue 1
+salem+fire+and+rescue+careers 1
+salem+volunteer+fire+dept. 1
+town+of+sale+fire+rescue 1
+morganton+nc+fire+department 1
+morganton+fire+department 1
+salem+community+morganton+nc 1
+avg 1
+salem+fire+department+nc 1
+salem+nc+fire+protection+association 1
+http+//www.salemfirerescue.org/weblinks/weblinks.htm 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 34
+fire 26
+salem 22
+rescue 18
+and 14
+nc 8
+morganton 6
+department 3
+dept 3
+volunteer 2
+oregon 2
+north 1
+3500 1
+hours 1
+carolina 1
+equipment 1
+protection 1
+of 1
+collages 1
+association 1
+inventory 1
+avg 1
+dodge 1
+careers 1
+dept. 1
+town 1
+community 1
+http 1
+in 1
+1995 1
+sale 1
+pumper 1
+training 1
+//www.salemfirerescue.org/weblinks/weblinks.htm 1
+36 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 6 2319
+302 309 145430
+206 44 396606
+406 1 1878
+404 3356 5860559
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 218
+/branches/florida/north-carolina-members/ 2 -
+/content/childrens-online-privacy-protection-act-coppa/ 2 -
+/branches/production-center/events/sag-low-budget-agreements-made-simple-0/ 2 -
+/content/residual-tracker/ 2 -
+/philosophy/ 2 -
+/CreateUser.asp 2 http://salemfirerescue.org/
+/content/organizing/ 3 -
+/cgi-bin/mt-upgrade.cgi 1 -
+/cgi-bin/register.cgi 1 -
+/content/safety/ 3 -
+/trigonometry/ 2 -
+/content/foreign-royalties/ 2 -
+/content/accessibility-statement/ 3 -
+/post.php 1 -
+/photo/092306.JPG 2 -
+/hot-news/ 2 -
+/hollywood/ 3 -
+/about-us/mission-statement/ 2 -
+/branches/houston/ 2 -
+/chemistry/ 2 -
+/apparatus/button6.jpg 21 http://www.salemfirerescue.org/apparatus/apparatus.htm
+/content/copyright/ 2 -
+/tax-legislation/ 3 -
+/branches/georgia/events/please-join-us-aftrasag-holiday-open-house-december-12/ 2 -
+/ucp.php 2 http://salemfirerescue.org/
+/sag-national-lgbt-actors-committee-and-sag-new-media-sponsor-new-media-film-festival-sf/ 3 -
+/member/join.php 2 http://salemfirerescue.org/
+/branches/philadelphia/ 2 -
+/myadmin/scripts/setup.php 1 http://SALEMFIRERESCUE.ORG/myadmin/scripts/setup.php
+/adhd/ 2 -
+/branches/florida/ 2 -
+/general-math/ 2 -
+/phpmyadmin/scripts/setup.php 1 http://SALEMFIRERESCUE.ORG/phpmyadmin/scripts/setup.php
+/branches/wash-balt/ 3 -
+/press-releases/december-09-2011/fendi-casa-luxury-living-returns-second-consecutive-year-design-sag-/ 1 -
+/photo/photoalbum/slide0425_image767.html 7 -
+/photo/040407.jpg 4 -
+/cbs-network-now-accepting-submissions-7th-annual-diversity-sketch-comedy-showcase/ 3 -
+/index.php 23 -
+/move/ 2 -
+/iactor-online-casting/ 2 -
+/important-deadline-sag-awards-voting-eligibility/ 3 -
+/mt/mt-upgrade.cgi 1 -
+/membership/button6.jpg 7 http://www.salemfirerescue.org/membership/membership.htm
+/act/ 2 -
+/index.php/forums/member/register 2 http://salemfirerescue.org/
+/biology/ 2 -
+/content/document-library/ 2 -
+/about-us/careers/careers/ 2 -
+/production-center/new-media/signatory-information/ 3 -
+/legislative-advocacy/legislative-advocacy/ 3 -
+/writerdirector-ava-duvernay-working-sag-actors/ 3 -
+/photo/120806.JPG 3 -
+/sag-members-save-20-entertainment-matters-ces-conference-pass/ 3 -
+/content/create-online-account/ 2 -
+/photo/fireprev101306.htm 2 -
+/administrator/index.php 2 -
+/join.php 6 http://salemfirerescue.org/
+/content/search-signatory-database/ 3 -
+/microbiology/ 2 -
+/writing/ 2 -
+/english/ 2 -
+/content-theft/ 3 -
+/press-releases/ 1 -
+/production-center/sign-sag-online/ 3 -
+/branches/dfw/ 2 -
+/branches/florida/louisiana-members/ 2 -
+/membership/membership.htm, 4 http://www.salemfirerescue.org/membership/membership.htm,
+/physics/ 2 -
+/18th-sag-awards-holiday-auction-benefit-sag-foundation-begins-today-6-pm-pt/ 2 -
+/diversity-casting-incentives/ 3 -
+/bokeindex.asp 1 -
+/about-us/partners/sag-partners-and-affiliated-sites/ 2 -
+/sat-math/ 2 -
+/sitemap/ 2 -
+/algebra/ 2 -
+/register.php 10 http://salemfirerescue.org/
+/register.aspx 1 http://salemfirerescue.org/
+/branches/san-diego/ 1 -
+/general-science/ 2 -
+/photo/firecontrol040407.htm 2 -
+/content/guild-information/ 2 -
+/User/Register.aspx 1 http://salemfirerescue.org/
+/Salem%2520Patch1.JPG 1 http://www.salemfirerescue.org/
+/profile.php 2 http://salemfirerescue.org/profile.php
+/admin.php 2 -
+/reg.asp 3 -
+/newsroom/ 2 -
+/photo/101206.JPG 3 -
+/tutors/225500/ 2 -
+/join_form.php 2 http://salemfirerescue.org/
+/branches/nashville/ 2 -
+/robots.txt 2733 -
+/apparatus/apparatus.htm+++++++++++++++++++++++++++++++Result:+%C3%AD%C3%A5+%C3%AD%C3%A0%C3%B8%C3%AB%C3%AE%C3%B1%C3%BC+%C3%B4%C3%AE%C3%B0%C3%AC%C3%BB+%C3%A4%C3%AB%C3%BF+%C3%AE%C3%B2%C3%AF%C3%B0%C3%A0%C3%A2%C3%AA%C3%A8 2 http://salemfirerescue.org/apparatus/apparatus.htm+++++++++++++++++++++++++++++++Result:+%ED%E5+%ED%E0%F8%EB%EE%F1%FC+%F4%EE%F0%EC%FB+%E4%EB%FF+%EE%F2%EF%F0%E0%E2%EA%E8
+/tutors/225496/ 2 -
+/login.php 5 http://salemfirerescue.org/
+/tutors/225645/ 2 -
+/tutors/225630/ 2 -
+/isee/ 2 -
+/photo/christmas120806.htm 2 -
+/modules.php 1 http://salemfirerescue.org/
+/photo/firecontrol032407.htm 3 -
+/content/residuals/ 3 -
+/content/membership/ 3 -
+/psychology/ 2 -
+/registration/ 3 -
+/photo/training092306.htm 4 -
+/photo/bbqfundraiser063007.htm 4 -
+/branches/chicago/ 2 -
+/geometry/ 2 -
+/branches/hollywood/events/sag-members-receive-discounted-film-pass-and-free-entry-panels-la-femme-in/ 2 -
+/content/affirmative-action-and-diversity/ 2 -
+/photo/032407.jpg 4 -
+/sag-new-media-hosts-sag-mini-summit-digital-hollywood-content-summit-spring/ 3 -
+/content/agency-relations/ 1 -
+/events/ 3 -
+/account/register.php 2 http://salemfirerescue.org/
+/BCFFA%2520Patch.gif 1 http://www.salemfirerescue.org/
+/tax-incentives/ 2 -
+/weblinks/button6.jpg 29 http://www.salemfirerescue.org/weblinks/weblinks.htm
+/branches/georgia/ 2 -
+/gre/ 2 -
+/photo/051907/img05resample.jpg 1 -
+/apple-touch-icon-precomposed.png 2 -
+/YaBB.pl/ 2 -
+/logging.php 1 http://salemfirerescue.org/
+/content/commercial-new-media-faqs/ 2 -
+/tutors/225464/ 2 -
+/branches/production-center/events/sag-low-budget-agreements-made-simple/ 2 -
+/social-studies/ 2 -
+/newmedia/ 2 -
+/home 25 -
+/branches/new-york/events/free-classical-music-concert-december-18/ 1 -
+/tutoring_jobs/ 2 -
+/photo/051907.jpg 3 -
+/wp-login.php 5 http://salemfirerescue.org/wp-login.php
+/personnel/~~themedata~~/ 1 -
+/member/index_do.php 1 http://salemfirerescue.org/
+/production-center/ 2 -
+/important-information-young-performers-ny/ 2 -
+/sag-tv/ 3 -
+/branches/nevada/ 2 -
+/production-center/television/signatory-information/ 3 -
+/content/search-unclaimed-residuals/ 3 -
+/tutors/225626/ 2 -
+/content/member-services/ 2 -
+/commercials-survey-help-organize-0/ 3 -
+/study-reveals-continued-lack-characters-disabilities-television/ 3 -
+/sign_up.html 2 http://salemfirerescue.org/
+/registration_rules.asp 2 http://salemfirerescue.org/registration_rules.asp
+/about-us/executive-staff/executive-staff/ 2 -
+/branches/utah/ 2 -
+/privacy-policy-terms-use/ 1 -
+/able.asp 27 -
+/content/global-rule-one/ 2 -
+/organizing/act-one/act-one/ 2 -
+/forum/member/register/ 2 http://salemfirerescue.org/forum/member/register
+/german/ 2 -
+/node/11/ 2 -
+/branches/seattle/ 2 -
+/content/industry-services/ 1 -
+/content/about-us/ 2 -
+/branches/boston/ 2 -
+/press-releases/december-07-2011/judy-greer-and-regina-king-join-sag-president-ken-howard-announce-no/ 1 -
+/contracts/filing-a-claim-inquiry/filing-a-claim-inquiry/ 3 -
+/sag-partners-entertainment-industry-launch-creative-america-initiative-aimed-eliminating-content-the/ 3 -
+/spanish/ 2 -
+/about-us/governance/ 2 -
+/member/register/ 2 http://salemfirerescue.org/member/register
+/production-center/industrial/signatory-information/ 2 -
+/production-center/theatrical/signatory-information/ 3 -
+/octavia-spencer-getting-her-sag-card/ 2 -
+/newyork/ 2 -
+/photo/rescue051907.htm 3 -
+/about-us/contact-us/sag-national-contact-information/ 2 -
+/branches/detroit/ 2 -
+/tiki-register.php 2 http://salemfirerescue.org/
+/tribe-elves-invades-sag-headquarters/ 3 -
+/branches/ 2 -
+/www.dresses-outlet.co.uk 5 -
+/chinese/ 2 -
+/branches/colorado/ 2 -
+/signup.php 11 http://salemfirerescue.org/
+/signup/ 5 http://salemfirerescue.org/
+/cgi-bin/mt/mt-upgrade.cgi 1 -
+/photo/fireprev101206.htm 2 -
+/divisions-branches/puerto-rico/puerto-rico/ 3 -
+/www.google.com 1 -
+/tools/quicklogin.one 2 http://salemfirerescue.org/
+/photo/photoalbum/slide0425_image767_small.jpg 4 -
+/pre-calculus/ 2 -
+/organizing/spanishlanguageorganizing/ 2 -
+/branches/new-mexico/ 2 -
+/lsat/ 2 -
+/photo/063007.jpg 3 -
+/branches/arizona/ 1 -
+/tutors/225518/ 2 -
+/right-publicity-0/ 3 -
+/calculus/ 3 -
+/content/young-performers/ 3 -
+/YaBB.cgi/ 2 -
+/member-alerts/ 3 -
+/branches/san-francisco/ 2 -
+/branches/portland/ 2 -
+/register.cgi 1 http://salemfirerescue.org/
+/study-skills/ 2 -
+/member.php 2 http://salemfirerescue.org/
+/home/ 3 -
+/screenactor/ 3 -
+/personnel/~~colorschememapping~~/ 1 -
+/register/ 1 http://www.salemfirerescue.org/
+/branches/hawaii/ 2 -
+/press-releases/december-08-2011/18th-sag-awards-holiday-auction-benefit-sag-foundation-begins-today-/ 2 -
+/blogs/load/recent/ 2 http://salemfirerescue.org/blogs/load/recent
+/sag_services/sso/duesonline/ 3 -
+/production-center/commercial/signatory-information/ 2 -
+/photo/101306.JPG 5 -
+/sat/ 2 -
+END_SIDER_404

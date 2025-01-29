@@ -1,0 +1,245 @@
+AWSTATS DATA FILE 5.1 (build 1.389)
+# If you remove this file, all statistics for date 2004-08 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section
+# for direct I/O access. If you made changes somewhere in this file, you
+# should also remove completely the MAP section (AWStats will rewrite it
+# at next update).
+BEGIN_MAP 23
+POS_GENERAL 1643                
+POS_TIME 1976                
+POS_VISITOR 5246                
+POS_DAY 6125                
+POS_DOMAIN 2437                
+POS_LOGIN 2657                
+POS_ROBOT 2796                
+POS_EMAILSENDER 2932                
+POS_EMAILRECEIVER 3080                
+POS_SESSION 6239                
+POS_SIDER 6443                
+POS_FILETYPES 3219                
+POS_BROWSER 3355                
+POS_OS 3477                
+POS_UNKNOWNREFERER 3593                
+POS_UNKNOWNREFERERBROWSER 3702                
+POS_ORIGIN 3806                
+POS_SEREFERRALS 3946                
+POS_PAGEREFS 4019                
+POS_SEARCHWORDS 4355                
+POS_KEYWORDS 4512                
+POS_ERRORS 4575                
+POS_SIDER_404 4682                
+END_MAP
+
+# LastLine    = Date of last record processed
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of lines read - Nb of old records - Nb of new records - Nb of corrupted - Nb of dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20040901001822
+FirstTime 20040830191815
+LastTime 20040831230525
+LastUpdate 20040831174036 496 340 115 40 1
+TotalVisits 16                  
+TotalUnique 13                  
+MonthHostsKnown 12                  
+MonthHostsUnknown 2                   
+END_GENERAL
+
+# Hour - Pages - Hits - Bandwidth
+BEGIN_TIME 24
+0 1 1 28217
+1 1 1 28217
+2 2 21 379602
+3 0 1 1586
+4 0 0 0
+5 0 0 0
+6 0 0 0
+7 0 0 0
+8 6 23 645137
+9 11 11 117362
+10 0 0 0
+11 0 0 0
+12 0 0 0
+13 12 75 1564140
+14 15 84 1659836
+15 20 66 1440543
+16 2 9 177501
+17 2 16 510278
+18 8 43 976853
+19 4 23 436481
+20 0 0 0
+21 4 22 259029
+22 14 81 2267390
+23 10 43 1016045
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 20 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+com 62 280 6589581
+net 33 194 4000336
+ip 11 12 118948
+us 6 34 799352
+END_DOMAIN
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+gif 109 204522 0 0
+pdf 7 87034 0 0
+jpg 299 8692523 0 0
+htm 105 2524138 0 0
+END_FILETYPES
+
+# Browser ID - Hits
+BEGIN_BROWSER 6
+msie5.5 21
+msie5.0 15
+msie5.00 11
+Unknown 1
+msie5.01 46
+msie6.0 426
+END_BROWSER
+
+# OS ID - Hits
+BEGIN_OS 5
+win98 60
+winme 21
+winxp 392
+win2000 46
+Unknown 1
+END_OS
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+- 20040831035607
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+- 20040831035607
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 64 186
+From1 0 0
+From2 0 0
+From3 22 33
+From4 26 301
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Hits
+BEGIN_PAGEREFS 5
+http://www.icardfire.com/links.html 1
+http://bw.online-wars.de 11
+http://www.bceoc.org/links.htm 3
+http://www.firenews.net/contents/web_links.htm 7
+http://salemfirerescue.org 11
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 20 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 20 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 7 231433
+404 14 22041
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 4
+/mewebmail 1 http://bw.online-wars.de
+/weblinks/button6.jpg 5 http://www.salemfirerescue.org/weblinks/weblinks.htm
+/[U]http:/mail.salemfirerescue.org/mailmaxweb 1 -
+/apparatus/button6.jpg 7 http://www.salemfirerescue.org/apparatus/apparatus.htm
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start of last visit date] - [Last page of last visit]
+# [Start of last visit date] and [Last page of last visit] are saved only if session is not finished
+# The 20 first Hits must be first (order not required for others)
+BEGIN_VISITOR 14
+cpe-24-196-195-063.hky.nc.charter.com 52 229 4981839 20040831230525
+nc-65-40-174-141.dyn.sprint-hsd.net 14 76 1567708 20040831140620
+211.157.8.48 11 11 117362 20040831095703
+adsl-068-016-148-056.sip.clt.bellsouth.net 10 46 1081618 20040831081632
+cpe-66-190-155-062.hky.nc.charter.com 8 49 1551308 20040831222342
+bcpsgate.burke.k12.nc.us 6 34 799352 20040831181548
+pcp03865988pcs.glst3401.nj.comcast.net 3 22 379602 20040830232519
+nh-newport2a-a-165.bur.adelphia.net 2 21 379602 20040831025208
+adsl-1-131-133.clt.bellsouth.net 2 16 510278 20040831172240
+proxys.ia2.marketscore.com 1 1 28217 20040831003748
+1cust155.tnt27.atl4.da.uu.net 1 6 67827 20040830214517
+1cust233.tnt27.atl4.da.uu.net 1 7 13701 20040830215115
+proxys.or3.marketscore.com 1 1 28217 20040831010359
+69.36.5.45 0 1 1586 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 2
+20040830 9 58 897611 4
+20040831 103 462 10610606 12
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 2
+0s-30s 9
+5mn-15mn 1
+30s-2mn 2
+2mn-5mn 1
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 20 first Pages must be first (order not required for others)
+BEGIN_SIDER 12
+/default.htm 67 1814356 16 9
+/training/training.htm 13 188025 0 1
+/apparatus/apparatus.htm 9 147673 0 2
+/weblinks/weblinks.htm 7 209933 0 2
+/personnel/personnel.htm 5 156803 0 0
+/membership/membership.htm 2 3677 0 0
+/history/history.htm 2 3671 0 0
+/training/SCH-Sept2004.pdf 2 25594 0 0
+/training/trainingcal.pdf 2 8192 0 1
+/training/sch-aug2004.pdf 1 2048 0 1
+/training/0804_ccc_schedule.pdf 1 43008 0 0
+/training/0804_wpcc_schedule.pdf 1 8192 0 0
+END_SIDER

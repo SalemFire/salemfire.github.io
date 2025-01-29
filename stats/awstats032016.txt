@@ -1,0 +1,3181 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201603 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2554                
+POS_VISITOR 86610               
+POS_DAY 115752              
+POS_DOMAIN 3494                
+POS_LOGIN 3727                
+POS_ROBOT 3882                
+POS_WORMS 4769                
+POS_EMAILSENDER 4900                
+POS_EMAILRECEIVER 5043                
+POS_SESSION 116625              
+POS_SIDER 116837              
+POS_FILETYPES 5178                
+POS_OS 5386                
+POS_BROWSER 5592                
+POS_SCREENSIZE 6326                
+POS_UNKNOWNREFERER 6400                
+POS_UNKNOWNREFERERBROWSER 13510               
+POS_ORIGIN 20294               
+POS_SEREFERRALS 20444               
+POS_PAGEREFS 20634               
+POS_SEARCHWORDS 21825               
+POS_KEYWORDS 22053               
+POS_MISC 2217                
+POS_ERRORS 22203               
+POS_CLUSTER 3583                
+POS_SIDER_404 22397               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160401002225 20305 4239917 34003733218
+FirstTime 20160301000407
+LastTime 20160331222743
+LastUpdate 20160402033616 20305 20021 278 0 5
+TotalVisits 999                 
+TotalUnique 689                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 778                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 18 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 78 266 2559456 466 490 2696875
+1 85 365 3971835 232 250 1068368
+2 174 325 4053996 464 477 2925517
+3 142 459 3843298 244 250 2139620
+4 819 965 10174796 1698 1747 3186769
+5 65 165 2005852 394 408 2160240
+6 96 131 2542443 273 285 1204376
+7 68 105 1652778 136 151 1158704
+8 56 109 1242243 561 569 1924479
+9 22 37 236839 231 237 1924414
+10 70 149 1601358 454 461 2757285
+11 116 260 2767807 360 382 3939695
+12 66 263 2883057 430 438 1430960
+13 65 443 4912005 867 881 4382180
+14 178 611 8453410 830 849 4412484
+15 50 261 2774820 98 103 626198
+16 58 296 3148672 731 748 3562899
+17 76 364 4306760 766 774 2154792
+18 162 621 8369576 151 172 989441
+19 90 417 3893439 138 147 1047593
+20 94 346 3489325 662 669 7032554
+21 94 344 3675727 351 367 1997046
+22 68 238 2864845 164 187 1443957
+23 223 1051 10489376 719 754 4289116
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 3015 8591 95913713
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 21
+bot[+:,\.\;\/\\-] 3666 26679868 20160331211829 0
+mj12bot 2444 10526908 20160331214429 0
+crawl 590 2557881 20160330192630 0
+spider 405 3615402 20160331023150 0
+robot 328 1113712 20160331233717 0
+slurp 315 968595 20160331234625 0
+googlebot 303 4095172 20160331234031 0
+java 91 1314613 20160331134837 0
+yandex 88 999213 20160330232511 0
+baiduspider 64 808089 20160331204006 0
+no_user_agent 17 216463 20160330045309 0
+exabot 16 23773 20160331230644 0
+seznambot 25 313718 20160330214840 0
+mail\.ru 29 164069 20160301161502 0
+phantom 15 140532 20160320111606 0
+custo 4 50912 20160330045305 0
+python 10 127264 20160328230713 0
+surveybot 1 12728 20160325202037 0
+msiecrawler 1 12062 20160327111752 0
+sogou 19 0 20160330010526 0
+netcraft 1 12747 20160308212144 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 26 41247 0 0
+bmp 3 248928 0 0
+html 1156 3425446 0 0
+jpg 3271 48051907 0 0
+xml 66 29580 0 0
+htm 1844 30820003 0 0
+Unknown 15 56430 0 0
+gif 2210 13240172 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 14
+winlong 297
+winxp 535
+unix 44
+winnt 1016
+linuxubuntu 2
+linux 1484
+winvista 160
+macosx 701
+winunknown 3
+win2003 23
+linuxdebian 1
+bsdopenbsd 2
+Unknown 544
+win2008 3779
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 50
+msie6.0 39
+firefox28.0 15
+firefox5.0 3
+firefox20.0 11
+firefox3.6 4
+firefox44.0 463
+chrome 2885
+firefox4.0 3
+firefox34.0 2
+msie11 2
+firefox24.0 23
+firefox31.0 7
+msie8.0 13
+firefox6.0.2 360
+firefox43.0 2
+msie7.0 28
+firefox3.6.1 1
+firefox16.0 1
+firefox40.1 19
+firefox23.0 2
+firefox41.0 3
+wget 15
+msie10.6 1
+msie9.0 1307
+Unknown 360
+firefox11.0 2
+netscape 150
+firefox3.5.6 2
+firefox17.0 60
+firefox40.0 43
+opera 8
+firefox21.0 18
+firefox29.0 6
+firefox30.0 1
+firefox2.0.0.6 1
+firefox12.0 1
+firefox45.0 18
+firefox25.0 1
+mozilla 1961
+firefox37.0 1
+firefox14.0.1 11
+firefox22.0 4
+firefox3.6.28 1
+msie10.0 51
+netscape4.0 16
+firefox3.6.3 2
+firefox10.0.2 2
+firefox36.0 1
+firefox27.3 3
+safari 658
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 66
+268435455 20160330045306
+Mozilla/5.0_(compatible;_Lipperhey-Kaus-Australis/5.0;__https://www.lipperhey.com/en/about/) 20160315071256
+<!-- 20160330045312
+!(()&&!|*|*| 20160330045306
+Blackboard_Safeassign 20160323011815
+|dir 20160330045306
+Mozilla/4.0_(compatible;_Synapse) 20160325105338
+-1'_or_'35'='0 20160330045313
+;print(md5(acunetix_wvs_security_test)); 20160330045308
+1A_xa7A¢ 20160330045312
+Mozilla 20160331103857
+${@print(md5(acunetix_wvs_security_test))}\ 20160330045309
+Mozilla/4.0 20160318025617
+WWW-Mechanize/1.74 20160316071057
+..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5cwindows%5cwin.ini 20160330045311
+Go-http-client/1.1 20160326195324
+\ 20160330045312
+Ruby 20160331140419
+1e309 20160330045307
+${99683_100355} 20160330045303
+http://testasp.vulnweb.com/t/fit.txt?%00.0) 20160330045306
+^(#$!@#$)(()))****** 20160330045306
+JyI= 20160330045312
+Mozilla/3.0_(compatible;_Indy_Library) 20160306045914
+WEB-INF\web.xml 20160330045313
+?'? 20160330045313
+response.write(9305060*9205839) 20160330045303
+-1_or_43=0 20160330045313
+) 20160330045305
+WEB-INF/web.xml 20160330045313
+unexisting/../../../../../../../../../../windows/win.ini.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\ 20160330045313
+' 20160330045312
+betaBot 20160325230258
+&dir 20160330045304
+1' 20160330045338
+/.\\./.\\./.\\./.\\./.\\./.\\./windows/win.ini 20160330045312
+................windowswin.ini 20160330045311
+http://testasp.vulnweb.com/t/xss.html?%00.0) 20160330045306
+<?xml_version= 20160330045310
+%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%afwindows%c0%afwin.ini 20160330045311
+1some_inexistent_file_with_long_name%00.0) 20160330045305
+${@print(md5(acunetix_wvs_security_test))} 20160330045309
+';print(md5(acunetix_wvs_security_test));$a=' 20160330045308
+'_response.write(9305060*9205839)_' 20160330045304
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20160327005041
+-1_or_43=43 20160330045313
+../..//../..//../..//../..//../..//../..//../..//../..//windows/win.ini 20160330045312
+@@mgzgV 20160330045312
+testasp.vulnweb.com 20160330045306
+../../../../../../../../../../windows/win.ini%00.0) 20160330045310
+Stratagems_Kumo 20160330121748
+Mozilla/5.0_(compatible;_DomainAppender_/1.0;__http://www.profound.net/domainappender) 20160312204909
+..%c0%af 20160330045307
+http://some-inexistent-website.acu/some_inexistent_file_with_long_name?%00.0) 20160330045305
+-1'_or_'35'='35 20160330045313
+Mozilla/5.0_(Windows_10;_WOW64;_rv:41.0)_Gecko/20100101_Firefox/41.0 20160329230617
+?''? 20160330045313
+))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))) 20160330045310
+../../../../../../../../../../boot.ini 20160330045309
+'|dir 20160330045306
+%e3h 20160330045306
+../.../.././../.../.././../.../.././../.../.././../.../.././../.../.././windows/win.ini 20160330045312
+'&dir&' 20160330045305
+../../../../../../../../../../windows/win.ini 20160330045309
+-1 20160330045314
+http://testasp.vulnweb.com/t/fit.txt 20160330045308
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 61
+Microsoft_Windows_Network_Diagnostics 20160303135450
+268435455 20160330045306
+/.\\./.\\./.\\./.\\./.\\./.\\./windows/win.ini 20160330045312
+................windowswin.ini 20160330045311
+http://testasp.vulnweb.com/t/xss.html?%00.0) 20160330045306
+<!-- 20160330045312
+!(()&&!|*|*| 20160330045306
+Blackboard_Safeassign 20160323011815
+|dir 20160330045306
+-1'_or_'35'='0 20160330045313
+;print(md5(acunetix_wvs_security_test)); 20160330045308
+<?xml_version= 20160330045310
+%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%afwindows%c0%afwin.ini 20160330045311
+1A_xa7A¢ 20160330045312
+1some_inexistent_file_with_long_name%00.0) 20160330045305
+${@print(md5(acunetix_wvs_security_test))} 20160330045309
+';print(md5(acunetix_wvs_security_test));$a=' 20160330045308
+${@print(md5(acunetix_wvs_security_test))}\ 20160330045309
+'_response.write(9305060*9205839)_' 20160330045304
+WWW-Mechanize/1.74 20160316071057
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20160327005041
+..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5cwindows%5cwin.ini 20160330045311
+-1_or_43=43 20160330045313
+Go-http-client/1.1 20160326195324
+../..//../..//../..//../..//../..//../..//../..//../..//windows/win.ini 20160330045312
+@@mgzgV 20160330045312
+testasp.vulnweb.com 20160330045306
+Stratagems_Kumo 20160330121748
+../../../../../../../../../../windows/win.ini%00.0) 20160330045310
+\ 20160330045312
+Ruby 20160331140419
+rest-client/2.0.0.alpha_(linux-gnu_x86_64)_ruby/2.1.3p242 20160313072915
+..%c0%af 20160330045307
+http://some-inexistent-website.acu/some_inexistent_file_with_long_name?%00.0) 20160330045305
+1e309 20160330045307
+${99683_100355} 20160330045303
+-1'_or_'35'='35 20160330045313
+http://testasp.vulnweb.com/t/fit.txt?%00.0) 20160330045306
+^(#$!@#$)(()))****** 20160330045306
+JyI= 20160330045312
+WEB-INF\web.xml 20160330045313
+?''? 20160330045313
+))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))) 20160330045310
+../../../../../../../../../../boot.ini 20160330045309
+'|dir 20160330045306
+?'? 20160330045313
+%e3h 20160330045306
+../.../.././../.../.././../.../.././../.../.././../.../.././../.../.././windows/win.ini 20160330045312
+response.write(9305060*9205839) 20160330045303
+-1_or_43=0 20160330045313
+'&dir&' 20160330045305
+) 20160330045305
+WEB-INF/web.xml 20160330045313
+' 20160330045312
+unexisting/../../../../../../../../../../windows/win.ini.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\ 20160330045313
+../../../../../../../../../../windows/win.ini 20160330045309
+betaBot 20160325230258
+http://testasp.vulnweb.com/t/fit.txt 20160330045308
+&dir 20160330045304
+1' 20160330045338
+-1 20160330045314
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1482 1576
+From1 80 80
+From2 280 370
+From3 69 75
+From4 1104 6490
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google 265 355
+search 1 1
+baidu 7 7
+yahoo 7 7
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 25
+http://top1-seo-service.com/try.php 31 31
+http://www.bing.com/search 5 5
+http://www.icardfirerescue.com/links.html 4 4
+http://burger-imperia.com 4 4
+http://9463601.responsive-test.net 3 3
+http://www.bceoc.org/links.htm 2 2
+http://buttons-for-website.com 2 2
+https://www.bing.com 2 4
+http://testasp.vulnweb.com/t/fit.txt 2 2
+http://playboyfiles.xblog.in 1 1
+http://pizza-imperia.com 1 1
+http://hvd-store.com 1 1
+http://www.urlopener.com/homepage.html 1 1
+http://testasp.vulnweb.com/t/xss.html 1 1
+http://start.centurylink.net/search/index.php 1 1
+http://some-inexistent-website.acu/some_inexistent_file_with_long_name 1 1
+http://navigator.cognitiveseo.com/parser/ 0 3
+http://brendletownfire.com/links.html 1 1
+http://outreach.reachnetwork.com/prospect_contact 1 1
+http://m.facebook.com 1 1
+http://www.bing.com/images/search 0 1
+http://www.visistat.com/tracking/lead-history.php 1 1
+http://l.facebook.com/l.php 1 1
+https://www.bing.com 1 1
+http://www.firedepartment.net/directory/north-carolina/burke-county/morganton/salem-fire-department 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+salemfire%26rescue-home 7
+city+of+morganton+nc 1
+salem+va+fire+and+rescue 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 10
+salemfire%26rescue-home 7
+of 1
+va 1
+salem 1
+rescue 1
+city 1
+fire 1
+morganton 1
+and 1
+nc 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 9
+403 334 517929
+206 523 2209037
+400 1 211
+417 1 141
+302 104 48752
+500 1 3266
+405 17 30039
+301 28 11540
+404 2355 3880926
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 1413
+/training/"&dir&".htm 1 -
+/photo/customers.sqlite 1 -
+/history/987321@/ 1 http://www.salemfirerescue.org:80/
+/weblinks/'+response.write(9117267*9470986)+'.htm 1 -
+/personnel/-1%20or%2071=0.htm 1 http://www.salemfirerescue.org:80/
+/training/bkRaZGw0cTM=.htm 1 -
+/history/"&dir&".htm 1 -
+/weblinks/weblinks_files/test.sqlite 1 -
+/stats'%20and%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/lol.php 1 -
+/weblinks/weblinks&n988356=v993285.htm 1 -
+/training/training'%20and%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/training/training_files/logs.sqlite 1 -
+/weblinks/weblinks_files/private.sqlite 2 -
+/dbadmin/main.php 1 -
+/photo/photoalbum/r57eng.php 1 -
+/training/training%20and%20sleep(4)%20.htm 1 http://www.salemfirerescue.org:80/
+/training/training_files/BCBzk.html 1 -
+/history/afJSt.html 1 -
+/config/database.yml_original 1 -
+/apparatus/private.sqlite 2 -
+/personnel/-1'%20or%20'80'='0.htm 1 http://www.salemfirerescue.org:80/
+/kids/kids_files/database.mdb 1 -
+/weblinks/weblinks_files/.svn/entries 1 -
+/default_files/log.mdb 1 -
+/apparatus/http:/testasp.vulnweb.com/t/fit.txt%3F%2500.jpg.htm 1 http://www.salemfirerescue.org:80/
+/tomcat-docs/appdev/sample/web/hello.jsp 1 -
+/personnel/personnel%20or%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/kids/JyI=.htm 1 http://www.salemfirerescue.org:80/
+/private.sqlite 2 -
+/apparatus/'".htm 1 -
+/kids/kids_files/data.mdb 1 -
+/training/1some_inexistent_file_with_long_name%2500.jpg.htm 1 http://www.salemfirerescue.org:80/
+/apparatus/1'".htm 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/r.php 1 -
+/history/Ki26i.mdb 1 -
+/safetytips_files/data.sqlite 1 -
+/personnel/data.mdb 1 -
+/weblinks/%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/.git/config 1 -
+/membership/................windowswin.ini.htm 1 http://www.salemfirerescue.org:80/
+/nst.php 1 -
+/assets/components/phpthumb/phpThumb.php 1 -
+/photo/photoalbum/private.mdb 2 -
+/test.sqlite 1 -
+/weblinks/weblinks_files/f6488.html 1 -
+/training/log.mdb 1 -
+/-1%20or%2027=27.htm 1 http://www.salemfirerescue.org:80/
+/membership/membership"%20and%20sleep(4)=".htm 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/.svn/entries 1 -
+/mgwBxMN2lj.cgi 1 -
+/kids/kids_files/personal.sqlite 1 -
+/kids/kids_files/db.mdb 1 -
+/membership/"+response.write(9151248*9093006)+".htm 1 -
+/personnel/test.mdb 1 -
+/kids/kids"%20and%20sleep(4)=".htm 1 http://www.salemfirerescue.org:80/
+/kids/logs.sqlite 1 -
+/history/password.sqlite 1 -
+/training/training"%20and%20sleep(4)=".htm 1 http://www.salemfirerescue.org:80/
+/personnel/db1.sqlite 1 -
+/weblinks/weblinks_files/database.mdb 1 -
+/membership/'".htm 1 -
+/photo/photoalbum/dra.php 1 -
+/localconfig.php 1 -
+/weblinks/1e309.htm 1 http://www.salemfirerescue.org:80/
+/kids/..%E2%88%95..%E2%88%95..%E2%88%95..%E2%88%95..%E2%88%95..%E2%88%95..%E2%88%95..%E2%88%95windows/win.ini 1 -
+/default_files/db1.sqlite 1 -
+/weblinks/passwords.mdb 1 -
+/personnel/members.sqlite 1 -
+/weblinks/weblinks_files/passwords.sqlite 1 -
+/training/testasp.vulnweb.com.htm 1 http://www.salemfirerescue.org:80/
+/stats' 2 http://www.salemfirerescue.org:80/
+/photo/photoalbum/918663@/ 1 http://www.salemfirerescue.org:80/
+/membership/http:/some-inexistent-website.acu/some_inexistent_file_with_long_name%3F%2500.jpg.htm 1 http://www.salemfirerescue.org:80/
+/mgwBxMN2lj.jspa 1 -
+/personnel/http:/some-inexistent-website.acu/some_inexistent_file_with_long_name%3F%2500.jpg.htm 1 http://www.salemfirerescue.org:80/
+/kids/1e309.htm 1 http://www.salemfirerescue.org:80/
+/history/-1'%20or%20'31'='0.htm 1 http://www.salemfirerescue.org:80/
+/training/' 1 -
+/default_files/f1flObM19Q.jsp 1 -
+/membership/-1'%20or%20'76'='0.htm 1 http://www.salemfirerescue.org:80/
+/wp-admin/ 1 -
+/weblinks/%3C!--.htm 1 -
+/training/users.sqlite 1 -
+/personnel/"&dir&".htm 1 -
+/974057@/ 1 http://www.salemfirerescue.org:80/
+/xmlrpc.aspx 3 -
+/kids/..%255c..%255c..%255c..%255c..%255c..%255c..%255c..%255cetc/passwd 1 -
+/personnel/personnel"%20or%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/history/history&n936351=v986669.htm 1 -
+/photo/photoalbum/members.mdb 1 -
+/awstats/index.html 1 -
+/training/private.sqlite 2 -
+/weblinks/weblinks"%20or%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/weblinks/button6.jpg 19 http://www.salemfirerescue.org/weblinks/weblinks.htm
+/weblinks/passwords.sqlite 1 -
+/kids/%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2% 2 -
+/default_files/logs.sqlite 1 -
+/weblinks/"|dir.htm 1 -
+/r57shell.php 1 -
+/rst.php 1 -
+/WebResource.axd 2 -
+/weblinks/weblinks_files/db.sqlite 1 -
+/kids/data.sqlite 1 -
+/membership/${@print(md5(acunetix_wvs_security_test))}.htm 1 -
+/kids/http:/testasp.vulnweb.com/t/fit.txt%3F%2500.jpg.htm 1 http://www.salemfirerescue.org:80/
+/history/ 1 -
+/apparatus/))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))).htm 1 -
+/weblinks/weblinks 1 http://www.salemfirerescue.org:80/
+/contact-us/ 1 -
+/weblinks/test.sqlite 1 -
+/photo/photoalbum/'&dir&'.html 1 -
+/photo/db1.mdb 1 -
+/weblinks/"+response.write(9117267*9470986)+".htm 1 -
+/training/training%20or%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/config/database.yml~ 1 -
+/kids/db1.mdb 1 -
+/photo/wumGZ5Ww2c.jsp 1 -
+/${@print(md5(acunetix_wvs_security_test))}.htm 1 -
+/default_files/test.mdb 1 -
+/training/928437@/ 1 http://www.salemfirerescue.org:80/
+/history/................windowswin.ini.htm 1 http://www.salemfirerescue.org:80/
+/weblinks/' 1 -
+/r57eng.php 1 -
+/apparatus/76DHh.html 1 -
+/phpmyadmin2/main.php 1 -
+/personnel/' 1 -
+/default_files/passwords.mdb 1 -
+/kxdOQL8MoL.jsp 1 -
+/http:/testasp.vulnweb.com/t/fit.txt.htm 1 -
+/personnel/975821@/ 1 http://www.salemfirerescue.org:80/
+/kids/-1'%20or%20'58'='58.htm 1 http://www.salemfirerescue.org:80/
+/kids/password.mdb 1 -
+/phpThumb.php 1 -
+/personnel/|dir.htm 1 -
+/apparatus/customers.sqlite 1 -
+/photo/photoalbum/index14'%20and%20(sleep(4)+1)%20limit%201%20--%20.html 1 http://www.salemfirerescue.org:80/
+/|dir.htm 1 -
+/personnel/ 1 -
+/photo/photoalbum/test.php 1 -
+/cms/themes/cp_themes/default/images/swfupload.swf 1 -
+/personnel/-1'%20or%20'80'='80.htm 1 http://www.salemfirerescue.org:80/
+/apparatus/).htm 1 http://www.salemfirerescue.org:80/
+/personnel/personnel'%20and%20sleep(4)='.htm 1 http://www.salemfirerescue.org:80/
+/membership/db.mdb 1 -
+/JyI=.htm 1 http://www.salemfirerescue.org:80/
+/training/training 1 http://www.salemfirerescue.org:80/
+/safetytips_files/password.mdb 1 -
+/safetytips_files/db.sqlite 1 -
+/xmlrpc.asp 3 -
+/history/history%20or%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/weblinks/weblinks'"()&%25%3CScRiPt%20%3Eprompt(922910)%3C/ScRiPt%3E.htm 1 http://www.salemfirerescue.org:80/
+/kids/'|dir.htm 1 -
+/training/http:/some-inexistent-website.acu/some_inexistent_file_with_long_name%3F%2500.jpg.htm 1 http://www.salemfirerescue.org:80/
+/personnel/${99393+99796}.htm 1 -
+/training/%3F''%3F"".htm 1 http://www.salemfirerescue.org:80/
+/membership/" 1 -
+/personnel/log.sqlite 1 -
+/training/JyI=.htm 1 http://www.salemfirerescue.org:80/
+/stats/awstats.pl 1 -
+/staticfiles/phpThumb/phpThumb.php 1 -
+/personnel/personnel' 2 http://www.salemfirerescue.org:80/
+/app/config/database.yml.sqlite3 1 -
+/photo/photoalbum/" 1 -
+/manager/html/ 1 -
+/membership/%3F'%3F".htm 1 http://www.salemfirerescue.org:80/
+/vti_bin/..%C3%A0%E2%82%AC%C2%AF../..%C3%A0%E2%82%AC%C2%AF../..%C3%A0%E2%82%AC%C2%AF../winnt/system32/cmd.exe 1 -
+/membership/^(%23$!@%23$)(()))******.htm 1 http://www.salemfirerescue.org:80/
+/6etSTmSalE.cfm 1 -
+/kids/kids_files/db1.sqlite 1 -
+/kids/logs.mdb 1 -
+/' 1 -
+/weblinks/test.mdb 1 -
+/training/database.mdb 1 -
+/apparatus/apparatus%20and%20sleep(4)%20.htm 1 http://www.salemfirerescue.org:80/
+/kids/kids'"()&%25%3CScRiPt%20%3Eprompt(930707)%3C/ScRiPt%3E.htm 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/passwords.mdb 1 -
+/apparatus/button6.jpg 22 http://www.salemfirerescue.org/apparatus/apparatus.htm
+/personnel/!(()&&!|*|*|.htm 1 http://www.salemfirerescue.org:80/
+/default_files/clients.mdb 1 -
+/weblinks/1'".htm 1 http://www.salemfirerescue.org:80/
+/training/@@bPbgI.htm 1 http://www.salemfirerescue.org:80/
+/weblinks/users.mdb 1 -
+/ClientAccessPolicy.xml 1 -
+/personnel/${@print(md5(acunetix_wvs_security_test))}.htm 1 -
+/personnel/customers.sqlite 1 -
+/weblinks/weblinks_files/logs.mdb 1 -
+/photo/passwords.sqlite 1 -
+/history/members.sqlite 1 -
+/weblinks/weblinks_files/db.mdb 1 -
+/kids/exRoE.mdb 1 -
+/personnel/personnel'%20or%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/membership/data.mdb 1 -
+/Webalizer/ 1 -
+/kids/kids_files/logs.mdb 1 -
+/weblinks/))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))).htm 1 -
+/history/^(%23$!@%23$)(()))******.htm 1 http://www.salemfirerescue.org:80/
+/users.mdb 1 -
+/membership/1e309.htm 1 http://www.salemfirerescue.org:80/
+/membership/${100008+99029}.htm 1 -
+/membership/membership'%20and%20sleep(4)='.htm 1 http://www.salemfirerescue.org:80/
+/photo/.svn/entries 1 -
+/membership/994553@/ 1 http://www.salemfirerescue.org:80/
+/weblinks/UTNtNXloOEw=.htm 1 -
+/apparatus/OU8GK.mdb 1 -
+/membership/members.mdb 1 -
+/kids/&dir.htm 1 -
+/kids/................windowswin.ini.htm 1 http://www.salemfirerescue.org:80/
+/apparatus/password.mdb 1 -
+/mgwBxMN2lj.phtml 1 -
+/training/db1.mdb 1 -
+/history/&dir.htm 1 -
+/................windowswin.ini.htm 1 http://www.salemfirerescue.org:80/
+/history/|dir.htm 1 -
+/admin/tiny_mce/plugins/ibrowser/scripts/phpThumb/phpThumb.php 1 -
+/db.php 1 -
+/personnel/http:/testasp.vulnweb.com/t/fit.txt%3F%2500.jpg.htm 1 http://www.salemfirerescue.org:80/
+/components/com_alphauserpoints/assets/phpThumb/phpThumb.php 1 -
+/kids/kids 1 http://www.salemfirerescue.org:80/
+/training/WEB-INF/web.xml.htm 2 http://www.salemfirerescue.org:80/
+/PMA/main.php 1 -
+/personnel/%3F''%3F"".htm 1 http://www.salemfirerescue.org:80/
+/membership/response.write(9151248*9093006).htm 1 -
+/membership/1'".htm 1 http://www.salemfirerescue.org:80/
+/swfupload/swfupload.swf 1 -
+/membership/WEB-INF/web.xml.htm 2 http://www.salemfirerescue.org:80/
+/training/XKk1i.mdb 1 -
+/apparatus/db.mdb 1 -
+/personnel/'&dir&'.htm 1 -
+/weblinks/ 1 -
+/phpThumb/phpThumb.php 1 -
+/history/1some_inexistent_file_with_long_name%2500.jpg.htm 1 http://www.salemfirerescue.org:80/
+/..%C3%80%C2%AF.htm 1 http://www.salemfirerescue.org:80/
+/membership/%C3%A3h.htm 1 http://www.salemfirerescue.org:80/
+/kids/${@print(md5(acunetix_wvs_security_test))}.htm 1 -
+/photo/photoalbum/pi.php 1 -
+/history/log.sqlite 1 -
+/apparatus/http:/testasp.vulnweb.com/t/xss.html%3F%2500.jpg.htm 1 -
+/history/" 1 -
+/database.sqlite 1 -
+/config.inc.php 1 -
+/photo/test.sqlite 1 -
+/history/history'"()&%25%3CScRiPt%20%3Eprompt(987759)%3C/ScRiPt%3E.htm 1 http://www.salemfirerescue.org:80/
+/sitemap.xml 2 -
+/history/%C3%A3h.htm 1 http://www.salemfirerescue.org:80/
+/personnel/1'".htm 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/customers.mdb 1 -
+/kids/1some_inexistent_file_with_long_name%2500.jpg.htm 1 http://www.salemfirerescue.org:80/
+/app/config/database.yml 1 -
+/safetytips_files/private.sqlite 2 -
+/training/training_files/database.sqlite 1 -
+/history/@@alBhF.htm 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/members.sqlite 1 -
+/_vti_inf.html 1 -
+/kids/kids"=sleep(4)=".htm 1 http://www.salemfirerescue.org:80/
+/weblinks/'&dir&'.htm 1 -
+/weblinks/weblinks_files/test.mdb 1 -
+/photo/photoalbum/uqisR.html 1 -
+/kids/kids_files/users.mdb 1 -
+/photo/photoalbum/-1"%20or%20"39"="39.html 1 http://www.salemfirerescue.org:80/
+/weblinks/JyI=.htm 1 http://www.salemfirerescue.org:80/
+/temp.php 1 -
+/kids/kids_files/members.mdb 1 -
+/weblinks/-1'%20or%20'49'='0.htm 1 http://www.salemfirerescue.org:80/
+/browserconfig.xml 1 -
+/training/http:/testasp.vulnweb.com/t/xss.html%3F%2500.jpg.htm 1 -
+/training/clients.mdb 1 -
+/lol.php 1 -
+/safetytips_files/database.mdb 1 -
+/safetytips_files/log.mdb 1 -
+/settings.inc.php 1 -
+/history/-1%20or%2011=0.htm 1 http://www.salemfirerescue.org:80/
+/training/members.mdb 1 -
+/weblinks/weblinks_files/database.sqlite 1 -
+/weblinks/................windowswin.ini.htm 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/simple-backdoor.php 1 -
+/photo/users.mdb 1 -
+/apparatus/users.sqlite 1 -
+/kids/kids_files/6tfXm.mdb 1 -
+/1e309.htm 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/r58.php 1 -
+/training/training_files/members.sqlite 1 -
+/kids/db.sqlite 1 -
+/training/training_files/log.sqlite 1 -
+/kids/%C3%A3h.htm 1 http://www.salemfirerescue.org:80/
+/training/training_files/data.sqlite 1 -
+/training/|dir.htm 1 -
+/.svn/entries 1 -
+/personal.sqlite 1 -
+/weblinks/weblinks_files/password.mdb 1 -
+/photo/photoalbum/index14'%20or%20(sleep(4)+1)%20limit%201%20--%20.html 1 http://www.salemfirerescue.org:80/
+/history/http:/some-inexistent-website.acu/some_inexistent_file_with_long_name%3F%2500.jpg.htm 1 http://www.salemfirerescue.org:80/
+/personnel/personal.sqlite 1 -
+/photo/db.sqlite 1 -
+/personnel/logs.mdb 1 -
+/password.sqlite 1 -
+/membership/clients.mdb 1 -
+/ws_ftp.log 1 -
+/weblinks/weblinks_files/db1.sqlite 1 -
+/old/wp-admin/ 1 -
+/membership/%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3% 1 http://www.salemfirerescue.org:80/
+/personnel/personnel"%20and%20sleep(4)=".htm 1 http://www.salemfirerescue.org:80/
+/apparatus/windows/win.ini.htm 1 http://www.salemfirerescue.org:80/
+/weblinks/weblinks%20or%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/safetytips_files/clients.mdb 1 -
+/history/windows/win.ini.htm 1 http://www.salemfirerescue.org:80/
+/training/data.mdb 1 -
+/weblinks/weblinks_files/members.mdb 1 -
+/weblinks/weblinks'%20and%20sleep(4)='.htm 1 http://www.salemfirerescue.org:80/
+/training/training_files/passwords.mdb 1 -
+/personnel/db1.mdb 1 -
+/apparatus/customers.mdb 1 -
+/photo/photoalbum/slide0425_image767.html 8 -
+/history/response.write(9081521*9222416).htm 1 -
+/phpMyAdmin/main.php 1 -
+/personnel/data.sqlite 1 -
+/personnel/))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))).htm 1 -
+/photo/photoalbum/db.sqlite 1 -
+/photo/photoalbum/db.mdb 1 -
+/history/test.sqlite 1 -
+/training/"+response.write(9291057*9552760)+".htm 1 -
+/myadmin/main.php 1 -
+/weblinks/yJjnq.mdb 1 -
+/weblinks/db.sqlite 1 -
+/membership/passwords.sqlite 1 -
+/scripts/..%C3%80%C2%AF../..%C3%80%C2%AF../..%C3%80%C2%AF../winnt/system32/cmd.exe 1 -
+/-1'%20or%20'82'='82.htm 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/index&n906344=v925552.html 1 -
+/kids/response.write(9212341*9189369).htm 1 -
+/apparatus/apparatus'=sleep(4)='.htm 1 http://www.salemfirerescue.org:80/
+/history/database.mdb 1 -
+/index.php 1 -
+/membership/test.mdb 1 -
+/photo/photoalbum/'+response.write(9968107*9087099)+'.html 1 -
+/training/training_files/users.sqlite 1 -
+/default_files/db1.mdb 1 -
+/stats'=sleep(4)='.htm 1 http://www.salemfirerescue.org:80/
+/weblinks/clients.sqlite 1 -
+/history/data.mdb 1 -
+/photo/photoalbum/zehir.php 1 -
+/kids/kids_files/personal.mdb 1 -
+/http:/www.salemfirerescue.org:80/ClientAccessPolicy.xml 1 -
+/training/H8yRj.html 1 -
+/weblinks/personal.sqlite 1 -
+/personnel/%3F'%3F".htm 1 http://www.salemfirerescue.org:80/
+/contact/ 1 -
+/apparatus/log.mdb 1 -
+/personnel/'".htm 1 -
+/kids/kids_files/users.sqlite 1 -
+/weblinks/database.mdb 1 -
+/personnel/-1"%20or%20"27"="27.htm 1 http://www.salemfirerescue.org:80/
+/membership/5mU0x.html 1 -
+/membership/qC8wY.mdb 1 -
+/Global.asa.bak 1 -
+/app/config/database.yml_original 1 -
+/apparatus/1some_inexistent_file_with_long_name%2500.jpg.htm 1 http://www.salemfirerescue.org:80/
+/default_files/members.mdb 1 -
+/cgi-bin/..%C3%A0%E2%82%AC%C2%AF../..%C3%A0%E2%82%AC%C2%AF../..%C3%A0%E2%82%AC%C2%AF../winnt/system32/cmd.exe 1 -
+/mysqladmin/main.php 1 -
+/kids/'".htm 1 -
+/kids/1'".htm 1 http://www.salemfirerescue.org:80/
+/personnel/windows/win.ini.htm 1 http://www.salemfirerescue.org:80/
+/weblinks/logs.sqlite 1 -
+/training/db.mdb 1 -
+/niwD54ifH9.jsp 1 -
+/photo/photoalbum/nstview.php 1 -
+/personnel/customers.mdb 1 -
+/&dir.htm 1 -
+/1'".htm 1 http://www.salemfirerescue.org:80/
+/kids/kids_files/log.mdb 1 -
+/nstview.php 1 -
+/training/-1"%20or%20"18"="0.htm 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/windows/win.ini.html 1 http://www.salemfirerescue.org:80/
+/apparatus/.svn/entries 1 -
+/apparatus/-1'%20or%20'95'='95.htm 1 http://www.salemfirerescue.org:80/
+/apparatus/-1"%20or%20"83"="0.htm 1 http://www.salemfirerescue.org:80/
+/membership/'|dir.htm 1 -
+/membership/membership%20or%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/weblinks/%C3%A3h.htm 1 http://www.salemfirerescue.org:80/
+/photo/logs.sqlite 1 -
+/apparatus/&dir.htm 1 -
+/wp-content/plugins/fluid_forms/file-upload/server/gae-go/app.yaml 1 -
+/samples/..%C3%80%C2%AF../..%C3%80%C2%AF../..%C3%80%C2%AF../winnt/system32/cmd.exe 1 -
+/weblinks/-1%20or%2086=86.htm 1 http://www.salemfirerescue.org:80/
+/personnel/personnel&n938331=v945869.htm 1 -
+/safetytips_files/971294@/ 1 http://www.salemfirerescue.org:80/
+/personnel/1some_inexistent_file_with_long_name%2500.jpg.htm 1 http://www.salemfirerescue.org:80/
+/wp-login.php 10 -
+/safetytips_files/private.mdb 2 -
+/weblinks/268435455.htm 1 http://www.salemfirerescue.org:80/
+/common/phpthumb/phpThumb.php 1 -
+/weblinks/password.mdb 1 -
+/kids/password.sqlite 1 -
+/photo/photoalbum/index14%20and%20sleep(4)%20.html 1 http://www.salemfirerescue.org:80/
+/kids/private.mdb 2 -
+/kids/kids_files/clients.sqlite 1 -
+/membership/"|dir.htm 1 -
+/db.mdb 1 -
+/includes/swfupload/swfupload_f9.swf 1 -
+/membership/-1'%20or%20'76'='76.htm 1 http://www.salemfirerescue.org:80/
+/apparatus/mSjBp.mdb 1 -
+/safetytips_files/personal.sqlite 1 -
+/kids/^(%23$!@%23$)(()))******.htm 1 http://www.salemfirerescue.org:80/
+/license.php 1 http://salemfirerescue.org/license.php
+/index.php/api/xmlrpc 3 -
+/photo/photoalbum/rst.php 1 -
+/training/http:/testasp.vulnweb.com/t/fit.txt%3F%2500.jpg.htm 1 http://www.salemfirerescue.org:80/
+/membership/button6.jpg 3 http://www.salemfirerescue.org/membership/membership.htm
+/reports/Webalizer/ 1 -
+/photo/photoalbum/personal.sqlite 1 -
+/database.mdb 1 -
+/weblinks/.svn/entries 1 -
+/history/history"%20and%20sleep(4)=".htm 1 http://www.salemfirerescue.org:80/
+/apparatus/-1%20or%2024=24.htm 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/index14"=sleep(4)=".html 1 http://www.salemfirerescue.org:80/
+/personnel/268435455.htm 1 http://www.salemfirerescue.org:80/
+/mXp0o.mdb 1 -
+/weblinks/weblinks_files/personal.sqlite 1 -
+/safetytips_files/members.sqlite 1 -
+/photo/photoalbum/http:/testasp.vulnweb.com/t/fit.txt%3F%2500.jpg.html 1 http://www.salemfirerescue.org:80/
+/membership/!(()&&!|*|*|.htm 1 http://www.salemfirerescue.org:80/
+/web-console/ 1 -
+/weblinks/"&dir&".htm 1 -
+/training/training_files/customers.mdb 1 -
+/training/1e309.htm 1 http://www.salemfirerescue.org:80/
+/manager/ 1 http://salemfirerescue.org/manager/
+/history/history'=sleep(4)='.htm 1 http://www.salemfirerescue.org:80/
+/kids/%EF%BC%8E%EF%BC%8E/%EF%BC%8E%EF%BC%8E/%EF%BC%8E%EF%BC%8E/%EF%BC%8E%EF%BC%8E/%EF%BC%8E%EF%BC%8E/%EF%BC%8E%EF%BC%8E/%EF%BC%8E%EF%BC%8E/%EF%BC%8E%EF%BC%8E/windows/win.ini 1 -
+/photo/photoalbum/&dir.html 1 -
+/kids/................windows/win.ini 3 -
+/training/%3F'%3F".htm 1 http://www.salemfirerescue.org:80/
+/photo/clients.sqlite 1 -
+/personnel/test.sqlite 1 -
+/training/).htm 1 http://www.salemfirerescue.org:80/
+/mgwBxMN2lj.cfm 1 -
+/training/................windowswin.ini.htm 1 http://www.salemfirerescue.org:80/
+/"&dir&".htm 1 -
+/solr/admin/ 1 -
+/photo/photoalbum/users.sqlite 1 -
+/personnel/members.mdb 1 -
+/index.php/admin/ 1 http://salemfirerescue.org/index.php/admin/
+/!(()&&!|*|*|.htm 1 http://www.salemfirerescue.org:80/
+/netcat/admin/ 1 http://salemfirerescue.org/netcat/admin/
+/photo/photoalbum/i.php 1 -
+/db1.mdb 1 -
+/membership/membership'"()&%25%3CScRiPt%20%3Eprompt(993581)%3C/ScRiPt%3E.htm 1 http://www.salemfirerescue.org:80/
+/database.php 1 -
+/kids/testasp.vulnweb.com.htm 1 http://www.salemfirerescue.org:80/
+/).htm 1 http://www.salemfirerescue.org:80/
+/history/%3C!--.htm 1 -
+/apparatus/%3F''%3F"".htm 1 http://www.salemfirerescue.org:80/
+/Statistik/ 1 -
+/weblinks/weblinks_files/MAhS1EnlCr.jsp 1 -
+/kids/http:/testasp.vulnweb.com/t/xss.html%3F%2500.jpg.htm 1 -
+/mgwBxMN2lj.jsp 1 -
+/safetytips_files/test.sqlite 1 -
+/training/windows/win.ini.htm 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/1e309.html 1 http://www.salemfirerescue.org:80/
+/weblinks/%3F'%3F".htm 1 http://www.salemfirerescue.org:80/
+/kids/kids_files/private.mdb 2 -
+/personnel/'+response.write(9945787*9469473)+'.htm 1 -
+/apparatus/" 1 -
+/weblinks/response.write(9117267*9470986).htm 1 -
+/photo/photoalbum/data.mdb 1 -
+/weblinks/http:/testasp.vulnweb.com/t/fit.txt%3F%2500.jpg.htm 1 http://www.salemfirerescue.org:80/
+/weblinks/weblinks_files/clients.sqlite 1 -
+/kids/kids_files/clients.mdb 1 -
+/test/wp-admin/ 1 -
+/apparatus/personal.sqlite 1 -
+/apparatus/apparatus"%20and%20sleep(4)=".htm 1 http://www.salemfirerescue.org:80/
+/history/users.mdb 1 -
+/members.sqlite 1 -
+/default_files/customers.mdb 1 -
+/personnel/clients.mdb 1 -
+/history/1e309.htm 1 http://www.salemfirerescue.org:80/
+/mgwBxMN2lj.aspx 1 -
+/apparatus/www.acunetix.tst.htm 1 -
+/kids/log.mdb 1 -
+/stat/ 1 -
+/apparatus/%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%8 1 http://www.salemfirerescue.org:80/
+/safetytips_files/2eize.mdb 1 -
+/stats" 1 http://www.salemfirerescue.org:80/
+/kids/kids_files/logs.sqlite 1 -
+/pma/main.php 1 -
+/photo/photoalbum/http:/testasp.vulnweb.com/t/fit.txt.html 1 -
+/zehir.php 1 -
+/history/"+response.write(9081521*9222416)+".htm 1 -
+/weblinks/windows/win.ini.htm 1 http://www.salemfirerescue.org:80/
+/kids/..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c/etc/passwd 1 -
+/WEB-INF/web.xml.htm 2 http://www.salemfirerescue.org:80/
+/training/members.sqlite 1 -
+/membership/http:/testasp.vulnweb.com/t/xss.html%3F%2500.jpg.htm 1 -
+/admin/scripts/tinymce/jscripts/tiny_mce/plugins/ibrowser/scripts/phpThumb/phpThumb.php 1 -
+/history/logs.sqlite 1 -
+/apparatus/db1.sqlite 1 -
+/history/passwords.mdb 1 -
+/weblinks/weblinks_files/users.sqlite 1 -
+/photo/photoalbum/logs.sqlite 1 -
+/kids/kids_files/password.sqlite 1 -
+/mgwBxMN2lj.stm 1 -
+/apparatus/test.mdb 1 -
+/apple-app-site-association/ 1 -
+/c99shell.php 1 -
+/photo/photoalbum/apc.php 1 -
+/apparatus/^(%23$!@%23$)(()))******.htm 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/clients.mdb 1 -
+/history/%3F''%3F"".htm 1 http://www.salemfirerescue.org:80/
+/training/blSVD.mdb 1 -
+/photo/photoalbum/nst.php 1 -
+/default_files/Epzg9.mdb 1 -
+/history/268435455.htm 1 http://www.salemfirerescue.org:80/
+/membership/logs.sqlite 1 -
+/kids/windows/win.ini.htm 1 http://www.salemfirerescue.org:80/
+/apparatus/"|dir.htm 1 -
+/^(%23$!@%23$)(()))******.htm 1 http://www.salemfirerescue.org:80/
+/_layouts/scriptresx.ashx 1 -
+/training/NRjUAGwmpp.jsp 1 -
+/kids/))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))).htm 1 -
+/photo/private.mdb 2 -
+/training/%C3%A3h.htm 1 http://www.salemfirerescue.org:80/
+/apparatus/clients.mdb 1 -
+/history/history'%20or%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/apparatus/WEB-INF/web.xml.htm 2 http://www.salemfirerescue.org:80/
+/photo/data.sqlite 1 -
+/safetytips_files/users.mdb 1 -
+/training/training'"()&%25%3CScRiPt%20%3Eprompt(964313)%3C/ScRiPt%3E.htm 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/JyI=.html 1 http://www.salemfirerescue.org:80/
+/kids/..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af/etc/passwd 1 -
+/default_files/password.sqlite 1 -
+/training/!(()&&!|*|*|.htm 1 http://www.salemfirerescue.org:80/
+/apparatus/password.sqlite 1 -
+/photo/photoalbum/temp.php 1 -
+/weblinks/weblinks'=sleep(4)='.htm 1 http://www.salemfirerescue.org:80/
+/kids/clients.mdb 1 -
+/kids/${100255+99516}.htm 1 -
+/mgwBxMN2lj.shtml 1 -
+/history/history'%20and%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/kids/members.mdb 1 -
+/stats%20and%20sleep(4)%20.htm 1 http://www.salemfirerescue.org:80/
+/membership/).htm 1 http://www.salemfirerescue.org:80/
+/training/training' 2 http://www.salemfirerescue.org:80/
+/photo/photoalbum/response.write(9968107*9087099).html 1 -
+/joomla/administrator/index.php 1 -
+/training/training_files/password.mdb 1 -
+/stats"=sleep(4)=".htm 1 http://www.salemfirerescue.org:80/
+/database.yml.sqlite3 1 -
+/photo/photoalbum/%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2% 1 http://www.salemfirerescue.org:80/
+/personnel/private.sqlite 2 -
+/default_files/data.mdb 1 -
+/weblinks/weblinks_files/password.sqlite 1 -
+/history/history"%20or%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/c99shell.php 1 -
+/safetytips_files/users.sqlite 1 -
+/common/scripts/phpThumb/phpThumb.php 1 -
+/vti_cnf/..%C3%80%C2%AF../..%C3%80%C2%AF../..%C3%80%C2%AF../winnt/system32/cmd.exe 1 -
+/kids/|dir.htm 1 -
+/apparatus/logs.mdb 1 -
+/kids/.../.../.../.../.../.../.../.../windows/win.ini 1 -
+/personnel/@@6vqjb.htm 1 http://www.salemfirerescue.org:80/
+/history/%3F'%3F".htm 1 http://www.salemfirerescue.org:80/
+/php.php 1 -
+/photo/log.sqlite 1 -
+/database.yml~ 1 -
+/manager/phpThumb/phpThumb.php 1 -
+/personnel/personnel 1 http://www.salemfirerescue.org:80/
+/photo/fireprev101306.htm 1 -
+/photo/private.sqlite 2 -
+/photo/photoalbum/%3C!--.html 1 -
+/passwords.mdb 1 -
+/training/test.mdb 1 -
+/training/${@print(md5(acunetix_wvs_security_test))}.htm 1 -
+/administrator/index.php 3 -
+/vti_bin/..%C3%80%C2%AF../..%C3%80%C2%AF../..%C3%80%C2%AF../winnt/system32/cmd.exe 1 -
+/membership/db1.mdb 1 -
+/photo/users.sqlite 1 -
+/%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3 1 http://www.salemfirerescue.org:80/
+/training/'".htm 1 -
+/bitrix/admin/ 1 http://salemfirerescue.org/bitrix/admin/
+/usagedata/ 1 -
+/weblinks/customers.sqlite 1 -
+/apparatus/private.mdb 2 -
+/stats'"()&%25%3CScRiPt%20%3Eprompt(979443)%3C/ScRiPt%3E.htm 1 http://www.salemfirerescue.org:80/
+/history/testasp.vulnweb.com.htm 1 http://www.salemfirerescue.org:80/
+/kids/database.mdb 1 -
+/lib/phpThumb/phpThumb.php 1 -
+/history/db.sqlite 1 -
+/training/-1%20or%2084=84.htm 1 http://www.salemfirerescue.org:80/
+/qSKYq.mdb 1 -
+/photo/photoalbum/1'".html 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/' 1 -
+/http:/www.salemfirerescue.org:80/crossdomain.xml 1 -
+/photo/photoalbum/r57.php 1 -
+/able.asp 9 -
+/history/history%20and%20sleep(4)%20.htm 1 http://www.salemfirerescue.org:80/
+/kids/passwords.sqlite 1 -
+/admin/index.php 1 http://salemfirerescue.org/admin/index.php
+/history/WEB-INF/web.xml.htm 2 http://www.salemfirerescue.org:80/
+/default_files/965409@/ 1 http://www.salemfirerescue.org:80/
+/weblinks/weblinks" 1 http://www.salemfirerescue.org:80/
+/.idea/workspace.xml 1 -
+/photo/photoalbum/r57shell.php 1 -
+/kids/ 1 -
+/training/users.mdb 1 -
+/safetytips_files/db.mdb 1 -
+/admin/phpThumb/phpThumb.php 1 -
+/membership/1some_inexistent_file_with_long_name%2500.jpg.htm 1 http://www.salemfirerescue.org:80/
+/_mmServerScripts/MMHTTPDB.asp 1 -
+/apparatus/members.mdb 1 -
+/safetytips_files/CyWfIKDQPE.jsp 1 -
+/training/training_files/password.sqlite 1 -
+/history/data.sqlite 1 -
+/weblinks/data.sqlite 1 -
+/admin/upload/phpThumb.php 1 -
+/kids/%C3%80%C2%AE%C3%80%C2%AE/%C3%80%C2%AE%C3%80%C2%AE/%C3%80%C2%AE%C3%80%C2%AE/%C3%80%C2%AE%C3%80%C2%AE/%C3%80%C2%AE%C3%80%C2%AE/%C3%80%C2%AE%C3%80%C2%AE/%C3%80%C2%AE%C3%80%C2%AE/%C3%80%C2%AE%C3%80%C2%AE/windows/win.ini 1 -
+/personal.mdb 1 -
+/plugins/sfSWFUploadPlugin/web/sfSWFUploadPlugin/swf/swfupload_f9.swf 1 -
+/"+response.write(9104441*9071430)+".htm 1 -
+/photo/photoalbum/index14'%20and%20sleep(4)='.html 1 http://www.salemfirerescue.org:80/
+/app/config/database.yml.pgsql 1 -
+/history/http:/testasp.vulnweb.com/t/fit.txt%3F%2500.jpg.htm 1 http://www.salemfirerescue.org:80/
+/mgwBxMN2lj.nsf 1 -
+/kids/..0x5c..0x5c..0x5c..0x5c..0x5c..0x5c..0x5c..0x5cwindows/win.ini 1 -
+/history/-1'%20or%20'31'='31.htm 1 http://www.salemfirerescue.org:80/
+/kids/kids" 1 http://www.salemfirerescue.org:80/
+/training/training"%20or%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/training/training"=sleep(4)=".htm 1 http://www.salemfirerescue.org:80/
+/training/"|dir.htm 1 -
+/training/personal.mdb 1 -
+/training/training_files/data.mdb 1 -
+/membership/data.sqlite 1 -
+/history/pvcWkz45Ev.jsp 1 -
+/http:/testasp.vulnweb.com/t/xss.html%3F%2500.jpg.htm 1 -
+/data.mdb 1 -
+/))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))).htm 1 -
+/safetytips_files/.svn/entries 1 -
+/'|dir.htm 1 -
+/kids/kids'%20or%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/WS_FTP.LOG 1 -
+/personnel/personnel'%20and%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/kids/db.mdb 1 -
+/kids/55B17.html 1 -
+/training/%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80 1 http://www.salemfirerescue.org:80/
+/weblinks/weblinks_files/personal.mdb 1 -
+/history/test.mdb 1 -
+/config.php 1 -
+/history/passwords.sqlite 1 -
+/training/training_files/6gQRD.mdb 1 -
+/js/tiny_mce/plugins/ibrowser/scripts/phpThumb/phpThumb.php 1 -
+/training/training_files/997002@/ 1 http://www.salemfirerescue.org:80/
+/apparatus/"&dir&".htm 1 -
+/kids/................etc/passwd 1 -
+/admin/phpmyadmin/main.php 1 -
+/training/database.sqlite 1 -
+/mgwBxMN2lj.plx 1 -
+/training/'|dir.htm 1 -
+/${100052+100097}.htm 1 -
+/Global.asax.bak 1 -
+/kids/www.acunetix.tst.htm 1 -
+/apparatus/users.mdb 1 -
+/phpmyadmin/main.php 1 -
+/photo/db1.sqlite 1 -
+/photo/photoalbum/${100131+100322}.html 1 -
+/training/training_files/test.sqlite 1 -
+/safetytips_files/rjHCo.html 1 -
+/photo/photoalbum/info.php 1 -
+/testasp.vulnweb.com.htm 1 http://www.salemfirerescue.org:80/
+/membership/passwords.mdb 1 -
+/photo/clients.mdb 1 -
+/photo/personal.sqlite 1 -
+/conf.php 1 -
+/photo/photoalbum/${@print(md5(acunetix_wvs_security_test))}.html 1 -
+/personnel/" 1 -
+/history/-1%20or%2011=11.htm 1 http://www.salemfirerescue.org:80/
+/webalizer/ 1 -
+/training/training_files/database.mdb 1 -
+/photo/photoalbum/aspxspy.aspx 1 -
+/inexistent_file_name.inexistent0123450987.cfm 1 -
+/training/'+response.write(9291057*9552760)+'.htm 1 -
+/photo/photoalbum/database.mdb 1 -
+/examples/jsp/snp/snoop.jsp 1 -
+/weblinks/1some_inexistent_file_with_long_name%2500.jpg.htm 1 http://www.salemfirerescue.org:80/
+/modules/phpThumb/phpThumb.php 1 -
+/kids/kids%20or%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/photo/test.mdb 1 -
+/joomla/index.php 1 -
+/xmlrpc.php 7 -
+/photo/photoalbum/config/database.yml 1 -
+/photo/photoalbum/index14'=sleep(4)='.html 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/!(()&&!|*|*|.html 1 http://www.salemfirerescue.org:80/
+/weblinks/%3F''%3F"".htm 1 http://www.salemfirerescue.org:80/
+/membership/-1"%20or%20"15"="15.htm 1 http://www.salemfirerescue.org:80/
+/our-hours/ 1 -
+/kids/..%C3%81%C5%93..%C3%81%C5%93..%C3%81%C5%93..%C3%81%C5%93..%C3%81%C5%93..%C3%81%C5%93..%C3%81%C5%93..%C3%81%C5%93/windows/win.ini 1 -
+/kids/"&dir&".htm 1 -
+/personnel/passwords.sqlite 1 -
+/default_files/db.mdb 1 -
+/photo/photoalbum/shell.php 1 -
+/training/training_files/personal.sqlite 1 -
+/photo/photoalbum/_mmServerScripts/MMHTTPDB.php 1 -
+/kids/kids_files/db.sqlite 1 -
+/photo/photoalbum/@@3ISnS.html 1 http://www.salemfirerescue.org:80/
+/administrator/ 3 -
+/mysql/main.php 1 -
+/apparatus/log.sqlite 1 -
+/personnel/1e309.htm 1 http://www.salemfirerescue.org:80/
+/xmlrpc.jsp 3 -
+/photo/photoalbum/|dir.html 1 -
+/fantastico_fileslist.txt 1 -
+/personnel/http:/testasp.vulnweb.com/t/fit.txt.htm 1 -
+/kids/..%E2%88%95..%E2%88%95..%E2%88%95..%E2%88%95..%E2%88%95..%E2%88%95..%E2%88%95..%E2%88%95etc/passwd 1 -
+/history/personal.mdb 1 -
+/apparatus/268435455.htm 1 http://www.salemfirerescue.org:80/
+/@@oPrDl.htm 1 http://www.salemfirerescue.org:80/
+/membership/' 1 -
+/_vti_bin/_vti_aut/author.dll 1 -
+/safetytips_files/customers.mdb 1 -
+/kids/940304@/ 1 http://www.salemfirerescue.org:80/
+/training/clients.sqlite 1 -
+/default_files/private.mdb 2 -
+/photo/photoalbum/%C3%A3h.html 1 http://www.salemfirerescue.org:80/
+/photo/data.mdb 1 -
+/jmx-console/HtmlAdaptor 3 -
+/license.txt 1 http://www.salemfirerescue.org/license.txt
+/kids/..%C3%81%C5%93..%C3%81%C5%93..%C3%81%C5%93..%C3%81%C5%93..%C3%81%C5%93..%C3%81%C5%93..%C3%81%C5%93..%C3%81%C5%93/etc/passwd 1 -
+/mambots/editors/tinymce/jscripts/tiny_mce/plugins/ibrowser/scripts/phpThumb/phpThumb.php 1 -
+/configuration.php 1 -
+/default_files/data.sqlite 1 -
+/history/-1"%20or%20"45"="45.htm 1 http://www.salemfirerescue.org:80/
+/membership/membership'%20and%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/%3F''%3F"".htm 1 http://www.salemfirerescue.org:80/
+/personnel/%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%8 1 http://www.salemfirerescue.org:80/
+/plugins/sfSWFUploadPlugin/web/sfSWFUploadPlugin/swf/swfupload.swf 1 -
+/photo/photoalbum/%3F'%3F".html 1 http://www.salemfirerescue.org:80/
+/kids/kids_files/members.sqlite 1 -
+/http:/some-inexistent-website.acu/some_inexistent_file_with_long_name%3F%2500.jpg.htm 1 http://www.salemfirerescue.org:80/
+/weblinks/WEB-INF/web.xml.htm 2 http://www.salemfirerescue.org:80/
+/response.write(9104441*9071430).htm 1 -
+/personnel/CfICp.mdb 1 -
+/info/ 1 -
+/cgi-bin/..%C3%80%C2%AF../..%C3%80%C2%AF../..%C3%80%C2%AF../winnt/system32/cmd.exe 1 -
+/weblinks/www.acunetix.tst.htm 1 -
+/weblinks/VwhAK.html 1 -
+/default_files/users.sqlite 1 -
+/-1%20or%2027=0.htm 1 http://www.salemfirerescue.org:80/
+/settings.php 1 -
+/content/phpthumb/phpthumb.php 1 -
+/photo/photoalbum/1some_inexistent_file_with_long_name%2500.jpg.html 1 http://www.salemfirerescue.org:80/
+/weblinks/weblinks_files/private.mdb 2 -
+/mgwBxMN2lj.php 1 -
+/photo/photoalbum/WEB-INF/web.xml.html 2 http://www.salemfirerescue.org:80/
+/training/customers.sqlite 1 -
+/history/'&dir&'.htm 1 -
+/solr/select/ 1 -
+/kids/http:/testasp.vulnweb.com/t/fit.txt.htm 1 -
+/photo/photoalbum/"+response.write(9968107*9087099)+".html 1 -
+/customers.sqlite 1 -
+/kids/db1.sqlite 1 -
+/clients.sqlite 1 -
+/membership/268435455.htm 1 http://www.salemfirerescue.org:80/
+/kids/%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252fwindows/win.ini 1 -
+/photo/customers.mdb 1 -
+/stats"%20or%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/history/db1.mdb 1 -
+/kids/kids_files/passwords.sqlite 1 -
+/kids/..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fwindows/win.ini 1 -
+/photo/photoalbum/log.sqlite 1 -
+/private.mdb 2 -
+/personnel/WEB-INF/web.xml.htm 2 http://www.salemfirerescue.org:80/
+/membership/database.mdb 1 -
+/shell.php 1 -
+/photo/Y4Zbc.mdb 1 -
+/weblinks/).htm 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/webadmin.php 1 -
+/safetytips_files/members.mdb 1 -
+/beheer/ 1 -
+/history/history"=sleep(4)=".htm 1 http://www.salemfirerescue.org:80/
+/about-us/ 1 -
+/weblinks/weblinks_files/logs.sqlite 1 -
+/php-backdoor.php 1 -
+/personnel/'|dir.htm 1 -
+/apparatus/'+response.write(9435197*9914008)+'.htm 1 -
+/weblinks/&dir.htm 1 -
+/default_files/users.mdb 1 -
+/membership/-1%20or%2018=18.htm 1 http://www.salemfirerescue.org:80/
+/weblinks/clients.mdb 1 -
+/phpMyAdmin-3.3.4-all-languages/main.php 1 -
+/weblinks/'|dir.htm 1 -
+/personnel/personal.mdb 1 -
+/default_files/private.sqlite 2 -
+/kids/kids_files/passwords.mdb 1 -
+/history/"|dir.htm 1 -
+/personnel/db.mdb 1 -
+/apparatus/-1'%20or%20'95'='0.htm 1 http://www.salemfirerescue.org:80/
+/training/-1%20or%2084=0.htm 1 http://www.salemfirerescue.org:80/
+/kids/kids_files/XGxh2bsfYF.jsp 1 -
+/apparatus/http:/testasp.vulnweb.com/t/fit.txt.htm 1 -
+/safetytips_files/db1.sqlite 1 -
+/training/.svn/entries 1 -
+/examples/jsp/index.html 1 -
+/personnel/personnel'=sleep(4)='.htm 1 http://www.salemfirerescue.org:80/
+/kids/"+response.write(9212341*9189369)+".htm 1 -
+/membership/membership%20and%20sleep(4)%20.htm 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/"|dir.html 1 -
+/photo/password.mdb 1 -
+/photo/photoalbum/db1.mdb 1 -
+/membership/Sm1kQXZqdkU4Ng==.htm 1 -
+/weblinks/'".htm 1 -
+/photo/photoalbum/Qj6fH.mdb 1 -
+/p_/webdav/xmltools/minidom/xml/sax/saxutils/os/popen2 1 -
+/weblinks/ADrjxVQ2CY.jsp 1 -
+/training/training_files/I3uaU.mdb 1 -
+/wp/ 3 -
+/surgemail/mtemp/surgeweb/tpl/shared/modules/swfupload_f9.swf 1 -
+/kids/..0x5c..0x5c..0x5c..0x5c..0x5c..0x5c..0x5c..0x5cetc/passwd 1 -
+/training/training_files/db.sqlite 1 -
+/weblinks/@@QA9il.htm 1 http://www.salemfirerescue.org:80/
+/personnel/-1%20or%2071=71.htm 1 http://www.salemfirerescue.org:80/
+/apparatus/apparatus&n932325=v916532.htm 1 -
+/weblinks/password.sqlite 1 -
+/photo/rescue051907.htm 1 -
+/kids/..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af/windows/win.ini 1 -
+/history/-1"%20or%20"45"="0.htm 1 http://www.salemfirerescue.org:80/
+/history/.svn/entries 1 -
+/training/training_files/members.mdb 1 -
+/kids/%C3%80%C2%AE%C3%80%C2%AE%C3%81%C5%93%C3%80%C2%AE%C3%80%C2%AE%C3%81%C5%93%C3%80%C2%AE%C3%80%C2%AE%C3%81%C5%93%C3%80%C2%AE%C3%80%C2%AE%C3%81%C5%93%C3%80%C2%AE%C3%80%C2%AE%C3%81%C5%93%C3%80%C2%AE%C3%80%C2%AE%C3%81%C5%93%C3%80%C2%AE%C3%80%C2%AE%C3%81%C5% 1 -
+/default_files/password.mdb 1 -
+/safetytips_files/database.sqlite 1 -
+/photo/photoalbum/c99.php 1 -
+/weblinks/-1"%20or%20"18"="0.htm 1 http://www.salemfirerescue.org:80/
+/kids/%252e%252e%255c%252e%252e%255c%252e%252e%255c%252e%252e%255c%252e%252e%255c%252e%252e%255c%252e%252e%255c%252e%252e%255cwindows/win.ini 1 -
+/training/password.sqlite 1 -
+/membership/db.sqlite 1 -
+/elmah.axd 1 -
+/training/training_files/customers.sqlite 1 -
+/weblinks/db1.sqlite 1 -
+/kids/-1"%20or%20"81"="81.htm 1 http://www.salemfirerescue.org:80/
+/personnel/users.mdb 1 -
+/libs/phpThumb/phpThumb.php 1 -
+/kids/private.sqlite 2 -
+/membership/%3C!--.htm 1 -
+/samples/..%C3%A0%E2%82%AC%C2%AF../..%C3%A0%E2%82%AC%C2%AF../..%C3%A0%E2%82%AC%C2%AF../winnt/system32/cmd.exe 1 -
+/XvqNf.html 1 -
+/membership/logs.mdb 1 -
+/cgi-bin/awstats/ 1 -
+/apparatus/%3C!--.htm 1 -
+/weblinks/weblinks_files/passwords.mdb 1 -
+/ 3 -
+/apparatus/U283THZpcU8z.htm 1 -
+/training/-1'%20or%20'30'='0.htm 1 http://www.salemfirerescue.org:80/
+/weblinks/-1%20or%2086=0.htm 1 http://www.salemfirerescue.org:80/
+/personnel/bFlNTU1SOGlE.htm 1 -
+/'+response.write(9104441*9071430)+'.htm 1 -
+/kids/test.sqlite 1 -
+/apparatus/-1"%20or%20"83"="83.htm 1 http://www.salemfirerescue.org:80/
+/apparatus/@@XXv30.htm 1 http://www.salemfirerescue.org:80/
+/training/personal.sqlite 1 -
+/%3F'%3F".htm 1 http://www.salemfirerescue.org:80/
+/kids/clients.sqlite 1 -
+/history/customers.mdb 1 -
+/sysstat/ 1 -
+/long_inexistent_path12345_/Null.htw 1 -
+/kids/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/windows/win.ini 1 -
+/training/training_files/passwords.sqlite 1 -
+/weblinks/" 1 -
+/kids/test.mdb 1 -
+/weblinks/${@print(md5(acunetix_wvs_security_test))}.htm 1 -
+/%3C!--.htm 1 -
+/personnel/personnel'"()&%25%3CScRiPt%20%3Eprompt(993365)%3C/ScRiPt%3E.htm 1 http://www.salemfirerescue.org:80/
+/weblinks/private.sqlite 2 -
+/kids/.../.../.../.../.../.../.../.../etc/passwd 1 -
+/apparatus/apparatus%20or%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/apparatus/clients.sqlite 1 -
+/photo/photoalbum/................windowswin.ini.html 1 http://www.salemfirerescue.org:80/
+/kids/kids_files/data.sqlite 1 -
+/training/&dir.htm 1 -
+/js/varien/product.js 4 -
+/photo/photoalbum/"&dir&".html 1 -
+/logs/ 1 -
+/personnel/www.acunetix.tst.htm 1 -
+/apparatus/http:/some-inexistent-website.acu/some_inexistent_file_with_long_name%3F%2500.jpg.htm 1 http://www.salemfirerescue.org:80/
+/training/training_files/db.mdb 1 -
+/training/training_files/private.sqlite 2 -
+/stats"%20and%20sleep(4)=".htm 1 http://www.salemfirerescue.org:80/
+/apparatus/' 1 -
+/training/training'%20or%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/kids/%3C!--.htm 1 -
+/calendar&n901315=v999751.htm 1 -
+/kids/uA49G.mdb 1 -
+/db/main.php 1 -
+/weblinks/weblinks"=sleep(4)=".htm 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/wKMp6RTKBx.jsp 1 -
+/photo/photoalbum/Kj0LQ.mdb 1 -
+/training/training" 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/.bzr/README 1 -
+/membership/private.mdb 2 -
+/history/history" 1 http://www.salemfirerescue.org:80/
+/stats'%20and%20sleep(4)='.htm 1 http://www.salemfirerescue.org:80/
+/clients.mdb 1 -
+/photo/photoalbum/pi.php5 1 -
+/components/com_alphacontent/assets/phpthumb/phpThumb.php 1 -
+/admin/mysql/main.php 1 -
+/kids/customers.mdb 1 -
+/kids/).htm 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/.hg/requires 1 -
+/weblinks/log.mdb 1 -
+/history/db.mdb 1 -
+/personnel/testasp.vulnweb.com.htm 1 http://www.salemfirerescue.org:80/
+/personnel/personnel"=sleep(4)=".htm 1 http://www.salemfirerescue.org:80/
+/history/personal.sqlite 1 -
+/training/private.mdb 2 -
+/personnel/logs.sqlite 1 -
+/training/training&n906631=v948870.htm 1 -
+/apparatus/test.sqlite 1 -
+/thumb/phpThumb.php 1 -
+/photo/photoalbum/http:/testasp.vulnweb.com/t/xss.html%3F%2500.jpg.html 1 -
+/photo/photoalbum/www.acunetix.tst.html 1 -
+/photo/photoalbum/phpinfo.php 1 -
+/mgwBxMN2lj.asp 1 -
+/history/).htm 1 http://www.salemfirerescue.org:80/
+/weblinks/db1.mdb 1 -
+/"|dir.htm 1 -
+/photo/photoalbum/testasp.vulnweb.com.html 1 http://www.salemfirerescue.org:80/
+/crossdomain.xml 1 -
+/photo/firecontrol040407.htm 2 -
+/apparatus/passwords.mdb 1 -
+/photo/SA5WM.mdb 1 -
+/test.php 1 -
+/history/1'".htm 1 http://www.salemfirerescue.org:80/
+/safetytips_files/passwords.sqlite 1 -
+/kids/log.sqlite 1 -
+/history/password.mdb 1 -
+/kids/-1"%20or%20"81"="0.htm 1 http://www.salemfirerescue.org:80/
+/www.dresses-outlet.co.uk 3 -
+/_webalizer/ 1 -
+/wordpress/wp-admin/ 1 -
+/cms/themes/cp_themes/default/images/swfupload_f9.swf 1 -
+/kids/personal.mdb 1 -
+/training/training_files/clients.sqlite 1 -
+/photo/photoalbum/index14" 1 http://www.salemfirerescue.org:80/
+/apparatus/%C3%A3h.htm 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/-1'%20or%20'18'='18.html 1 http://www.salemfirerescue.org:80/
+/membership/membership" 1 http://www.salemfirerescue.org:80/
+/membership/database.sqlite 1 -
+/photo/photoalbum/test.sqlite 1 -
+/photo/photoalbum/index14"%20and%20sleep(4)=".html 1 http://www.salemfirerescue.org:80/
+/apparatus/apparatus"%20or%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/uploadify/uploadify.css 1 -
+/apparatus/apparatus 1 http://www.salemfirerescue.org:80/
+/personnel/private.mdb 2 -
+/membership/users.sqlite 1 -
+/weblinks/weblinks_files/42mTV.mdb 1 -
+/membership/ 1 -
+/1some_inexistent_file_with_long_name%2500.jpg.htm 1 http://www.salemfirerescue.org:80/
+/apparatus/%3F'%3F".htm 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/c-h.v2.php 1 -
+/history/history' 2 http://www.salemfirerescue.org:80/
+/kids/kids'%20and%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/safetytips_files/log.sqlite 1 -
+/history/http:/testasp.vulnweb.com/t/xss.html%3F%2500.jpg.htm 1 -
+/class/phpthumb/phpThumb.php 1 -
+/kids/kids_files/wf6cJ.mdb 1 -
+/history/clients.mdb 1 -
+/personnel/passwords.mdb 1 -
+/default_files/DhBZB.html 1 -
+/apparatus/apparatus" 1 http://www.salemfirerescue.org:80/
+/apparatus/${@print(md5(acunetix_wvs_security_test))}.htm 1 -
+/simple-backdoor.php 1 -
+/268435455.htm 1 http://www.salemfirerescue.org:80/
+/default_files/db.sqlite 1 -
+/webadmin.php 1 -
+/webstat/ 1 -
+/weblinks/${99379+99135}.htm 1 -
+/photo/VQr0m.html 1 -
+/photo/photoalbum/WS_FTP.LOG 1 -
+/weblinks/customers.mdb 1 -
+/personnel/%3C!--.htm 1 -
+/weblinks/weblinks_files/log.mdb 1 -
+/apparatus/members.sqlite 1 -
+/kids/%3F'%3F".htm 1 http://www.salemfirerescue.org:80/
+/*~1*/a.aspx 1 -
+/pi.php 1 -
+/kids/personal.sqlite 1 -
+/personnel/&dir.htm 1 -
+/membership/"&dir&".htm 1 -
+/training/data.sqlite 1 -
+/weblinks/log.sqlite 1 -
+/-1"%20or%20"85"="85.htm 1 http://www.salemfirerescue.org:80/
+/default_files/members.sqlite 1 -
+/usage/ 1 -
+/'".htm 1 -
+/training/ 1 -
+/aspxspy.aspx 1 -
+/safetytips_files/data.mdb 1 -
+/examples/servlets/index.html 1 -
+/global/phpthumb/phpThumb.php 1 -
+/weblinks/weblinks' 2 http://www.salemfirerescue.org:80/
+/photo/photoalbum/database.sqlite 1 -
+/users.sqlite 1 -
+/photo/photoalbum/customers.sqlite 1 -
+/blog/wp-admin/ 1 -
+/js/swfupload/swfupload_f9.swf 1 -
+/mgwBxMN2lj.exe 1 -
+/apparatus/LWGCrS2HhB.jsp 1 -
+/kids/kids&n925581=v995100.htm 1 -
+/history/'+response.write(9081521*9222416)+'.htm 1 -
+/photo/photoalbum/268435455.html 1 http://www.salemfirerescue.org:80/
+/c-h.v2.php 1 -
+/safetytips_files/passwords.mdb 1 -
+/weblinks/members.sqlite 1 -
+/apparatus/db.sqlite 1 -
+/kids/members.sqlite 1 -
+/personnel/personnel%20and%20sleep(4)%20.htm 1 http://www.salemfirerescue.org:80/
+/kids/..%C3%80%C2%AF..%C3%80%C2%AF..%C3%80%C2%AF..%C3%80%C2%AF..%C3%80%C2%AF..%C3%80%C2%AF..%C3%80%C2%AF..%C3%80%C2%AFwindows/win.ini 1 -
+/default_files/personal.mdb 1 -
+/photo/photoalbum/index14 1 http://www.salemfirerescue.org:80/
+/database.yml_original 1 -
+/training/passwords.mdb 1 -
+/personnel/database.mdb 1 -
+/photo/photoalbum/db1.sqlite 1 -
+/default_files/test.sqlite 1 -
+/photo/photoalbum/-1%20or%2071=0.html 1 http://www.salemfirerescue.org:80/
+/personnel/http:/testasp.vulnweb.com/t/xss.html%3F%2500.jpg.htm 1 -
+/personnel/log.mdb 1 -
+/personnel/Fqb6a.mdb 1 -
+/history/!(()&&!|*|*|.htm 1 http://www.salemfirerescue.org:80/
+/app/config/database.yml~ 1 -
+/photo/password.sqlite 1 -
+/training/test.sqlite 1 -
+/weblinks/weblinks"%20and%20sleep(4)=".htm 1 http://www.salemfirerescue.org:80/
+/engine/classes/swfupload/swfupload.swf 1 -
+/cmdasp.asp 1 -
+/info.php 1 -
+/safetytips_files/customers.sqlite 1 -
+/history/6IhrN.mdb 1 -
+/photo/photoalbum/'|dir.html 1 -
+/kids/kids_files/password.mdb 1 -
+/membership/&dir.htm 1 -
+/blog/robots.txt 3 -
+/photo/photoalbum/phpinfo.php5 1 -
+/history/history'%20and%20sleep(4)='.htm 1 http://www.salemfirerescue.org:80/
+/kids/..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c/windows/win.ini 1 -
+/training/-1'%20or%20'30'='30.htm 1 http://www.salemfirerescue.org:80/
+/yAIe33YF.php 1 -
+/.stats/ 1 -
+/membership/membership' 2 http://www.salemfirerescue.org:80/
+/logs.sqlite 1 -
+/photo/logs.mdb 1 -
+/personnel/database.sqlite 1 -
+/apparatus/db1.mdb 1 -
+/weblinks/testasp.vulnweb.com.htm 1 http://www.salemfirerescue.org:80/
+/personnel/4fDVwt5lad.jsp 1 -
+/weblinks/members.mdb 1 -
+/config/database.yml 2 -
+/training/training_files/log.mdb 1 -
+/kids/!(()&&!|*|*|.htm 1 http://www.salemfirerescue.org:80/
+/apparatus/1e309.htm 1 http://www.salemfirerescue.org:80/
+/membership/windows/win.ini.htm 1 http://www.salemfirerescue.org:80/
+/training/training_files/.svn/entries 1 -
+/kids/"|dir.htm 1 -
+/kids/'&dir&'.htm 1 -
+/wordpress/ 5 -
+/admin.php 3 -
+/personnel/response.write(9945787*9469473).htm 1 -
+/training/training_files/F8bvAxQauN.jsp 1 -
+/membership/personal.mdb 1 -
+/-1"%20or%20"85"="0.htm 1 http://www.salemfirerescue.org:80/
+/kids/kids'%20and%20sleep(4)='.htm 1 http://www.salemfirerescue.org:80/
+/personnel/"|dir.htm 1 -
+/editor/stats/ 1 -
+/training/db.sqlite 1 -
+/stats'%20or%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/photo/950699@/ 1 http://www.salemfirerescue.org:80/
+/photo/personal.mdb 1 -
+/%C3%A3h.htm 1 http://www.salemfirerescue.org:80/
+/apparatus/testasp.vulnweb.com.htm 1 http://www.salemfirerescue.org:80/
+/our-location/ 1 -
+/weblinks/data.mdb 1 -
+/training/passwords.sqlite 1 -
+/DUTE2XLX92.cfm 1 -
+/training/logs.sqlite 1 -
+/apparatus/945871@/ 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/data.sqlite 1 -
+/test.mdb 1 -
+/weblinks/weblinks_files/clients.mdb 1 -
+/training/training'%20and%20sleep(4)='.htm 1 http://www.salemfirerescue.org:80/
+/mailto:admin@salemfirerescue.org 1 -
+/th1s_1s_a_4o4.html 30 http://www.google.com/url
+/photo/photoalbum/test.mdb 1 -
+/training/268435455.htm 1 http://www.salemfirerescue.org:80/
+/weblinks/http:/some-inexistent-website.acu/some_inexistent_file_with_long_name%3F%2500.jpg.htm 1 http://www.salemfirerescue.org:80/
+/training/http:/testasp.vulnweb.com/t/fit.txt.htm 1 -
+/membership/http:/testasp.vulnweb.com/t/fit.txt.htm 1 -
+/surgemail/mtemp/surgeweb/tpl/shared/modules/swfupload.swf 1 -
+/membership/test.sqlite 1 -
+/weblinks/http:/testasp.vulnweb.com/t/xss.html%3F%2500.jpg.htm 1 -
+/photo/photoalbum/password.sqlite 1 -
+/personnel/).htm 1 http://www.salemfirerescue.org:80/
+/history/log.mdb 1 -
+/photo/database.mdb 1 -
+/kids/.svn/entries 1 -
+/photo/photoalbum/passwords.sqlite 1 -
+/training/-1"%20or%20"18"="18.htm 1 http://www.salemfirerescue.org:80/
+/training/customers.mdb 1 -
+/photo/log.mdb 1 -
+/members.mdb 1 -
+/stats 1 http://www.salemfirerescue.org:80/
+/history/private.mdb 2 -
+/kids/kids_files/997400@/ 1 http://www.salemfirerescue.org:80/
+/apparatus/response.write(9435197*9914008).htm 1 -
+/history/www.acunetix.tst.htm 1 -
+/membership/customers.sqlite 1 -
+/training/training_files/test.mdb 1 -
+/language/en-GB/en-GB.xml 1 -
+/apc.php 1 -
+/awstats.pl 1 -
+/passwords.sqlite 1 -
+/apparatus/apparatus'%20and%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/index.html 1 -
+/history/${100079+100108}.htm 1 -
+/_mmServerScripts/MMHTTPDB.php 1 -
+/kids/WEB-INF/web.xml.htm 2 http://www.salemfirerescue.org:80/
+/membership/personal.sqlite 1 -
+/webstats/ 1 -
+/photo/photoalbum/private.sqlite 2 -
+/membership/testasp.vulnweb.com.htm 1 http://www.salemfirerescue.org:80/
+/phpinfo.php5 1 -
+/" 1 -
+/personnel/users.sqlite 1 -
+/membership/www.acunetix.tst.htm 1 -
+/-1'%20or%20'82'='0.htm 1 http://www.salemfirerescue.org:80/
+/readme.html 1 http://www.salemfirerescue.org/readme.html
+/logs.mdb 1 -
+/jmx-console/ 1 -
+/membership/k71ZkiU8Di.jsp 1 -
+/membership/users.mdb 1 -
+/membership/@@V03PH.htm 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/%3F''%3F"".html 1 http://www.salemfirerescue.org:80/
+/membership/.svn/entries 1 -
+/admin/pma/main.php 1 -
+/photo/passwords.mdb 1 -
+/robots.txt 740 -
+/training/password.mdb 1 -
+/weblinks/weblinks_files/users.mdb 1 -
+/apparatus/apparatus'%20or%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/kids/%3F''%3F"".htm 1 http://www.salemfirerescue.org:80/
+/training/training_files/private.mdb 2 -
+/apparatus/logs.sqlite 1 -
+/config/database.yml.sqlite3 1 -
+/membership/password.sqlite 1 -
+/history/))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))).htm 1 -
+/Estadisticas/ 1 -
+/apparatus/-1%20or%2024=0.htm 1 http://www.salemfirerescue.org:80/
+/default_files/customers.sqlite 1 -
+/r57.php 1 -
+/personnel/"+response.write(9945787*9469473)+".htm 1 -
+/weblinks/-1"%20or%20"18"="18.htm 1 http://www.salemfirerescue.org:80/
+/personnel/-1"%20or%20"27"="0.htm 1 http://www.salemfirerescue.org:80/
+/membership/|dir.htm 1 -
+/.git/config 1 -
+/default_files/database.mdb 1 -
+/kids/http:/some-inexistent-website.acu/some_inexistent_file_with_long_name%3F%2500.jpg.htm 1 http://www.salemfirerescue.org:80/
+/kids/..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc/passwd 1 -
+/membership/membership"=sleep(4)=".htm 1 http://www.salemfirerescue.org:80/
+/weblinks_files/image001.gif 1 http://navigator.cognitiveseo.com/parser/
+/kids/database.sqlite 1 -
+/weblinks/logs.mdb 1 -
+/photo/photoalbum/_mmServerScripts/MMHTTPDB.asp 1 -
+/training/response.write(9291057*9552760).htm 1 -
+/kids/kids_files/log.sqlite 1 -
+/apparatus/database.sqlite 1 -
+/kids/hTicvs3aG5.jsp 1 -
+/safetytips_files/logs.sqlite 1 -
+/kids/kids_files/database.sqlite 1 -
+/includes/swfupload/swfupload.swf 1 -
+/membership/'+response.write(9151248*9093006)+'.htm 1 -
+/membership/JyI=.htm 1 http://www.salemfirerescue.org:80/
+/password.mdb 1 -
+/weblinks/http:/testasp.vulnweb.com/t/fit.txt.htm 1 -
+/photo/photoalbum/log.mdb 1 -
+/photo/photoalbum/logs.mdb 1 -
+/cgi-bin/ 1 -
+/membership/'&dir&'.htm 1 -
+/db1.sqlite 1 -
+/membership/clients.sqlite 1 -
+/www.acunetix.tst.htm 1 -
+/personnel/fi3dy.html 1 -
+/membership/http:/testasp.vulnweb.com/t/fit.txt%3F%2500.jpg.htm 1 http://www.salemfirerescue.org:80/
+/training/))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))).htm 1 -
+/training/1'".htm 1 http://www.salemfirerescue.org:80/
+/awstats/awstats.pl 1 -
+/kids/kids%20and%20sleep(4)%20.htm 1 http://www.salemfirerescue.org:80/
+/history/customers.sqlite 1 -
+/history/db1.sqlite 1 -
+/history/private.sqlite 2 -
+/personnel/.svn/entries 1 -
+/about/ 1 -
+/global.inc.php 1 -
+/apparatus/'&dir&'.htm 1 -
+/weblinks/POnT0.mdb 1 -
+/html/js/misc/swfupload/swfupload_f9.swf 1 -
+/kids/kids_files/test.mdb 1 -
+/kids/%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25afwindows/wi 1 -
+/apparatus/personal.mdb 1 -
+/D72yfDnVbM.cfm 1 -
+/photo/photoalbum/-1'%20or%20'18'='0.html 1 http://www.salemfirerescue.org:80/
+/blog/ 3 -
+/photo/photoalbum/ws_ftp.log 1 -
+/training/db1.sqlite 1 -
+/training/'&dir&'.htm 1 -
+/wstat/ 1 -
+/safetytips_files/test.mdb 1 -
+/apparatus/data.mdb 1 -
+/membership/membership&n914465=v950346.htm 1 -
+/training/training_files/clients.mdb 1 -
+/membership/membership 1 http://www.salemfirerescue.org:80/
+/kids/-1%20or%2012=0.htm 1 http://www.salemfirerescue.org:80/
+/membership/private.sqlite 2 -
+/history/'|dir.htm 1 -
+/kids/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/windows/win.ini 1 -
+/training/training_files/logs.mdb 1 -
+/membership/customers.mdb 1 -
+/weblinks/-1'%20or%20'49'='49.htm 1 http://www.salemfirerescue.org:80/
+/membership/membership"%20or%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/safetytips_files/personal.mdb 1 -
+/weblinks/db.mdb 1 -
+/umbraco/webservices/codeEditorSave.asmx 1 -
+/training/training_files/personal.mdb 1 -
+/kids/-1'%20or%20'58'='0.htm 1 http://www.salemfirerescue.org:80/
+/cms/plugins/content/jthumbs/includes/phpThumb.php 1 -
+/apparatus/"+response.write(9435197*9914008)+".htm 1 -
+/windows/win.ini.htm 1 http://www.salemfirerescue.org:80/
+/apparatus/apparatus"=sleep(4)=".htm 1 http://www.salemfirerescue.org:80/
+/components/com_flexicontent/librairies/phpthumb/phpThumb.php 1 -
+/statystyka/ 1 -
+/membership/))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))).htm 1 -
+/kids/..%255c..%255c..%255c..%255c..%255c..%255c..%255c..%255cwindows/win.ini 1 -
+/stats%20or%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/membership/hu6Gh.mdb 1 -
+/default_files/log.sqlite 1 -
+/kids/data.mdb 1 -
+/.bzr/README 1 -
+/photo/db.mdb 1 -
+/dra.php 1 -
+/history/history 1 http://www.salemfirerescue.org:80/
+/weblinks/^(%23$!@%23$)(()))******.htm 1 http://www.salemfirerescue.org:80/
+/apparatus/ 1 -
+/photo/photoalbum/php-backdoor.php 1 -
+/photo/christmas120806.htm 13 -
+/html/js/misc/swfupload/swfupload.swf 1 -
+/membership/password.mdb 1 -
+/safetytips_files/logs.mdb 1 -
+/zadmin/tiny_mce/plugins/ibrowser/scripts/phpThumb/phpThumb.php 1 -
+/http:/testasp.vulnweb.com/t/fit.txt%3F%2500.jpg.htm 1 http://www.salemfirerescue.org:80/
+/vti_cnf/..%C3%A0%E2%82%AC%C2%AF../..%C3%A0%E2%82%AC%C2%AF../..%C3%A0%E2%82%AC%C2%AF../winnt/system32/cmd.exe 1 -
+/weblinks/|dir.htm 1 -
+/kids/kids_files/customers.mdb 1 -
+/kids/'+response.write(9212341*9189369)+'.htm 1 -
+/database.yml.pgsql 1 -
+/weblinks/weblinks_files/members.sqlite 1 -
+/default_files/75LEH.mdb 1 -
+/personnel/password.mdb 1 -
+/safetytips_files/clients.sqlite 1 -
+/membership/membership'=sleep(4)='.htm 1 http://www.salemfirerescue.org:80/
+/kids/kids_files/fKL66.html 1 -
+/weblinks/weblinks_files/sNsxO.mdb 1 -
+/js/swfupload/swfupload.swf 1 -
+/swfupload/swfupload_f9.swf 1 -
+/_vti_pvt/authors.pwd 1 -
+/photo/members.sqlite 1 -
+/default_files/personal.sqlite 1 -
+/default_files/.svn/entries 1 -
+/kids/kids_files/private.sqlite 2 -
+/weblinks/weblinks_files/926250@/ 1 http://www.salemfirerescue.org:80/
+/weblinks/weblinks_files/data.mdb 1 -
+/personnel/JyI=.htm 1 http://www.salemfirerescue.org:80/
+/weblinks/928482@/ 1 http://www.salemfirerescue.org:80/
+/'&dir&'.htm 1 -
+/apparatus/apparatus'"()&%25%3CScRiPt%20%3Eprompt(935352)%3C/ScRiPt%3E.htm 1 http://www.salemfirerescue.org:80/
+/personnel/................windowswin.ini.htm 1 http://www.salemfirerescue.org:80/
+/kids/' 1 -
+/apparatus/'|dir.htm 1 -
+/database.inc.php 1 -
+/pi.php5 1 -
+/phpinfo.php 1 -
+/default_files/logs.mdb 1 -
+/gallery/phpThumb/phpThumb.php 1 -
+/apparatus/JyI=.htm 1 http://www.salemfirerescue.org:80/
+/kids/passwords.mdb 1 -
+/scripts/..%C3%A0%E2%82%AC%C2%AF../..%C3%A0%E2%82%AC%C2%AF../..%C3%A0%E2%82%AC%C2%AF../winnt/system32/cmd.exe 1 -
+/history/http:/testasp.vulnweb.com/t/fit.txt.htm 1 -
+/history/'".htm 1 -
+/training/www.acunetix.tst.htm 1 -
+/training/^(%23$!@%23$)(()))******.htm 1 http://www.salemfirerescue.org:80/
+/kids/kids'=sleep(4)='.htm 1 http://www.salemfirerescue.org:80/
+/history/${@print(md5(acunetix_wvs_security_test))}.htm 1 -
+/personnel/clients.sqlite 1 -
+/phpMyAdmin-3.3.4-english/main.php 1 -
+/history/JyI=.htm 1 http://www.salemfirerescue.org:80/
+/default_files/clients.sqlite 1 -
+/training/training_files/db1.mdb 1 -
+/weblinks/!(()&&!|*|*|.htm 1 http://www.salemfirerescue.org:80/
+/weblinks/weblinks_files/log.sqlite 1 -
+/weblinks/weblinks_files/customers.mdb 1 -
+/mgwBxMN2lj.pl 1 -
+/photo/photoalbum/index14'"()&%25%3CScRiPt%20%3Eprompt(957468)%3C/ScRiPt%3E.html 1 http://www.salemfirerescue.org:80/
+/kids/268435455.htm 1 http://www.salemfirerescue.org:80/
+/weblinks/weblinks_files/customers.sqlite 1 -
+/data.sqlite 1 -
+/apparatus/apparatus'%20and%20sleep(4)='.htm 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/-1"%20or%20"39"="0.html 1 http://www.salemfirerescue.org:80/
+/membership/-1%20or%2018=0.htm 1 http://www.salemfirerescue.org:80/
+/photo/firecontrol032407.htm 1 -
+/_awstats/ 1 -
+/membership/membership'%20or%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/weblinks/private.mdb 2 -
+/photo/members.mdb 1 -
+/default_files/passwords.sqlite 1 -
+/weblinks/database.sqlite 1 -
+/default_files/database.sqlite 1 -
+/apparatus/................windowswin.ini.htm 1 http://www.salemfirerescue.org:80/
+/training/training_files/db1.sqlite 1 -
+/history/' 1 -
+/training/training'=sleep(4)='.htm 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/^(%23$!@%23$)(()))******.html 1 http://www.salemfirerescue.org:80/
+/statistics/ 1 -
+/safetytips_files/password.sqlite 1 -
+/apparatus/apparatus' 2 http://www.salemfirerescue.org:80/
+/customers.mdb 1 -
+/c99.php 1 -
+/photo/photoalbum/http:/some-inexistent-website.acu/some_inexistent_file_with_long_name%3F%2500.jpg.html 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/personal.mdb 1 -
+/membership/members.sqlite 1 -
+/apparatus/${99057+100258}.htm 1 -
+/mgwBxMN2lj.jhtml 1 -
+/kids/kids_files/.svn/entries 1 -
+/photo/photoalbum/cmdasp.asp 1 -
+/history/members.mdb 1 -
+/personnel/^(%23$!@%23$)(()))******.htm 1 http://www.salemfirerescue.org:80/
+/r.php 1 -
+/photo/photoalbum/index14' 2 http://www.salemfirerescue.org:80/
+/apparatus/data.sqlite 1 -
+/engine/classes/swfupload/swfupload_f9.swf 1 -
+/membership/log.mdb 1 -
+/training/logs.mdb 1 -
+/weblinks/weblinks%20and%20sleep(4)%20.htm 1 http://www.salemfirerescue.org:80/
+/apparatus/|dir.htm 1 -
+/personnel/%C3%A3h.htm 1 http://www.salemfirerescue.org:80/
+/membership/log.sqlite 1 -
+/i.php 1 -
+/config/database.yml.pgsql 1 -
+/kids/kids_files/db1.mdb 1 -
+/membership/-1"%20or%20"15"="0.htm 1 http://www.salemfirerescue.org:80/
+/training/${99895+99551}.htm 1 -
+/history/logs.mdb 1 -
+/history/clients.sqlite 1 -
+/history/database.sqlite 1 -
+/photo/photoalbum/index14%20or%20(sleep(4)+1)%20limit%201%20--%20.html 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/index14"%20or%20(sleep(4)+1)%20limit%201%20--%20.html 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/).html 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/php.php 1 -
+/db.sqlite 1 -
+/training/" 1 -
+/photo/photoalbum/users.mdb 1 -
+/kids/" 1 -
+/components/com_hotornot2/phpthumb/phpThumb.php 2 -
+/kids/kids' 2 http://www.salemfirerescue.org:80/
+/personnel/db.sqlite 1 -
+/kids/users.mdb 1 -
+/photo/training092306.htm 1 -
+/log.mdb 1 -
+/history/%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80%C2%AF%C3%80%C2%AE%C3%80%C2%AE%C3%80% 1 http://www.salemfirerescue.org:80/
+/personnel/personnel" 1 http://www.salemfirerescue.org:80/
+/photo/database.sqlite 1 -
+/weblinks/weblinks_files/db1.mdb 1 -
+/database.yml 1 -
+/personnel/password.sqlite 1 -
+/membership/%3F''%3F"".htm 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/clients.sqlite 1 -
+/weblinks/users.sqlite 1 -
+/kids/kids_files/test.sqlite 1 -
+/weblinks/weblinks_files/data.sqlite 1 -
+/kids/customers.sqlite 1 -
+/kids/users.sqlite 1 -
+/training/%3C!--.htm 1 -
+/kids/kids"%20or%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/photo/photoalbum/))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))).html 1 -
+/kids/%252e%252e%252e%252e%252e%252e%252e%252e%252e%252e%252e%252e%252e%252e%252e%252ewindows/win.ini 1 -
+/photo/photoalbum/.idea/workspace.xml 1 -
+/apparatus/!(()&&!|*|*|.htm 1 http://www.salemfirerescue.org:80/
+/kids/kids_files/customers.sqlite 1 -
+/safetytips_files/db1.mdb 1 -
+/photo/bbqfundraiser063007.htm 3 -
+/weblinks/weblinks'%20or%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/training/log.sqlite 1 -
+/kids/@@NiKZM.htm 1 http://www.salemfirerescue.org:80/
+/kids/-1%20or%2012=12.htm 1 http://www.salemfirerescue.org:80/
+/safetytips_files/HDhCJ.mdb 1 -
+/photo/photoalbum/'".html 1 -
+/photo/photoalbum/password.mdb 1 -
+/Account/Register.aspx 1 -
+/_vti_bin/shtml.exe 1 -
+/membership/db1.sqlite 1 -
+/photo/photoalbum/ 1 -
+/weblinks/personal.mdb 1 -
+/weblinks/weblinks'%20and%20(sleep(4)+1)%20limit%201%20--%20.htm 1 http://www.salemfirerescue.org:80/
+/apparatus/passwords.sqlite 1 -
+/r58.php 1 -
+/history/users.sqlite 1 -
+/log.sqlite 1 -
+/training/training_files/users.mdb 1 -
+/photo/photoalbum/-1%20or%2071=71.html 1 http://www.salemfirerescue.org:80/
+/apparatus/database.mdb 1 -
+/.hg/requires 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 778
+95.218.19.176 745 767 7845903 20160330054014
+52.73.168.202 161 274 5880203 20160331140419
+212.232.24.2 150 150 365611 20160325230258
+166.137.248.66 145 802 7717804 20160302235924
+199.90.157.4 126 399 6117267 20160308143357
+24.240.167.222 115 478 7750313 20160329210954
+163.172.7.229 99 99 1189122 20160330121748
+96.36.115.186 87 1086 10349965 20160331131604
+184.154.36.172 57 72 821135 20160330023621
+85.25.197.18 50 50 433231 20160321215245
+202.46.58.201 1 1 2431 20160311093130
+208.90.175.81 3 27 339174 20160314234858
+202.46.57.126 1 1 2431 20160331104337
+202.46.56.202 1 1 2431 20160327230947
+207.195.235.30 1 1 6290 20160327115533
+202.46.51.11 1 1 2430 20160326144622
+107.77.90.111 1 4 41093 20160325024350
+64.233.172.204 0 2 25244 
+202.46.49.147 1 1 2431 20160319183504
+202.46.50.188 1 1 2430 20160324223512
+180.191.142.217 1 15 140528 20160314010512
+46.166.190.197 1 1 12728 20160302125150
+202.46.51.132 0 1 2591 
+202.46.51.166 1 1 2431 20160319035811
+69.196.253.30 1 1 95779 20160323011815
+173.208.136.114 1 1 12752 20160329045855
+173.195.2.156 0 2 46691 
+202.46.52.44 1 1 2431 20160320102726
+202.46.58.53 1 1 6313 20160309004458
+5.133.204.221 1 1 12747 20160304100729
+24.196.195.134 1 15 140532 20160305203638
+185.75.242.157 0 1 480 
+202.46.54.135 1 1 2431 20160308060813
+54.161.104.15 2 2 25456 20160301125550
+167.114.237.177 1 1 12724 20160325064355
+24.158.40.173 3 27 295797 20160321205215
+5.9.94.207 1 1 19589 20160311160317
+52.7.82.36 32 32 1334080 20160331061443
+184.154.36.174 21 24 315283 20160324023535
+162.255.153.190 1 1 16111 20160327111753
+98.71.151.80 0 1 13116 
+202.46.54.106 1 1 2431 20160311233834
+202.46.54.183 1 1 6391 20160307120601
+202.46.56.117 1 1 12747 20160325020706
+50.142.111.114 0 1 12795 
+149.5.113.147 1 1 6293 20160327115526
+72.168.130.115 0 1 17477 
+202.46.53.66 1 1 6313 20160324211448
+136.243.48.86 1 1 12724 20160321161412
+191.253.252.140 1 15 140528 20160302003450
+202.46.55.68 1 1 2431 20160315163616
+80.79.117.88 1 1 3517 20160327111639
+61.135.190.220 1 1 12728 20160329102143
+37.247.120.202 1 1 6290 20160327115536
+202.46.51.160 1 1 2431 20160312004533
+202.46.58.151 1 1 2429 20160305093948
+152.26.52.193 1 7 82174 20160314135649
+65.55.210.129 0 28 255608 
+202.46.49.93 2 2 4861 20160321052806
+202.46.57.165 2 2 8820 20160323020002
+144.76.80.151 1 1 12747 20160330060549
+202.46.53.201 1 1 2431 20160308045102
+173.68.18.130 3 3 31146 20160326202122
+167.114.235.72 1 1 15862 20160325195330
+38.100.21.62 10 11 139612 20160319053011
+217.79.247.144 1 1 6293 20160327115531
+202.46.52.179 1 1 2430 20160329232918
+202.46.49.138 1 1 2429 20160316223138
+202.46.52.102 1 1 2430 20160329172003
+202.46.57.28 2 2 4861 20160311205527
+216.146.142.108 1 1 2409 20160327115533
+107.77.68.109 1 15 140532 20160308204104
+199.30.24.54 0 14 127804 
+202.46.48.91 1 1 2431 20160319090810
+202.46.48.124 1 1 2430 20160318184934
+185.35.21.214 1 1 41690 20160327111754
+70.210.1.163 1 15 140532 20160325102921
+202.46.53.145 2 2 4861 20160331170824
+69.4.225.9 2 2 8703 20160327115539
+216.56.48.2 0 1 20215 
+202.46.53.112 1 1 2430 20160319083441
+173.208.130.67 1 1 12724 20160311073744
+192.230.181.15 1 15 140532 20160323183531
+202.46.56.90 1 1 2430 20160317022601
+75.143.179.213 1 15 140532 20160329213203
+184.154.36.175 18 24 256963 20160317023612
+23.120.160.7 1 15 140532 20160329214318
+202.46.55.153 1 1 9953 20160330230405
+202.46.49.70 1 1 2431 20160311194829
+54.159.17.110 1 1 12728 20160313072915
+75.164.244.13 1 1 14183 20160327111754
+202.46.57.209 1 1 2431 20160318054948
+98.26.6.119 1 15 140532 20160327155545
+93.186.167.119 1 1 2410 20160327115530
+202.46.58.193 1 1 2430 20160314223844
+8.18.120.128 1 1 12728 20160328094941
+159.203.119.173 1 1 12747 20160320111605
+91.223.159.45 1 1 2410 20160327115532
+31.184.238.235 1 1 11106 20160327072530
+202.46.58.158 1 1 2431 20160324084912
+216.81.71.75 1 1 12724 20160322150418
+23.239.162.24 1 1 6291 20160327115056
+94.23.55.144 2 2 25184 20160315030102
+202.46.55.85 1 1 12743 20160322205147
+195.200.217.214 1 1 5633 20160327111750
+187.18.170.90 1 15 140528 20160303012209
+202.46.51.87 3 3 7292 20160311100459
+202.46.58.72 1 1 2431 20160308155957
+207.6.126.81 0 1 7937 
+220.181.51.74 1 1 12743 20160311021056
+202.46.50.11 1 1 2431 20160319233637
+163.172.129.70 1 1 12724 20160301230945
+202.46.51.38 1 1 2429 20160303044744
+71.81.212.35 2 17 165055 20160321132312
+202.46.58.134 1 1 2430 20160305214442
+202.46.51.175 2 2 4862 20160331115036
+73.250.147.106 3 28 364429 20160320193850
+75.143.180.208 0 1 8803 
+202.46.52.43 1 1 2431 20160319230307
+62.212.73.49 1 1 12724 20160313111158
+202.46.50.124 1 1 2430 20160308131727
+167.21.142.14 0 1 60120 
+45.55.133.241 1 1 12724 20160328160507
+202.46.49.194 1 1 2430 20160320110055
+180.153.163.209 1 1 12743 20160303103805
+202.46.57.182 1 1 2431 20160322172305
+8.27.223.43 0 1 22439 
+217.18.245.178 0 1 445 
+202.46.56.96 1 1 2430 20160328001646
+202.46.53.203 1 1 2431 20160305172946
+101.226.66.21 1 1 12743 20160307103741
+88.198.22.8 6 6 77324 20160330064841
+202.46.53.202 1 1 2429 20160322142153
+173.252.80.119 0 2 19563 
+76.182.114.36 3 27 401910 20160309205605
+202.46.53.48 2 2 4861 20160328025032
+202.46.49.130 2 2 44140 20160308204649
+78.46.156.169 1 1 19589 20160315140755
+202.46.48.146 1 1 2431 20160301070812
+202.46.51.198 1 1 2431 20160319094139
+202.46.49.123 2 2 8742 20160329070445
+62.163.243.188 0 1 7937 
+202.46.57.75 1 1 2428 20160303103427
+202.46.49.201 1 1 2431 20160320075000
+216.45.136.205 2 24 318895 20160329175352
+152.26.52.213 7 78 1119199 20160320132647
+202.46.52.204 1 1 2431 20160329164634
+75.140.161.104 2 25 377383 20160301211142
+54.242.125.23 1 1 12724 20160302014715
+202.46.56.17 1 1 12747 20160330105335
+202.46.52.104 3 3 17335 20160323151430
+74.124.189.50 1 15 140532 20160301142302
+185.35.21.177 1 1 6290 20160327115542
+195.113.171.181 1 6 111595 20160301121808
+202.46.57.79 1 1 2431 20160331144546
+136.243.48.85 1 1 12728 20160325133113
+80.79.120.101 1 1 2410 20160327115528
+212.170.93.131 1 15 140532 20160307171821
+151.138.28.21 1 15 140528 20160324134905
+97.82.221.24 1 15 140532 20160324213017
+202.46.51.178 1 1 6391 20160321084310
+52.88.178.84 1 1 12748 20160326183638
+202.46.50.164 1 1 2431 20160316210248
+70.197.163.102 2 18 190310 20160326033232
+170.98.106.254 2 25 314651 20160315074830
+199.30.24.133 0 14 127804 
+202.46.49.148 3 3 7289 20160330233734
+202.46.56.18 1 1 2431 20160317015232
+202.46.56.72 1 1 2430 20160329153935
+202.46.50.191 1 1 2430 20160309171807
+202.46.49.157 1 1 2430 20160313102101
+38.100.21.171 11 11 145878 20160303015849
+162.231.172.214 0 1 24114 
+202.46.50.189 1 1 2430 20160322152852
+202.46.54.107 1 1 2431 20160303030348
+191.7.69.212 1 15 140528 20160306155116
+70.193.48.239 2 25 314651 20160316120937
+202.46.55.142 1 1 2431 20160316101338
+172.56.16.101 0 1 20215 
+202.46.55.67 1 1 2430 20160325024035
+61.135.190.103 2 2 25456 20160314234731
+202.46.56.198 0 1 499 
+173.252.74.113 0 1 7767 
+165.231.90.84 1 1 12747 20160323143401
+202.46.51.16 2 2 4862 20160331201634
+204.79.180.13 1 1 12728 20160328094344
+202.46.53.110 1 1 2431 20160318072300
+202.46.58.11 1 1 2431 20160317185400
+202.46.54.22 1 1 2431 20160317195340
+202.46.56.182 2 2 13536 20160312033900
+54.144.247.246 1 1 12728 20160312154750
+96.46.62.209 1 1 2409 20160327115527
+50.252.212.14 2 2 25494 20160304114243
+107.77.104.25 1 4 41093 20160316024833
+109.51.80.165 1 15 140528 20160312174209
+176.202.184.65 1 15 140528 20160309235714
+178.18.242.52 1 1 6290 20160327115537
+97.90.168.113 1 7 82174 20160326110720
+124.105.43.145 1 3 67300 20160301152459
+75.88.73.13 0 1 7937 
+202.46.49.110 2 2 4862 20160316194601
+95.143.39.232 1 1 12728 20160327115539
+200.75.176.10 1 15 140528 20160306175542
+202.46.51.26 1 1 2431 20160306034350
+202.46.51.176 1 1 2431 20160311212857
+66.87.74.91 0 1 13116 
+192.241.227.240 1 1 41690 20160330202822
+212.69.191.215 1 1 19589 20160327111752
+172.74.150.108 0 1 24114 
+68.170.227.33 1 4 41093 20160330045153
+212.69.191.241 0 1 474 
+202.46.49.113 1 1 6391 20160319155919
+202.46.51.203 1 1 2431 20160303131822
+74.91.26.114 2 2 25494 20160320163135
+173.252.80.114 0 3 3194 
+202.46.57.72 1 2 5022 20160303215519
+185.75.241.173 1 1 6291 20160327115534
+66.49.89.168 0 1 22439 
+185.75.243.152 1 1 6291 20160327115056
+202.46.51.184 1 1 12685 20160311191500
+204.79.180.77 1 1 12728 20160329071953
+65.49.1.71 1 1 2410 20160327115522
+202.46.51.156 1 1 2431 20160322221833
+61.135.190.221 1 1 12724 20160316023941
+101.226.33.204 1 1 12743 20160327103906
+131.253.25.228 0 3 21504 
+50.168.230.192 2 25 314651 20160328034146
+202.46.50.74 1 1 2431 20160329013807
+149.56.44.203 2 2 25452 20160311000319
+54.183.187.97 2 2 22662 20160311115321
+184.39.107.182 1 11 245658 20160324184817
+198.199.114.62 1 1 41690 20160328200413
+89.144.57.129 1 1 6293 20160327115523
+92.53.115.206 1 1 12724 20160331152319
+68.112.93.159 0 1 7937 
+202.46.55.83 0 1 464 
+68.15.100.223 1 15 140532 20160309174054
+104.192.247.156 1 12 190689 20160316003911
+202.46.51.105 2 2 4862 20160327001242
+52.6.229.204 1 1 12728 20160329143323
+202.46.51.194 1 1 12743 20160331055449
+104.192.246.30 1 12 190689 20160305221637
+202.46.52.168 2 2 4860 20160304231343
+50.118.160.190 1 1 12743 20160315101250
+5.196.66.162 1 1 12724 20160324170551
+192.241.230.6 1 1 41690 20160324191613
+101.226.33.238 1 1 12743 20160309104929
+179.208.196.17 1 15 140528 20160313193031
+64.233.172.212 1 4 48127 20160317130316
+50.182.145.202 0 1 25573 
+202.46.53.114 1 1 2431 20160324235309
+202.46.50.14 1 1 0 20160315073515
+202.46.55.136 1 1 2430 20160317143721
+202.46.52.70 1 1 2431 20160319101509
+202.46.54.15 1 1 2430 20160314135746
+174.60.152.25 0 1 13116 
+202.46.55.90 0 1 464 
+204.79.180.177 1 1 41690 20160312181638
+206.217.201.219 1 1 2268 20160327115539
+187.169.195.128 0 1 60120 
+202.46.55.137 2 2 4862 20160322210505
+202.46.54.28 1 1 2430 20160324180141
+202.46.51.168 1 1 2431 20160320053603
+131.253.26.255 1 1 12728 20160313161356
+202.46.52.146 1 1 2431 20160318114512
+61.135.190.102 2 2 25452 20160329080742
+54.243.53.148 3 3 125070 20160318114544
+202.46.52.159 1 1 2429 20160315091544
+69.58.178.57 11 11 222290 20160309011050
+109.190.140.153 1 1 12724 20160328103713
+70.164.69.92 1 15 140532 20160309162901
+157.55.2.157 0 4 50755 
+202.46.48.13 1 1 2431 20160305203744
+202.46.54.182 2 2 4861 20160311140301
+208.90.57.196 4 4 36798 20160328103844
+52.0.3.61 1 1 12728 20160321083907
+202.46.48.208 2 2 4859 20160324143738
+67.43.253.141 2 37 200452 20160312015334
+97.94.245.230 1 15 140532 20160319000753
+68.148.76.154 0 1 20215 
+202.46.51.169 1 1 2431 20160301043158
+8.25.235.137 1 15 140532 20160304154947
+192.241.204.233 1 1 41690 20160304200006
+65.55.210.82 0 11 97752 
+199.30.25.71 0 14 127804 
+201.67.61.232 1 15 140528 20160308175004
+104.49.76.72 4 60 562128 20160329182521
+54.234.170.123 1 1 12728 20160303071425
+185.2.248.65 1 1 6291 20160327115534
+202.46.52.106 1 1 6391 20160303023019
+50.17.112.84 3 31 293792 20160304103515
+45.55.133.232 1 1 12724 20160311101325
+208.108.166.41 0 1 24114 
+202.46.55.151 1 1 2431 20160307191857
+89.180.155.229 1 1 12724 20160306210003
+216.167.159.189 0 1 20215 
+52.73.3.126 1 1 12743 20160314221749
+202.46.52.112 1 1 12743 20160326170531
+216.69.191.97 1 1 12743 20160301030035
+202.46.56.195 2 2 4861 20160315213521
+70.210.16.28 1 15 140532 20160328213355
+185.35.21.222 1 1 2410 20160327115523
+174.63.33.48 1 4 41093 20160302125044
+104.236.110.18 14 14 287626 20160326040845
+47.49.130.117 2 17 165055 20160321133206
+202.46.56.207 1 1 2431 20160321005955
+192.241.204.140 1 1 41690 20160306202404
+202.46.49.192 1 1 2430 20160314040223
+191.179.213.44 1 16 140848 20160301012458
+202.46.51.204 2 2 4862 20160321020653
+178.95.193.223 1 1 12724 20160330103551
+104.236.220.125 13 13 274902 20160302045937
+202.46.49.208 1 1 12747 20160326081556
+68.115.245.250 6 46 353088 20160312043257
+202.46.49.200 1 1 2431 20160305132227
+202.46.54.207 1 1 2431 20160302074825
+191.241.17.235 1 15 140528 20160308232710
+130.0.236.153 1 1 12748 20160325105338
+202.46.49.90 1 1 2431 20160316165848
+70.210.5.144 10 83 680367 20160324202741
+46.118.155.216 2 2 25456 20160321025700
+70.193.52.104 2 17 165055 20160319162652
+157.56.2.203 1 1 12747 20160321085649
+98.26.140.106 2 25 314651 20160325175243
+86.62.117.180 1 1 12747 20160302075855
+202.46.55.63 1 1 2431 20160313145002
+72.10.193.96 1 1 12456 20160302162041
+202.46.57.159 1 1 0 20160316073659
+202.46.58.159 1 1 2430 20160307020920
+202.46.58.184 1 1 2431 20160327035536
+75.138.52.242 1 15 140532 20160316171258
+202.46.48.210 1 1 2431 20160329183955
+61.135.190.222 1 1 12724 20160329120150
+202.46.50.210 1 1 0 20160304073056
+217.18.247.99 1 1 2410 20160327115523
+216.222.120.149 0 1 12795 
+202.46.55.11 1 1 0 20160321080940
+149.5.113.84 1 1 6290 20160327115536
+202.46.49.64 1 1 2430 20160317151050
+96.37.253.83 1 15 140532 20160325221614
+202.46.51.199 1 1 0 20160322075725
+67.197.28.219 0 1 20215 
+202.46.53.191 1 1 2431 20160303001622
+71.231.27.248 1 4 41093 20160324184231
+58.39.245.248 1 1 12728 20160305200043
+66.249.82.243 0 1 7937 
+202.46.48.194 1 1 2430 20160325002638
+202.46.51.118 2 2 4860 20160326054657
+202.46.51.103 1 1 2429 20160323023331
+107.77.94.78 0 1 24114 
+202.46.54.23 1 1 2431 20160305101317
+202.46.56.97 2 2 4861 20160322014004
+66.214.20.9 0 1 24114 
+202.46.53.153 1 1 95798 20160320235256
+45.55.133.238 1 1 12724 20160302121033
+202.46.50.156 1 1 0 20160303114737
+204.79.180.170 1 1 41690 20160308182424
+202.46.57.174 1 1 12747 20160329025037
+202.46.54.104 1 1 2430 20160312172226
+199.30.25.115 0 13 120037 
+202.46.54.167 1 1 2429 20160322044456
+79.125.214.150 1 15 140528 20160314072857
+202.46.51.32 1 1 2431 20160321013324
+202.46.57.27 1 1 2429 20160314161835
+185.75.243.171 1 1 12724 20160326162703
+202.46.49.112 1 1 2431 20160309151740
+202.46.51.205 1 1 0 20160306015451
+65.30.156.117 0 1 7767 
+202.46.58.73 3 3 7291 20160324014725
+192.230.179.151 1 15 140532 20160329194640
+24.196.192.222 1 15 140532 20160328025655
+163.172.19.145 1 1 12728 20160301045822
+37.247.126.47 1 1 2059 20160327115532
+202.46.48.131 1 1 2431 20160304013748
+93.222.14.10 2 17 165055 20160314160058
+202.46.51.106 1 2 2864 20160318231813
+202.46.51.85 1 1 2430 20160315135838
+66.190.146.112 1 15 140532 20160302140142
+173.192.206.100 1 1 3487 20160327115522
+67.132.206.254 2 2 25504 20160325032413
+104.236.211.136 13 13 274902 20160318050243
+31.11.133.66 1 1 12728 20160325005755
+198.135.125.167 1 15 140532 20160329211343
+180.153.201.217 1 1 12743 20160331103734
+202.46.54.143 1 1 2430 20160302192940
+43.225.193.2 1 15 140528 20160305080947
+202.46.56.142 1 1 2430 20160330000247
+188.40.112.210 1 1 19589 20160303183805
+202.46.58.152 1 1 2430 20160313190427
+52.87.16.4 3 3 34529 20160317083052
+202.46.51.179 2 2 8820 20160324211448
+217.18.244.173 1 1 2410 20160327115529
+75.75.41.130 0 1 13116 
+202.46.58.124 1 1 2429 20160315201201
+202.46.51.84 1 1 2430 20160318125211
+124.106.17.166 1 14 97755 20160301152441
+202.46.49.61 1 1 19608 20160330162702
+54.242.154.241 3 31 293792 20160304110155
+202.46.56.135 1 1 3536 20160309202432
+202.46.54.139 1 1 2431 20160309011828
+131.253.26.238 1 1 12728 20160319191745
+107.183.255.150 1 1 12728 20160316074513
+202.46.48.141 1 1 12747 20160316142000
+54.193.12.103 2 2 22662 20160312204909
+107.77.161.7 2 22 373794 20160308001311
+23.23.6.75 2 3 21590 20160329095452
+202.46.55.123 1 1 2430 20160301134019
+70.197.162.74 1 15 140532 20160303190343
+202.46.55.175 1 1 2431 20160329044253
+202.46.49.119 1 1 2431 20160325223510
+158.69.27.74 1 1 12724 20160314121927
+153.25.111.61 0 1 22439 
+202.46.58.98 1 1 2431 20160303041414
+202.46.58.18 3 3 7293 20160328221128
+24.158.45.76 2 25 377387 20160306011111
+152.26.208.33 3 6 62808 20160302191942
+208.255.153.239 0 2 120240 
+192.230.182.212 1 15 140532 20160323151450
+202.46.58.57 1 1 2429 20160331081544
+190.42.154.235 1 1 12724 20160302211743
+104.228.21.62 0 1 22439 
+177.137.232.210 1 15 140528 20160301232510
+80.79.114.15 1 1 6290 20160327115533
+202.46.55.62 1 1 12747 20160321085405
+202.46.53.193 1 1 2430 20160320042904
+202.46.57.89 1 1 2431 20160302040333
+76.20.44.68 0 1 7937 
+198.199.114.42 1 1 41690 20160302193612
+202.46.53.115 1 1 16130 20160301202323
+173.252.80.118 0 3 20229 
+152.26.208.25 2 30 281064 20160323122516
+109.201.133.100 2 2 25448 20160303041526
+202.46.56.92 1 1 2431 20160315150537
+97.82.118.46 0 1 3785 
+73.25.176.44 0 1 7767 
+89.144.43.168 1 1 11087 20160327111750
+202.46.49.142 1 1 2431 20160326165613
+24.246.191.115 1 15 140528 20160331222743
+198.85.219.5 0 2 25244 
+185.15.95.172 1 1 2410 20160327115528
+75.136.101.86 0 1 12702 
+12.180.55.190 1 1 2410 20160327115524
+202.46.55.17 1 1 2430 20160322115003
+174.99.18.203 1 6 38102 20160303205803
+200.93.113.221 1 15 140528 20160303135118
+173.252.80.113 0 1 4934 
+23.94.230.37 1 1 12728 20160329174017
+202.46.58.13 1 1 2431 20160319051749
+67.84.152.127 1 15 140532 20160312130025
+69.132.17.97 2 18 236232 20160313232013
+54.91.16.247 10 10 3280 20160327163932
+202.46.48.96 1 1 6391 20160309004458
+204.79.180.213 1 1 41690 20160312153616
+199.30.24.53 0 10 77049 
+96.46.59.131 1 1 6290 20160327115536
+202.46.50.80 1 1 6313 20160315105611
+108.24.81.202 0 1 60120 
+172.74.133.144 1 15 140532 20160323135642
+52.73.200.208 1 1 12728 20160323040957
+202.46.48.143 1 1 6391 20160314154507
+202.46.52.200 1 1 2430 20160307143958
+50.176.154.241 9 9 113779 20160316071112
+202.46.49.190 1 1 12747 20160308075047
+202.46.58.76 1 1 2431 20160309115931
+193.24.209.30 1 1 6293 20160327115532
+202.46.48.139 1 1 2428 20160305041026
+202.46.52.170 1 1 2431 20160311044200
+216.81.71.93 1 1 12724 20160315170214
+202.46.54.159 1 1 2430 20160302082154
+54.144.205.18 1 1 12724 20160322181133
+74.254.113.126 1 15 140532 20160306182105
+199.30.25.27 0 4 50755 
+120.29.70.73 1 12 154583 20160321233238
+202.46.53.157 2 2 4860 20160328014334
+165.234.184.52 1 7 82174 20160318222953
+189.26.97.22 1 1 12724 20160307155908
+152.26.30.109 0 1 60120 
+46.4.153.245 30 30 569996 20160325221009
+136.243.16.102 1 1 41690 20160331174259
+65.208.151.118 1 1 12747 20160325220216
+202.46.54.19 2 2 4862 20160320113424
+99.104.107.65 1 1 2410 20160327115533
+65.55.210.71 0 1 1092 
+202.46.56.114 1 1 2431 20160309220458
+202.46.55.170 1 1 2430 20160317110745
+23.238.33.27 1 1 41690 20160303083615
+24.19.146.185 4 31 364191 20160330040100
+99.4.185.14 0 1 38908 
+195.154.146.225 2 2 25456 20160328190418
+217.18.247.87 0 1 414 
+202.46.55.176 1 1 2429 20160312075350
+202.46.53.155 1 1 2431 20160301060113
+202.46.51.83 1 1 2429 20160323202631
+74.235.133.2 5 32 415132 20160320233922
+205.197.242.166 1 15 140532 20160325173604
+177.91.121.40 1 15 140528 20160305152304
+178.17.174.99 1 1 12724 20160302125015
+202.46.51.138 1 1 2430 20160317070913
+101.226.65.107 1 1 12743 20160301103924
+202.46.58.155 1 1 2431 20160324114138
+202.46.49.68 1 1 6313 20160321084309
+204.79.180.69 1 1 41690 20160312172150
+152.26.208.40 1 15 140532 20160309200204
+108.31.191.159 0 1 20215 
+46.229.170.197 3 3 38184 20160320052927
+202.46.56.185 1 1 2430 20160301162901
+212.69.191.209 1 1 6293 20160327115528
+71.81.6.25 2 25 314651 20160321020156
+202.46.51.181 1 1 2431 20160315184614
+184.4.95.157 2 25 377387 20160316170759
+37.1.218.125 1 1 12724 20160329203614
+202.46.58.125 1 1 6391 20160318132540
+217.172.44.156 1 1 6291 20160327115535
+202.46.57.29 1 1 2430 20160305183643
+202.46.51.102 1 1 2429 20160304181040
+202.46.51.155 1 1 2429 20160319172806
+173.49.168.100 2 25 314651 20160313225153
+54.229.174.179 3 3 38229 20160317131444
+109.86.72.162 2 2 25428 20160312082729
+122.171.116.94 1 15 140528 20160305085854
+73.6.51.76 1 12 190689 20160330164953
+173.252.80.116 0 1 8803 
+202.46.50.120 1 1 2032 20160317230237
+54.157.10.203 1 1 12724 20160315080514
+206.217.206.179 1 1 6291 20160327115056
+202.46.53.45 1 1 2431 20160318121842
+202.46.57.168 1 1 2430 20160301141348
+96.246.85.154 2 25 377387 20160331170549
+202.46.51.208 1 1 2431 20160304202437
+202.46.50.131 4 4 13682 20160315105612
+202.46.58.84 1 1 0 20160309001129
+202.46.56.206 1 1 2430 20160307010222
+67.213.90.28 15 15 285002 20160305225423
+202.46.58.118 1 2 2591 20160304202253
+101.226.33.221 1 1 12743 20160317103936
+208.77.171.190 1 15 140532 20160303180126
+202.46.56.12 1 1 2430 20160320064302
+202.46.58.58 1 1 2430 20160327032206
+202.46.48.202 1 1 2430 20160307222556
+101.226.102.97 1 1 12743 20160315104055
+202.46.58.14 1 1 2431 20160304155839
+217.18.247.117 1 1 6293 20160327115524
+202.46.57.13 1 1 2431 20160319194202
+204.79.180.124 1 1 5633 20160328034044
+46.119.127.129 1 1 12728 20160329230617
+202.46.53.120 1 1 2429 20160323162127
+202.46.51.193 1 1 15881 20160326113633
+202.46.54.204 1 1 2431 20160320221117
+207.195.227.89 1 1 9934 20160327111755
+202.46.52.40 1 1 0 20160314102437
+202.46.55.132 1 1 2430 20160323125817
+202.46.51.25 1 1 2431 20160304062357
+184.4.101.45 1 5 63515 20160301173001
+108.174.63.135 1 1 41690 20160329173952
+202.46.58.15 2 2 4861 20160328202727
+192.230.188.248 1 15 140532 20160330000908
+202.46.57.172 2 2 4861 20160322024703
+217.18.247.92 1 1 6294 20160327111639
+52.27.103.148 3 3 66659 20160317144215
+217.172.44.99 1 1 6155 20160327115541
+157.55.2.137 0 14 127804 
+202.46.51.187 2 2 4860 20160324022054
+188.153.237.186 1 15 140528 20160311103645
+202.46.50.130 3 3 7293 20160313224426
+202.46.55.18 2 2 4861 20160303181010
+202.46.56.71 1 1 2431 20160331001103
+202.46.56.75 1 1 2431 20160319214834
+202.46.58.77 1 1 2431 20160315220850
+152.26.208.31 1 15 140532 20160311134021
+202.46.50.182 0 1 2591 
+192.241.219.100 1 1 41690 20160324191859
+202.46.53.195 1 1 2431 20160326162244
+204.79.180.7 1 1 41690 20160323220324
+104.156.251.62 1 1 12724 20160307213540
+23.226.221.196 1 1 12724 20160327170504
+202.46.52.176 1 1 2430 20160311082431
+93.43.150.179 1 15 140528 20160302081252
+202.46.54.37 1 1 2431 20160331061930
+75.34.99.162 1 1 2410 20160327115531
+91.223.159.121 1 1 12724 20160327105025
+70.196.149.166 1 15 140532 20160330145957
+138.97.116.218 1 15 140528 20160306222550
+177.137.112.6 1 15 140528 20160307142514
+68.188.60.34 2 25 314651 20160321125744
+202.46.56.186 1 1 12747 20160323190301
+204.195.26.244 0 1 12702 
+202.46.48.94 1 1 2431 20160305200416
+202.46.48.149 1 1 12747 20160315224657
+54.84.199.45 1 1 12728 20160327221926
+202.46.56.94 1 1 2431 20160320001006
+107.169.128.93 1 15 140532 20160314224644
+71.218.168.82 1 15 140532 20160320141958
+167.114.237.176 2 2 49482 20160326195324
+202.46.53.142 1 1 2430 20160309175136
+31.184.238.103 1 1 11106 20160329030904
+136.243.23.195 5 5 229734 20160324110416
+66.171.15.8 0 2 40430 
+149.5.113.134 1 1 95779 20160327111751
+64.202.160.248 2 2 25494 20160319104237
+202.46.58.126 1 1 2431 20160322225203
+54.163.67.34 36 36 593719 20160311061426
+202.46.53.159 1 1 2430 20160312190841
+24.158.33.211 2 17 165055 20160301000529
+179.212.161.65 0 1 20215 
+73.15.103.51 2 25 314651 20160325020332
+213.179.219.7 1 1 2410 20160327115524
+202.46.52.141 2 2 4861 20160328044307
+212.187.49.65 0 1 7937 
+202.46.56.70 1 1 2429 20160303201519
+108.228.220.169 16 108 1556755 20160324230028
+45.79.86.161 12 28 421820 20160315011007
+149.168.240.9 3 41 517911 20160322203907
+202.46.58.92 1 1 2431 20160307053441
+202.46.56.204 1 1 2431 20160318221115
+199.30.24.134 0 14 127804 
+202.46.58.156 1 1 2431 20160309185835
+202.46.51.191 1 1 12747 20160325142910
+202.46.55.38 2 2 4861 20160314002139
+202.46.49.145 1 1 2430 20160312104652
+202.46.48.17 1 1 2430 20160327120835
+202.46.54.91 1 1 6391 20160329133044
+177.100.239.1 1 15 140528 20160311154452
+202.46.58.55 1 1 2431 20160320150324
+189.83.0.101 1 15 140528 20160312182233
+220.181.51.104 1 1 12747 20160311004343
+202.46.56.205 1 1 2430 20160302200310
+41.96.62.104 1 15 140528 20160305184911
+198.204.123.4 2 25 314651 20160327005049
+75.109.47.171 1 13 139843 20160303141548
+70.198.136.39 0 1 20215 
+202.46.51.197 1 1 2430 20160326095606
+67.84.134.142 1 4 41093 20160316170621
+52.73.242.77 3 3 34529 20160308005545
+65.18.199.82 1 1 7792 20160327111754
+192.241.238.143 1 1 41690 20160326194016
+52.24.8.226 2 2 22662 20160311194533
+202.46.58.16 3 3 19063 20160325120705
+166.137.10.45 2 25 377387 20160313135723
+202.46.58.209 1 1 2430 20160323064028
+70.148.77.204 1 15 140532 20160309185012
+202.46.50.79 1 1 2430 20160304080426
+108.185.114.150 0 1 22276 
+202.46.56.193 1 1 2430 20160317163241
+149.56.44.204 2 2 25452 20160309012103
+202.46.57.124 1 1 2430 20160324074212
+167.114.209.28 12 12 262431 20160315071257
+52.33.227.96 1 1 12724 20160311170939
+119.147.146.194 2 2 25390 20160305104014
+202.46.50.82 1 1 2289 20160314091221
+179.106.103.180 1 15 140528 20160309134918
+167.114.235.70 1 1 9934 20160326020720
+173.72.215.11 1 4 37615 20160320154105
+202.46.48.83 2 2 4860 20160308185657
+49.229.194.88 1 15 140528 20160312120947
+184.20.197.255 28 259 1449065 20160306033041
+101.226.66.177 1 1 12743 20160319103954
+75.164.247.231 1 1 2408 20160327115531
+113.173.175.100 1 1 12747 20160315042631
+45.55.134.19 1 1 12724 20160319201709
+202.46.49.146 1 1 2430 20160328080220
+54.229.161.98 3 3 38229 20160318102414
+202.46.53.149 1 1 2431 20160301182307
+69.43.158.141 1 1 12743 20160325180041
+188.81.15.11 1 6 87837 20160311224553
+45.56.148.168 2 17 165055 20160324041003
+54.84.70.10 1 15 140528 20160324215451
+173.252.80.117 0 1 7767 
+189.30.143.203 1 8 107074 20160308020919
+166.137.248.27 2 26 379315 20160329015551
+136.243.67.139 4 32 306560 20160329142738
+202.46.53.196 1 1 2430 20160314050921
+64.233.172.196 0 1 8803 
+149.5.113.173 0 1 414 
+184.154.36.173 45 55 609191 20160326023240
+202.46.53.143 1 1 2430 20160322122332
+202.46.51.109 1 1 0 20160313075637
+202.46.49.204 2 2 4862 20160318015446
+204.79.180.163 1 1 41690 20160309193602
+202.46.50.121 3 3 7291 20160325185438
+216.153.28.200 1 1 12728 20160318020622
+181.122.2.141 1 15 140528 20160306162815
+202.46.50.190 1 1 2431 20160323182932
+202.46.51.29 1 1 6313 20160303023019
+202.46.51.172 1 1 2428 20160306134317
+202.46.48.135 1 1 2431 20160306123618
+202.46.52.66 2 2 2431 20160320074455
+216.248.228.1 0 1 0 
+54.204.89.28 1 1 12724 20160312080736
+200.185.207.228 1 15 140528 20160304040451
+202.46.50.87 1 1 2430 20160328153259
+112.64.235.91 1 1 12743 20160321103709
+217.18.247.114 1 1 6293 20160327115540
+202.46.55.133 1 1 2431 20160301012501
+202.46.58.81 1 1 0 20160308174748
+89.212.91.233 1 15 140532 20160326114322
+202.46.48.132 1 1 2429 20160329191323
+94.190.79.198 1 1 12724 20160306045914
+202.46.49.196 1 1 12743 20160324075537
+213.179.219.253 1 1 15862 20160327111753
+192.230.178.251 3 33 313354 20160317183449
+202.46.57.205 1 1 2431 20160308230431
+71.7.181.145 2 2 8700 20160327115533
+54.163.140.21 1 1 12724 20160314044901
+148.251.54.44 1 1 14183 20160317063846
+95.144.81.30 3 14 203039 20160318124854
+202.46.54.20 1 1 2430 20160316182838
+202.46.56.14 1 1 12747 20160302001022
+70.126.227.24 1 7 100636 20160315063627
+202.46.51.23 1 1 2430 20160326102935
+45.25.244.124 2 17 165055 20160314103639
+73.6.173.17 0 1 24114 
+107.77.83.52 2 16 153260 20160313203217
+202.46.54.26 1 1 2431 20160313120129
+52.20.12.65 1 1 12747 20160315013908
+202.46.52.147 1 1 2429 20160327084755
+202.46.57.38 1 1 2430 20160321095008
+202.46.50.98 1 1 2430 20160311171521
+184.154.36.176 50 65 769450 20160331023149
+202.46.50.18 1 1 2431 20160323012632
+192.121.157.94 1 1 12747 20160304100747
+202.46.53.200 1 1 2430 20160314143116
+89.144.57.135 1 1 12456 20160327111755
+201.159.53.1 1 14 135594 20160303005224
+14.23.42.235 15 16 285162 20160318025617
+202.46.51.210 0 1 493 
+202.46.48.148 1 1 2429 20160319113723
+202.46.58.93 1 1 2431 20160321135739
+202.46.57.12 1 1 2431 20160321091639
+198.12.119.124 1 1 313 20160327014920
+202.46.51.81 1 1 2431 20160305090619
+104.214.27.125 1 1 12724 20160321002618
+2.49.139.139 1 15 140528 20160312125938
+12.191.53.150 2 18 236232 20160311201912
+202.46.49.71 1 1 2431 20160302012619
+216.4.56.175 1 15 140532 20160323212500
+91.223.159.152 1 1 6290 20160327115541
+209.188.58.97 2 17 165055 20160328221903
+202.46.53.47 1 1 2289 20160313091324
+202.46.57.166 1 1 2430 20160302100651
+202.46.50.78 1 1 2430 20160315031629
+104.54.27.121 0 1 7937 
+128.177.161.164 3 20 260755 20160323153316
+216.81.71.99 1 1 12724 20160327182335
+98.175.221.11 1 5 63515 20160329161141
+14.189.66.144 1 1 12724 20160306164716
+202.46.54.92 1 1 2430 20160303004952
+202.46.53.125 1 1 2430 20160309213130
+202.46.49.135 1 1 2431 20160329082532
+24.158.38.196 1 7 82174 20160317005530
+202.46.49.69 1 1 2431 20160323040622
+24.148.30.12 0 3 21504 
+202.46.54.11 1 1 2430 20160321202213
+46.20.1.98 1 1 12724 20160322203519
+188.165.194.66 1 1 12456 20160303122814
+202.46.58.210 1 1 2430 20160314102248
+12.32.89.121 0 1 60120 
+108.171.130.169 1 15 140532 20160317195022
+220.181.108.95 1 1 12724 20160329211855
+96.30.6.132 1 1 12724 20160312113724
+1.186.78.35 1 15 140528 20160311062954
+213.239.205.118 1 1 12743 20160304131533
+202.46.53.67 1 1 2431 20160322111634
+96.36.121.26 0 1 11999 
+63.223.124.87 1 1 2410 20160327115522
+76.220.13.6 0 1 60120 
+72.8.246.139 0 1 13116 
+202.46.54.191 1 1 2431 20160315181245
+116.110.71.28 3 3 125127 20160302142225
+202.46.55.177 1 1 2430 20160312161440
+202.46.52.178 1 2 2863 20160304091125
+180.153.163.190 1 1 12743 20160323103927
+202.46.56.91 3 3 7293 20160319134521
+202.46.48.85 1 1 2431 20160311125602
+198.210.1.3 1 15 140532 20160325182337
+202.46.52.166 1 1 2431 20160311071733
+75.143.178.76 1 15 140532 20160324050607
+192.230.178.162 10 124 760829 20160302191109
+202.46.50.88 2 2 8821 20160329070446
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20160301 54 253 2827497 38
+20160302 243 1228 11917075 48
+20160303 70 254 2649290 38
+20160304 49 209 2329881 34
+20160305 55 147 1713808 28
+20160306 59 430 3450683 23
+20160307 39 106 1151639 28
+20160308 184 557 8096668 30
+20160309 90 234 2365054 35
+20160311 109 271 3154843 42
+20160312 85 281 2523347 36
+20160313 34 129 1587707 22
+20160314 50 173 1845656 32
+20160315 62 147 1755070 39
+20160316 77 216 2297548 27
+20160317 44 192 1920187 30
+20160318 73 161 2152722 26
+20160319 59 153 1823832 33
+20160320 49 185 2193086 32
+20160321 98 207 2329641 32
+20160322 32 76 914057 23
+20160323 149 526 7643551 33
+20160324 57 244 2871441 31
+20160325 119 314 3436329 32
+20160326 53 110 1481435 28
+20160327 96 183 1781035 82
+20160328 41 214 2547647 27
+20160329 65 343 3810937 45
+20160330 787 913 9672008 25
+20160331 33 135 1670039 20
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 1
+5mn-15mn 30
+30s-2mn 21
+2mn-5mn 14
+15mn-30mn 10
+0s-30s 909
+30mn-1h 14
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 470
+/Default.htm 1050 13038079 450 334
+/weblinks/weblinks.htm 280 10181512 124 140
+/training/training.htm 73 777090 8 28
+/personnel/personnel.htm 68 1312558 14 24
+/photo/photoalbum/ 62 385581 21 24
+/apparatus/apparatus.htm 61 724084 4 19
+/kids/kids.htm 51 635370 8 15
+/history/history.htm 50 709226 8 14
+/membership/membership.htm 42 327321 2 9
+/mission.htm 35 197326 3 12
+/personnel/.htm 2 7524 0 0
+/photo/photoalbum/slide0062_image125.html 4 9663 1 1
+/photo/photoalbum/slide0270_image538.html 1 2431 1 1
+/photo/photoalbum/slide0093_image187.html 3 7233 0 0
+/photo/photoalbum/slide0066_image133.html 3 7252 1 1
+/photo/photoalbum/slide0506_image858.html 1 2431 1 1
+/photo/photoalbum/slide0187_image373.html 3 7255 1 1
+/photo/photoalbum/index18.html 4 25160 1 1
+/photo/photoalbum/slide0086_image173.html 3 7233 0 0
+/photo/photoalbum/slide0527_image845.html 2 4862 2 2
+/photo/photoalbum/slide0166_image331.html 1 2429 1 1
+/photo/photoalbum/slide0174_image347.html 3 7271 2 2
+/photo/photoalbum/slide0057_image115.html 4 9659 1 1
+/photo/photoalbum/slide0337_image665.html 1 2412 0 0
+/photo/photoalbum/slide0205_image409.html 1 2431 1 1
+/photo/photoalbum/slide0286_image569.html 1 2411 0 0
+/photo/photoalbum/index7.html 4 25172 1 1
+/photo/photoalbum/slide0305_image607.html 3 7255 1 1
+/photo/photoalbum/slide0193_image385.html 1 2431 1 1
+/photo/photoalbum/slide0218_image435.html 1 2430 1 1
+/photo/photoalbum/slide0058_image117.html 4 9644 0 0
+/photo/photoalbum/slide0352_image692.html 2 4824 0 0
+/photo/photoalbum/slide0285_image567.html 4 9705 3 3
+/photo/photoalbum/slide0132_image264.html 2 4841 1 1
+/photo/photoalbum/slide0028_image057.html 5 12093 2 2
+/kids/.htaccess 1 3762 0 0
+/photo/photoalbum/slide0339_image669.html 1 2431 1 1
+/photo/photoalbum/slide0412_image759.html 2 4862 2 2
+/photo/photoalbum/slide0230_image459.html 1 2429 1 1
+/photo/photoalbum/slide0027_image055.html 2 4822 0 0
+/photo/photoalbum/slide0157_image313.html 2 4839 1 1
+/photo/photoalbum/slide0154_image307.html 1 2411 0 0
+/photo/photoalbum/slide0508_image872.html 1 2431 1 1
+/photo/photoalbum/slide0231_image461.html 1 2412 0 0
+/photo/photoalbum/index2.html 5 31465 1 1
+/photo/photoalbum/index25.html 7 44037 1 2
+/photo/photoalbum/slide0530_image848.html 1 2431 1 1
+/photo/photoalbum/slide0021_image043.html 6 14460 1 1
+/photo/photoalbum/index8.html 4 25172 1 1
+/personnel/.htaccess 1 3762 0 0
+/photo/photoalbum/slide0481_image817.html 1 2431 1 1
+/photo/photoalbum/slide0439_image780.html 2 4860 2 2
+/photo/photoalbum/slide0153_image305.html 4 9682 2 2
+/photo/photoalbum/slide0082_image165.html 3 7233 0 0
+/stats.htm 18 63382 2 2
+/photo/photoalbum/slide0159_image317.html 2 4822 0 0
+/photo/photoalbum/slide0026_image053.html 2 4822 0 0
+/photo/photoalbum/slide0044_image089.html 5 12069 1 1
+/photo/photoalbum/slide0463_image802.html 1 2431 1 1
+/training/.htm 2 7524 0 0
+/photo/photoalbum/slide0134_image268.html 2 4841 1 1
+/photo/photoalbum/slide0441_image781.html 1 2431 1 1
+/photo/photoalbum/slide0079_image159.html 4 9663 1 1
+/photo/photoalbum/slide0284_image565.html 1 2411 0 0
+/photo/photoalbum/slide0115_image230.html 5 12093 2 2
+/photo/photoalbum/slide0139_image277.html 2 4822 0 0
+/photo/photoalbum/slide0164_image327.html 4 9701 3 3
+/photo/photoalbum/slide0103_image206.html 2 4822 0 0
+/kids/kids_files/.htaccess 1 3762 0 0
+/photo/photoalbum/slide0084_image169.html 3 7230 0 0
+/photo/photoalbum/slide0367_image719.html 1 2430 1 1
+/photo/photoalbum/${@print(md5(acunetix_wvs_security_test))}/.html 1 3762 0 0
+/photo/photoalbum/slide0408_image756.html 2 4862 2 2
+/photo/photoalbum/slide0490_image829.html 1 2431 1 1
+/photo/photoalbum/slide0242_image483.html 4 9686 2 2
+/photo/photoalbum/slide0185_image369.html 1 2412 0 0
+/photo/photoalbum/slide0039_image079.html 3 7252 1 1
+/photo/photoalbum/slide0162_image323.html 2 4839 1 1
+/photo/photoalbum/slide0386_image742.html 1 2431 1 1
+/photo/photoalbum/slide0041_image083.html 3 7249 1 1
+/photo/photoalbum/slide0338_image667.html 3 7255 1 1
+/photo/photoalbum/slide0297_image591.html 2 4822 0 0
+/photo/photoalbum/slide0090_image181.html 3 7233 0 0
+/photo/photoalbum/slide0261_image521.html 3 7293 3 3
+/photo/photoalbum/slide0181_image361.html 2 4841 1 1
+/photo/photoalbum/slide0165_image329.html 3 7271 2 2
+/photo/photoalbum/slide0360_image705.html 2 4824 0 0
+/photo/photoalbum/slide0485_image821.html 1 2431 1 1
+/photo/photoalbum/slide0148_image295.html 2 4841 1 1
+/photo/photoalbum/slide0488_image825.html 1 2431 1 1
+/photo/photoalbum/slide0232_image463.html 2 4843 1 1
+/photo/photoalbum/slide0249_image497.html 2 4860 2 2
+/photo/photoalbum/slide0104_image208.html 6 14485 1 2
+/photo/photoalbum/slide0138_image275.html 1 2411 0 0
+/history/${@print(md5(acunetix_wvs_security_test))}/.htm 1 3762 0 0
+/photo/photoalbum/slide0311_image619.html 3 7255 1 1
+/photo/photoalbum/slide0421_image763.html 1 2431 1 1
+/photo/photoalbum/slide0010_image021.html 9 21709 2 2
+/photo/photoalbum/slide0046_image093.html 3 7233 0 0
+/photo/photoalbum/slide0052_image105.html 4 9644 0 0
+/photo/photoalbum/slide0273_image544.html 2 4843 1 1
+/photo/photoalbum/slide0003_image007.html 11 22680 1 2
+/photo/photoalbum/slide0006_image013.html 9 21690 1 3
+/personnel/${@print(md5(acunetix_wvs_security_test))}/.htm 1 3762 0 0
+/photo/photoalbum/slide0276_image550.html 1 2431 1 1
+/photo/photoalbum/slide0326_image647.html 1 2412 0 0
+/photo/photoalbum/slide0176_image351.html 3 7249 1 1
+/photo/photoalbum/slide0011_image023.html 7 16870 1 1
+/photo/photoalbum/slide0307_image611.html 3 7255 1 1
+/photo/photoalbum/slide0251_image501.html 2 4843 1 1
+/photo/photoalbum/slide0333_image658.html 1 2412 0 0
+/photo/photoalbum/slide0113_image226.html 3 7252 1 1
+/photo/photoalbum/slide0074_image149.html 3 7233 0 0
+/photo/photoalbum/slide0403_image752.html 1 2431 1 1
+/photo/photoalbum/slide0375_image735.html 1 2431 1 1
+/photo/photoalbum/slide0310_image617.html 4 9667 1 1
+/photo/photoalbum/slide0478_image814.html 1 2431 1 1
+/photo/photoalbum/slide0456_image795.html 1 2431 1 1
+/photo/photoalbum/slide0442_image782.html 1 2412 0 0
+/photo/photoalbum/slide0077_image155.html 3 7249 1 1
+/photo/photoalbum/index17.html 3 18870 1 1
+/photo/photoalbum/slide0434_image775.html 1 2431 1 1
+/photo/photoalbum/slide0151_image301.html 2 4841 1 1
+/weblinks/.htaccess 1 3762 0 0
+/photo/photoalbum/slide0059_image119.html 4 9644 0 0
+/photo/photoalbum/slide0098_image197.html 4 9663 1 1
+/photo/photoalbum/slide0102_image204.html 4 9640 0 1
+/photo/photoalbum/slide0158_image315.html 1 2411 0 0
+/photo/photoalbum/slide0345_image680.html 1 2430 1 1
+/photo/photoalbum/slide0458_image797.html 2 4860 2 2
+/photo/photoalbum/slide0105_image210.html 4 9644 0 0
+/photo/photoalbum/slide0250_image499.html 1 2412 0 1
+/photo/photoalbum/slide0289_image575.html 2 4824 0 0
+/photo/photoalbum/slide0068_image137.html 4 9640 0 0
+/training/.htaccess 1 3762 0 0
+/photo/photoalbum/slide0017_image035.html 6 14473 2 2
+/photo/photoalbum/slide0281_image559.html 1 2431 1 1
+/photo/photoalbum/slide0125_image250.html 2 4822 0 0
+/photo/photoalbum/slide0127_image254.html 3 7252 1 1
+/photo/photoalbum/slide0354_image696.html 3 7255 1 1
+/photo/photoalbum/slide0459_image798.html 1 2411 0 0
+/photo/photoalbum/slide0116_image232.html 4 9663 1 1
+/photo/photoalbum/slide0201_image401.html 2 4843 1 1
+/photo/photoalbum/slide0341_image672.html 1 2412 0 0
+/photo/photoalbum/slide0054_image109.html 5 12093 2 2
+/photo/photoalbum/slide0042_image085.html 2 4820 0 0
+/photo/photoalbum/slide0221_image441.html 1 2431 1 1
+/photo/photoalbum/slide0004_image009.html 10 19299 2 2
+/photo/photoalbum/slide0357_image701.html 2 4843 1 1
+/photo/photoalbum/slide0156_image311.html 1 2411 0 0
+/photo/photoalbum/slide0427_image769.html 1 2431 1 1
+/photo/photoalbum/slide0452_image792.html 3 7274 2 2
+/photo/photoalbum/slide0454_image794.html 1 2431 1 1
+/photo/photoalbum/slide0369_image723.html 2 4824 0 0
+/kids/.htm 2 7524 0 0
+/photo/photoalbum/slide0213_image425.html 3 7255 1 1
+/photo/photoalbum/slide0203_image405.html 2 4824 0 0
+/photo/photoalbum/slide0019_image039.html 7 16889 2 2
+/photo/photoalbum/slide0072_image145.html 4 9644 0 0
+/photo/photoalbum/slide0296_image589.html 3 7236 0 0
+/photo/photoalbum/slide0118_image236.html 4 9663 1 1
+/photo/photoalbum/slide0069_image139.html 3 7252 1 1
+/photo/photoalbum/slide0136_image272.html 2 4822 0 0
+/photo/photoalbum/slide0486_image822.html 1 2431 1 1
+/photo/photoalbum/slide0262_image523.html 1 2431 1 1
+/weblinks/${@print(md5(acunetix_wvs_security_test))}/.htm 1 3762 0 0
+/photo/photoalbum/index26.html 4 13948 1 1
+/photo/photoalbum/slide0266_image530.html 2 4843 1 1
+/photo/photoalbum/slide0385_image741.html 1 2431 1 1
+/photo/photoalbum/slide0282_image561.html 2 4860 2 2
+/photo/photoalbum/slide0150_image299.html 1 2411 0 0
+/photo/photoalbum/slide0245_image489.html 1 2412 0 0
+/photo/photoalbum/slide0146_image291.html 1 2411 0 0
+/photo/photoalbum/slide0252_image503.html 1 2431 1 1
+/photo/photoalbum/slide0008_image017.html 8 19280 1 1
+/photo/photoalbum/slide0170_image339.html 2 4820 0 0
+/photo/photoalbum/slide0083_image167.html 4 9644 0 0
+/photo/photoalbum/slide0065_image131.html 3 7252 1 1
+/membership/${@print(md5(acunetix_wvs_security_test))}/.htm 1 3762 0 0
+/photo/photoalbum/slide0288_image573.html 1 2412 0 0
+/photo/photoalbum/slide0342_image674.html 2 4841 1 1
+/photo/photoalbum/slide0317_image631.html 1 2431 1 1
+/photo/photoalbum/slide0025_image051.html 5 12088 2 2
+/photo/photoalbum/slide0502_image856.html 1 2431 1 1
+/photo/photoalbum/slide0392_image746.html 1 2430 1 1
+/photo/photoalbum/slide0168_image335.html 1 2411 0 0
+/photo/photoalbum/slide0322_image641.html 3 7255 1 1
+/photo/photoalbum/slide0275_image548.html 1 2412 0 0
+/photo/photoalbum/index10.html 4 25160 1 1
+/photo/photoalbum/slide0088_image177.html 4 9663 1 1
+/photo/photoalbum/slide0353_image694.html 2 4843 1 1
+/photo/photoalbum/slide0402_image751.html 3 7293 3 3
+/photo/photoalbum/slide0091_image183.html 3 7227 0 0
+/photo/photoalbum/slide0533_image851.html 2 4578 2 2
+/photo/photoalbum/slide0304_image605.html 2 4843 1 1
+/photo/photoalbum/slide0526_image844.html 2 4843 1 1
+/photo/photoalbum/slide0374_image733.html 2 4862 2 2
+/photo/photoalbum/slide0423_image765.html 1 2431 1 1
+/photo/photoalbum/slide0505_image864.html 1 2431 1 1
+/photo/photoalbum/index21.html 3 18465 1 1
+/photo/photoalbum/slide0236_image471.html 2 4843 1 1
+/photo/photoalbum/slide0528_image846.html 1 2431 1 1
+/photo/photoalbum/slide0171_image341.html 1 2430 1 1
+/photo/photoalbum/slide0161_image321.html 1 2411 0 0
+/photo/photoalbum/index5.html 5 31465 1 1
+/photo/photoalbum/slide0014_image029.html 7 16889 2 2
+/photo/photoalbum/slide0351_image690.html 1 2411 0 0
+/photo/photoalbum/slide0056_image113.html 4 9663 1 1
+/calendar.htm 27 435130 4 7
+/photo/photoalbum/slide0315_image627.html 1 2431 1 1
+/photo/photoalbum/slide0426_image768.html 3 7293 3 3
+/apparatus/${@print(md5(acunetix_wvs_security_test))}/.htm 1 3762 0 0
+/photo/photoalbum/slide0346_image681.html 1 2411 0 0
+/photo/photoalbum/slide0255_image509.html 2 4843 2 1
+/photo/photoalbum/slide0198_image395.html 2 4824 0 0
+/photo/photoalbum/slide0515_image886.html 1 2412 0 0
+/photo/photoalbum/index23.html 5 31455 1 2
+/photo/photoalbum/slide0122_image244.html 2 4822 0 0
+/ 2 400 0 0
+/photo/photoalbum/slide0287_image571.html 2 4843 1 1
+/photo/photoalbum/slide0064_image129.html 5 12069 1 1
+/photo/photoalbum/index4.html 6 37758 1 0
+/photo/photoalbum/slide0109_image218.html 4 9659 1 1
+/photo/photoalbum/slide0216_image431.html 1 2431 1 1
+/training/${@print(md5(acunetix_wvs_security_test))}/.htm 1 3762 0 0
+/photo/photoalbum/slide0204_image407.html 1 2431 1 1
+/photo/photoalbum/slide0461_image800.html 2 4862 2 2
+/photo/photoalbum/slide0244_image487.html 1 2411 0 0
+/photo/photoalbum/slide0347_image683.html 1 2412 0 0
+/photo/photoalbum/slide0240_image479.html 1 2412 0 0
+/photo/photoalbum/index16.html 3 18870 1 1
+/photo/photoalbum/slide0258_image515.html 2 4820 0 0
+/photo/photoalbum/slide0314_image625.html 2 4843 1 1
+/photo/photoalbum/slide0075_image151.html 5 12074 1 1
+/photo/photoalbum/slide0112_image224.html 2 4822 0 0
+/apparatus/.htm 2 7524 0 0
+/history/.htaccess 1 3762 0 0
+/photo/photoalbum/slide0291_image579.html 1 2411 0 0
+/stats/ 2 1147 0 0
+/photo/photoalbum/slide0195_image389.html 3 7252 1 1
+/photo/photoalbum/slide0120_image240.html 3 7233 0 0
+/photo/photoalbum/slide0045_image091.html 3 7233 0 0
+/photo/photoalbum/slide0477_image813.html 1 2431 1 1
+/photo/photoalbum/slide0380_image896.html 2 4843 1 1
+/photo/photoalbum/slide0328_image650.html 1 2431 1 1
+/photo/photoalbum/slide0018_image037.html 7 16889 2 2
+/photo/photoalbum/slide0036_image073.html 3 7252 1 1
+/photo/photoalbum/slide0196_image391.html 2 4843 1 1
+/photo/photoalbum/slide0179_image357.html 3 7271 2 2
+/photo/photoalbum/slide0184_image367.html 3 7255 1 1
+/photo/photoalbum/slide0192_image383.html 1 2412 0 0
+/kids/${@print(md5(acunetix_wvs_security_test))}/.htm 1 3762 0 0
+/photo/photoalbum/slide0121_image242.html 3 7252 1 1
+/photo/photoalbum/slide0264_image526.html 3 7293 3 3
+/photo/photoalbum/slide0321_image639.html 1 2431 1 1
+/photo/photoalbum/slide0024_image049.html 3 7252 1 1
+/photo/photoalbum/index15.html 4 25164 1 2
+/photo/photoalbum/slide0135_image270.html 2 4841 1 1
+/photo/photoalbum/slide0471_image809.html 1 2431 1 1
+/photo/photoalbum/slide0272_image542.html 2 4841 1 1
+/photo/photoalbum/slide0038_image077.html 2 4822 0 0
+/photo/photoalbum/slide0330_image654.html 1 2431 1 1
+/photo/photoalbum/slide0308_image613.html 4 9667 1 3
+/photo/photoalbum/slide0076_image153.html 2 4822 0 0
+/photo/photoalbum/slide0309_image615.html 2 4824 0 0
+/photo/photoalbum/slide0299_image595.html 1 2431 1 1
+/photo/photoalbum/slide0361_image707.html 3 7236 0 0
+/photo/photoalbum/slide0095_image191.html 3 7230 0 0
+/photo/photoalbum/slide0182_image363.html 1 2430 1 1
+/photo/photoalbum/slide0214_image427.html 1 2431 1 1
+/photo/photoalbum/slide0047_image095.html 4 9644 0 0
+/photo/photoalbum/slide0209_image417.html 2 4822 0 0
+/photo/photoalbum/slide0319_image635.html 1 2431 1 1
+/photo/photoalbum/slide0366_image717.html 4 9648 0 1
+/photo/photoalbum/slide0063_image127.html 4 9644 0 0
+/photo/photoalbum/slide0099_image199.html 4 9644 0 0
+/photo/photoalbum/slide0313_image623.html 1 2431 1 1
+/photo/photoalbum/slide0035_image071.html 3 7233 0 0
+/photo/photoalbum/slide0037_image075.html 3 7249 1 1
+/photo/photoalbum/slide0149_image297.html 2 4839 1 1
+/membership/.htaccess 1 3762 0 0
+/photo/photoalbum/slide0133_image266.html 2 4841 1 1
+/photo/photoalbum/slide0111_image222.html 4 9663 1 1
+/photo/photoalbum/index9.html 5 31465 1 2
+/photo/photoalbum/index19.html 4 25160 1 1
+/photo/photoalbum/slide0407_image755.html 1 2431 1 1
+/weblinks/weblinks_files/.htaccess 1 3762 0 0
+/photo/photoalbum/slide0123_image246.html 3 7230 0 0
+/photo/photoalbum/slide0243_image485.html 1 2411 0 0
+/photo/photoalbum/slide0382_image904.html 1 2412 0 0
+/photo/photoalbum/slide0180_image359.html 1 2411 0 0
+/photo/photoalbum/slide0073_image147.html 3 7233 0 0
+/photo/photoalbum/slide0032_image065.html 2 4822 0 0
+/photo/photoalbum/index22.html 4 25160 1 1
+/photo/photoalbum/slide0100_image200.html 4 9644 0 0
+/photo/photoalbum/slide0210_image419.html 1 2431 1 1
+/photo/photoalbum/slide0080_image161.html 2 4822 0 0
+/photo/photoalbum/slide0160_image319.html 1 2411 0 0
+/safetytips.htm 19 1819877 5 7
+/photo/photoalbum/slide0419_image761.html 3 7293 3 3
+/photo/photoalbum/slide0283_image563.html 2 4824 0 0
+/photo/photoalbum/slide0007_image015.html 10 21709 2 2
+/photo/photoalbum/slide0067_image135.html 4 9659 2 1
+/photo/photoalbum/slide0081_image163.html 4 9644 1 0
+/photo/photoalbum/slide0147_image293.html 2 4839 1 1
+/photo/photoalbum/index11.html 5 31450 1 1
+/photo/photoalbum/slide0016_image033.html 7 16856 1 2
+/photo/photoalbum/slide0096_image193.html 4 9663 1 1
+/photo/photoalbum/slide0043_image087.html 3 7233 0 0
+/photo/photoalbum/slide0364_image713.html 3 7255 1 1
+/photo/photoalbum/slide0462_image801.html 1 2431 1 1
+/photo/photoalbum/slide0312_image621.html 1 2431 1 1
+/photo/photoalbum/index3.html 5 31465 1 1
+/photo/photoalbum/slide0474_image810.html 1 2431 1 1
+/photo/photoalbum/slide0335_image661.html 1 2412 0 0
+/photo/photoalbum/slide0362_image709.html 1 2431 1 1
+/photo/photoalbum/slide0531_image849.html 1 2411 0 0
+/photo/photoalbum/slide0450_image790.html 1 2412 0 0
+/photo/photoalbum/slide0355_image697.html 1 2431 1 1
+/photo/photoalbum/slide0005_image011.html 11 21690 1 1
+/photo/photoalbum/slide0227_image453.html 2 4843 1 1
+/photo/photoalbum/slide0085_image171.html 4 9663 1 1
+/photo/photoalbum/index24.html 3 18873 1 1
+/photo/photoalbum/slide0015_image031.html 8 19310 3 3
+/photo/photoalbum/slide0089_image179.html 3 7252 1 1
+/photo/photoalbum/slide0206_image411.html 1 2431 1 1
+/photo/photoalbum/slide0436_image777.html 1 2430 1 1
+/photo/photoalbum/index20.html 3 18870 1 1
+/default_files/.htaccess 1 3762 0 0
+/photo/photoalbum/slide0144_image287.html 2 4841 1 1
+/photo/photoalbum/slide0061_image123.html 5 12093 2 2
+/photo/photoalbum/slide0040_image081.html 2 4822 0 0
+/photo/photoalbum/slide0254_image507.html 5 12117 3 3
+/photo/photoalbum/slide0130_image260.html 3 7230 0 0
+/photo/photoalbum/slide0128_image256.html 2 4822 0 0
+/photo/photoalbum/slide0117_image234.html 3 7252 1 1
+/photo/photoalbum/slide0167_image333.html 1 2430 1 1
+/photo/photoalbum/slide0215_image429.html 2 4843 1 1
+/photo/photoalbum/slide0302_image601.html 1 2431 1 1
+/safetytips_files/.htaccess 1 3762 0 0
+/photo/photoalbum/.htaccess 1 3762 0 0
+/photo/photoalbum/slide0532_image850.html 1 2431 1 1
+/photo/photoalbum/slide0332_image657.html 3 7255 1 1
+/photo/photoalbum/index13.html 4 25160 0 1
+/photo/photoalbum/slide0523_image841.html 1 2431 1 1
+/membership/.htm 2 7524 0 0
+/photo/photoalbum/slide0496_image837.html 2 4843 1 1
+/photo/photoalbum/slide0256_image511.html 4 9686 4 2
+/photo/photoalbum/slide0348_image685.html 1 2411 0 0
+/photo/photoalbum/slide0155_image309.html 1 2411 0 0
+/photo/photoalbum/slide0370_image725.html 1 2431 1 1
+/photo/photoalbum/slide0078_image157.html 2 4822 0 0
+/photo/photoalbum/slide0145_image289.html 2 4839 1 1
+/photo/photoalbum/slide0466_image804.html 1 2431 1 1
+/weblinks/.htm 2 7524 0 0
+/photo/photoalbum/slide0377_image739.html 2 4824 0 0
+/photo/photoalbum/slide0234_image467.html 3 7255 1 1
+/photo/photoalbum/slide0177_image353.html 1 2430 1 1
+/training/training_files/.htaccess 1 3762 0 0
+/photo/photoalbum/index6.html 5 31465 1 1
+/photo/photoalbum/slide0457_image796.html 1 2431 1 1
+/photo/photoalbum/slide0298_image593.html 1 2412 0 0
+/photo/photoalbum/slide0479_image815.html 3 7252 1 1
+/photo/photoalbum/slide0225_image449.html 2 4843 1 1
+/photo/photoalbum/slide0493_image834.html 2 4862 2 2
+/photo/.htaccess 1 3762 0 0
+/photo/photoalbum/slide0131_image262.html 2 4841 1 1
+/photo/photoalbum/slide0437_image778.html 1 2431 1 1
+/photo/photoalbum/slide0292_image581.html 1 2412 0 0
+/photo/photoalbum/slide0214_image426.html 2 4843 1 1
+/photo/photoalbum/slide0029_image059.html 4 9663 1 1
+/apparatus/.htaccess 1 3762 0 0
+/photo/photoalbum/slide0094_image189.html 4 9663 1 1
+/photo/photoalbum/slide0012_image025.html 7 16870 1 1
+/photo/photoalbum/slide0009_image019.html 8 19299 2 1
+/photo/photoalbum/slide0358_image702.html 1 2412 0 0
+/photo/photoalbum/slide0106_image212.html 4 9644 0 1
+/photo/photoalbum/slide0222_image443.html 2 4824 0 0
+/informed.htm 23 228558 3 7
+/photo/photoalbum/slide0212_image423.html 1 2411 0 0
+/photo/photoalbum/slide0265_image528.html 2 4843 1 1
+/photo/photoalbum/slide0108_image216.html 4 9663 1 1
+/photo/photoalbum/slide0511_image878.html 1 2431 1 1
+/photo/photoalbum/slide0092_image185.html 3 7233 0 0
+/photo/photoalbum/slide0169_image337.html 2 4860 2 2
+/photo/photoalbum/slide0129_image258.html 4 9663 1 2
+/.htaccess 1 3762 0 0
+/photo/photoalbum/slide0141_image281.html 2 4841 1 1
+/photo/photoalbum/slide0110_image220.html 3 7252 1 1
+/${@print(md5(acunetix_wvs_security_test))}/.htm 1 3762 0 0
+/photo/photoalbum/slide0327_image649.html 1 2411 0 0
+/photo/photoalbum/slide0030_image061.html 3 7252 1 1
+/photo/photoalbum/slide0344_image678.html 1 2412 0 0
+/photo/photoalbum/slide0163_image325.html 1 2429 1 1
+/photo/photoalbum/index14.html 8 50328 1 2
+/photo/photoalbum/slide0263_image524.html 2 4843 1 2
+/dedication.htm 16 253868 3 3
+/photo/photoalbum/slide0385_image740.html 2 4860 2 2
+/photo/photoalbum/slide0053_image107.html 4 9644 0 0
+/photo/photoalbum/slide0534_image852.html 1 2032 1 1
+/photo/.html 1 3762 0 0
+/history/.htm 2 7524 0 0
+/photo/photoalbum/slide0388_image743.html 1 2431 1 1
+/photo/photoalbum/slide0329_image652.html 1 2412 0 0
+/photo/photoalbum/slide0119_image238.html 4 9659 1 1
+/photo/photoalbum/slide0137_image273.html 2 4822 0 0
+/photo/photoalbum/slide0200_image399.html 1 2430 1 1
+/photo/photoalbum/slide0070_image141.html 4 9663 1 1
+/photo/photoalbum/slide0124_image248.html 6 14466 0 0
+/photo/photoalbum/slide0107_image214.html 3 7233 0 0
+/photo/photoalbum/slide0152_image303.html 3 7271 2 2
+/photo/photoalbum/slide0306_image609.html 1 2411 0 0
+/photo/photoalbum/slide0002_image005.html 9 18531 1 1
+/photo/photoalbum/slide0189_image377.html 1 2412 0 0
+/photo/photoalbum/slide0525_image843.html 1 2411 0 0
+/photo/photoalbum/slide0114_image228.html 6 14485 1 1
+/photo/photoalbum/slide0142_image283.html 3 7233 0 0
+/.htm 9 33858 0 0
+/photo/photoalbum/slide0060_image121.html 3 7233 0 0
+/photo/photoalbum/slide0508_image870.html 1 2431 1 1
+/photo/photoalbum/slide0023_image047.html 4 9682 2 2
+/photo/photoalbum/.html 2 7524 0 0
+/photo/photoalbum/slide0517_image888.html 1 2412 0 0
+/photo/photoalbum/slide0453_image793.html 2 4862 2 2
+/photo/photoalbum/slide0097_image195.html 3 7227 0 0
+/photo/photoalbum/slide0274_image546.html 2 4841 1 1
+/photo/photoalbum/slide0334_image659.html 1 2431 1 1
+/photo/photoalbum/slide0034_image069.html 3 7252 1 1
+/photo/photoalbum/slide0101_image202.html 6 14504 2 2
+/photo/photoalbum/slide0211_image421.html 2 4841 1 1
+/photo/photoalbum/slide0233_image465.html 1 2431 1 1
+/photo/photoalbum/slide0379_image892.html 2 4824 0 0
+/photo/photoalbum/slide0300_image597.html 1 2431 1 1
+/photo/photoalbum/slide0372_image729.html 1 2431 1 1
+/photo/photoalbum/slide0022_image045.html 3 7230 0 0
+/photo/photoalbum/slide0445_image785.html 1 2412 0 0
+/photo/photoalbum/slide0020_image041.html 8 19299 2 2
+/photo/photoalbum/slide0376_image737.html 2 4824 0 0
+/photo/photoalbum/slide0303_image603.html 2 4824 0 0
+/photo/photoalbum/slide0178_image355.html 2 4820 0 0
+/photo/photoalbum/slide0238_image475.html 1 2430 1 1
+/photo/photoalbum/slide0208_image415.html 1 2412 0 0
+/photo/photoalbum/slide0220_image439.html 1 2431 1 1
+/photo/photoalbum/index12.html 4 25164 1 1
+/photo/photoalbum/slide0217_image433.html 3 7274 2 2
+/photo/photoalbum/slide0126_image252.html 4 9663 1 1
+/photo/photoalbum/slide0050_image101.html 3 7230 0 0
+/photo/photoalbum/slide0294_image585.html 2 4843 1 2
+/photo/photoalbum/slide0031_image063.html 3 7233 0 0
+/photo/photoalbum/slide0013_image027.html 7 16870 0 1
+/photo/photoalbum/slide0443_image783.html 2 4824 0 0
+/photo/photoalbum/slide0048_image097.html 4 9644 0 0
+/photo/photoalbum/slide0371_image727.html 1 2430 1 1
+/photo/photoalbum/slide0194_image387.html 1 2412 0 0
+/photo/photoalbum/slide0051_image103.html 4 9644 0 0
+/photo/photoalbum/slide0049_image099.html 5 12093 2 2
+/photo/photoalbum/slide0143_image285.html 2 4839 1 1
+/photo/photoalbum/slide0055_image111.html 3 7233 0 0
+/photo/photoalbum/slide0365_image715.html 2 4843 1 1
+/photo/photoalbum/slide0501_image854.html 1 2431 1 1
+/photo/photoalbum/slide0071_image143.html 3 7233 0 0
+/photo/photoalbum/slide0480_image816.html 1 2431 1 1
+/photo/photoalbum/slide0087_image175.html 3 7233 0 0
+/photo/photoalbum/slide0140_image279.html 1 2411 0 0
+/photo/photoalbum/slide0409_image757.html 1 2431 1 1
+/photo/photoalbum/slide0389_image744.html 1 2431 1 1
+/photo/photoalbum/slide0513_image882.html 1 2412 0 0
+/photo/photoalbum/slide0253_image505.html 1 2431 1 1
+/photo/photoalbum/slide0277_image552.html 3 7255 1 1
+/photo/photoalbum/slide0268_image534.html 1 2431 1 1
+END_SIDER

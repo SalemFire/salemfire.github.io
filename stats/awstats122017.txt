@@ -1,0 +1,1138 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201712 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2553                
+POS_VISITOR 16589               
+POS_DAY 32344               
+POS_DOMAIN 3398                
+POS_LOGIN 3629                
+POS_ROBOT 3784                
+POS_WORMS 4645                
+POS_EMAILSENDER 4776                
+POS_EMAILRECEIVER 4919                
+POS_SESSION 33163               
+POS_SIDER 33375               
+POS_FILETYPES 5054                
+POS_OS 5244                
+POS_BROWSER 5428                
+POS_SCREENSIZE 6206                
+POS_UNKNOWNREFERER 6280                
+POS_UNKNOWNREFERERBROWSER 7174                
+POS_ORIGIN 7568                
+POS_SEREFERRALS 7716                
+POS_PAGEREFS 7914                
+POS_SEARCHWORDS 11701               
+POS_KEYWORDS 11899               
+POS_MISC 2217                
+POS_ERRORS 12008               
+POS_CLUSTER 3485                
+POS_SIDER_404 12159               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180101001815 15419 3091985 44984041412
+FirstTime 20171201021220
+LastTime 20171231230224
+LastUpdate 20180102025306 15419 14797 621 0 0
+TotalVisits 791                 
+TotalUnique 343                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 462                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 65 207 41004 415 457 90048
+1 42 106 21306 1112 1160 230145
+2 45 130 26130 475 524 101907
+3 292 347 69144 585 645 128037
+4 85 390 78390 164 230 42813
+5 52 83 16683 467 488 96681
+6 98 148 29346 285 345 67335
+7 103 138 27738 150 188 35376
+8 72 101 20301 194 256 48642
+9 41 56 11256 189 219 41808
+10 42 105 21105 297 324 62913
+11 69 78 14070 276 318 60903
+12 65 131 25326 733 768 153363
+13 75 340 65526 666 759 150147
+14 61 207 40401 205 332 65325
+15 61 283 55677 791 890 176277
+16 65 228 44622 426 499 97686
+17 65 231 45426 291 353 68541
+18 55 140 27738 327 360 70551
+19 49 265 52863 555 639 126831
+20 53 283 55275 768 857 167433
+21 51 141 27537 241 312 59697
+22 52 187 37185 183 238 44421
+23 34 88 16884 318 368 70551
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1692 4413 870933
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 21
+crawl 3758 752142 20171231185043 0
+bot[+:,\.\;\/\\-] 2286 452652 20171231235700 0
+robot 996 200196 20171231231347 0
+spider 452 90852 20171231033525 0
+googlebot 328 60501 20171231235421 0
+infobot 271 54471 20171213170358 0
+yandex 231 32763 20171231223727 0
+seznambot 178 13467 20171231235158 0
+baiduspider 135 24924 20171231051137 0
+sogou 46 3216 20171231112147 0
+powermarks 5 1005 20171206132817 0
+exabot 15 3015 20171231124656 0
+no_user_agent 31 6231 20171231235705 0
+mail\.ru 5 804 20171222163051 0
+phantom 30 6030 20171211141242 0
+python 2 402 20171207202841 0
+surveybot 1 201 20171215024553 0
+java 36 7236 20171230020346 0
+mj12bot 20 4020 20171221114459 0
+msiecrawler 7 1407 20171207233713 0
+netcraft 1 201 20171207104940 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 5 1005 0 0
+bmp 1 201 0 0
+png 154 30954 0 0
+htm 975 195774 0 0
+html 717 129645 0 0
+jpg 1356 271551 0 0
+xml 37 7437 0 0
+gif 1168 234366 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 14
+winxp 387
+winlong 21
+unix 9
+win2000 44
+winnt 1639
+win98 13
+winvista 130
+linux 392
+winme 11
+macosx 787
+win95 3
+win2003 75
+Unknown 69
+win2008 833
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 54
+firefox57.0 40
+firefox28.0 16
+msie6.0 352
+webcapture 2
+firefox20.0 6
+firefox3.6 3
+chrome 1664
+firefox1.5.0.3 1
+firefox26.0 14
+firefox52.0 7
+msie4.01 7
+firefox4.0 2
+firefox54.0 14
+lynx 2
+firefox2.0.0.12 2
+firefox24.0 1
+msie8.0 5
+netscape4.76 6
+firefox43.0 3
+msie7.0 40
+firefox40.1 43
+firefox23.0 5
+msie2.0 2
+msie9.0 239
+Unknown 37
+firefox3.0.8 2
+firefox50.0 2
+netscape4.61 7
+firefox53.0 2
+firefox48.0 72
+firefox40.0 1
+libwww 1
+opera 95
+firefox55.0 95
+firefox21.0 2
+firefox29.0 3
+firefox2.0.0.6 1
+firefox30.0 4
+msie5.5 16
+firefox7.0.1 9
+firefox12.0 1
+firefox56.0 16
+firefox45.0 1
+netscape4.79 4
+firefox47.0 56
+firefox3.0.2.1 1
+mozilla 803
+netscape5.0 1
+firefox22.0 4
+msie10.0 3
+firefox27.3 1
+firefox3.1 2
+safari 653
+firefox55 42
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 14
+G-i-g-a-b-o-t 20171208202611
+Mozilla/5.0_(BlackBerry;_U;_BlackBerry_9860;_en-US)_AppleWebKit/534.11__(KHTML,_like_Gecko)_Version/7.0.0.254_Mobile_Safari/534.11_ 20171205062435
+Mozilla/3.0_(compatible;_WebCapture_2.0;_Auto;_Windows) 20171214170836
+Lynx/2.8.5rel.1_libwww-FM/2.15FC_SSL-MM/1.4.1c_OpenSSL/0.9.7e-dev 20171226160115
+Saleslift 20171215082352
+libwww-perl/6.18 20171216045022
+Mozilla/5.0_(compatible;_ips-agent) 20171205070335
+Mozilla/5.0 20171218221025
+SEMrushBot 20171210051635
+com.google.GoogleMobile/41.0.0_iPhone/11.2.1_hw/iPhone8_4 20171231003232
+Owler 20171226184951
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20171223122801
+Go-http-client/1.1 20171225200755
+Mozilla/5.0_(compatible;_Qwantify/2.4w;__https://www.qwant.com/)/2.4w 20171226052721
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+SEMrushBot 20171210051635
+G-i-g-a-b-o-t 20171208202611
+com.google.GoogleMobile/41.0.0_iPhone/11.2.1_hw/iPhone8_4 20171231003232
+Owler 20171226184951
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20171223122801
+Go-http-client/1.1 20171225200755
+Saleslift 20171215082352
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 761 905
+From1 18 18
+From2 283 345
+From3 535 535
+From4 95 2610
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 5
+google 269 331
+baidu 1 1
+yandex 8 8
+ask 1 1
+yahoo 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 102
+http://excitacion.info 19 19
+http://travels.co.ua 16 16
+http://geo-group.ru 15 15
+http://www.freebsd.org.ua 14 14
+http://profhelp.net 13 13
+http://jobmarket.com.ua 13 13
+http://creditwell.ru/procedura-vybora-i-oformleniya-kreditnoj-karty/ 12 12
+http://titangel-vietnam.com 12 12
+https://vykup-avto-krasnodar.ru 11 11
+http://bing.com 10 10
+http://www.szucs.ru 6 6
+http://lovi-moment.com.ua 3 3
+http://kredit-blog.ru/nuzhno-znat/info/karty-tinkoff-bank-vsegda-luchshie-usloviya.html 2 2
+https://balkanfarma.org 8 8
+https://vikistars.com 5 5
+http://nosecret.com.ua 3 3
+http://www.krimoved.crimea.ua 6 6
+http://coolwallpapers-hd.com 8 8
+https://all4wap.ru 8 8
+http://fishtauto.ru 3 3
+https://www.timer4web.com 1 1
+http://www.oakhillonline.org/links.html 1 1
+https://englishtopic.ru 3 3
+http://sexsaoy.com 4 4
+http://burger-imperia.com 9 9
+http://kollekcioner.ru 8 8
+http://samara.rosfirm.ru/companies_news/usloviya-kreditovaniya-po-karte-tinkoff-platinum-n775631.htm 3 3
+https://alkoravto.ru 2 2
+http://buzz-porno.info 3 3
+http://dokunet.org 7 7
+http://porno-chaman.info 9 9
+http://doslidy.kiev.ua 3 3
+http://kino2018.club 2 2
+http://copenergo.ru/publikatsii/preimuschestva-i-nedostatki-karty-tinkoff.html 5 5
+http://www.msk.prom23.ru 3 3
+http://mafa-free.com 3 3
+https://quickchange.cc 3 3
+http://www.cwa13101.org/content/resource-links 1 1
+http://runofilms.ru 3 3
+https://predmety.in.ua 3 3
+http://xn--d1abj0abs9d.in.ua 6 6
+https://voloo.ru 8 8
+https://www.bing.com 9 9
+http://dkr.com.ua 2 2
+http://ooomeru.ru 3 3
+https://business-news.ru/novosti/novosti_kompanij/finansy/shirokie-vozmozhnosti-po-polucheniyu-zaymov-s-kreditnymi-kartami-tinkoff 6 6
+http://aktobe.xxxkaz.org 4 4
+http://www.icardfirerescue.com/links.html 1 1
+http://www.zacreditom.ru/statyi/kak_poluchit_kreditnuju_kartu_tinkoff/2017-09-08-93 6 6
+http://klin3952.ru 6 6
+https://resant.ru/bezopasnoe-ispolzovanie-kart-tinkoff-bank.html 2 2
+http://etur.ru/articles/1922 5 5
+http://nalogovyykodeks.ru 3 3
+http://produkto.net 3 3
+http://almata.xxxkaz.org 9 9
+https://yginekologa.com 5 5
+https://beclean-nn.ru 6 6
+https://vdesnah.com 2 2
+https://atleticpharm.org 3 3
+http://lakomka.com.ua 8 8
+http://bank.uz/publish/doc/text135147_kak_vybrat_kreditnuyu_kartu 3 3
+http://www.bing.com 1 1
+http://pizza-tycoon.com 5 5
+http://xtremeeagles.net 3 3
+http://www.urlopener.com/homepage.html 1 1
+https://glavtral.ru 1 1
+http://www.credit-respect.ru/kreditovanie/kreditovanie-v-tinkoff-bank.html 5 5
+https://remont-mercedesov.ru 4 4
+https://music7s.me 3 3
+https://eng-lyrics.com 2 2
+http://x-true.info 5 5
+http://chocolateslim-en-france.com 9 9
+https://xn--80aaafbn2bc2ahdfrfkln6l.xn--p1ai 4 4
+http://iptvuk.co.uk 3 3
+http://astana.xxxkaz.org 6 6
+https://zarabotat-na-sajte.ru 5 5
+http://5elementov.ru 3 3
+http://lnau.lg.ua 6 6
+http://lechtaczka.net 9 9
+http://y8games-free.com 5 5
+https://www.everytalk.tv 4 4
+https://yrologiya.com 3 3
+http://www.bing.com/search 2 2
+http://theinsider.com.ua 1 1
+http://www.ncarems.org/squadlinks.php 2 2
+http://www.papasdelivery.ru 2 2
+http://tabakur77.com 3 3
+http://spravka-medosmotr.ru 5 5
+http://www.mex-annushka.ru 10 10
+http://chocolateslim-en-espana.com 3 3
+http://imk.com.ua 6 6
+http://excitacao.com 7 7
+http://chocolateslim-u-srbiji.com 3 3
+http://adobereader-free.ru 5 5
+https://urengoy.pro/articles/1970-vygodno-li-ispolzovanie-kreditnoi-karty.html 8 8
+http://onlineporno.site 6 6
+http://creditnation.ru/kreditnye-karty/oformit-kreditnye-karty-tinkoff/ 3 3
+https://alldezservice.kz 7 7
+http://choice-credit.ru/obzory/557-polozhitelnye-svojstva-kreditnykh-kart 3 3
+http://shtaketniki.kz 2 2
+http://efaculty.kiev.ua 5 5
+http://rosbalt.com.ua 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+kj5 1
+salemfirerescue.org 1
+salem+fire+dept 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 5
+dept 1
+salem 1
+kj5 1
+salemfirerescue.org 1
+fire 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+206 514 103314
+405 1 201
+400 26 5226
+500 16 3216
+406 5 1005
+404 2133 428733
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 81
+/blog/wp-includes/wlwmanifest.xml 4 -
+/sitemap.xml 5 -
+/robots.txt 1177 -
+/blogs/wp-admin/setup-config.php 1 -
+/wordpress/ 5 -
+/modules/simpleslideshow/uploadimage.php 1 http://salemfirerescue.org/modules/simpleslideshow/uploadimage.php
+/site/wp-includes/wlwmanifest.xml 4 -
+/image002.gif 308 http://salemfirerescue.org/
+/wordpress/wp-login.php 1 http://salemfirerescue.org/wordpress/wp-login.php
+/blog/wp-admin/setup-config.php 1 -
+/wp-admin/ 2 -
+/wp-content/themes/u-design/style.css 1 http://www.salemfirerescue.org/wp-content/themes/u-design/style.css
+/image001.gif 318 http://salemfirerescue.org/
+/xmlrpc.php 15 -
+/phpmyadmin/ 1 -
+/th1s_1s_a_4o4.html 29 http://www.google.com/url
+/weblinks/button6.jpg 18 -
+/cms/wp-admin/setup-config.php 1 -
+/blog/wordpress/wp-admin/setup-config.php 1 -
+/user/register 2 -
+/wp-content/plugins/revslider/temp/update_extract/conf.php 2 http://www.salemfirerescue.org/wp-content/plugins/revslider/temp/update_extract/conf.php
+/components/com_fabrik/fabrik.php 1 -
+/wp-content/themes/bordeaux-theme/functions/upload-handler.php 2 http://salemfirerescue.org/wp-content/themes/bordeaux-theme/functions/upload-handler.php
+/apparatus/button6.jpg 19 -
+/wp-content/plugins/wp-symposium/readme.txt 2 http://salemfirerescue.org/wp-content/plugins/wp-symposium/readme.txt
+/wp-content/themes/brainstorm/style.css 1 http://salemfirerescue.org/wp-content/themes/brainstorm/style.css
+/roundcubemail 1 -
+/roundcube 1 -
+/blog/wp-admin/ 1 -
+/blog/wp-login.php 1 http://salemfirerescue.org/blog/wp-login.php
+/wordpress/wp-admin/setup-config.php 3 -
+/wp-content/themes/village/blueprint/gallery/ajaxupload/server/php.php 1 http://salemfirerescue.org/wp-content/themes/village/blueprint/gallery/ajaxupload/server/php.php
+/downloader 1 -
+/wp-login.php 76 -
+/wp-content/plugins/wp-easy-gallery-pro/admin/php.php 1 http://www.salemfirerescue.org/wp-content/plugins/wp-easy-gallery-pro/admin/php.php
+/test/wp-admin/ 1 -
+/wp-content/themes/radial-theme/functions/upload-handler.php 2 http://salemfirerescue.org/wp-content/themes/radial-theme/functions/upload-handler.php
+/squirrel 1 -
+/wp/wp-admin/ 1 -
+/user/user_upfile.asp 6 http://www.salemfirerescue.org/user/user_upfile.asp
+/wp-content/themes/rayoflight/functions/upload-handler.php 2 http://salemfirerescue.org/wp-content/themes/rayoflight/functions/upload-handler.php
+/photo/training092306.htm 1 -
+/site/wp-admin/setup-config.php 1 -
+/old/wp-admin/ 1 -
+/beta/wp-admin/setup-config.php 1 -
+/krd.txt 2 -
+/libraries/sfn.php 1 -
+/wp-includes/wlwmanifest.xml 4 -
+/wp-content/themes/rockstar-theme/style.css 1 http://www.salemfirerescue.org/wp-content/themes/rockstar-theme/style.css
+/wp-content/themes/konzept/style.css 2 http://www.salemfirerescue.org/wp-content/themes/konzept/style.css
+/blog/ 5 -
+/old/wp-admin/setup-config.php 1 -
+/d.html 1 -
+/horde 1 -
+/wp/ 5 -
+/cms/wp-includes/wlwmanifest.xml 4 -
+/license.php 16 -
+/photo/bbqfundraiser063007.htm 1 -
+/photo/rescue051907.htm 1 -
+/photo/photoalbum/slide0425_image767.html 9 http://www.salemfirerescue.org/photo/photoalbum/slide0427_image769.html
+/membership/button6.jpg 1 http://www.salemfirerescue.org/membership/membership.htm
+/blog/robots.txt 5 -
+/test/wp-admin/setup-config.php 1 -
+/wp/wp-includes/wlwmanifest.xml 4 -
+/wp-content/plugins/wp2android-turn-wp-site-into-android-app/readme.txt 1 http://www.salemfirerescue.org/wp-content/plugins/wp2android-turn-wp-site-into-android-app/readme.txt
+/up.php 8 -
+/wp/wp-admin/setup-config.php 1 -
+/wordpress/wp-includes/wlwmanifest.xml 4 -
+/mail 1 -
+/robots.txt/.php 6 http://www.salemfirerescue.org/robots.txt/.php
+/admin 3 -
+/administrator/components/com_simplephotogallery/lib/uploadFile.php 2 http://www.salemfirerescue.org/administrator/components/com_simplephotogallery/lib/uploadFile.php
+/wordpress/wp-admin/ 1 -
+/wp-content/plugins/wpstorecart/readme.txt 2 http://www.salemfirerescue.org/wp-content/plugins/wpstorecart/readme.txt
+/webmail 1 -
+/squirrelmail 1 -
+/wp-admin/setup-config.php 3 -
+/index.php 4 -
+/jm-ajax/upload_file/ 1 http://salemfirerescue.org/jm-ajax/upload_file/
+/main.css 1 -
+/wp-content/plugins/php-event-calendar/readme.txt 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 462
+52.73.168.202 185 278 55878 20171231084303
+46.118.157.50 101 101 20301 20171220171016
+46.118.121.38 98 98 19698 20171221081410
+134.249.52.116 97 97 19497 20171220081512
+188.163.73.8 97 97 19497 20171220212716
+37.17.172.122 95 95 19095 20171229040543
+96.36.115.186 70 735 144519 20171230102921
+104.49.76.72 60 403 73767 20171231162700
+184.154.36.174 50 56 11256 20171225033610
+184.154.36.172 44 53 10653 20171228033647
+37.115.190.154 3 3 603 20171201042534
+89.64.35.137 1 1 201 20171216142049
+131.253.25.158 0 1 201 
+185.170.42.18 1 1 201 20171220232853
+73.125.128.86 1 1 201 20171214145114
+72.249.190.230 1 1 201 20171207085222
+65.55.210.132 0 3 603 
+216.198.244.186 5 5 1005 20171228191229
+65.55.210.34 0 2 402 
+173.162.91.252 1 1 201 20171223151451
+54.88.183.16 1 1 201 20171231063634
+199.30.25.241 0 4 804 
+65.55.210.105 0 1 201 
+64.113.32.29 1 1 201 20171208161804
+39.44.171.155 1 1 201 20171219234026
+187.207.91.88 1 1 201 20171206121135
+134.249.82.116 18 18 3618 20171209121631
+40.77.177.220 0 1 201 
+54.183.120.154 1 1 201 20171211141444
+174.195.141.89 1 14 2814 20171209040501
+98.103.48.210 0 2 402 
+75.141.36.2 1 14 2814 20171201173950
+163.172.160.182 1 1 201 20171207114945
+204.79.180.10 1 1 201 20171231022532
+66.159.100.252 1 1 201 20171218174443
+66.49.69.146 1 14 2814 20171228204841
+35.153.131.160 1 1 201 20171202063628
+50.202.38.3 3 3 603 20171216135556
+24.196.195.134 4 36 7236 20171201194644
+76.31.101.183 1 14 2814 20171215022151
+199.30.24.42 0 1 201 
+66.102.6.229 1 1 201 20171223191156
+204.79.180.14 1 1 201 20171229052256
+199.30.25.194 0 1 201 
+52.53.133.194 3 3 603 20171226184951
+24.196.170.231 5 40 8040 20171222001412
+181.129.8.10 0 1 201 
+199.30.25.182 0 3 603 
+65.55.210.16 0 1 201 
+162.246.17.16 1 1 201 20171203150114
+174.99.26.47 2 17 3417 20171205135218
+206.132.48.218 1 1 201 20171219201913
+91.200.12.143 5 5 1005 20171229072027
+199.30.25.124 0 4 804 
+52.91.76.188 1 1 201 20171218063623
+204.79.180.20 1 1 201 20171217035004
+65.132.59.34 1 10 2010 20171208202608
+198.85.219.5 1 14 2814 20171211173014
+35.153.181.46 1 1 201 20171203063625
+65.55.210.171 0 1 201 
+65.55.210.207 0 1 201 
+52.201.218.19 1 14 2814 20171216060820
+91.121.172.206 1 1 201 20171222100440
+50.112.194.65 1 1 201 20171207101853
+65.55.210.46 0 2 402 
+175.158.142.132 1 1 201 20171218210645
+54.211.107.147 1 1 201 20171206063623
+54.91.16.247 10 10 2010 20171231040401
+165.227.194.219 1 1 201 20171221001314
+24.123.231.98 1 14 2814 20171211194229
+65.18.199.78 1 1 201 20171231230224
+176.8.89.80 4 4 804 20171228223047
+212.92.218.210 1 1 201 20171220161601
+34.229.113.219 1 1 201 20171220183250
+189.204.170.54 0 1 201 
+52.90.167.246 1 1 201 20171225063630
+116.193.143.9 1 1 201 20171231135109
+108.228.221.146 1 14 2814 20171201152814
+49.35.44.236 0 1 201 
+66.169.6.110 6 50 10050 20171204191154
+105.102.171.150 1 1 201 20171229025057
+71.68.14.50 1 1 201 20171216163943
+65.55.210.223 0 1 201 
+184.154.36.175 29 37 7437 20171226033559
+199.30.24.211 0 1 201 
+212.83.160.159 1 1 201 20171220152643
+139.162.148.238 1 1 201 20171207202015
+65.55.210.95 0 1 201 
+199.30.25.2 0 1 201 
+172.220.155.182 0 3 603 
+180.153.236.109 1 1 201 20171228032040
+98.166.41.6 0 1 201 
+142.44.247.73 1 1 201 20171205180418
+174.129.162.164 1 1 201 20171207063632
+204.191.179.50 1 12 2412 20171227160301
+124.140.175.111 1 1 201 20171219201718
+159.203.67.240 3 3 603 20171225134121
+65.55.210.117 0 1 201 
+45.32.151.39 2 2 402 20171223122801
+107.178.194.232 1 1 201 20171207101544
+204.79.180.16 1 1 201 20171204035138
+107.223.93.140 1 14 2814 20171201134311
+69.164.205.22 1 1 201 20171216164116
+77.122.175.54 1 1 201 20171216143829
+204.9.73.211 1 1 201 20171219194609
+14.215.176.12 1 1 201 20171223191344
+65.55.210.73 0 1 201 
+5.14.27.140 1 1 201 20171215195952
+66.249.83.158 1 1 201 20171212161521
+38.100.21.68 11 11 2211 20171214001501
+83.165.179.110 1 1 201 20171218215214
+213.145.105.35 1 1 201 20171220094437
+65.55.210.13 0 1 201 
+199.30.25.193 0 1 201 
+199.30.25.34 1 2 402 20171230044425
+199.30.24.169 0 1 201 
+52.8.110.222 2 2 402 20171215225525
+91.200.12.106 4 4 804 20171229072422
+199.30.25.165 0 1 201 
+45.55.224.77 1 1 201 20171207102054
+69.154.22.19 1 14 2814 20171227191519
+65.55.210.121 0 1 201 
+46.229.170.197 1 1 201 20171223151126
+65.55.210.33 0 1 201 
+144.76.153.198 1 1 201 20171229143210
+94.23.83.80 1 1 201 20171227215717
+62.75.137.71 1 1 201 20171222053252
+199.30.24.230 0 2 402 
+206.217.142.134 6 6 1206 20171228161956
+199.30.24.60 0 1 201 
+217.182.72.198 1 1 201 20171205233028
+216.144.226.153 1 1 201 20171231200057
+192.230.187.104 3 17 3417 20171201030009
+199.30.25.131 0 1 201 
+184.73.37.20 1 1 201 20171215063628
+37.220.35.202 2 2 402 20171220233356
+88.198.22.8 2 2 402 20171224185422
+70.21.198.148 0 1 201 
+199.30.24.91 0 1 201 
+209.95.182.72 1 1 201 20171211153301
+83.24.73.96 2 2 402 20171207133627
+24.178.161.122 1 14 2814 20171221170830
+65.55.210.142 0 1 201 
+184.73.138.117 1 1 201 20171228063635
+54.226.92.237 1 1 201 20171220063635
+199.30.24.161 0 1 201 
+64.209.132.6 3 3 603 20171220020659
+92.86.37.38 1 1 201 20171220183840
+46.118.119.80 6 6 1206 20171201162352
+64.209.132.8 2 2 402 20171213171847
+152.26.52.213 4 43 8442 20171219152348
+91.140.89.96 0 1 201 
+111.23.149.31 1 1 201 20171221113757
+142.54.164.58 1 1 201 20171203025321
+46.161.9.18 7 7 1407 20171206125038
+78.155.240.26 1 1 201 20171211202512
+216.5.188.150 1 4 804 20171219171654
+75.177.130.228 3 38 7638 20171211203612
+45.79.11.226 1 1 201 20171216045022
+65.55.210.166 0 1 201 
+199.30.24.218 0 1 201 
+40.77.179.102 0 1 201 
+111.235.151.60 1 1 201 20171215084616
+108.228.222.68 30 163 28944 20171231160813
+172.220.142.255 1 1 201 20171210021450
+185.220.101.30 4 4 804 20171231221700
+199.30.25.19 0 3 603 
+50.38.96.50 0 1 201 
+40.77.178.203 0 13 2613 
+196.210.65.113 1 1 201 20171209063329
+208.77.171.190 1 14 2814 20171227212941
+220.181.51.81 1 1 201 20171222003140
+199.30.24.52 0 1 201 
+166.67.66.243 1 14 2814 20171215142048
+194.187.170.129 5 5 1005 20171222221725
+198.50.200.147 1 1 201 20171201174658
+188.226.129.55 1 1 201 20171226121723
+188.165.2.183 2 2 402 20171219022709
+34.201.114.152 1 1 201 20171229063637
+52.207.233.196 1 1 201 20171230063628
+199.30.25.176 0 1 201 
+35.202.25.223 3 3 603 20171213085547
+24.248.74.108 0 1 201 
+138.197.72.0 3 3 603 20171225181128
+52.8.51.11 3 3 603 20171226144428
+137.118.48.22 1 14 2814 20171217001959
+199.30.24.9 0 1 201 
+174.193.142.113 1 14 2814 20171217162641
+82.202.249.91 1 1 201 20171204060734
+172.58.99.238 1 14 2814 20171207221118
+47.36.173.113 1 14 2814 20171217185820
+52.55.34.143 1 1 201 20171213063641
+74.208.41.102 2 2 402 20171205103725
+171.224.137.213 1 1 201 20171216023449
+216.69.191.98 1 1 201 20171221171806
+162.247.202.66 0 1 201 
+149.56.83.150 1 1 201 20171205135556
+199.30.24.0 1 2 402 20171226122731
+178.17.170.164 1 1 201 20171207141454
+199.30.24.239 0 2 402 
+174.194.15.117 1 14 2814 20171218142134
+75.149.221.170 3 3 603 20171222021029
+131.253.27.63 0 1 201 
+145.239.72.219 1 1 201 20171206034024
+17.58.18.132 1 1 201 20171209030806
+204.79.180.13 1 1 201 20171221005659
+199.30.24.152 0 1 201 
+51.15.141.220 2 2 402 20171222031751
+54.183.148.39 1 1 201 20171203054823
+34.235.233.220 1 1 201 20171216071559
+152.15.112.34 1 14 2814 20171216135002
+54.153.36.23 2 2 402 20171211141444
+88.99.99.145 9 9 1809 20171231152433
+192.30.80.136 1 1 201 20171228083459
+172.220.142.180 3 30 6030 20171204220457
+142.44.247.74 1 1 201 20171206033922
+111.92.31.194 1 1 201 20171225034024
+69.58.178.58 10 10 2010 20171205070335
+201.6.142.106 1 1 201 20171222214549
+34.203.221.0 1 1 201 20171219063633
+139.162.40.54 5 5 1005 20171231154037
+199.30.24.98 0 1 201 
+189.176.214.252 0 1 201 
+144.76.162.206 1 1 201 20171229143211
+134.196.23.66 1 1 201 20171220102745
+97.90.171.171 0 1 201 
+52.36.60.164 1 1 201 20171206071913
+34.207.171.120 1 1 201 20171226063634
+40.77.177.7 0 1 201 
+134.249.76.153 12 12 2412 20171227140419
+172.220.143.8 2 24 4824 20171211025154
+54.37.137.27 1 1 201 20171205111524
+73.164.247.42 1 14 2814 20171223091745
+131.253.27.148 0 1 201 
+65.55.210.102 0 1 201 
+174.129.127.248 1 1 201 20171214063631
+91.200.12.7 3 3 603 20171229073526
+34.235.140.73 1 1 201 20171212021119
+54.67.66.187 1 1 201 20171207113658
+35.153.104.157 1 1 201 20171222063634
+163.172.4.153 4 4 804 20171222015228
+207.4.83.34 1 14 2814 20171215173234
+65.55.210.41 0 1 201 
+174.255.202.211 2 10 2010 20171202223619
+199.30.24.81 0 1 201 
+139.162.167.155 1 1 201 20171207202011
+65.55.210.130 0 1 201 
+65.55.210.123 0 1 201 
+41.97.1.45 1 1 201 20171220161207
+96.255.14.191 1 1 201 20171222162456
+75.179.33.211 0 1 201 
+65.55.210.89 0 1 201 
+199.30.25.127 0 1 201 
+65.55.210.100 0 1 201 
+5.189.140.25 1 1 201 20171204181155
+199.30.25.92 0 1 201 
+65.55.210.97 0 1 201 
+173.219.100.100 1 14 2814 20171215154312
+54.37.137.34 1 1 201 20171205164839
+104.49.78.103 0 1 201 
+95.93.202.233 1 1 201 20171220210233
+166.170.14.62 1 14 2814 20171219221306
+106.120.151.78 2 2 402 20171208055745
+65.55.210.44 0 2 402 
+52.90.39.152 1 1 201 20171227063633
+63.144.42.66 1 1 201 20171216181748
+146.185.223.5 2 2 402 20171204195759
+199.30.25.219 0 1 201 
+35.161.126.57 1 1 201 20171212074108
+98.101.37.254 1 1 201 20171218194818
+199.30.25.146 0 1 201 
+52.200.221.20 1 1 201 20171207101805
+197.5.28.164 1 1 201 20171203010325
+73.230.6.3 1 16 3216 20171221130950
+54.161.17.136 1 1 201 20171224063626
+138.87.133.7 1 1 201 20171214171548
+65.55.210.145 0 2 402 
+172.220.153.65 4 26 5226 20171220043142
+177.8.215.160 1 1 201 20171216193213
+172.220.139.224 1 8 1608 20171230231517
+199.30.25.228 0 1 201 
+199.30.25.155 0 1 201 
+199.30.25.6 0 1 201 
+194.187.170.108 1 1 201 20171226052721
+41.249.233.222 1 1 201 20171216200115
+54.172.47.238 1 1 201 20171223063635
+172.220.144.39 2 6 1005 20171231032610
+189.166.125.6 1 1 201 20171230205825
+54.186.194.226 1 1 201 20171212185737
+131.253.25.252 0 1 201 
+75.143.234.143 2 16 3216 20171230155408
+196.207.127.225 1 1 201 20171230203808
+23.21.112.27 7 7 1407 20171221223624
+185.7.215.90 1 1 201 20171224074319
+34.229.187.35 1 1 201 20171217063623
+193.253.222.108 1 1 201 20171221085621
+72.18.57.82 2 16 3216 20171215143315
+199.30.24.82 0 3 603 
+139.5.219.76 1 1 201 20171215163310
+54.161.219.59 1 1 201 20171208063633
+54.227.87.19 1 1 201 20171205063624
+131.253.25.153 0 1 201 
+46.161.9.63 1 1 201 20171227000315
+98.27.27.255 1 14 2814 20171220042535
+152.26.192.31 0 1 201 
+217.182.72.200 1 1 201 20171205164844
+52.53.129.101 1 1 201 20171203080205
+199.30.24.31 0 1 201 
+131.253.27.75 0 1 201 
+40.77.177.95 0 1 201 
+67.253.213.35 1 14 2814 20171213203534
+52.91.163.170 1 1 201 20171211063632
+199.30.25.0 0 1 201 
+68.189.183.63 1 14 2814 20171217204726
+204.79.180.1 2 2 402 20171222224048
+52.8.1.70 1 1 201 20171226144429
+23.27.238.151 1 1 201 20171227053750
+65.55.210.51 0 1 201 
+54.243.53.148 3 3 603 20171226063114
+5.188.211.15 2 2 402 20171230133753
+37.115.188.235 9 9 1809 20171201160040
+60.52.103.47 1 1 201 20171229061145
+174.236.133.220 1 14 2814 20171230234945
+203.106.113.35 1 1 201 20171219135443
+112.202.52.36 1 5 1005 20171213043605
+163.172.255.16 1 1 201 20171225130438
+194.187.170.139 7 7 1407 20171213012249
+217.61.97.99 1 1 201 20171204011439
+78.158.28.10 2 2 402 20171226160115
+199.30.24.41 0 1 201 
+136.243.70.68 2 2 402 20171211164047
+97.103.2.84 0 1 201 
+209.95.189.159 1 1 201 20171230145834
+65.55.210.7 0 1 201 
+54.209.120.137 1 1 201 20171201063627
+38.132.181.104 2 24 4824 20171212015337
+73.14.22.67 2 28 5628 20171219015631
+104.129.196.74 1 11 2211 20171215122041
+136.243.67.139 2 15 3015 20171202184736
+184.154.36.173 37 46 9246 20171230033457
+199.30.25.208 0 2 402 
+75.140.184.7 1 14 2814 20171226150117
+54.241.154.1 5 5 1005 20171230182546
+35.225.17.138 3 3 603 20171208092906
+35.196.126.191 2 2 201 20171214123749
+145.239.89.22 1 1 201 20171205123127
+144.76.5.234 4 42 8442 20171227005127
+199.30.25.3 0 1 201 
+152.26.198.31 1 14 2814 20171211193055
+54.89.171.161 1 1 201 20171212003803
+54.160.197.167 1 1 201 20171205071205
+69.1.22.48 1 14 2814 20171212040550
+104.144.96.242 1 1 201 20171222061234
+174.194.25.156 0 3 603 
+54.36.98.167 1 1 201 20171205221615
+194.187.170.145 2 2 402 20171224182845
+79.24.226.253 1 1 201 20171217133044
+72.21.196.68 0 1 201 
+199.30.25.60 0 2 402 
+134.249.64.243 24 24 4824 20171220103856
+35.190.173.119 1 1 201 20171218144745
+108.228.223.93 1 14 2814 20171226202728
+66.117.8.42 1 1 201 20171217103935
+154.16.149.74 3 3 603 20171201174702
+199.30.24.198 0 2 402 
+81.193.60.124 1 1 201 20171215220647
+107.77.94.51 13 206 41406 20171201043132
+187.214.112.93 0 1 201 
+35.202.146.68 3 3 603 20171220024214
+104.129.194.191 2 16 3216 20171201172011
+70.63.172.162 1 1 201 20171211191442
+211.114.35.194 1 1 201 20171201212743
+172.220.155.189 8 30 5226 20171230062938
+184.100.144.25 3 22 4422 20171220225645
+130.105.228.130 1 1 201 20171218072803
+172.220.179.3 1 14 2814 20171217032439
+67.230.144.252 1 1 201 20171230182801
+91.200.12.63 6 6 1206 20171230045329
+159.203.127.111 8 8 1608 20171225191553
+85.248.227.163 3 3 603 20171224080748
+46.118.228.233 3 3 603 20171222211446
+134.249.80.20 24 24 4824 20171206153323
+204.79.180.6 1 1 201 20171215024206
+192.243.53.51 2 2 402 20171210051635
+204.79.180.15 1 1 201 20171223074354
+35.227.110.171 2 2 201 20171227124655
+23.129.64.101 1 1 201 20171207122714
+71.15.20.189 1 8 1608 20171205211037
+149.154.153.213 1 1 201 20171224053223
+72.182.48.249 1 1 201 20171216193949
+107.20.36.242 1 1 201 20171204063624
+65.55.210.181 0 2 402 
+184.154.36.176 25 30 6030 20171231033524
+199.30.24.245 0 1 201 
+83.209.0.237 1 14 2814 20171217010525
+65.55.210.204 0 1 201 
+77.122.68.158 1 1 201 20171214005519
+212.86.35.201 1 1 201 20171230080408
+64.209.132.9 6 6 1206 20171210172332
+209.95.191.12 1 1 201 20171219123100
+112.207.210.209 1 1 201 20171225095248
+94.23.171.176 2 2 402 20171227220546
+131.253.25.238 0 1 201 
+174.138.63.96 5 5 1005 20171225200755
+40.77.179.1 0 1 201 
+108.212.84.104 2 17 3417 20171201130714
+23.105.150.102 1 1 201 20171209033451
+199.30.25.161 0 1 201 
+199.30.24.70 0 1 201 
+180.153.232.170 1 1 201 20171228032034
+165.227.105.146 1 1 201 20171224123408
+201.18.18.173 2 2 402 20171220211928
+82.209.223.182 1 1 201 20171221044053
+34.205.25.65 1 1 201 20171212063636
+192.190.88.162 0 1 201 
+54.244.189.165 1 1 201 20171218221025
+207.55.57.43 1 4 804 20171220224011
+35.198.65.28 1 1 201 20171212150329
+199.30.25.119 0 1 201 
+199.30.25.158 0 1 201 
+85.65.169.248 1 1 201 20171223182645
+64.209.132.7 7 7 1407 20171231172349
+199.30.25.187 0 1 201 
+45.37.14.6 1 14 2814 20171220003349
+65.55.210.197 0 1 201 
+35.196.59.7 2 2 201 20171216110700
+204.13.201.138 1 1 201 20171207101545
+66.169.84.154 2 24 4824 20171220190428
+199.30.25.5 0 2 402 
+5.188.211.14 14 14 2814 20171231110546
+65.55.210.210 0 2 402 
+54.165.160.207 1 1 201 20171221063634
+23.229.91.58 1 1 201 20171222094923
+131.253.25.244 0 1 201 
+65.55.210.232 0 1 201 
+164.132.107.59 1 1 201 20171205180423
+83.31.182.79 2 2 402 20171209115434
+199.30.25.201 0 1 201 
+162.255.154.164 1 1 201 20171205150326
+199.233.45.5 1 14 2814 20171229192725
+213.239.205.118 1 1 201 20171213153021
+54.152.239.142 1 1 201 20171209063626
+185.15.95.42 1 1 201 20171205062435
+65.55.210.196 0 1 201 
+199.30.25.151 0 1 201 
+131.253.25.168 0 2 402 
+34.228.217.169 1 1 201 20171216063634
+89.163.209.232 1 1 201 20171217034903
+184.73.72.39 1 1 201 20171210063631
+199.30.24.45 0 1 201 
+149.255.105.69 1 1 201 20171217111927
+172.220.160.41 2 28 5628 20171226181054
+65.55.210.56 1 1 201 20171222234525
+74.208.121.187 1 1 201 20171225001510
+24.61.49.104 0 1 201 
+202.124.175.66 1 1 201 20171230000711
+13.56.229.65 11 11 2211 20171230224311
+212.83.40.239 1 1 201 20171222162503
+41.227.198.63 1 1 201 20171220234703
+188.241.79.107 1 1 201 20171218014542
+192.230.178.162 1 14 2814 20171205134131
+174.195.139.220 1 14 2814 20171226160115
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20171201 87 437 86631 29
+20171202 44 74 14874 17
+20171203 55 85 16281 28
+20171204 78 365 73365 34
+20171205 66 188 37386 35
+20171206 60 93 18492 28
+20171207 56 178 35778 32
+20171208 39 67 13467 17
+20171209 50 135 27135 24
+20171210 37 69 13467 17
+20171211 61 177 35577 29
+20171212 51 131 25728 24
+20171213 72 135 26532 30
+20171214 44 73 14271 18
+20171215 62 186 37386 34
+20171216 52 83 16482 30
+20171217 70 230 46230 37
+20171218 45 120 23919 24
+20171219 63 151 29748 32
+20171220 79 214 42411 43
+20171221 43 127 24723 28
+20171222 51 149 28944 29
+20171223 35 87 15879 19
+20171224 35 55 10050 18
+20171225 31 40 7839 18
+20171226 29 92 18492 17
+20171227 41 149 28341 22
+20171228 28 70 13467 16
+20171229 131 165 31557 17
+20171230 49 204 40803 26
+20171231 48 84 15678 19
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 4
+5mn-15mn 18
+30s-2mn 12
+15mn-30mn 14
+2mn-5mn 13
+0s-30s 708
+30mn-1h 22
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 106
+/weblinks/weblinks.htm 709 142509 299 302
+/ 612 108540 448 390
+/personnel/personnel.htm 44 8844 8 19
+/history/history.htm 39 7839 13 16
+/training/training.htm 32 6432 4 10
+/apparatus/apparatus.htm 31 6231 3 7
+/membership/membership.htm 24 4824 1 9
+/photo/photoalbum/default.htm 23 4623 1 6
+/kids/kids.htm 22 4422 3 2
+/informed.htm 9 1809 0 4
+/photo/photoalbum/slide0122_image244.html 1 201 0 0
+/photo/photoalbum/index23.html 2 402 0 0
+/photo/photoalbum/slide0011_image023.html 1 201 0 0
+/photo/photoalbum/slide0109_image218.html 1 201 0 0
+/photo/photoalbum/index4.html 2 402 0 1
+/photo/photoalbum/slide0093_image187.html 1 201 0 0
+/photo/photoalbum/slide0113_image226.html 1 201 0 0
+/photo/photoalbum/slide0086_image173.html 1 201 0 0
+/photo/photoalbum/index18.html 2 402 0 0
+/photo/photoalbum/index6.html 1 201 0 0
+/photo/photoalbum/index16.html 2 402 0 0
+/photo/photoalbum/slide0112_image224.html 1 201 0 0
+/history/catologe/sitmap.htm 1 201 0 0
+/photo/photoalbum/index17.html 1 201 0 0
+/photo/photoalbum/index7.html 1 201 0 0
+/photo/photoalbum/slide0120_image240.html 1 201 0 0
+/photo/photoalbum/slide0018_image037.html 1 201 0 0
+/photo/photoalbum/slide0102_image204.html 1 201 0 0
+/photo/photoalbum/slide0098_image197.html 1 201 0 0
+/photo/photoalbum/slide0094_image189.html 1 201 0 0
+/photo/photoalbum/slide0012_image025.html 1 201 0 0
+/photo/photoalbum/slide0257_image513.html 1 201 0 1
+/photo/photoalbum/slide0009_image019.html 1 201 0 0
+/photo/photoalbum/slide0105_image210.html 1 201 0 0
+/photo/photoalbum/slide0106_image212.html 1 201 0 0
+/photo/photoalbum/slide0121_image242.html 1 201 0 0
+/photo/photoalbum/slide0017_image035.html 2 402 0 1
+/photo/photoalbum/slide0108_image216.html 1 201 0 0
+/photo/photoalbum/slide0092_image185.html 1 201 0 0
+/photo/photoalbum/index2.html 2 402 0 0
+/photo/photoalbum/index25.html 2 402 0 0
+/photo/photoalbum/index15.html 1 201 0 0
+/history/catologe/about.htm 2 402 2 1
+/photo/photoalbum/slide0021_image043.html 2 402 0 1
+/photo/photoalbum/slide0004_image009.html 1 201 0 0
+/photo/photoalbum/index8.html 1 201 0 0
+/photo/photoalbum/slide0095_image191.html 1 201 0 0
+/stats.htm 1 201 0 1
+/photo/photoalbum/index14.html 2 402 0 1
+/photo/photoalbum/slide0099_image199.html 1 201 0 0
+/dedication.htm 9 1809 2 3
+/photo/photoalbum/slide0111_image222.html 1 201 0 0
+/photo/photoalbum/slide0119_image238.html 1 201 0 0
+/photo/photoalbum/index19.html 1 201 0 0
+/photo/photoalbum/index9.html 1 201 0 0
+/photo/photoalbum/slide0115_image230.html 1 201 0 0
+/photo/photoalbum/slide0002_image005.html 2 402 0 1
+/photo/photoalbum/slide0019_image039.html 1 201 0 0
+/photo/photoalbum/slide0072_image145.html 2 402 0 2
+/photo/photoalbum/index22.html 1 201 0 0
+/photo/photoalbum/slide0100_image200.html 1 201 0 0
+/photo/photoalbum/slide0114_image228.html 1 201 0 1
+/photo/photoalbum/slide0084_image169.html 1 201 0 0
+/photo/photoalbum/slide0186_image371.html 1 201 0 1
+/photo/photoalbum/slide0118_image236.html 1 201 0 0
+/safetytips.htm 8 1608 3 4
+/photo/photoalbum/slide0007_image015.html 1 201 0 0
+/photo/photoalbum/slide0097_image195.html 1 201 0 0
+/photo/photoalbum/index11.html 1 201 0 0
+/photo/photoalbum/index26.html 1 201 0 0
+/photo/photoalbum/slide0016_image033.html 2 402 0 0
+/photo/photoalbum/slide0101_image202.html 1 201 0 0
+/photo/photoalbum/slide0096_image193.html 1 201 0 0
+/photo/photoalbum/slide0090_image181.html 1 201 0 0
+/photo/photoalbum/slide0008_image017.html 1 201 0 0
+/photo/photoalbum/index3.html 1 201 0 0
+/photo/photoalbum/slide0083_image167.html 1 201 0 0
+/photo/photoalbum/slide0020_image041.html 1 201 0 0
+/photo/photoalbum/slide0005_image011.html 1 201 0 0
+/photo/photoalbum/index12.html 1 201 0 0
+/photo/photoalbum/index24.html 1 201 0 0
+/photo/photoalbum/slide0015_image031.html 1 201 0 0
+/photo/photoalbum/slide0085_image171.html 1 201 0 0
+/photo/photoalbum/slide0089_image179.html 1 201 0 0
+/photo/photoalbum/slide0104_image208.html 1 201 0 0
+/photo/photoalbum/slide0013_image027.html 2 402 0 0
+/history/catologe/banner.htm 1 201 0 0
+/photo/photoalbum/index10.html 2 402 1 1
+/photo/photoalbum/index20.html 2 402 0 0
+/photo/photoalbum/slide0010_image021.html 1 201 0 0
+/photo/photoalbum/slide0088_image177.html 1 201 0 0
+/history/catologe/index.htm 1 201 0 1
+/photo/photoalbum/slide0091_image183.html 1 201 0 0
+/history/catologe/contact.htm 1 201 0 0
+/history/catologe/leftbar.htm 1 201 0 0
+/photo/photoalbum/slide0003_image007.html 1 201 0 0
+/photo/photoalbum/slide0117_image234.html 1 201 0 0
+/photo/photoalbum/slide0087_image175.html 1 201 0 0
+/history/catologe/reload.htm 1 201 0 0
+/photo/photoalbum/slide0006_image013.html 4 804 0 1
+/mission.htm 7 1407 2 2
+/photo/photoalbum/index21.html 1 201 0 0
+/photo/photoalbum/index13.html 3 603 0 1
+/photo/photoalbum/index5.html 2 402 0 0
+/photo/photoalbum/slide0014_image029.html 1 201 0 0
+/calendar.htm 9 1608 1 1
+END_SIDER

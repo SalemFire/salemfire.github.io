@@ -1,0 +1,657 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 202202 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2550                
+POS_VISITOR 10284               
+POS_DAY 18577               
+POS_DOMAIN 3353                
+POS_LOGIN 3584                
+POS_ROBOT 3739                
+POS_WORMS 4344                
+POS_EMAILSENDER 4475                
+POS_EMAILRECEIVER 4618                
+POS_SESSION 18795               
+POS_SIDER 18990               
+POS_FILETYPES 4753                
+POS_OS 4946                
+POS_BROWSER 5090                
+POS_SCREENSIZE 5249                
+POS_UNKNOWNREFERER 5323                
+POS_UNKNOWNREFERERBROWSER 5800                
+POS_ORIGIN 6272                
+POS_SEREFERRALS 6412                
+POS_PAGEREFS 6569                
+POS_SEARCHWORDS 6943                
+POS_KEYWORDS 7095                
+POS_MISC 2214                
+POS_ERRORS 7154                
+POS_CLUSTER 3440                
+POS_SIDER_404 7302                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220301000647 4980 1034151 44307719347
+FirstTime 20220201004145
+LastTime 20220228233042
+LastUpdate 20220302025411 4980 4206 773 0 0
+TotalVisits 226                 
+TotalUnique 211                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 215                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 10 20 203882 29 49 422989
+1 113 148 618431 70 98 987852
+2 113 129 417127 48 62 539073
+3 70 77 846934 232 248 1528432
+4 26 106 1127213 44 70 253186
+5 1 1 5043 33 38 271040
+6 0 0 0 268 277 377159
+7 5 5 25985 884 893 1215918
+8 19 19 134144 266 289 566811
+9 1 1 5024 46 58 495189
+10 4 4 25400 46 53 366382
+11 24 25 137653 46 55 384169
+12 14 15 79816 26 35 322584
+13 4 17 190820 49 63 524001
+14 11 39 398519 31 47 260765
+15 10 24 235398 128 140 591098
+16 10 36 399908 39 62 516464
+17 11 39 424655 24 56 310629
+18 12 38 438291 49 84 409316
+19 1 1 5024 41 51 507086
+20 4 33 402547 33 49 484531
+21 112 151 840455 38 54 330964
+22 4 7 41161 37 50 304871
+23 13 81 1009787 32 53 322016
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 592 1016 8013217
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+crawl 1106 889297 20220228084225 0
+bot[+:,\.\;\/\\-] 556 7157374 20220228234657 0
+robot 371 571623 20220228221245 0
+mj12bot 78 126596 20220228121109 0
+spider 69 768994 20220228033510 0
+sogou 61 308919 20220228115426 0
+[+:,\.\;\/\\-]bot 60 155326 20220228030501 0
+googlebot 40 342099 20220228205748 0
+infobot 24 518430 20220201015458 0
+no_user_agent 6 78499 20220228115259 0
+python 1 5024 20220224165522 0
+seznambot 2 36671 20220201023438 0
+yandex 2 44918 20220225000710 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 2 2282 0 0
+bmp 1 83020 0 0
+png 24 110640 0 0
+htm 223 1634069 0 0
+html 369 1239423 0 0
+jpg 222 3663302 0 0
+xml 9 4566 0 0
+gif 166 1275915 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 10
+winxp 1
+winlong 1
+unix 34
+winnt 510
+linuxubuntu 45
+winvista 1
+linux 83
+macosx 256
+Unknown 29
+win2008 56
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 9
+msie6.0 1
+firefox13.0.1 7
+mozilla 50
+chrome 694
+firefox72.0 1
+firefox91.0 1
+msie9.0 48
+Unknown 29
+safari 185
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Buck/2.2;_(_https://app.hypefactors.com/media-monitoring/about.html) 20220225075419
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20220226104831
+scalaj-http/2.4.2 20220225075418
+Go-http-client/1.1 20220226002238
+EasyBib_AutoCite_(http://autocite-info.citation-api.com/) 20220228204116
+LeadSpotting 20220227131010
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+Buck/2.2;_(_https://app.hypefactors.com/media-monitoring/about.html) 20220225075419
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20220226104831
+scalaj-http/2.4.2 20220225075418
+Go-http-client/1.1 20220226002238
+EasyBib_AutoCite_(http://autocite-info.citation-api.com/) 20220228204116
+LeadSpotting 20220227131010
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 331 331
+From1 0 0
+From2 83 89
+From3 9 9
+From4 169 587
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 83 89
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+http://m.facebook.com 4 4
+https://webtechsurvey.com/website/salemfirerescue.org 1 1
+http://www.essaytags.com 1 1
+http://josinc.biz 1 1
+https://agents.farmers.com/ca/los-angeles/sebastian-ulloa 1 1
+http://www.socialine.net 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+416 2 736
+206 2 26296
+405 1 5574
+400 4 5379
+500 31 98075
+404 518 1152695
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 64
+/blog/wp-includes/wlwmanifest.xml 4 -
+/accesson0.php 1 -
+/sitemap.xml 5 -
+/robots.txt 243 -
+/wordpress/ 3 -
+/wso.php 1 -
+/xx.php 1 -
+/homework-help/derive-formula-apparent-depth-fish-fish-tank-using-snell-s-l-chapter-2-problem-12cq-solution-9781938168185-exc 1 -
+/site/wp-includes/wlwmanifest.xml 4 -
+/image002.gif 53 http://www.salemfirerescue.org/
+/wp1/wp-includes/wlwmanifest.xml 4 -
+/shell.php 1 -
+/2019/wp-includes/wlwmanifest.xml 4 -
+/xmlrpc.php 5 -
+/test/wp-includes/wlwmanifest.xml 4 -
+/image001.gif 53 http://www.salemfirerescue.org/
+/xml.php 1 http://salemfirerescue.org/xml.php
+/web/wp-includes/wlwmanifest.xml 4 -
+/assets/backend/plugins/jquery-file-upload/server/php/index.php 1 -
+/th1s_1s_a_4o4.html 6 http://www.google.com/url
+/alwso.php 1 -
+/_profiler/phpinfo 1 -
+/.well-known/autoconfig/mail/config-v1.1.xml 1 -
+/news/wp-includes/wlwmanifest.xml 4 -
+/apparatus/button6.jpg 3 http://www.salemfirerescue.org/apparatus/apparatus.htm
+/shop/wp-includes/wlwmanifest.xml 4 -
+/wp-sling.php 1 -
+/homework-help/lens-person-s-eye-removed-cataracts-done-since-ancient-times-chapter-2-problem-18cq-solution-9781938168185-exc 1 -
+/wp-login.php 3 -
+/shell-wso.php 1 -
+/website/wp-includes/wlwmanifest.xml 4 -
+/mobile 3 -
+/humans.txt 1 -
+/logs.php 1 -
+/wp-includes/wlwmanifest.xml 4 -
+/homework-help/two-convex-lenses-focal-lengths-20-cm-10-cm-placed-30-cm-apa-chapter-2-problem-64p-solution-9781938168185-exc 1 -
+/.env 18 -
+/theme/assets/plugins/jquery-file-upload/server/php/index.php 1 -
+/cms/wp-includes/wlwmanifest.xml 4 -
+/2018/wp-includes/wlwmanifest.xml 1 -
+/ckfinder/core/connector/php/connector.php 1 -
+/js/ckfinder/core/connector/php/connector.php 1 -
+/android 3 -
+/theme/assets/global/plugins/jquery-file-upload/server/php/index.php 1 -
+/ads.txt 15 -
+/photo/photoalbum/slide0425_image767.html 1 -
+/membership/button6.jpg 1 http://www.salemfirerescue.org/membership/membership.htm
+/xmlrpz.php 1 http://salemfirerescue.org/xmlrpz.php
+/ios 5 -
+/homework-help/electric-room-heaters-use-concave-mirror-reflect-infrared-ir-chapter-2-problem-33p-solution-9781938168185-exc 1 -
+/wp/wp-includes/wlwmanifest.xml 4 -
+/homework-help/angular-magnification-convex-lens-focal-length-25-cm-chapter-2-problem-125p-solution-9781938168185-exc 1 -
+/wordpress/wp-includes/wlwmanifest.xml 4 -
+/sito/wp-includes/wlwmanifest.xml 4 -
+/homework-help/find-magnification-heater-element-previous-problem-note-larg-chapter-2-problem-34p-solution-9781938168185-exc 1 -
+/2020/wp-includes/wlwmanifest.xml 3 -
+/media/wp-includes/wlwmanifest.xml 1 -
+/wp-info.php 1 -
+/mobile-app 2 -
+/wp-2019.php 1 -
+/auto-seo.php 1 -
+/cache/accesson.php 1 -
+/downloads 3 -
+/wp2/wp-includes/wlwmanifest.xml 4 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 215
+185.119.81.103 202 202 534332 20220228013425
+192.99.18.136 20 20 121026 20220227083255
+3.236.47.177 15 15 79127 20220201034942
+107.172.132.143 14 14 79248 20220228120820
+196.244.200.83 14 14 79248 20220226034402
+192.3.241.96 14 14 79248 20220228112936
+184.154.139.8 14 15 233533 20220226033259
+184.154.139.7 13 14 222193 20220225033540
+184.154.139.5 8 11 128118 20220228033503
+97.82.155.122 7 20 212198 20220228004936
+178.171.101.77 1 1 340 20220226024246
+45.154.195.72 1 1 340 20220226024238
+34.220.50.166 1 1 5024 20220225112412
+158.46.149.176 1 1 339 20220226024248
+119.13.204.178 1 1 1254 20220226024251
+34.220.140.217 2 2 10156 20220201112523
+167.88.160.21 1 1 43404 20220226011736
+119.28.14.153 1 1 5024 20220227180204
+45.129.18.163 1 1 294 20220225071356
+110.239.218.111 1 1 5024 20220226024233
+152.26.89.234 0 9 113880 
+196.240.237.79 0 1 568 
+63.141.36.51 1 1 339 20220226024248
+168.151.100.246 1 1 340 20220226024248
+35.164.47.26 1 1 5024 20220227111620
+124.121.0.177 1 1 5024 20220226182450
+94.177.15.42 2 2 680 20220226024249
+217.9.16.118 1 1 1865 20220226024250
+198.240.101.90 1 1 1254 20220226024251
+35.206.247.151 1 1 5043 20220224182152
+70.173.23.119 1 14 173216 20220228041008
+27.158.235.32 1 1 13080 20220225042507
+74.85.210.138 1 1 1848 20220226024250
+52.89.15.253 1 1 4752 20220228204116
+198.20.67.200 6 7 104147 20220227033406
+216.109.167.124 1 1 1530 20220226024239
+64.69.216.78 1 1 5024 20220226002238
+193.233.250.16 1 1 5043 20220227171705
+174.114.150.88 1 14 173216 20220224183416
+3.143.242.0 1 1 5043 20220224055924
+158.46.145.58 1 1 338 20220226024248
+34.78.21.145 1 1 13080 20220224185659
+168.151.97.30 1 1 1864 20220226024251
+44.197.194.34 4 4 15028 20220225075419
+205.240.77.21 2 2 12580 20220224134121
+104.40.10.253 1 1 4752 20220228012056
+158.46.149.157 1 1 1254 20220226024253
+78.201.194.106 1 1 5713 20220201011420
+34.222.152.187 1 1 5078 20220201155410
+121.91.87.199 1 1 340 20220226024247
+85.217.221.192 1 1 4752 20220226024240
+18.237.243.182 1 1 5024 20220227111730
+92.43.85.208 1 1 1539 20220226024250
+198.85.219.5 1 1 0 20220201141656
+54.71.167.64 1 1 5024 20220226112827
+47.38.64.254 1 14 173216 20220224215212
+174.30.119.36 1 4 26035 20220228020033
+42.83.147.34 1 1 5024 20220228152820
+121.91.80.193 1 1 339 20220226024249
+178.171.101.179 1 1 338 20220226024246
+175.44.42.113 1 1 5078 20220201085310
+110.239.210.132 1 1 340 20220226024247
+50.116.23.155 1 14 181272 20220224165522
+209.99.179.96 1 1 339 20220226024246
+181.214.185.250 1 1 340 20220226024238
+139.28.122.199 2 2 6457 20220226024240
+110.239.211.177 1 1 1251 20220226024251
+168.151.108.56 1 1 339 20220226024247
+34.219.123.237 2 2 10048 20220228160625
+52.34.253.52 1 1 13080 20220224180935
+35.86.93.81 1 14 173216 20220226185559
+45.66.178.209 1 1 339 20220226024238
+158.46.144.243 1 1 3970 20220226024240
+34.78.228.185 1 1 13080 20220227012631
+94.139.61.245 2 2 2203 20220226024252
+34.219.24.153 1 1 5024 20220228112249
+34.209.40.243 1 1 5024 20220224110212
+54.218.15.234 1 1 5024 20220224155759
+92.114.81.242 2 2 47798 20220226024250
+3.144.206.176 3 3 19464 20220228085344
+3.87.90.168 1 1 3582 20220201041912
+158.46.150.139 1 1 1541 20220226024251
+158.46.148.152 1 1 1187 20220226024250
+217.174.240.50 1 1 13104 20220228141609
+141.98.131.148 1 1 1253 20220226024249
+159.89.199.40 3 3 39240 20220226084926
+45.66.178.248 1 1 339 20220226024239
+168.151.184.222 1 1 339 20220226024248
+95.216.187.120 1 1 5024 20220225154650
+144.76.57.175 1 1 5024 20220224191127
+75.143.184.70 2 18 224579 20220228202844
+152.26.83.139 2 15 173216 20220228132439
+52.41.74.250 1 1 340 20220228002716
+52.24.53.202 1 1 5024 20220226160349
+139.28.121.70 1 1 1544 20220226024252
+174.212.168.100 1 1 5078 20220201020935
+121.91.80.165 1 1 340 20220226024246
+121.91.85.29 1 1 340 20220226024238
+18.232.38.239 6 6 17643 20220201235954
+158.46.149.88 1 1 340 20220226024247
+141.98.131.80 1 1 1454 20220226024250
+159.223.93.59 3 3 39240 20220227183349
+194.124.247.24 1 1 340 20220226024248
+167.71.235.30 1 1 4806 20220201100759
+121.91.87.221 1 1 23983 20220226024243
+217.9.17.104 1 1 339 20220226024247
+45.91.32.92 1 1 13080 20220201150408
+128.199.13.166 1 1 13099 20220201075827
+121.91.81.111 1 1 3294 20220226024243
+110.239.212.233 1 1 3194 20220226024240
+175.44.42.61 1 1 5024 20220225211234
+158.46.147.223 1 1 340 20220226024238
+158.46.147.5 1 1 1860 20220226024251
+185.51.23.51 1 1 340 20220226024248
+119.13.212.129 1 1 340 20220226024246
+104.49.76.72 1 1 5024 20220225145208
+34.217.146.197 1 1 5024 20220227160144
+45.66.177.213 1 1 1536 20220226024252
+208.100.26.244 1 1 5043 20220227142841
+158.46.146.22 1 1 4336 20220226024239
+152.39.251.210 1 1 340 20220226024238
+174.212.107.143 1 14 173270 20220201230013
+40.85.149.121 1 1 4806 20220201004145
+47.135.156.73 7 58 586511 20220224043217
+192.230.181.44 6 6 41124 20220226220054
+45.66.177.198 3 3 11218 20220226024250
+75.143.182.65 2 23 320263 20220228233042
+198.240.113.110 1 1 340 20220226024248
+158.46.150.101 1 1 1538 20220226024250
+138.128.118.130 1 1 5078 20220201022736
+97.89.104.223 4 49 392281 20220228004540
+152.26.89.246 1 5 59336 20220228163238
+45.8.192.36 1 1 1862 20220226024252
+107.172.80.20 0 1 568 
+216.19.202.106 1 1 340 20220226024231
+174.206.34.143 1 4 26035 20220225223636
+192.230.178.251 1 1 5024 20220226210130
+119.13.199.245 1 1 340 20220226024247
+23.96.108.45 2 2 10048 20220228174327
+68.115.243.130 1 14 173270 20220201044553
+208.94.228.19 1 1 1540 20220226024253
+139.28.120.38 1 1 1252 20220226024252
+20.121.14.207 3 3 39240 20220201013151
+151.138.13.148 2 2 10102 20220224211153
+52.224.21.61 1 1 5078 20220201143559
+74.85.210.251 1 1 339 20220226024248
+13.68.176.214 1 1 5024 20220228174930
+181.214.185.212 1 1 5258 20220226024240
+110.82.1.25 1 1 13080 20220224112654
+194.53.70.152 1 1 4237 20220226024239
+121.91.87.203 1 1 1252 20220226024253
+31.14.26.151 1 1 2706 20220226024239
+54.159.7.14 4 4 14112 20220227041741
+75.144.232.146 2 16 182704 20220201171606
+192.230.189.225 2 16 182596 20220226144937
+3.19.54.225 1 1 5024 20220227131010
+92.118.160.41 1 1 13080 20220226104831
+158.46.149.85 2 2 2483 20220226024253
+152.22.114.24 2 16 182596 20220228141950
+24.182.76.214 2 16 182596 20220227175503
+45.8.201.113 1 1 340 20220226024239
+93.180.239.213 1 1 1859 20220226024250
+96.36.115.186 5 57 697942 20220226220938
+174.250.144.85 1 1 5078 20220201074242
+119.13.219.99 1 1 340 20220226024246
+91.132.138.68 1 1 6290 20220225182144
+176.74.192.85 1 1 5097 20220201080555
+217.9.16.255 1 1 339 20220226024238
+121.91.81.4 1 1 1541 20220226024249
+221.197.176.187 1 1 5078 20220201234740
+94.176.132.73 1 1 1256 20220226024251
+144.76.168.111 1 1 4457 20220201113126
+119.13.207.127 2 2 2197 20220226024249
+27.158.235.58 1 1 13080 20220225163454
+52.38.82.190 1 1 5024 20220228013022
+20.85.226.106 3 3 39240 20220226174748
+65.21.206.43 1 1 5024 20220225010708
+74.85.208.197 1 1 1253 20220226024252
+107.172.59.76 0 1 568 
+44.192.74.68 1 1 5078 20220201224024
+194.53.70.61 1 1 340 20220226024246
+45.66.179.111 1 1 340 20220226024238
+24.163.37.16 2 16 182704 20220201150813
+63.141.36.80 1 1 339 20220226024248
+139.28.122.99 1 1 340 20220226024246
+45.95.22.203 1 1 340 20220226021357
+75.143.183.47 4 7 118865 20220227164828
+75.143.185.154 2 2 12244 20220227163311
+158.46.149.189 1 1 1862 20220226024250
+13.91.224.221 1 1 4752 20220225080955
+141.98.131.40 1 1 340 20220226024247
+1.192.195.5 1 1 5024 20220226095127
+174.212.176.87 2 23 320263 20220228233040
+45.89.240.46 1 1 340 20220226024247
+119.13.193.8 1 1 339 20220226024249
+139.28.123.169 1 1 340 20220226024246
+110.239.214.135 1 1 340 20220226024238
+158.46.147.248 1 1 1253 20220226024252
+158.46.149.50 1 1 338 20220226024249
+188.119.119.113 1 1 1541 20220226024252
+44.200.33.117 1 1 5078 20220201145500
+180.149.2.38 1 1 340 20220226024238
+45.66.176.19 1 1 339 20220226024246
+31.14.26.200 1 1 1250 20220226024250
+45.95.22.164 1 1 338 20220226024238
+5.161.66.122 1 1 5713 20220201022250
+188.241.57.145 1 1 339 20220226024246
+45.89.240.11 1 1 1256 20220226024252
+194.124.239.206 1 1 1861 20220226024251
+168.151.166.65 1 1 339 20220226024249
+213.188.64.140 1 1 339 20220226024249
+45.154.195.48 1 1 1251 20220226024252
+185.223.250.198 1 1 3528 20220226024239
+54.198.178.182 1 1 3528 20220228042354
+45.89.248.67 1 1 339 20220226024247
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 6
+20220201 163 244 1701831 33
+20220224 32 122 1339031 17
+20220225 20 24 195138 15
+20220226 170 272 1787147 119
+20220227 36 51 470018 16
+20220228 171 303 2520052 26
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 1
+5mn-15mn 2
+30s-2mn 5
+2mn-5mn 4
+0s-30s 213
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 89
+/ 143 938996 110 84
+/personnel/personnel.htm 27 178194 5 11
+/kids/kids.htm 23 114105 8 10
+/history/history.htm 22 139982 7 9
+/apparatus/apparatus.htm 18 102217 2 5
+/weblinks/weblinks.htm 17 388390 3 2
+/membership/membership.htm 17 69363 2 2
+/training/training.htm 16 91501 2 3
+/photo/photoalbum/default.htm 15 39479 2 4
+/informed.htm 14 41682 1 5
+/photo/photoalbum/slide0122_image244.html 2 2560 0 0
+/photo/photoalbum/index23.html 4 5977 2 2
+/photo/photoalbum/slide0176_image351.html 2 2562 0 0
+/photo/photoalbum/slide0011_image023.html 2 2558 0 0
+/photo/photoalbum/slide0109_image218.html 2 2568 0 0
+/photo/photoalbum/index4.html 4 5652 2 2
+/photo/photoalbum/slide0113_image226.html 2 2562 0 0
+/photo/photoalbum/slide0177_image353.html 2 2562 0 0
+/photo/photoalbum/index18.html 4 5673 2 2
+/photo/photoalbum/index6.html 4 5645 2 2
+/photo/photoalbum/index16.html 4 5647 2 2
+/photo/photoalbum/slide0112_image224.html 2 2560 0 0
+/photo/photoalbum/index17.html 4 5979 2 2
+/photo/photoalbum/index7.html 4 5663 2 2
+/photo/photoalbum/slide0120_image240.html 2 2566 0 0
+/photo/photoalbum/slide0018_image037.html 4 4152 2 2
+/photo/photoalbum/slide0012_image025.html 4 4143 2 2
+/photo/photoalbum/slide0009_image019.html 4 4161 2 2
+/photo/photoalbum/slide0179_image357.html 2 2570 0 0
+/photo/photoalbum/slide0105_image210.html 2 2562 0 0
+/photo/photoalbum/slide0106_image212.html 2 2564 0 0
+/photo/photoalbum/slide0121_image242.html 2 2566 0 0
+/photo/photoalbum/slide0017_image035.html 3 2895 1 1
+/photo/photoalbum/slide0108_image216.html 2 2566 0 0
+/photo/photoalbum/slide0116_image232.html 2 2564 0 0
+/photo/photoalbum/index2.html 3 4098 0 1
+/photo/photoalbum/index15.html 4 5656 1 2
+/photo/photoalbum/index25.html 4 5937 2 2
+/history/catologe/about.htm 2 11426 2 2
+/photo/photoalbum/slide0021_image043.html 2 2560 0 0
+/photo/photoalbum/slide0004_image009.html 4 4149 2 2
+/photo/photoalbum/index8.html 4 5662 2 2
+/photo/photoalbum/slide0110_image220.html 2 2566 0 0
+/photo/photoalbum/slide0182_image363.html 2 2562 0 0
+/photo/photoalbum/index14.html 6 18641 2 2
+/dedication.htm 11 53082 2 3
+/photo/photoalbum/slide0111_image222.html 2 2566 0 0
+/photo/photoalbum/slide0119_image238.html 2 2568 0 0
+/photo/photoalbum/index9.html 4 5974 2 2
+/photo/photoalbum/index19.html 4 5986 1 2
+/photo/photoalbum/slide0107_image214.html 2 2562 0 0
+/photo/photoalbum/slide0180_image359.html 2 2572 0 0
+/photo/photoalbum/slide0115_image230.html 2 2562 0 0
+/photo/photoalbum/slide0019_image039.html 4 4161 2 2
+/photo/photoalbum/slide0002_image005.html 4 3953 2 2
+/photo/photoalbum/index22.html 4 5655 1 2
+/photo/photoalbum/slide0103_image206.html 2 2562 0 0
+/photo/photoalbum/slide0114_image228.html 2 2564 0 0
+/safetytips.htm 13 309753 3 4
+/photo/photoalbum/slide0118_image236.html 2 2566 0 0
+/photo/photoalbum/slide0007_image015.html 4 4146 2 2
+/photo/photoalbum/slide0175_image349.html 2 2568 0 2
+/photo/photoalbum/index11.html 4 5965 1 2
+/photo/photoalbum/index26.html 4 4756 2 2
+/photo/photoalbum/slide0016_image033.html 4 4149 2 2
+/photo/photoalbum/slide0181_image361.html 2 2566 0 0
+/photo/photoalbum/slide0008_image017.html 4 4152 1 2
+/photo/photoalbum/index3.html 4 5986 2 1
+/photo/photoalbum/slide0020_image041.html 4 4155 2 1
+/photo/photoalbum/slide0178_image355.html 2 2564 0 0
+/photo/photoalbum/slide0005_image011.html 4 4152 2 2
+/photo/photoalbum/index12.html 2 3762 0 0
+/photo/photoalbum/index24.html 2 3784 0 0
+/photo/photoalbum/slide0015_image031.html 4 4152 1 1
+/photo/photoalbum/slide0104_image208.html 2 2564 0 0
+/photo/photoalbum/slide0013_image027.html 3 2894 1 1
+/photo/photoalbum/index20.html 4 5664 2 2
+/photo/photoalbum/index10.html 4 5980 2 2
+/photo/photoalbum/slide0010_image021.html 4 4155 2 2
+/history/catologe/contact.htm 3 18870 2 2
+/photo/photoalbum/slide0003_image007.html 4 4083 2 1
+/photo/photoalbum/slide0117_image234.html 2 2562 0 0
+/photo/photoalbum/slide0006_image013.html 5 6563 2 3
+/mission.htm 12 27793 3 2
+/photo/photoalbum/index21.html 2 3742 0 0
+/photo/photoalbum/index13.html 4 5989 2 2
+/photo/photoalbum/index5.html 4 5660 2 2
+/photo/photoalbum/slide0014_image029.html 4 4155 2 2
+/calendar.htm 13 48232 2 2
+END_SIDER

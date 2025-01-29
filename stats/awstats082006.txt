@@ -1,0 +1,254 @@
+AWSTATS DATA FILE 5.1 (build 1.389)
+# If you remove this file, all statistics for date 2006-08 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section
+# for direct I/O access. If you made changes somewhere in this file, you
+# should also remove completely the MAP section (AWStats will rewrite it
+# at next update).
+BEGIN_MAP 23
+POS_GENERAL 1643                
+POS_TIME 1975                
+POS_VISITOR 2582                
+POS_DAY 3265                
+POS_DOMAIN 3423                
+POS_LOGIN 3626                
+POS_ROBOT 3809                
+POS_EMAILSENDER 3976                
+POS_EMAILRECEIVER 4124                
+POS_SESSION 4204                
+POS_SIDER 4397                
+POS_FILETYPES 5021                
+POS_BROWSER 5244                
+POS_OS 5330                
+POS_UNKNOWNREFERER 5436                
+POS_UNKNOWNREFERERBROWSER 5618                
+POS_ORIGIN 5795                
+POS_SEREFERRALS 5933                
+POS_PAGEREFS 6024                
+POS_SEARCHWORDS 6264                
+POS_KEYWORDS 6522                
+POS_ERRORS 6683                
+POS_SIDER_404 6789                
+END_MAP
+
+# LastLine    = Date of last record processed
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of lines read - Nb of old records - Nb of new records - Nb of corrupted - Nb of dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20060901004305
+FirstTime 20060831071816
+LastTime 20060831220709
+LastUpdate 20060831175736 838 0 741 68 29
+TotalVisits 12                  
+TotalUnique 10                  
+MonthHostsKnown 10                  
+MonthHostsUnknown 0                   
+END_GENERAL
+
+# Hour - Pages - Hits - Bandwidth
+BEGIN_TIME 24
+0 0 0 0
+1 0 0 0
+2 0 0 0
+3 0 0 0
+4 0 0 0
+5 0 0 0
+6 0 0 0
+7 6 35 89062
+8 0 0 0
+9 0 0 0
+10 0 0 0
+11 0 0 0
+12 24 156 1129832
+13 56 212 2455539
+14 2 24 122515
+15 1 14 110026
+16 9 68 265552
+17 6 50 607527
+18 1 14 0
+19 2 15 110026
+20 8 60 520052
+21 6 38 28298
+22 2 15 121520
+23 0 0 0
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start of last visit date] - [Last page of last visit]
+# [Start of last visit date] and [Last page of last visit] are saved only if session is not finished
+# The 20 first Hits must be first (order not required for others)
+BEGIN_VISITOR 10
+24-182-88-101.dhcp.hckr.nc.charter.com 93 483 3655990 20060831220709
+static-70-20-201-194.phil.east.verizon.net 10 74 849821 20060831123905
+admin.bceoc.org 6 35 89062 20060831071838
+adsl-1-144-253.clt.bellsouth.net 4 31 435009 20060831173150
+adsl-1-145-190.clt.bellsouth.net 3 33 113676 20060831164435
+ac803b32.ipt.aol.com 3 27 336090 20060831201112
+68-187-174-114.dhcp.hckr.nc.charter.com 1 1 0 20060831192343
+24-177-79-002.static.hckr.nc.charter.com 1 2 5320 20060831160428
+adsl-146-158-67.clt.bellsouth.net 1 10 12489 20060831140216
+adsl-227-198-165.ard.bellsouth.net 1 5 62492 20060831174229
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20060831 123 701 5559949 12
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 20 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 3
+com 98 513 3997400
+net 19 153 1473487
+org 6 35 89062
+END_DOMAIN
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+DEDI343\salemfd 29 29 99166 20060831134521
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+slurp 4 125636 20060831153030
+END_ROBOT
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+0s-30s 5
+1h+ 3
+30s-2mn 2
+5mn-15mn 1
+2mn-5mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 20 first Pages must be first (order not required for others)
+BEGIN_SIDER 14
+/default.htm 44 321870 8 5
+/_vti_bin/_vti_aut/author.dll 31 101324 0 0
+/training/training.htm 12 84639 2 2
+/weblinks/weblinks.htm 8 202455 1 2
+/training/training_files/filelist.xml 6 1350 0 0
+/_vti_bin/shtml.dll/_vti_rpc 5 1921 0 0
+/apparatus/apparatus.htm 4 34749 0 0
+/personnel/personnel.htm 3 88276 0 1
+/alert.htm 2 20294 0 0
+/membership/membership.htm 2 15234 0 1
+/_vti_inf.html 2 4078 0 0
+/calendar.htm 2 21836 0 0
+/training/wpcc_schedule.pdf 1 2661 1 1
+/kids/kids.htm 1 11303 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+Unknown 5 1921 0 0
+gif 304 937117 0 0
+pdf 1 2661 0 0
+htm 78 800656 0 0
+xml 6 1350 0 0
+dll 31 101324 0 0
+bmp 2 166024 0 0
+jpg 272 3544818 0 0
+html 2 4078 0 0
+END_FILETYPES
+
+# Browser ID - Hits
+BEGIN_BROWSER 3
+msie7.0 144
+Unknown 69
+msie6.0 488
+END_BROWSER
+
+# OS ID - Hits
+BEGIN_OS 4
+win98 74
+winxp 556
+win2000 2
+Unknown 69
+END_OS
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+MSFrontPage/6.0 20060831134521
+Mozilla/4.0_(compatible;_MS_FrontPage_6.0) 20060831134521
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+MSFrontPage/6.0 20060831134521
+Mozilla/4.0_(compatible;_MS_FrontPage_6.0) 20060831134521
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 86 114
+From1 0 0
+From2 4 4
+From3 4 4
+From4 29 579
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Hits
+BEGIN_SEREFERRALS 2
+msn. 1
+yahoo. 3
+END_SEREFERRALS
+
+# External page referers - Hits
+BEGIN_PAGEREFS 2
+http://www.eastburkerescue.org/html/links.htm 2
+http://www.ohfr.org/html/links.htm 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 20 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+salem+fire+rescue+burke+county+nc 2
+lovelady+nc+fire+dept 1
+cpr+class+burke+county+rescue+squad 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 20 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 11
+fire 3
+county 3
+nc 3
+rescue 3
+burke 3
+salem 2
+cpr 1
+class 1
+dept 1
+lovelady 1
+squad 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 6 18474
+401 29 56927
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 0
+END_SIDER_404

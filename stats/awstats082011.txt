@@ -1,0 +1,762 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201108 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2558                
+POS_VISITOR 3592                
+POS_DAY 12052               
+POS_DOMAIN 12911               
+POS_LOGIN 13143               
+POS_ROBOT 13298               
+POS_WORMS 14227               
+POS_EMAILSENDER 14358               
+POS_EMAILRECEIVER 14501               
+POS_SESSION 14577               
+POS_SIDER 14790               
+POS_FILETYPES 17138               
+POS_OS 17337               
+POS_BROWSER 17481               
+POS_SCREENSIZE 17868               
+POS_UNKNOWNREFERER 17942               
+POS_UNKNOWNREFERERBROWSER 18527               
+POS_ORIGIN 18666               
+POS_SEREFERRALS 18809               
+POS_PAGEREFS 19003               
+POS_SEARCHWORDS 19730               
+POS_KEYWORDS 20999               
+POS_MISC 2220                
+POS_ERRORS 21651               
+POS_CLUSTER 12999               
+POS_SIDER_404 21768               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20110901003317 55042 14158067 33428070394
+FirstTime 20110801000030
+LastTime 20110831234609
+LastUpdate 20140313051517 55042 10086 44953 2 0
+TotalVisits 425                 
+TotalUnique 196                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 219                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 254 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 45 432 5056721 60 90 570116
+1 69 471 5178184 64 111 556045
+2 38 295 3064754 113 141 1378099
+3 21 117 958281 57 76 351309
+4 45 184 3063155 84 118 817711
+5 28 54 973205 68 103 504858
+6 19 42 567211 82 110 762254
+7 35 54 788495 61 89 718735
+8 34 73 1074275 36 55 391513
+9 7 8 99795 49 68 371867
+10 19 45 580948 51 79 548517
+11 19 89 1503775 47 68 313162
+12 52 338 3504154 53 74 463783
+13 49 368 4236308 42 76 442201
+14 78 566 23266009 71 130 4703268
+15 39 395 4933433 60 81 419456
+16 37 281 2953765 54 93 567197
+17 32 205 2122892 55 86 545683
+18 56 603 9912806 96 115 799092
+19 55 525 5662253 68 110 702391
+20 42 346 3723288 80 117 793209
+21 32 279 3760306 65 93 622926
+22 19 119 1373804 97 112 899789
+23 18 113 1151901 104 123 962296
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 219
+96.36.115.186 326 3546 57999016 20110831234609
+114.80.93.54 69 69 815316 20110827233110
+159.54.225.74 51 51 829818 20110821065056
+71.43.34.221 24 24 1024673 20110831045428
+46.4.23.199 23 28 387094 20110825014421
+152.26.36.96 14 106 972599 20110831182456
+46.4.100.138 13 13 132457 20110808123137
+208.80.194.26 13 13 153133 20110831073551
+24.158.41.50 10 84 869356 20110804030025
+24.158.36.171 6 59 388665 20110803202818
+96.45.173.3 1 1 93848 20110813173112
+184.39.55.246 1 8 45277 20110813041117
+152.27.19.254 4 46 794479 20110804151843
+164.165.230.27 1 12 200411 20110803150415
+72.249.190.230 3 3 127765 20110829104047
+184.39.41.57 1 8 106173 20110824203223
+204.84.205.200 4 64 163461 20110817144139
+173.212.22.21 3 27 383371 20110829213354
+124.115.1.8 1 1 11827 20110814090418
+207.46.195.207 1 1 12001 20110812105841
+24.158.57.2 1 13 138942 20110812101613
+184.39.149.166 4 42 503221 20110802200549
+75.143.170.144 2 23 322783 20110808193911
+208.80.194.32 2 2 23630 20110805183817
+24.158.33.57 1 13 138942 20110806040309
+207.200.116.8 0 1 8803 
+58.61.164.139 2 2 23654 20110814104636
+184.39.144.80 3 28 828713 20110801215223
+199.93.27.2 1 7 82175 20110811174315
+64.12.117.5 0 1 10815 
+98.139.241.241 1 1 11827 20110805171039
+74.235.103.229 2 26 277710 20110825142124
+157.55.17.73 1 1 12001 20110812013621
+24.34.93.171 1 15 139631 20110821080530
+184.39.63.155 1 2 24519 20110808043028
+184.39.186.69 1 1 11823 20110812171231
+69.38.32.89 1 15 139631 20110806181906
+74.206.91.168 1 15 139631 20110811153515
+157.55.112.218 1 1 7792 20110826031207
+50.57.41.53 1 1 10604 20110830071657
+74.94.42.180 1 13 138859 20110826200650
+207.200.116.136 0 1 11999 
+68.115.154.142 1 4 41089 20110801061327
+64.12.116.71 0 1 11611 
+68.3.47.218 1 12 200411 20110830043126
+65.222.165.65 3 27 383454 20110812133613
+64.12.116.19 0 1 2505 
+98.110.8.223 1 15 139548 20110825225302
+74.235.129.87 1 13 138938 20110807174830
+222.246.72.208 1 1 11744 20110827221147
+50.55.194.180 1 12 200411 20110825232545
+64.12.116.65 0 1 6442 
+24.158.36.77 1 7 82175 20110814173652
+96.45.173.2 1 1 11842 20110805103816
+24.158.37.253 2 16 168395 20110821041845
+207.200.116.134 0 1 17477 
+184.39.217.236 4 20 208659 20110828200554
+24.246.156.192 3 27 793790 20110802115215
+97.82.170.87 3 35 338026 20110808024818
+184.39.30.248 1 13 138855 20110830185404
+74.235.129.93 1 9 160106 20110831205226
+74.235.75.13 2 15 163461 20110808025310
+98.139.241.242 0 1 24114 
+24.158.42.243 3 25 433726 20110813211237
+184.39.90.108 4 41 328515 20110808232040
+74.235.46.143 1 5 48856 20110812043622
+196.218.89.167 1 1 11827 20110808174014
+67.48.116.174 2 16 234642 20110801000129
+117.135.129.73 1 1 11827 20110807123651
+184.39.41.45 2 12 208360 20110817053018
+75.176.37.205 3 25 347302 20110811210935
+207.46.12.64 1 1 11827 20110813081607
+81.30.76.204 1 1 42891 20110821013542
+205.188.116.201 2 2 626 20110807180920
+165.189.145.29 2 25 769271 20110812000617
+64.30.157.100 2 15 163654 20110826081008
+174.252.153.16 2 7 37171 20110812173450
+184.39.3.152 1 13 138938 20110814204401
+209.117.165.22 3 22 295919 20110827074919
+98.144.50.116 1 15 139631 20110802164000
+199.125.14.2 1 1 11744 20110825233718
+71.28.204.215 1 10 139073 20110823001935
+208.80.194.36 4 4 47086 20110830071735
+64.202.161.41 2 2 11823 20110812105912
+64.12.116.210 0 1 4934 
+184.39.44.18 3 25 291211 20110831200544
+124.115.0.48 0 1 10834 
+68.119.217.253 2 17 175844 20110818003227
+184.39.147.181 1 15 139627 20110804003822
+78.140.138.39 1 1 11759 20110831062648
+75.110.40.120 1 12 200411 20110820013758
+72.66.242.125 1 15 139631 20110814212600
+68.142.184.34 2 15 163821 20110803184856
+114.80.93.71 1 1 11827 20110814131125
+173.188.232.194 3 23 352539 20110811184811
+188.143.232.155 1 1 19604 20110817203641
+184.39.140.158 2 16 139544 20110830164924
+209.20.69.196 1 1 11827 20110820023727
+50.52.182.230 1 13 138942 20110813211306
+71.71.243.238 1 15 139631 20110804030530
+64.12.116.201 1 1 11827 20110802005936
+98.139.241.250 3 3 35398 20110826150456
+98.139.241.246 2 2 23654 20110823165350
+65.184.67.204 1 11 208251 20110801220749
+124.115.1.7 2 2 23571 20110829063709
+72.70.211.105 2 25 323389 20110825165227
+207.46.195.215 1 1 11827 20110813081354
+184.39.187.170 1 20 219768 20110823202021
+72.32.150.128 1 1 42872 20110808062836
+97.82.230.197 3 17 214100 20110802182336
+184.39.25.93 2 26 277710 20110826202211
+70.62.74.114 2 23 338026 20110811150504
+64.12.117.11 0 1 2900 
+184.39.57.205 2 15 188647 20110830175315
+184.39.45.105 1 1 11823 20110824105523
+208.80.194.33 2 2 23626 20110815010608
+71.82.38.61 3 21 224821 20110809004604
+124.115.5.11 4 4 47404 20110817050643
+66.161.196.194 2 23 323335 20110802190353
+88.214.193.166 2 2 23563 20110826055436
+69.147.114.45 1 1 11827 20110813191603
+216.81.94.73 1 16 140076 20110815135353
+85.25.95.90 1 1 93848 20110803085435
+207.200.116.133 0 1 17011 
+71.227.136.174 1 13 138859 20110826173836
+159.54.225.75 1 1 11759 20110828063739
+207.200.116.14 0 2 12701 
+208.80.194.37 6 6 70716 20110825231003
+208.80.194.30 4 4 47094 20110827205054
+207.46.199.19 1 1 19585 20110805193754
+24.158.47.130 1 14 151634 20110802064122
+75.37.225.49 2 23 322783 20110808124320
+64.12.116.76 0 1 8803 
+124.115.10.68 1 1 11823 20110807051346
+68.142.70.194 1 7 82175 20110802174117
+184.39.59.199 2 10 125763 20110823061455
+24.158.35.192 3 26 349512 20110805173920
+173.255.249.185 6 6 70464 20110830114111
+75.191.183.0 3 20 259850 20110804202700
+184.39.41.134 2 15 189581 20110824004656
+71.82.37.12 2 15 189581 20110814013147
+86.131.245.188 1 7 82175 20110802225547
+50.57.83.240 4 4 31168 20110830224911
+184.39.44.90 1 1 11823 20110823031201
+24.241.112.89 1 13 138942 20110813141033
+184.39.82.216 4 26 204137 20110802014623
+184.39.189.71 2 19 200302 20110802022857
+174.252.1.78 1 7 82175 20110811211931
+64.12.116.134 0 1 8748 
+208.80.194.27 4 4 47094 20110829103001
+58.61.164.47 0 1 17030 
+41.1.32.203 2 4 200455 20110803151611
+173.80.3.75 1 10 139073 20110807115112
+67.195.133.6 1 1 11827 20110821033506
+198.140.4.205 1 13 138942 20110811112841
+99.14.134.211 1 4 41089 20110811220827
+207.4.148.40 2 22 338026 20110824154951
+208.80.194.34 4 4 47090 20110826051151
+149.168.240.9 2 15 163654 20110829173113
+98.232.149.31 1 13 138859 20110828042555
+70.60.111.216 2 15 163461 20110807205724
+64.12.116.206 0 1 10887 
+184.39.42.23 0 12 122501 
+24.158.42.183 1 13 0 20110812192917
+119.147.6.60 1 1 14184 20110814075145
+64.120.126.77 3 3 35324 20110828144158
+184.39.143.217 1 2 18204 20110804181057
+207.200.116.70 1 1 14184 20110802061511
+69.109.117.106 1 4 41089 20110813001954
+205.203.134.197 1 1 11846 20110812030854
+121.14.98.67 0 1 10834 
+8.28.16.254 1 1 11827 20110815135353
+50.23.254.99 1 1 11827 20110802195228
+74.235.132.145 1 13 138938 20110821015305
+184.39.55.37 1 1 11823 20110812052719
+50.57.41.47 2 2 17280 20110829135136
+208.80.194.31 6 6 70716 20110827160248
+89.178.250.73 1 1 11842 20110824203505
+67.195.133.5 1 1 11740 20110827001633
+114.80.93.73 4 4 47404 20110817051913
+184.39.144.166 1 1 0 20110831041428
+12.70.171.114 1 13 138942 20110808141422
+64.12.117.79 0 1 7767 
+220.231.27.130 1 1 11827 20110812183343
+184.39.46.27 3 17 214100 20110813120123
+58.61.164.39 5 5 90276 20110817043327
+64.12.116.72 0 1 12795 
+184.39.41.109 2 15 189581 20110817120844
+184.39.145.121 2 12 140576 20110825183214
+184.39.52.218 1 8 106173 20110813213724
+79.143.182.232 4 5 140857 20110804160110
+76.8.107.25 1 13 138859 20110826142252
+208.80.194.28 4 4 47252 20110824121542
+24.158.39.229 1 7 82175 20110806031735
+50.56.57.175 3 3 150034 20110829080454
+98.139.241.243 1 1 11827 20110823211233
+96.10.163.130 0 3 23084 
+69.117.127.3 3 28 864971 20110811040810
+50.19.47.114 1 1 11842 20110811232331
+184.39.67.206 1 8 106173 20110812221625
+98.139.241.244 1 1 11827 20110817163822
+184.39.54.250 1 2 24519 20110825035916
+208.80.194.35 2 2 23626 20110805133253
+208.80.194.29 4 4 47256 20110820190005
+58.61.164.140 1 1 11827 20110814131105
+68.115.155.62 1 13 138859 20110831192803
+24.240.173.94 2 15 188647 20110830192713
+65.209.12.162 1 12 200411 20110817200009
+184.39.60.242 1 1 0 20110831170406
+108.15.198.169 2 19 165699 20110831043428
+184.39.174.31 1 10 183841 20110828143041
+24.158.36.94 4 38 339950 20110828000158
+207.46.12.21 1 1 10367 20110814051808
+77.92.224.110 1 1 3536 20110830021305
+50.39.108.59 2 18 235331 20110812051158
+64.135.210.25 2 15 163461 20110808141653
+24.196.192.222 2 15 163461 20110812025206
+96.242.144.43 1 12 200411 20110803022711
+64.12.116.12 0 1 38908 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 28
+20110801 27 176 2508823 18
+20110802 38 267 3489229 26
+20110803 35 240 2780265 20
+20110804 70 404 4326748 21
+20110805 30 221 2348290 17
+20110806 11 79 867754 9
+20110807 40 75 1005533 13
+20110808 50 322 3406377 21
+20110809 3 21 224821 1
+20110811 28 219 3216264 17
+20110812 43 339 4140089 28
+20110813 31 192 2249942 19
+20110814 22 103 1056789 20
+20110815 31 275 2871979 12
+20110816 1 13 138942 1
+20110817 28 218 2042340 20
+20110818 6 69 731612 2
+20110820 11 22 349674 9
+20110821 16 116 1286587 14
+20110823 16 100 1166029 14
+20110824 36 413 8371017 15
+20110825 87 512 5815022 20
+20110826 31 224 2335799 19
+20110827 19 89 1060548 13
+20110828 14 94 895549 9
+20110829 32 243 2640926 17
+20110830 41 321 3480404 14
+20110831 91 635 24702366 16
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 888 6002 89509718
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 22
+yandex 578 1823373 20110831233100 0
+mj12bot 287 3613489 20110831225554 0
+baiduspider 154 2079835 20110831124111 0
+slurp 150 2512008 20110831231451 0
+bot[+:,\.\;\/\\-] 63 495958 20110831183330 0
+crawl 54 671789 20110830065516 0
+googlebot 51 507865 20110831131730 0
+archive\.org_bot 26 642372 20110830130551 0
+nutch 23 302962 20110830145839 0
+sogou 14 35447 20110825221340 0
+bspider 8 94808 20110817035441 0
+exabot 9 31860 20110830205218 0
+no_user_agent 2 12079 20110805034901 0
+spider 5 27722 20110830234437 0
+ia_archiver 1 15409 20110802004825 0
+[+:,\.\;\/\\-]bot 7 169401 20110830205131 0
+gigabot 2 23609 20110826223133 0
+robot 9 212802 20110827021259 0
+surveybot 3 35398 20110830201556 0
+bender 1 93848 20110805105034 0
+msiecrawler 1 11763 20110831073551 0
+mnogosearch 1 11846 20110817115919 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 14
+5mn-15mn 15
+15mn-30mn 10
+2mn-5mn 16
+30s-2mn 20
+0s-30s 336
+30mn-1h 14
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 53
+/Default.htm 536 5925465 340 282
+/weblinks/weblinks.htm 58 2434400 32 45
+/personnel/personnel.htm 46 845272 11 23
+/training/training.htm 33 304715 5 12
+/history/history.htm 26 368822 10 14
+/apparatus/apparatus.htm 26 312088 10 15
+/membership/membership.htm 17 132502 5 12
+/photo/photo.htm 16 154246 0 3
+/calendar.htm 13 183638 0 2
+/informed.htm 12 111241 1 2
+/photo/FD+Show+2_files/slide0016.htm 1 3538 0 0
+/photo/FD+Show+2_files/slide0021.htm 1 3536 0 0
+/photo/training092306.htm 3 27476 0 1
+/photo/FD+Show+2_files/slide0012.htm 1 3534 0 0
+/photo/FD+Show+2_files/outline.htm 6 1487658 0 0
+/photo/FD+Show+2_files/slide0015.htm 1 3536 0 0
+/safetytips.htm 8 750756 4 4
+/photo/FD+Show+2_files/slide0009.htm 1 3534 0 0
+/photo/FD+Show+2_files/slide0339.htm 1 3525 0 0
+/photo/FD+Show+2_files/slide0020.htm 1 3535 0 0
+/photo/FD+Show+2_files/slide0005.htm 1 3535 0 0
+/photo/christmas120806.htm 4 50238 0 0
+/photo/FD+Show+2_files/slide0011.htm 1 3533 0 0
+/photo/FD+Show+2_files/slide0017.htm 1 3539 0 0
+/photo/bbqfundraiser063007.htm 3 28172 0 2
+/photo/FD+Show+2_files/slide0019.htm 1 3535 0 0
+/photo/rescue051907.htm 4 43242 0 0
+/photo/firecontrol040407.htm 3 54383 0 0
+/photo/FD+Show+2.htm 2 5532 0 0
+/photo/FD+Show+2_files/slide0006.htm 1 3538 0 0
+/photo/fireprev101306.htm 3 29510 0 0
+/photo/FD+Show+2_files/slide0003.htm 2 7074 0 0
+/photo/FD+Show+2_files/slide0001.htm 2 9574 0 0
+/photo/FD+Show+2_files/slide0025.htm 1 3532 0 0
+/kids/kids.htm 11 116248 3 3
+/photo/FD+Show+2_files/frame.htm 2 2718 0 0
+/photo/FD+Show+2_files/slide0008.htm 1 3539 0 0
+/photo/FD+Show+2_files/slide0024.htm 1 3536 0 0
+/photo/FD+Show+2_files/slide0004.htm 2 7078 0 0
+/photo/FD+Show+2_files/slide0002.htm 2 7068 0 0
+/photo/firecontrol032407.htm 4 92094 0 0
+/photo/FD+Show+2_files/slide0027.htm 1 3540 0 0
+/photo/fireprev101206.htm 3 27248 0 0
+/photo/FD+Show+2_files/slide0023.htm 1 3539 0 0
+/photo/FD+Show+2_files/slide0013.htm 1 3531 0 0
+/photo/FD+Show+2_files/slide0007.htm 1 3533 0 0
+/stats.htm 4 14125 1 1
+/mission.htm 8 44326 1 2
+/dedication.htm 6 92378 2 2
+/photo/FD+Show+2_files/slide0026.htm 1 3539 0 0
+/photo/FD+Show+2_files/slide0018.htm 1 3532 0 0
+/photo/FD+Show+2_files/slide0022.htm 1 3536 0 0
+/photo/FD+Show+2_files/slide0010.htm 1 3532 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 2 23552 0 0
+png 12 11777381 0 0
+bmp 7 580832 0 0
+htm 888 13750594 0 0
+jpg 2659 47308331 0 0
+xml 61 11390 0 0
+js 5 109735 0 0
+gif 2368 15947903 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 10
+winxp 983
+winlong 235
+win2000 40
+win2003 29
+winnt 1
+win98 1
+linux 17
+macosx 144
+Unknown 85
+win2008 4467
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 26
+msie6.0 225
+firefox5.0 41
+firefox3.0.7 1
+firefox4.0.1 12
+up\. 2
+chrome 359
+firefox3.6.6 24
+firefox3.5.3 4
+firefox3.6.15 13
+msie8.0 4101
+firefox3.5.8 5
+msie7.0 184
+msie5.0 1
+msie9.0 750
+Unknown 8
+firefox3.5.6 1
+opera 3
+libwww 3
+firefox3.0.5 1
+firefox2.0.0.11 1
+nokia 1
+mozilla 68
+firefox5.0.1 67
+firefox6.0 15
+firefox3.6.12 1
+safari 111
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+libwww-perl/5.805 20110825233718
+Nokia6300/2.0_(04.70)_Profile/MIDP-2.0_Configuration/CLDC-1.1 20110803151604
+libwww-perl/5.833 20110802174641
+scour/1.0 20110811232331
+Mozilla/4.0_(compatible;_Search_Publisher_3.0) 20110828063739
+r355[TF268435459011884553000000015713182046]_UP.Browser/6.2.3.8_(GUI)_MMP/2.0 20110805171039
+YahooCacheSystem 20110826150456
+Mozilla/5.0_(compatible;_OpenWeb_5.7.2-10)_Opera_8.54 20110803151620
+Mozilla/4.0_(compatible;) 20110815135353
+libwww-perl/6.02 20110828144158
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+scour/1.0 20110811232331
+YahooCacheSystem 20110826150456
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 574 769
+From1 0 0
+From2 47 49
+From3 35 36
+From4 232 5148
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 5
+google 34 36
+aol 2 2
+yandex 1 1
+msn 1 1
+yahoo 9 9
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 13
+http://www.bing.com/search 15 15
+http://www.bceoc.org/links.htm 6 6
+http://www.firenews.net/contents/web_links.htm 3 3
+http://www.semrush.com/info/salemfirerescue.org 2 2
+http://www.facebook.com/l.php 1 1
+http://brendletownfire.com/index.html 1 1
+http://www.tablerockfools.com/links.html 1 1
+http://duckduckgo.com/k/ 1 1
+http://www.usfa.dhs.gov/goodbye.jsp 1 1
+http://firedepartmentdirectory.com/Fire-Department/Fire-Stations/Fire-Station.aspx 1 1
+http://www.icardfirerescue.com/links.html 1 1
+http://www.bing.com/images/search 1 2
+http://www.brendletownfire.com/links.html 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 38
+salem+fire+and+rescue 3
+salem+fire+rescue 3
+fire+and+rescue+colleges+in+nc 2
+salem+fire+department 2
+salem+fire-rescue 2
+chris+rhodes+firefighter+oakland 1
+salem+fire+department+charter+st 1
+wimnston-salem+nc+fd+call+volume 1
+town+of+salem+fire+rescue 1
+salem+school+explosion+morganton+nc 1
+state+fire-rescue+training+north+carolina 1
+salem+fire%2fresue 1
+salem+man+runs+over+firefighter 1
+salem+fire+rescue+wi 1
+nc+fire+and+rescue+college 1
+christopher+rhodes+firemen 1
+salem+fire+dept+morganton+nc 1
+fire+in+morganton+nc 1
+deluge+gun+stands 1
+salem+junior+high+morganton+explodes 1
+fire+and+rescue+schools 1
+salem+fire+department+morganton+nc 1
+pierce+pumper+tanker 1
+explosion+heard+in+salem+community+nc 1
+morganton+fire+department 1
+salemfirerescue.org 1
+nc+fire+and+rescue+schools 1
+fire+department+morganton+nc 1
+morganton+fire+department+nc 1
+salem+co+fire+school 1
+salem+fire 1
+history+of+salem+fire+department 1
+salem+fire+%26+rescue 1
+salem+high+school+fire+morganton+nc 1
+first+responder+in+morganton+nc 1
+pierce+skid+unit+fire+rear+panel 1
+april+1985+highpeak+mountain+fire 1
+fire+rescue+inventories 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 64
+fire 30
+salem 25
+rescue 15
+nc 14
+morganton 10
+department 8
+and 8
+in 5
+school 3
+fire-rescue 3
+%26 1
+junior 1
+north 1
+skid 1
+co 1
+pierce 2
+firemen 1
+explosion 2
+history 1
+carolina 1
+rhodes 2
+st 1
+colleges 2
+wimnston-salem 1
+charter 1
+inventories 1
+over 1
+of 2
+panel 1
+wi 1
+stands 1
+fd 1
+explodes 1
+college 1
+tanker 1
+unit 1
+man 1
+schools 2
+chris 1
+highpeak 1
+town 1
+state 1
+community 1
+responder 1
+firefighter 2
+deluge 1
+christopher 1
+fire%2fresue 1
+heard 1
+dept 1
+pumper 1
+gun 1
+training 1
+high 2
+april 1
+salemfirerescue.org 1
+mountain 1
+call 1
+first 1
+volume 1
+oakland 1
+1985 1
+runs 1
+rear 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 44 4295542
+406 2 3756
+404 823 1480536
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 42
+/photo/FD+Show+2_files/slide0016.htm 1 http://www.salemfirerescue.org/photo/FD%20Show%202_files/frame.htm
+/robots.txt 668 -
+/photo/FD+Show+2_files/slide0029.htm 1 http://www.salemfirerescue.org/photo/FD%20Show%202_files/outline.htm
+/photo/FD+Show+2_files/slide0030.htm 1 http://www.salemfirerescue.org/photo/FD%20Show%202_files/outline.htm
+/photo/FD+Show+2_files/slide0015.htm 1 http://www.salemfirerescue.org/photo/FD%20Show%202_files/frame.htm
+/photo/FD+Show+2_files/slide0012_image024.jpg 3 -
+/photo/FD+Show+2_files/slide0009.htm 1 http://www.salemfirerescue.org/photo/FD%20Show%202_files/frame.htm
+/photo/101206.JPG 6 http://www.salemfirerescue.org/photo/photo.htm
+/blog/wp-includes/images/blank.gif 1 -
+/photo/FD+Show+2_files/slide0011_image022.jpg 2 -
+/photo/christmas120806.htm 2 -
+/photo/101206/img01.JPG 2 http://images.search.yahoo.com/images/view
+/crossdomain.xml 1 -
+/photo/rescue051907.htm 1 -
+/photo/FD+Show+2_files/slide0339_image668.jpg 1 -
+/photo/051907/img05resample.jpg 12 http://www.salemfirerescue.org/training/training.htm
+/photo/firecontrol040407.htm 4 -
+/photo/063007.jpg 6 http://www.salemfirerescue.org/photo/photo.htm
+/photo/051907.jpg 6 http://www.salemfirerescue.org/photo/photo.htm
+/membership/button6.jpg 7 http://www.salemfirerescue.org/membership/membership.htm
+/photo/120806.JPG 6 http://www.salemfirerescue.org/photo/photo.htm
+/photo/fireprev101306.htm 2 -
+/photo/FD+Show+2_files/slide0027_image054.jpg 1 -
+/photo/FD+Show+2_files/slide0031.htm 1 http://www.salemfirerescue.org/photo/FD%20Show%202_files/outline.htm
+/weblinks/button6.jpg 22 http://www.salemfirerescue.org/weblinks/weblinks.htm
+/wp-includes/images/blank.gif 1 -
+/photo/FD+Show+2_files/slide0357.htm 1 http://www.salemfirerescue.org/photo/FD%20Show%202_files/outline.htm
+/photo/101306.JPG 6 http://www.salemfirerescue.org/photo/photo.htm
+/photo/FD+Show+2_files/slide0008.htm 1 http://www.salemfirerescue.org/photo/FD%20Show%202_files/frame.htm
+/apparatus/button6.jpg 24 http://www.salemfirerescue.org/apparatus/apparatus.htm
+/photo/FD+Show+2_files/slide0014.htm 2 http://www.salemfirerescue.org/photo/FD%20Show%202_files/frame.htm
+/photo/032407.jpg 6 http://www.salemfirerescue.org/photo/photo.htm
+/photo/firecontrol032407.htm 1 -
+/photo/fireprev101206.htm 3 -
+/photo/FD+Show+2_files/notes_flag.gif 2 http://www.salemfirerescue.org/photo/FD%20Show%202_files/outline.htm
+/photo/040407.jpg 6 http://www.salemfirerescue.org/photo/photo.htm
+/wordpress/wp-includes/images/blank.gif 1 -
+/photo/FD+Show+2_files/slide0007.htm 1 http://www.salemfirerescue.org/photo/FD%20Show%202_files/frame.htm
+/wp/wp-includes/images/blank.gif 1 -
+/photo/092306.JPG 6 http://www.salemfirerescue.org/photo/photo.htm
+/photo/FD+Show+2_files/slide0010.htm 1 http://www.salemfirerescue.org/photo/FD%20Show%202_files/frame.htm
+/photo/FD+Show+2_files/slide0040.htm 1 http://www.salemfirerescue.org/photo/FD%20Show%202_files/outline.htm
+END_SIDER_404
