@@ -1,1 +1,15 @@
+# Do not list folder contents
 Options -Indexes
+
+# Home page
+DirectoryIndex index.html index.htm
+
+# Use HTTPS if the host already has a cert
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# Do not serve dotfiles (.git, .htaccess, .env)
+<FilesMatch "^\.">
+  Require all denied
+</FilesMatch>
